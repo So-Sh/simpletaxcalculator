@@ -1,0 +1,50 @@
+[
+    {
+        "slug": "ohio",
+        "name": "Ohio",
+        "abbreviation": "OH",
+        "availableTaxTypes": [
+            "sales-tax"
+        ]
+    },
+    {
+        "slug": "arizona",
+        "name": "Arizona",
+        "abbreviation": "AZ",
+        "availableTaxTypes": [
+            "sales-tax"
+        ]
+    },
+    {
+        "slug": "pennsylvania",
+        "name": "Pennsylvania",
+        "abbreviation": "PA",
+        "availableTaxTypes": [
+            "sales-tax"
+        ]
+    },
+    {
+        "slug": "florida",
+        "name": "Florida",
+        "abbreviation": "FL",
+        "availableTaxTypes": [
+            "sales-tax"
+        ]
+    },
+    {
+        "slug": "texas",
+        "name": "Texas",
+        "abbreviation": "TX",
+        "availableTaxTypes": [
+            "sales-tax"
+        ]
+    },
+    {
+        "slug": "california",
+        "name": "California",
+        "abbreviation": "CA",
+        "availableTaxTypes": [
+            "sales-tax"
+        ]
+    }
+]

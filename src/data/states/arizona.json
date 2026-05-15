@@ -1,0 +1,124 @@
+{
+    "slug": "arizona",
+    "name": "Arizona",
+    "abbreviation": "AZ",
+    "taxTypes": {
+        "sales-tax": {
+            "customIntro": "Arizona calls its sales tax a Transaction Privilege Tax (TPT) — a subtle but important distinction, because it is technically a tax on the seller's privilege of doing business, not on the buyer directly. In practice it works the same way, but the combined state and local rates vary significantly by city, from 5.6% in unincorporated areas to over 11% in some municipalities.",
+            "officialSourceUrl": "https://azdor.gov/",
+            "officialSourceLabel": "Arizona Department of Revenue",
+            "rates": {
+                "state": 0.056,
+                "average_combined": 0.0837
+            },
+            "counties": [
+                {
+                    "name": "Phoenix (Maricopa County)",
+                    "rate": 0.086
+                },
+                {
+                    "name": "Tucson (Pima County)",
+                    "rate": 0.087
+                },
+                {
+                    "name": "Mesa (Maricopa County)",
+                    "rate": 0.086
+                },
+                {
+                    "name": "Chandler (Maricopa County)",
+                    "rate": 0.076
+                },
+                {
+                    "name": "Scottsdale (Maricopa County)",
+                    "rate": 0.081
+                },
+                {
+                    "name": "Tempe (Maricopa County)",
+                    "rate": 0.086
+                },
+                {
+                    "name": "Flagstaff (Coconino County)",
+                    "rate": 0.092
+                },
+                {
+                    "name": "Sedona (Yavapai/Coconino)",
+                    "rate": 0.099
+                }
+            ],
+            "lastUpdated": "May 2026",
+            "formula": "Price × 0.086 = sales tax owed (Phoenix example)",
+            "example": {
+                "price": 20000,
+                "tax": 1720,
+                "total": 21720
+            },
+            "scenarios": [
+                {
+                    "label": "Used car purchase",
+                    "price": 14000,
+                    "tax": 1204
+                },
+                {
+                    "label": "New car purchase",
+                    "price": 32000,
+                    "tax": 2752
+                },
+                {
+                    "label": "Electronics (laptop)",
+                    "price": 1200,
+                    "tax": 103.20
+                },
+                {
+                    "label": "Home appliance",
+                    "price": 700,
+                    "tax": 60.20
+                }
+            ],
+            "taxFreeWeekends": [],
+            "faqs": [
+                {
+                    "question": "What is the sales tax rate in Arizona?",
+                    "answer": "Arizona's state Transaction Privilege Tax (TPT) rate is 5.6%. Cities and counties add their own rates on top, bringing most combined rates to between 7.6% and 11.1% depending on the city. Phoenix has a combined rate of 8.6%, while Sedona reaches 9.9%."
+                },
+                {
+                    "question": "What is the sales tax rate in Phoenix, Arizona?",
+                    "answer": "Phoenix has a combined sales tax rate of 8.6%, made up of the 5.6% state TPT rate, a 0.7% Maricopa County rate, and a 2.3% City of Phoenix rate. This applies to most retail purchases made within Phoenix city limits."
+                },
+                {
+                    "question": "Does Arizona have a sales tax holiday?",
+                    "answer": "No. Arizona does not currently have a sales tax holiday or tax-free weekend. All standard taxable purchases are subject to the full combined TPT rate year-round."
+                },
+                {
+                    "question": "What is Arizona's Transaction Privilege Tax (TPT)?",
+                    "answer": "Arizona's Transaction Privilege Tax is the state's version of a sales tax. The key technical difference is that it is legally imposed on the seller for the privilege of doing business in Arizona, rather than on the buyer. In practice, sellers pass the cost to the consumer, so it functions identically to a conventional sales tax from the buyer's perspective."
+                },
+                {
+                    "question": "Do you pay sales tax on a used car in Arizona?",
+                    "answer": "Yes. Arizona charges a vehicle license tax and sales tax on used car purchases. The sales tax rate is based on where you register the vehicle, not where you buy it. For most Phoenix-area buyers, the combined rate is 8.6% of the purchase price."
+                },
+                {
+                    "question": "What is the sales tax in Tucson, Arizona?",
+                    "answer": "Tucson has a combined sales tax rate of 8.7%, consisting of the 5.6% state rate, a 0.5% Pima County rate, and a 2.6% City of Tucson rate. This applies to most taxable retail purchases made within Tucson city limits."
+                }
+            ],
+            "relatedTools": [
+                {
+                    "label": "California Sales Tax Calculator",
+                    "href": "/california/sales-tax"
+                },
+                {
+                    "label": "Texas Sales Tax Calculator",
+                    "href": "/texas/sales-tax"
+                },
+                {
+                    "label": "Sales Tax by State",
+                    "href": "/sales-tax"
+                },
+                {
+                    "label": "Capital Gains Calculator",
+                    "href": "/capital-gains"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "slug": "florida",
+    "name": "Florida",
+    "abbreviation": "FL",
+    "taxTypes": {
+        "sales-tax": {
+            "customIntro": "Calculating sales tax in the Sunshine State involves combining the 6% state rate with various local surtaxes — meaning your final rate depends heavily on which county you're shopping in, ranging from 6% to 7.5%.",
+            "officialSourceUrl": "https://floridarevenue.com",
+            "officialSourceLabel": "Florida Department of Revenue",
+            "rates": {
+                "state": 0.06,
+                "average_combined": 0.0701
+            },
+            "counties": [
+                {
+                    "name": "Miami-Dade County",
+                    "rate": 0.07
+                },
+                {
+                    "name": "Broward County",
+                    "rate": 0.07
+                },
+                {
+                    "name": "Palm Beach County",
+                    "rate": 0.07
+                },
+                {
+                    "name": "Hillsborough County (Tampa)",
+                    "rate": 0.075
+                },
+                {
+                    "name": "Orange County (Orlando)",
+                    "rate": 0.065
+                },
+                {
+                    "name": "Duval County (Jacksonville)",
+                    "rate": 0.07
+                },
+                {
+                    "name": "Pinellas County (St. Pete)",
+                    "rate": 0.07
+                },
+                {
+                    "name": "Sarasota County",
+                    "rate": 0.07
+                }
+            ],
+            "lastUpdated": "May 2026",
+            "formula": "Price × 0.07 = sales tax owed (Miami-Dade example)",
+            "example": {
+                "price": 20000,
+                "tax": 1400,
+                "total": 21400
+            },
+            "scenarios": [
+                {
+                    "label": "Used car purchase",
+                    "price": 12000,
+                    "tax": 840
+                },
+                {
+                    "label": "New car purchase",
+                    "price": 30000,
+                    "tax": 2100
+                },
+                {
+                    "label": "Electronics (laptop)",
+                    "price": 1000,
+                    "tax": 70
+                },
+                {
+                    "label": "Boat purchase",
+                    "price": 50000,
+                    "tax": 3500
+                }
+            ],
+            "taxFreeWeekends": [
+                {
+                    "name": "Back-to-School Sales Tax Holiday",
+                    "dates": "August 1–31, 2026 (full month)",
+                    "items": "Clothing, footwear, wallets, and bags $100 or less; school supplies $50 or less per item; learning aids and jigsaw puzzles $30 or less. Excludes purchases at airports, theme parks, entertainment complexes, and public lodging establishments."
+                },
+                {
+                    "name": "Disaster Preparedness Sales Tax Holiday",
+                    "dates": "Late May / Early June (2 weekends — check Florida DOR for exact 2026 dates)",
+                    "items": "Flashlights, batteries, generators under $3,000, tarps, radios, first aid kits"
+                }
+            ],
+            "faqs": [
+                {
+                    "question": "What is the sales tax rate in Florida?",
+                    "answer": "Florida's state sales tax rate is 6%. However, most counties add a local surtax of 0.5% to 1.5%, bringing the typical combined rate to 7%–7.5%. Hillsborough County (Tampa) has the highest combined rate at 7.5%."
+                },
+                {
+                    "question": "Do you pay sales tax on a used car in Florida?",
+                    "answer": "Yes. Florida charges a 6% state sales tax on used vehicle purchases, plus any applicable county surtax. The county surtax on vehicles is capped at the first $5,000 of the purchase price, which can save buyers money on more expensive vehicles."
+                },
+                {
+                    "question": "What is exempt from sales tax in Florida?",
+                    "answer": "Florida exempts most groceries, prescription drugs, and medical equipment from sales tax. Most clothing is taxable, unlike some other states. Agricultural supplies and certain manufacturing equipment also qualify for exemptions."
+                },
+                {
+                    "question": "Is there sales tax on groceries in Florida?",
+                    "answer": "Most unprepared food sold in grocery stores is exempt from Florida sales tax. This includes most items you'd buy at a supermarket. Prepared food, restaurant meals, and some snack items are taxable."
+                },
+                {
+                    "question": "When is Florida tax-free weekend 2026?",
+                    "answer": "Florida's Back-to-School Sales Tax Holiday runs the entire month of August 2026 — August 1 through August 31. During this period, clothing, footwear, wallets, and bags priced $100 or less are exempt, along with school supplies priced $50 or less per item and learning aids or jigsaw puzzles priced $30 or less. The exemption does not apply to purchases made at airports, theme parks, entertainment complexes, or public lodging establishments."
+                }
+            ],
+            "relatedTools": [
+                {
+                    "label": "Texas Sales Tax Calculator",
+                    "href": "/texas/sales-tax"
+                },
+                {
+                    "label": "Ohio Sales Tax Calculator",
+                    "href": "/ohio/sales-tax"
+                },
+                {
+                    "label": "Sales Tax by State",
+                    "href": "/sales-tax"
+                },
+                {
+                    "label": "Capital Gains Calculator",
+                    "href": "/capital-gains"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,136 @@
+{
+    "slug": "texas",
+    "name": "Texas",
+    "abbreviation": "TX",
+    "taxTypes": {
+        "sales-tax": {
+            "customIntro": "Texas has no state income tax, but it makes up for it with a 6.25% state sales tax rate — and when you factor in local city and county additions, most Texans pay a combined rate of 8.25%, the statutory maximum allowed under state law.",
+            "officialSourceUrl": "https://comptroller.texas.gov/taxes/sales/",
+            "officialSourceLabel": "Texas Comptroller of Public Accounts",
+            "rates": {
+                "state": 0.0625,
+                "average_combined": 0.0825
+            },
+            "counties": [
+                {
+                    "name": "Houston (Harris County)",
+                    "rate": 0.0825
+                },
+                {
+                    "name": "San Antonio (Bexar County)",
+                    "rate": 0.0825
+                },
+                {
+                    "name": "Dallas (Dallas County)",
+                    "rate": 0.0825
+                },
+                {
+                    "name": "Austin (Travis County)",
+                    "rate": 0.0825
+                },
+                {
+                    "name": "Fort Worth (Tarrant County)",
+                    "rate": 0.0825
+                },
+                {
+                    "name": "El Paso (El Paso County)",
+                    "rate": 0.0825
+                },
+                {
+                    "name": "Lubbock (Lubbock County)",
+                    "rate": 0.0825
+                },
+                {
+                    "name": "Amarillo (Potter County)",
+                    "rate": 0.0825
+                }
+            ],
+            "lastUpdated": "May 2026",
+            "formula": "Price × 0.0825 = sales tax owed",
+            "example": {
+                "price": 25000,
+                "tax": 2062.50,
+                "total": 27062.50
+            },
+            "scenarios": [
+                {
+                    "label": "Used car purchase",
+                    "price": 15000,
+                    "tax": 1237.50
+                },
+                {
+                    "label": "New car purchase",
+                    "price": 35000,
+                    "tax": 2887.50
+                },
+                {
+                    "label": "Electronics (laptop)",
+                    "price": 1200,
+                    "tax": 99.00
+                },
+                {
+                    "label": "Home appliance",
+                    "price": 800,
+                    "tax": 66.00
+                }
+            ],
+            "taxFreeWeekends": [
+                {
+                    "name": "Back-to-School Sales Tax Holiday",
+                    "dates": "First weekend of August (Fri–Sun)",
+                    "items": "Clothing under $100, school supplies under $100, backpacks under $100"
+                },
+                {
+                    "name": "Emergency Preparation Supplies Holiday",
+                    "dates": "Last weekend of April (Sat–Sun)",
+                    "items": "Generators under $3,000, batteries, flashlights, first aid kits"
+                },
+                {
+                    "name": "Energy Star Products Holiday",
+                    "dates": "Memorial Day weekend (Sat–Mon)",
+                    "items": "Energy Star air conditioners, refrigerators, ceiling fans, washers/dryers under $2,000"
+                }
+            ],
+            "faqs": [
+                {
+                    "question": "What is the sales tax rate in Texas?",
+                    "answer": "Texas has a 6.25% state sales tax rate. Local cities, counties, and transit authorities can add up to 2% more, bringing the maximum combined rate to 8.25%. Most major Texas cities — including Houston, Dallas, San Antonio, and Austin — charge the full 8.25% combined rate."
+                },
+                {
+                    "question": "Do you pay sales tax on a used car in Texas?",
+                    "answer": "Yes. Texas charges a 6.25% motor vehicle sales tax on used car purchases. This is collected at the time of title transfer. Private party sales are taxed on the higher of the purchase price or the vehicle's Standard Presumptive Value (SPV)."
+                },
+                {
+                    "question": "What items are exempt from sales tax in Texas?",
+                    "answer": "Texas exempts most groceries (unprepared food), prescription drugs, and certain agricultural items from sales tax. Prepared restaurant food, most clothing, electronics, and household goods are all taxable."
+                },
+                {
+                    "question": "Is there sales tax on food in Texas?",
+                    "answer": "Most unprepared grocery food is exempt from Texas sales tax. However, prepared food sold at restaurants, fast food chains, or ready-to-eat from a deli counter is taxable at the full rate."
+                },
+                {
+                    "question": "When is Texas tax-free weekend 2026?",
+                    "answer": "Texas has three tax-free weekends in 2026: the Back-to-School holiday on the first weekend of August, the Emergency Preparation Supplies holiday on the last weekend of April, and the Energy Star Products holiday on Memorial Day weekend."
+                }
+            ],
+            "relatedTools": [
+                {
+                    "label": "Florida Sales Tax Calculator",
+                    "href": "/florida/sales-tax"
+                },
+                {
+                    "label": "Arizona Sales Tax Calculator",
+                    "href": "/arizona/sales-tax"
+                },
+                {
+                    "label": "Sales Tax by State",
+                    "href": "/sales-tax"
+                },
+                {
+                    "label": "Capital Gains Calculator",
+                    "href": "/capital-gains"
+                }
+            ]
+        }
+    }
+}
