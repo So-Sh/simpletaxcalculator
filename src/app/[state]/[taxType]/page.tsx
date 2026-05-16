@@ -27,12 +27,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const data = getTaxTypeData(slug, taxType)
     if (!data) return {}
 
-    const rate = (data.rates.average_combined * 100).toFixed(2)
+    const rate = (data.rates.state * 100).toFixed(2)
     const taxLabel = taxType.replace(/-/g, ' ')
 
     return {
         title: `${data.stateName} ${taxLabel} calculator 2026 — simpletaxcalculator.app`,
-        description: `Calculate ${data.stateName} ${taxLabel} instantly. Includes county rates, real examples, and ${data.stateName}'s ${rate}% average combined rate. Rates updated for ${data.lastUpdated}.`,
+        description: `Calculate ${data.stateName} ${taxLabel} instantly. Includes county rates, real examples, and ${data.stateName}'s ${rate}% state rate. Rates updated for ${data.lastUpdated}.`,
     }
 }
 
@@ -84,7 +84,7 @@ export default async function StateTaxTypePage({ params }: Props) {
                 />
 
                 {/* Disclaimer — immediately below calculator, YMYL required */}
-                <DisclaimerBanner lastUpdated={data.lastUpdated} />
+                <DisclaimerBanner lastUpdated={data.lastUpdated} officialSourceUrl='test' officialSourceLabel={data.lastUpdated} />
 
                 {/* Formula */}
                 <FormulaExplainer formula={data.formula} example={data.example} />

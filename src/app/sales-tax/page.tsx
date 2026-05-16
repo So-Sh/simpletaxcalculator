@@ -30,17 +30,16 @@ const LAST_UPDATED = 'May 2026'
 
 // Representative rates for the national calculator dropdown
 // These give users a quick estimate before they navigate to their state page
-const NATIONAL_RATES = { state: 0.055, average_combined: 0.0822 }
+const NATIONAL_RATES = { state: 0.055 }
 const NATIONAL_RATE_OPTIONS = [
-    { name: 'US average combined rate', rate: 0.0822 },
-    { name: 'California (avg. 8.68%)', rate: 0.0868 },
-    { name: 'Texas (avg. 8.25%)', rate: 0.0825 },
-    { name: 'Florida (avg. 7.01%)', rate: 0.0701 },
-    { name: 'Ohio (avg. 7.22%)', rate: 0.0722 },
-    { name: 'Arizona (avg. 8.37%)', rate: 0.0837 },
-    { name: 'Pennsylvania (avg. 6.34%)', rate: 0.0634 },
-    { name: 'New York (avg. 8.52%)', rate: 0.0852 },
-    { name: 'Washington (avg. 8.93%)', rate: 0.0893 },
+    { name: 'California — est. 8.68%', rate: 0.0868 },
+    { name: 'Texas — est. 8.25%', rate: 0.0825 },
+    { name: 'Florida — est. 7.01%', rate: 0.0701 },
+    { name: 'Ohio — est. 7.22%', rate: 0.0722 },
+    { name: 'Arizona — est. 8.37%', rate: 0.0837 },
+    { name: 'Pennsylvania — est. 6.34%', rate: 0.0634 },
+    { name: 'New York — est. 8.52%', rate: 0.0852 },
+    { name: 'Washington — est. 8.93%', rate: 0.0893 },
     { name: 'No sales tax state', rate: 0 },
 ]
 
@@ -136,7 +135,7 @@ export default function SalesTaxPillarPage() {
                     </p>
                 </div>
 
-                {/* National calculator — uses representative state averages */}
+                {/* National calculator — uses representative state */}
                 <TaxCalculator
                     rates={NATIONAL_RATES}
                     counties={NATIONAL_RATE_OPTIONS}
@@ -269,7 +268,7 @@ export default function SalesTaxPillarPage() {
                         </table>
                     </div>
                     <p className="text-xs text-muted mt-3">
-                        Combined rates are averages. Actual rates vary by county and city.
+                        Actual rates vary by county and city.
                         Select a state above for exact local rates.
                     </p>
                 </div>

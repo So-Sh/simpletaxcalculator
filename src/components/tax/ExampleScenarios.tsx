@@ -14,7 +14,7 @@ export default function ExampleScenarios({ scenarios, stateName }: ExampleScenar
                 Common examples{stateName ? ` in ${stateName}` : ''}
             </h2>
             <p className="text-sm text-muted mb-4">
-                Based on the average combined rate for this area.
+                Based on county rates shown above. Select your county in the calculator for a precise result.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {scenarios.map((s) => (
