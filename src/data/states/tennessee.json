@@ -1,0 +1,79 @@
+{
+  "slug": "tennessee",
+  "name": "Tennessee",
+  "abbreviation": "TN",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Tennessee has one of the highest combined sales tax rates in the United States — a 7% state rate on most goods (with a higher 9.75% on food and food ingredients from grocery stores being replaced by a reduced rate) plus local additions that push most Tennessee shoppers to a combined rate of 9.25% to 9.75%.",
+      "officialSourceUrl": "https://www.tn.gov/revenue/taxes/sales-and-use-tax.html",
+      "officialSourceLabel": "Tennessee Department of Revenue",
+      "rates": {
+        "state": 0.07,
+        "average_combined": 0.0955
+      },
+      "counties": [
+        { "name": "Shelby County (Memphis)", "rate": 0.0975 },
+        { "name": "Davidson County (Nashville)", "rate": 0.0925 },
+        { "name": "Knox County (Knoxville)", "rate": 0.0925 },
+        { "name": "Hamilton County (Chattanooga)", "rate": 0.0925 },
+        { "name": "Rutherford County (Murfreesboro)", "rate": 0.0925 },
+        { "name": "Williamson County (Franklin)", "rate": 0.0925 },
+        { "name": "Madison County (Jackson)", "rate": 0.0975 },
+        { "name": "Sullivan County (Kingsport)", "rate": 0.0925 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.0925 = sales tax owed (Nashville / Davidson County example)",
+      "example": { "price": 20000, "tax": 1850, "total": 21850 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 1110 },
+        { "label": "New car purchase", "price": 28000, "tax": 2590 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 92.50 },
+        { "label": "Home appliance", "price": 600, "tax": 55.50 }
+      ],
+      "taxFreeWeekends": [
+        {
+          "name": "Back-to-School Sales Tax Holiday",
+          "dates": "Last Friday–Sunday of July (3 days)",
+          "items": "Clothing $100 or less per item, school supplies $100 or less per item, computers $1,500 or less"
+        },
+        {
+          "name": "Firearms Sales Tax Holiday",
+          "dates": "Second weekend of September (Fri–Sun)",
+          "items": "Handguns, long guns, and ammunition — no price cap"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Tennessee?",
+          "answer": "Tennessee's state sales tax rate is 7% on most goods and 4% on food and food ingredients. Local counties add between 1.5% and 2.75%, bringing most combined rates to 9.25%–9.75%. Tennessee consistently ranks among the top 3 states for highest combined sales tax rates in the US."
+        },
+        {
+          "question": "What is the sales tax rate in Nashville, Tennessee?",
+          "answer": "Nashville is in Davidson County, which has a combined sales tax rate of 9.25% — the 7% state rate plus a 2.25% Davidson County local rate. This applies to most retail purchases within Nashville and the surrounding Metro area."
+        },
+        {
+          "question": "Does Tennessee have a sales tax holiday in 2026?",
+          "answer": "Yes. Tennessee holds an annual back-to-school sales tax holiday on the last Friday through Sunday of July. Qualifying items include clothing at $100 or less per item, school supplies at $100 or less, and computers at $1,500 or less. Tennessee also holds a firearms holiday in September."
+        },
+        {
+          "question": "Is there sales tax on groceries in Tennessee?",
+          "answer": "Yes, but at a reduced rate. Tennessee taxes food and food ingredients at 4% at the state level instead of the standard 7%. Local taxes still apply on top, so the effective rate on groceries is typically around 5.5%–6.75% depending on the county — still one of the higher grocery tax rates nationally."
+        },
+        {
+          "question": "What is the sales tax in Memphis, Tennessee?",
+          "answer": "Memphis is in Shelby County, which has the highest combined sales tax rate in Tennessee at 9.75% — the 7% state rate plus a 2.75% Shelby County addition. This applies to most retail purchases made within Memphis city limits."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Tennessee?",
+          "answer": "Yes. Tennessee charges sales tax on used vehicle purchases at the combined local rate. The standard 7% state rate applies plus the applicable county local rate, typically resulting in a 9.25%–9.75% total tax on the purchase price."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Georgia Sales Tax Calculator", "href": "/georgia/sales-tax" },
+        { "label": "North Carolina Sales Tax Calculator", "href": "/north-carolina/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

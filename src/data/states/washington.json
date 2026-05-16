@@ -1,0 +1,68 @@
+{
+  "slug": "washington",
+  "name": "Washington",
+  "abbreviation": "WA",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Washington State has no income tax, relying heavily on sales tax as a primary revenue source — the 6.5% state rate is among the highest in the nation, and with local additions, Seattle shoppers pay 10.25% while most of the state falls between 8.5% and 10.4%, making Washington's combined rates consistently among the top five highest in the US.",
+      "officialSourceUrl": "https://dor.wa.gov/taxes-rates/sales-and-use-tax",
+      "officialSourceLabel": "Washington Department of Revenue",
+      "rates": {
+        "state": 0.065,
+        "average_combined": 0.0893
+      },
+      "counties": [
+        { "name": "King County (Seattle)", "rate": 0.1025 },
+        { "name": "Pierce County (Tacoma)", "rate": 0.102 },
+        { "name": "Snohomish County (Everett)", "rate": 0.109 },
+        { "name": "Spokane County", "rate": 0.089 },
+        { "name": "Clark County (Vancouver)", "rate": 0.082 },
+        { "name": "Thurston County (Olympia)", "rate": 0.089 },
+        { "name": "Whatcom County (Bellingham)", "rate": 0.086 },
+        { "name": "Kitsap County", "rate": 0.091 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.1025 = sales tax owed (Seattle / King County example)",
+      "example": { "price": 20000, "tax": 2050, "total": 22050 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 1230 },
+        { "label": "New car purchase", "price": 28000, "tax": 2870 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 102.50 },
+        { "label": "Home appliance", "price": 600, "tax": 61.50 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Washington State?",
+          "answer": "Washington's state sales tax rate is 6.5%. Cities and counties add local rates ranging from 0.5% to 3.9%, bringing most combined rates to between 8.4% and 10.4%. Seattle (King County) has a combined rate of 10.25%, making it one of the highest-taxed major cities in the US."
+        },
+        {
+          "question": "What is the sales tax rate in Seattle, Washington?",
+          "answer": "Seattle has a combined sales tax rate of 10.25% — the 6.5% state rate plus 3.6% in city and county local taxes and a 0.1% Regional Transit Authority addition. Seattle consistently ranks among the highest sales tax rates of any major US city."
+        },
+        {
+          "question": "Does Washington State have a sales tax holiday?",
+          "answer": "No. Washington State does not have a sales tax holiday or tax-free weekend. All standard taxable purchases are subject to the full combined rate year-round."
+        },
+        {
+          "question": "What is exempt from sales tax in Washington State?",
+          "answer": "Washington exempts most groceries (unprepared food), prescription drugs, and certain medical devices from sales tax. Notably, Washington taxes digital goods, software, and streaming services — broader than many states. Agricultural equipment and certain manufacturing machinery are also exempt."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Washington State?",
+          "answer": "Yes. Washington charges the standard retail sales tax rate on used vehicle purchases based on the buyer's local rate. For Seattle residents that is 10.25%. Washington also imposes a motor vehicle excise tax based on the vehicle's value, paid annually at registration."
+        },
+        {
+          "question": "Why does Washington have high sales tax but no income tax?",
+          "answer": "Washington State has no personal or corporate income tax under its constitution. To fund state services, Washington relies more heavily on sales tax, business and occupation tax (B&O tax), and property tax. The high sales tax rate is a direct consequence of this revenue structure — shoppers effectively substitute for income tax payers."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Oregon Sales Tax Calculator", "href": "/oregon/sales-tax" },
+        { "label": "California Sales Tax Calculator", "href": "/california/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

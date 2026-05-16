@@ -1,0 +1,68 @@
+{
+  "slug": "georgia",
+  "name": "Georgia",
+  "abbreviation": "GA",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Georgia has a 4% state sales tax rate, but nearly every county imposes additional local option sales taxes — most commonly a 1% LOST (Local Option Sales Tax) and a 1% SPLOST (Special Purpose Local Option Sales Tax) — pushing most Georgians to a combined rate of 7% or 8%.",
+      "officialSourceUrl": "https://dor.georgia.gov/taxes/business-taxes/sales-use-tax",
+      "officialSourceLabel": "Georgia Department of Revenue",
+      "rates": {
+        "state": 0.04,
+        "average_combined": 0.0737
+      },
+      "counties": [
+        { "name": "Fulton County (Atlanta)", "rate": 0.085 },
+        { "name": "Gwinnett County", "rate": 0.06 },
+        { "name": "Cobb County", "rate": 0.06 },
+        { "name": "DeKalb County", "rate": 0.08 },
+        { "name": "Cherokee County", "rate": 0.07 },
+        { "name": "Forsyth County", "rate": 0.07 },
+        { "name": "Chatham County (Savannah)", "rate": 0.07 },
+        { "name": "Richmond County (Augusta)", "rate": 0.08 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.085 = sales tax owed (Atlanta / Fulton County example)",
+      "example": { "price": 20000, "tax": 1700, "total": 21700 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 1020 },
+        { "label": "New car purchase", "price": 28000, "tax": 2380 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 85 },
+        { "label": "Home appliance", "price": 600, "tax": 51 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Georgia?",
+          "answer": "Georgia's state sales tax rate is 4%. Most counties add local option sales taxes of 2%–4%, bringing combined rates to between 6% and 9% depending on the county. Fulton County (Atlanta) has one of the highest combined rates at 8.5%."
+        },
+        {
+          "question": "What is the sales tax rate in Atlanta, Georgia?",
+          "answer": "Atlanta sits in Fulton County, which has a combined sales tax rate of 8.5% — the 4% state rate plus multiple local additions including the Atlanta city tax, MARTA tax, and local option sales taxes. This is one of the higher combined rates in the state."
+        },
+        {
+          "question": "Does Georgia have a sales tax holiday?",
+          "answer": "Georgia historically held an annual Energy Star and back-to-school tax-free weekend, but the legislature has not consistently renewed it in recent years. Check the Georgia Department of Revenue website for the current year's status, as it is reauthorized annually."
+        },
+        {
+          "question": "What is exempt from sales tax in Georgia?",
+          "answer": "Georgia exempts most groceries (unprepared food) from the state sales tax, though some counties still apply local taxes to groceries. Prescription drugs and certain medical equipment are also exempt. Most clothing, electronics, and household goods are fully taxable."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Georgia?",
+          "answer": "Georgia replaced the traditional sales tax on vehicle purchases with a Title Ad Valorem Tax (TAVT) — a one-time fee paid at the time of title transfer. The TAVT rate is 7% of the vehicle's fair market value, regardless of the purchase price. This applies to both new and used vehicles."
+        },
+        {
+          "question": "Is there sales tax on groceries in Georgia?",
+          "answer": "Most unprepared groceries are exempt from Georgia's 4% state sales tax. However, local county sales taxes may still apply to groceries depending on the county. Prepared food from restaurants and ready-to-eat items are taxable at the full combined rate."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Tennessee Sales Tax Calculator", "href": "/tennessee/sales-tax" },
+        { "label": "North Carolina Sales Tax Calculator", "href": "/north-carolina/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

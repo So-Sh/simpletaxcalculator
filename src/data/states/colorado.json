@@ -1,0 +1,68 @@
+{
+  "slug": "colorado",
+  "name": "Colorado",
+  "abbreviation": "CO",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Colorado has one of the most decentralized sales tax systems in the US — a low 2.9% state rate combined with city, county, and special district taxes that each set and administer their own rates independently, resulting in over 700 different sales tax jurisdictions and combined rates that range from 2.9% to over 11% depending on where you shop.",
+      "officialSourceUrl": "https://tax.colorado.gov/sales-tax",
+      "officialSourceLabel": "Colorado Department of Revenue",
+      "rates": {
+        "state": 0.029,
+        "average_combined": 0.077
+      },
+      "counties": [
+        { "name": "Denver City & County", "rate": 0.0886 },
+        { "name": "Jefferson County", "rate": 0.0655 },
+        { "name": "Arapahoe County (Aurora)", "rate": 0.08 },
+        { "name": "Adams County", "rate": 0.075 },
+        { "name": "Boulder County", "rate": 0.0885 },
+        { "name": "El Paso County (Colorado Springs)", "rate": 0.082 },
+        { "name": "Larimer County (Fort Collins)", "rate": 0.0705 },
+        { "name": "Weld County", "rate": 0.059 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.0886 = sales tax owed (Denver example)",
+      "example": { "price": 20000, "tax": 1772, "total": 21772 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 1063.20 },
+        { "label": "New car purchase", "price": 28000, "tax": 2480.80 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 88.60 },
+        { "label": "Home appliance", "price": 600, "tax": 53.16 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Colorado?",
+          "answer": "Colorado's state sales tax rate is 2.9% — one of the lowest in the nation. However, Colorado's local tax system is uniquely complex, with cities, counties, and special districts all levying their own rates independently. Combined rates range from 2.9% in unincorporated rural areas to over 11% in some resort towns."
+        },
+        {
+          "question": "What is the sales tax rate in Denver, Colorado?",
+          "answer": "Denver has a combined sales tax rate of 8.86% — the 2.9% state rate, a 4.31% City and County of Denver rate, a 1% RTD (Regional Transportation District) rate, and a 0.1% Cultural Facilities District rate. Denver collects its own sales tax separately from the state."
+        },
+        {
+          "question": "Does Colorado have a sales tax holiday?",
+          "answer": "No. Colorado does not currently have a statewide sales tax holiday or tax-free weekend. Individual cities and municipalities cannot independently create tax holidays under Colorado's home rule system."
+        },
+        {
+          "question": "What is exempt from sales tax in Colorado?",
+          "answer": "Colorado exempts most unprepared groceries from state sales tax, though some local jurisdictions do tax food. Prescription drugs and most medical equipment are exempt. Notably, Colorado taxes digital goods and software-as-a-service, which are exempt in many other states."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Colorado?",
+          "answer": "Yes. Colorado charges the standard sales tax rate on used vehicle purchases, based on where the buyer resides. The state rate is 2.9% plus applicable local taxes. An additional 0.45% state ownership tax and various fees also apply at the time of registration."
+        },
+        {
+          "question": "Why is Colorado sales tax so complicated?",
+          "answer": "Colorado is a home rule state, meaning cities and counties have significant autonomy to set their own tax rates, administer their own collections, and define their own tax bases. This results in over 700 distinct taxing jurisdictions, some with different rules about what is taxable. Businesses operating across multiple Colorado jurisdictions must navigate each one separately."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Nevada Sales Tax Calculator", "href": "/nevada/sales-tax" },
+        { "label": "Arizona Sales Tax Calculator", "href": "/arizona/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

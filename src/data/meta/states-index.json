@@ -46,5 +46,77 @@
         "availableTaxTypes": [
             "sales-tax"
         ]
+    },
+    {
+        "slug": "missouri",
+        "name": "Missouri",
+        "abbreviation": "MO",
+        "availableTaxTypes": [
+            "sales-tax"
+        ]
+    },
+    {
+        "slug": "georgia",
+        "name": "Georgia",
+        "abbreviation": "GA",
+        "availableTaxTypes": [
+            "sales-tax"
+        ]
+    },
+    {
+        "slug": "tennessee",
+        "name": "Tennessee",
+        "abbreviation": "TN",
+        "availableTaxTypes": [
+            "sales-tax"
+        ]
+    },
+    {
+        "slug": "north-carolina",
+        "name": "North Carolina",
+        "abbreviation": "NC",
+        "availableTaxTypes": [
+            "sales-tax"
+        ]
+    },
+    {
+        "slug": "virginia",
+        "name": "Virginia",
+        "abbreviation": "VA",
+        "availableTaxTypes": [
+            "sales-tax"
+        ]
+    },
+    {
+        "slug": "colorado",
+        "name": "Colorado",
+        "abbreviation": "CO",
+        "availableTaxTypes": [
+            "sales-tax"
+        ]
+    },
+    {
+        "slug": "washington",
+        "name": "Washington",
+        "abbreviation": "WA",
+        "availableTaxTypes": [
+            "sales-tax"
+        ]
+    },
+    {
+        "slug": "nevada",
+        "name": "Nevada",
+        "abbreviation": "NV",
+        "availableTaxTypes": [
+            "sales-tax"
+        ]
+    },
+    {
+        "slug": "illinois",
+        "name": "Illinois",
+        "abbreviation": "IL",
+        "availableTaxTypes": [
+            "sales-tax"
+        ]
     }
 ]

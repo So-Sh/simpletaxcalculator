@@ -1,0 +1,68 @@
+{
+  "slug": "nevada",
+  "name": "Nevada",
+  "abbreviation": "NV",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Nevada has no state income tax and funds much of its public services through sales tax and gaming revenue — the 6.85% state rate plus local additions means Las Vegas visitors and residents typically pay 8.375%, while other counties range from 6.85% to 8.375% depending on local levies.",
+      "officialSourceUrl": "https://tax.nv.gov/Businesses/Sales_and_Use_Tax_Information/",
+      "officialSourceLabel": "Nevada Department of Taxation",
+      "rates": {
+        "state": 0.0685,
+        "average_combined": 0.0824
+      },
+      "counties": [
+        { "name": "Clark County (Las Vegas)", "rate": 0.08375 },
+        { "name": "Washoe County (Reno)", "rate": 0.08265 },
+        { "name": "Carson City", "rate": 0.08625 },
+        { "name": "Douglas County", "rate": 0.07100 },
+        { "name": "Elko County", "rate": 0.07100 },
+        { "name": "Nye County", "rate": 0.07100 },
+        { "name": "Lyon County", "rate": 0.07100 },
+        { "name": "Churchill County", "rate": 0.07100 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.08375 = sales tax owed (Las Vegas / Clark County example)",
+      "example": { "price": 20000, "tax": 1675, "total": 21675 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 1005 },
+        { "label": "New car purchase", "price": 28000, "tax": 2345 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 83.75 },
+        { "label": "Home appliance", "price": 600, "tax": 50.25 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Nevada?",
+          "answer": "Nevada's state sales tax rate is 6.85%. County taxes add between 0.25% and 1.775%, bringing combined rates to between 6.85% and 8.625% depending on the county. Clark County (Las Vegas) has a combined rate of 8.375%, while most rural counties are at 7.1%."
+        },
+        {
+          "question": "What is the sales tax rate in Las Vegas, Nevada?",
+          "answer": "Las Vegas is in Clark County, which has a combined sales tax rate of 8.375% — the 6.85% state rate plus 1.525% in Clark County local taxes. This applies to most retail purchases made anywhere in Clark County, including Las Vegas, Henderson, and North Las Vegas."
+        },
+        {
+          "question": "Does Nevada have a sales tax holiday?",
+          "answer": "No. Nevada does not have a sales tax holiday or tax-free weekend. All standard taxable purchases are subject to the full combined rate year-round."
+        },
+        {
+          "question": "What is exempt from sales tax in Nevada?",
+          "answer": "Nevada exempts most groceries (unprepared food), prescription drugs, and certain agricultural equipment from sales tax. Nevada also has relatively broad exemptions for manufacturing equipment and mining machinery. Restaurant meals, prepared food, electronics, and clothing are all taxable."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Nevada?",
+          "answer": "Yes. Nevada charges the standard combined sales tax rate on used vehicle purchases. For Clark County residents buying a used car, that is 8.375% of the purchase price. The tax is paid at the time of vehicle registration and title transfer at the DMV."
+        },
+        {
+          "question": "Is there sales tax on groceries in Nevada?",
+          "answer": "Most unprepared groceries are exempt from Nevada sales tax. This includes most items purchased at supermarkets for home consumption. Prepared food, restaurant meals, and ready-to-eat items from delis or fast food are taxable at the full combined rate."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Arizona Sales Tax Calculator", "href": "/arizona/sales-tax" },
+        { "label": "California Sales Tax Calculator", "href": "/california/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

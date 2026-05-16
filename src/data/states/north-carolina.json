@@ -1,0 +1,68 @@
+{
+  "slug": "north-carolina",
+  "name": "North Carolina",
+  "abbreviation": "NC",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "North Carolina has a relatively uniform sales tax structure — a 4.75% state rate with most counties adding exactly 2%, resulting in a standard combined rate of 6.75% across the majority of the state, making it one of the more predictable and shopper-friendly tax environments in the Southeast.",
+      "officialSourceUrl": "https://www.ncdor.gov/taxes-forms/sales-and-use-tax",
+      "officialSourceLabel": "North Carolina Department of Revenue",
+      "rates": {
+        "state": 0.0475,
+        "average_combined": 0.0699
+      },
+      "counties": [
+        { "name": "Mecklenburg County (Charlotte)", "rate": 0.0775 },
+        { "name": "Wake County (Raleigh)", "rate": 0.0725 },
+        { "name": "Guilford County (Greensboro)", "rate": 0.0675 },
+        { "name": "Forsyth County (Winston-Salem)", "rate": 0.0675 },
+        { "name": "Durham County", "rate": 0.0675 },
+        { "name": "Cumberland County (Fayetteville)", "rate": 0.0675 },
+        { "name": "Buncombe County (Asheville)", "rate": 0.0700 },
+        { "name": "New Hanover County (Wilmington)", "rate": 0.0675 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.0675 = sales tax owed (most NC counties example)",
+      "example": { "price": 20000, "tax": 1350, "total": 21350 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 810 },
+        { "label": "New car purchase", "price": 28000, "tax": 1890 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 67.50 },
+        { "label": "Home appliance", "price": 600, "tax": 40.50 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in North Carolina?",
+          "answer": "North Carolina's state sales tax rate is 4.75%. Most counties add a 2% local rate, resulting in a standard combined rate of 6.75% across most of the state. Some counties with transit taxes or special levies are slightly higher — Mecklenburg County (Charlotte) is 7.75% and Wake County (Raleigh) is 7.25%."
+        },
+        {
+          "question": "What is the sales tax rate in Charlotte, North Carolina?",
+          "answer": "Charlotte is in Mecklenburg County, which has the highest combined sales tax rate in North Carolina at 7.75% — the 4.75% state rate plus a 3% Mecklenburg County addition that includes a transit tax. This applies to most retail purchases within Charlotte city limits."
+        },
+        {
+          "question": "Does North Carolina have a sales tax holiday?",
+          "answer": "North Carolina eliminated its annual back-to-school sales tax holiday in 2014 and has not reinstated it. There is currently no state-wide sales tax holiday in North Carolina."
+        },
+        {
+          "question": "What is exempt from sales tax in North Carolina?",
+          "answer": "North Carolina exempts most unprepared food items from sales tax, along with prescription drugs and certain medical devices. Unlike many states, North Carolina also exempts electricity and natural gas used for heating and cooling. Most clothing, electronics, and general merchandise are fully taxable."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in North Carolina?",
+          "answer": "Yes. North Carolina charges a 3% highway use tax on vehicle purchases instead of the standard sales tax rate. This applies to both new and used vehicles and is paid at the time of title transfer. The 3% rate is capped at $2,000 for most vehicles."
+        },
+        {
+          "question": "Is there sales tax on groceries in North Carolina?",
+          "answer": "Most unprepared food sold at grocery stores is exempt from North Carolina sales tax. Prepared food, restaurant meals, and ready-to-eat items are taxable at the full combined rate. This exemption makes everyday grocery shopping more affordable than in states like Tennessee that tax groceries."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Virginia Sales Tax Calculator", "href": "/virginia/sales-tax" },
+        { "label": "Georgia Sales Tax Calculator", "href": "/georgia/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

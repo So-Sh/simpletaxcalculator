@@ -1,0 +1,68 @@
+{
+  "slug": "illinois",
+  "name": "Illinois",
+  "abbreviation": "IL",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Illinois has a uniquely layered sales tax system — a 6.25% state rate that applies differently to different product categories, combined with city and county taxes that push Chicago's combined rate to 10.25%, one of the highest in the nation for a major city, while downstate Illinois typically sits between 6.25% and 8.75%.",
+      "officialSourceUrl": "https://tax.illinois.gov/research/taxinformation/sales.html",
+      "officialSourceLabel": "Illinois Department of Revenue",
+      "rates": {
+        "state": 0.0625,
+        "average_combined": 0.0882
+      },
+      "counties": [
+        { "name": "Cook County (Chicago)", "rate": 0.1025 },
+        { "name": "DuPage County", "rate": 0.0775 },
+        { "name": "Lake County", "rate": 0.07 },
+        { "name": "Will County (Joliet)", "rate": 0.0875 },
+        { "name": "Kane County (Aurora)", "rate": 0.08 },
+        { "name": "Winnebago County (Rockford)", "rate": 0.0875 },
+        { "name": "Champaign County", "rate": 0.09 },
+        { "name": "Peoria County", "rate": 0.0875 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.1025 = sales tax owed (Chicago / Cook County example)",
+      "example": { "price": 20000, "tax": 2050, "total": 22050 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 1230 },
+        { "label": "New car purchase", "price": 28000, "tax": 2870 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 102.50 },
+        { "label": "Restaurant meal", "price": 100, "tax": 10.25 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Illinois?",
+          "answer": "Illinois's state sales tax rate is 6.25% on most goods, with a reduced rate of 1% on groceries and drugs. Local city and county taxes add significantly on top — Chicago's combined rate is 10.25%, while most downstate Illinois cities range from 7.25% to 9.25%."
+        },
+        {
+          "question": "What is the sales tax rate in Chicago, Illinois?",
+          "answer": "Chicago has a combined sales tax rate of 10.25% — one of the highest of any major US city. This includes the 6.25% Illinois state rate, Cook County's 1.75% rate, Chicago's 1.25% city tax, and a 1% Regional Transportation Authority (RTA) surcharge."
+        },
+        {
+          "question": "Does Illinois have a sales tax holiday?",
+          "answer": "Illinois has held temporary sales tax reductions rather than traditional holidays. In 2022, Illinois suspended the 1% grocery tax for a year. As of 2026, check the Illinois Department of Revenue for any current temporary reductions or holiday periods, as these are set annually by the legislature."
+        },
+        {
+          "question": "What is the sales tax on groceries in Illinois?",
+          "answer": "Illinois taxes most groceries at a reduced state rate of 1% instead of the standard 6.25%. Local taxes still apply on top, but the effective rate on unprepared grocery items is significantly lower than the standard combined rate. Prepared food and restaurant meals are taxed at the full rate."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Illinois?",
+          "answer": "Yes. Illinois charges a private party vehicle use tax on used car purchases. The rate depends on the purchase price — for vehicles over $15,000 it is 6.25% plus any applicable local taxes. Purchases from licensed dealers are subject to the standard sales tax rate."
+        },
+        {
+          "question": "Why is Chicago's sales tax so high?",
+          "answer": "Chicago's 10.25% combined rate results from multiple overlapping tax layers: Illinois state tax, Cook County tax, Chicago city tax, and a Regional Transportation Authority (RTA) surcharge funding the CTA, Metra, and Pace transit systems. Each layer was added independently over decades to fund different services and infrastructure."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Missouri Sales Tax Calculator", "href": "/missouri/sales-tax" },
+        { "label": "Indiana Sales Tax Calculator", "href": "/indiana/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

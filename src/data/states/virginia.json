@@ -1,0 +1,74 @@
+{
+  "slug": "virginia",
+  "name": "Virginia",
+  "abbreviation": "VA",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Virginia has a base state sales tax rate of 4.3%, but the effective rate most shoppers pay is higher — a mandatory 1% local option tax applies statewide, and Northern Virginia and Hampton Roads add an additional 0.7% regional transportation tax, making those areas some of the highest-rate jurisdictions in the state.",
+      "officialSourceUrl": "https://www.tax.virginia.gov/sales-tax",
+      "officialSourceLabel": "Virginia Department of Taxation",
+      "rates": {
+        "state": 0.043,
+        "average_combined": 0.057
+      },
+      "counties": [
+        { "name": "Fairfax County (Northern VA)", "rate": 0.06 },
+        { "name": "Arlington County", "rate": 0.06 },
+        { "name": "Loudoun County", "rate": 0.06 },
+        { "name": "Prince William County", "rate": 0.06 },
+        { "name": "Virginia Beach (Hampton Roads)", "rate": 0.06 },
+        { "name": "Richmond City", "rate": 0.053 },
+        { "name": "Henrico County", "rate": 0.053 },
+        { "name": "Chesterfield County", "rate": 0.053 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.06 = sales tax owed (Northern Virginia example)",
+      "example": { "price": 20000, "tax": 1200, "total": 21200 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 720 },
+        { "label": "New car purchase", "price": 28000, "tax": 1680 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 60 },
+        { "label": "Home appliance", "price": 600, "tax": 36 }
+      ],
+      "taxFreeWeekends": [
+        {
+          "name": "Sales Tax Holiday — Three Day Weekend",
+          "dates": "First Friday–Sunday of August (3 days)",
+          "items": "Clothing and footwear $100 or less per item, school supplies $20 or less per item, hurricane and emergency preparedness items up to $60 per item, Energy Star products up to $2,500"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Virginia?",
+          "answer": "Virginia's combined sales tax rate is 5.3% in most of the state — a 4.3% state rate plus a 1% mandatory local rate. Northern Virginia (Fairfax, Arlington, Loudoun, Prince William counties) and Hampton Roads add an additional 0.7% regional transportation tax, bringing those areas to 6%."
+        },
+        {
+          "question": "What is the sales tax rate in Northern Virginia?",
+          "answer": "Northern Virginia counties including Fairfax, Arlington, Loudoun, and Prince William have a combined sales tax rate of 6% — the 4.3% state rate, 1% local rate, and a 0.7% Northern Virginia Transportation Authority surcharge. This is the highest sales tax rate in Virginia."
+        },
+        {
+          "question": "Does Virginia have a sales tax holiday in 2026?",
+          "answer": "Yes. Virginia holds an annual three-day sales tax holiday on the first Friday through Sunday of August. Exempt items include clothing and footwear priced at $100 or less per item, school supplies at $20 or less per item, hurricane preparedness items up to $60, and Energy Star products up to $2,500."
+        },
+        {
+          "question": "What is exempt from sales tax in Virginia?",
+          "answer": "Virginia exempts most groceries from the state sales tax — food for home consumption is taxed at a reduced rate of 1% (state) plus 1% local instead of the standard 5.3%. Prescription drugs and most medical equipment are fully exempt. Clothing, electronics, and most goods are taxable at the full rate."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Virginia?",
+          "answer": "Yes. Virginia charges a 4.15% motor vehicle sales and use tax on used vehicle purchases. This is separate from the standard retail sales tax. For dealer sales, it is typically collected at the time of purchase. For private party sales, it is paid at the DMV at the time of title transfer."
+        },
+        {
+          "question": "Is there sales tax on groceries in Virginia?",
+          "answer": "Groceries in Virginia are taxed at a reduced rate of 2.5% (1% state food tax plus 1% local, with some regional additions) rather than the standard 5.3%–6% rate. This reduced grocery rate applies to food for home consumption purchased at grocery stores."
+        }
+      ],
+      "relatedTools": [
+        { "label": "North Carolina Sales Tax Calculator", "href": "/north-carolina/sales-tax" },
+        { "label": "Maryland Sales Tax Calculator", "href": "/maryland/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}
