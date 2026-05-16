@@ -8,27 +8,70 @@
       "officialSourceUrl": "https://www.tn.gov/revenue/taxes/sales-and-use-tax.html",
       "officialSourceLabel": "Tennessee Department of Revenue",
       "rates": {
-        "state": 0.07,
-        "average_combined": 0.0955
+        "state": 0.07
       },
       "counties": [
-        { "name": "Shelby County (Memphis)", "rate": 0.0975 },
-        { "name": "Davidson County (Nashville)", "rate": 0.0925 },
-        { "name": "Knox County (Knoxville)", "rate": 0.0925 },
-        { "name": "Hamilton County (Chattanooga)", "rate": 0.0925 },
-        { "name": "Rutherford County (Murfreesboro)", "rate": 0.0925 },
-        { "name": "Williamson County (Franklin)", "rate": 0.0925 },
-        { "name": "Madison County (Jackson)", "rate": 0.0975 },
-        { "name": "Sullivan County (Kingsport)", "rate": 0.0925 }
+        {
+          "name": "Shelby County (Memphis)",
+          "rate": 0.0975
+        },
+        {
+          "name": "Davidson County (Nashville)",
+          "rate": 0.0925
+        },
+        {
+          "name": "Knox County (Knoxville)",
+          "rate": 0.0925
+        },
+        {
+          "name": "Hamilton County (Chattanooga)",
+          "rate": 0.0925
+        },
+        {
+          "name": "Rutherford County (Murfreesboro)",
+          "rate": 0.0925
+        },
+        {
+          "name": "Williamson County (Franklin)",
+          "rate": 0.0925
+        },
+        {
+          "name": "Madison County (Jackson)",
+          "rate": 0.0975
+        },
+        {
+          "name": "Sullivan County (Kingsport)",
+          "rate": 0.0925
+        }
       ],
       "lastUpdated": "May 2026",
       "formula": "Price × 0.0925 = sales tax owed (Nashville / Davidson County example)",
-      "example": { "price": 20000, "tax": 1850, "total": 21850 },
+      "example": {
+        "price": 20000,
+        "tax": 1850,
+        "total": 21850
+      },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 1110 },
-        { "label": "New car purchase", "price": 28000, "tax": 2590 },
-        { "label": "Electronics (laptop)", "price": 1000, "tax": 92.50 },
-        { "label": "Home appliance", "price": 600, "tax": 55.50 }
+        {
+          "label": "Used car purchase",
+          "price": 12000,
+          "tax": 1110
+        },
+        {
+          "label": "New car purchase",
+          "price": 28000,
+          "tax": 2590
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 92.5
+        },
+        {
+          "label": "Home appliance",
+          "price": 600,
+          "tax": 55.5
+        }
       ],
       "taxFreeWeekends": [
         {
@@ -69,10 +112,22 @@
         }
       ],
       "relatedTools": [
-        { "label": "Georgia Sales Tax Calculator", "href": "/georgia/sales-tax" },
-        { "label": "North Carolina Sales Tax Calculator", "href": "/north-carolina/sales-tax" },
-        { "label": "Sales Tax by State", "href": "/sales-tax" },
-        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+        {
+          "label": "Georgia Sales Tax Calculator",
+          "href": "/georgia/sales-tax"
+        },
+        {
+          "label": "North Carolina Sales Tax Calculator",
+          "href": "/north-carolina/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
       ]
     }
   }

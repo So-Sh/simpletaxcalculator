@@ -94,8 +94,11 @@ data/
 - Adding a new tax type to Ohio = add one object to `ohio.json`
 - At 5 tax types x 51 states, a single master JSON would be thousands of lines
 
-**Never create a master cross-state aggregate JSON file.**
-Aggregation across states happens in `lib/rates.ts` at build time by reading the index.
+**`average_combined` is abolished.** Never add it back to state JSON files or the
+`TaxTypeData` interface. The county/city dropdown in `TaxCalculator` gives users the
+precise rate they need. Averages are misleading on a YMYL tool and serve no user need.
+The only place representative combined rates appear is the hardcoded comparison table
+on the national pillar pages, defined as constants in the page file itself.
 
 ### State file shape
 
@@ -108,8 +111,7 @@ Aggregation across states happens in `lib/rates.ts` at build time by reading the
     "sales-tax": {
       "customIntro": "...",
       "rates": {
-        "state": 0.0575,
-        "average_combined": 0.0722
+        "state": 0.0575
       },
       "counties": [{ "name": "Franklin County (Columbus)", "rate": 0.075 }],
       "lastUpdated": "May 2026",
@@ -256,7 +258,7 @@ export interface TaxTypeData {
   taxType: string
   // stored in JSON
   customIntro: string
-  rates: { state: number; average_combined: number }
+  rates: { state: number }                      // state-only rate — no average_combined
   counties: { name: string; rate: number }[]
   lastUpdated: string
   formula: string

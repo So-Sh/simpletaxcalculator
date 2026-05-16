@@ -8,27 +8,70 @@
       "officialSourceUrl": "https://www.tax.virginia.gov/sales-tax",
       "officialSourceLabel": "Virginia Department of Taxation",
       "rates": {
-        "state": 0.043,
-        "average_combined": 0.057
+        "state": 0.043
       },
       "counties": [
-        { "name": "Fairfax County (Northern VA)", "rate": 0.06 },
-        { "name": "Arlington County", "rate": 0.06 },
-        { "name": "Loudoun County", "rate": 0.06 },
-        { "name": "Prince William County", "rate": 0.06 },
-        { "name": "Virginia Beach (Hampton Roads)", "rate": 0.06 },
-        { "name": "Richmond City", "rate": 0.053 },
-        { "name": "Henrico County", "rate": 0.053 },
-        { "name": "Chesterfield County", "rate": 0.053 }
+        {
+          "name": "Fairfax County (Northern VA)",
+          "rate": 0.06
+        },
+        {
+          "name": "Arlington County",
+          "rate": 0.06
+        },
+        {
+          "name": "Loudoun County",
+          "rate": 0.06
+        },
+        {
+          "name": "Prince William County",
+          "rate": 0.06
+        },
+        {
+          "name": "Virginia Beach (Hampton Roads)",
+          "rate": 0.06
+        },
+        {
+          "name": "Richmond City",
+          "rate": 0.053
+        },
+        {
+          "name": "Henrico County",
+          "rate": 0.053
+        },
+        {
+          "name": "Chesterfield County",
+          "rate": 0.053
+        }
       ],
       "lastUpdated": "May 2026",
       "formula": "Price × 0.06 = sales tax owed (Northern Virginia example)",
-      "example": { "price": 20000, "tax": 1200, "total": 21200 },
+      "example": {
+        "price": 20000,
+        "tax": 1200,
+        "total": 21200
+      },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 720 },
-        { "label": "New car purchase", "price": 28000, "tax": 1680 },
-        { "label": "Electronics (laptop)", "price": 1000, "tax": 60 },
-        { "label": "Home appliance", "price": 600, "tax": 36 }
+        {
+          "label": "Used car purchase",
+          "price": 12000,
+          "tax": 720
+        },
+        {
+          "label": "New car purchase",
+          "price": 28000,
+          "tax": 1680
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 60
+        },
+        {
+          "label": "Home appliance",
+          "price": 600,
+          "tax": 36
+        }
       ],
       "taxFreeWeekends": [
         {
@@ -64,10 +107,22 @@
         }
       ],
       "relatedTools": [
-        { "label": "North Carolina Sales Tax Calculator", "href": "/north-carolina/sales-tax" },
-        { "label": "Maryland Sales Tax Calculator", "href": "/maryland/sales-tax" },
-        { "label": "Sales Tax by State", "href": "/sales-tax" },
-        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+        {
+          "label": "North Carolina Sales Tax Calculator",
+          "href": "/north-carolina/sales-tax"
+        },
+        {
+          "label": "Maryland Sales Tax Calculator",
+          "href": "/maryland/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
       ]
     }
   }

@@ -8,27 +8,70 @@
       "officialSourceUrl": "https://www.ncdor.gov/taxes-forms/sales-and-use-tax",
       "officialSourceLabel": "North Carolina Department of Revenue",
       "rates": {
-        "state": 0.0475,
-        "average_combined": 0.0699
+        "state": 0.0475
       },
       "counties": [
-        { "name": "Mecklenburg County (Charlotte)", "rate": 0.0775 },
-        { "name": "Wake County (Raleigh)", "rate": 0.0725 },
-        { "name": "Guilford County (Greensboro)", "rate": 0.0675 },
-        { "name": "Forsyth County (Winston-Salem)", "rate": 0.0675 },
-        { "name": "Durham County", "rate": 0.0675 },
-        { "name": "Cumberland County (Fayetteville)", "rate": 0.0675 },
-        { "name": "Buncombe County (Asheville)", "rate": 0.0700 },
-        { "name": "New Hanover County (Wilmington)", "rate": 0.0675 }
+        {
+          "name": "Mecklenburg County (Charlotte)",
+          "rate": 0.0775
+        },
+        {
+          "name": "Wake County (Raleigh)",
+          "rate": 0.0725
+        },
+        {
+          "name": "Guilford County (Greensboro)",
+          "rate": 0.0675
+        },
+        {
+          "name": "Forsyth County (Winston-Salem)",
+          "rate": 0.0675
+        },
+        {
+          "name": "Durham County",
+          "rate": 0.0675
+        },
+        {
+          "name": "Cumberland County (Fayetteville)",
+          "rate": 0.0675
+        },
+        {
+          "name": "Buncombe County (Asheville)",
+          "rate": 0.07
+        },
+        {
+          "name": "New Hanover County (Wilmington)",
+          "rate": 0.0675
+        }
       ],
       "lastUpdated": "May 2026",
       "formula": "Price × 0.0675 = sales tax owed (most NC counties example)",
-      "example": { "price": 20000, "tax": 1350, "total": 21350 },
+      "example": {
+        "price": 20000,
+        "tax": 1350,
+        "total": 21350
+      },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 810 },
-        { "label": "New car purchase", "price": 28000, "tax": 1890 },
-        { "label": "Electronics (laptop)", "price": 1000, "tax": 67.50 },
-        { "label": "Home appliance", "price": 600, "tax": 40.50 }
+        {
+          "label": "Used car purchase",
+          "price": 12000,
+          "tax": 810
+        },
+        {
+          "label": "New car purchase",
+          "price": 28000,
+          "tax": 1890
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 67.5
+        },
+        {
+          "label": "Home appliance",
+          "price": 600,
+          "tax": 40.5
+        }
       ],
       "taxFreeWeekends": [],
       "faqs": [
@@ -58,10 +101,22 @@
         }
       ],
       "relatedTools": [
-        { "label": "Virginia Sales Tax Calculator", "href": "/virginia/sales-tax" },
-        { "label": "Georgia Sales Tax Calculator", "href": "/georgia/sales-tax" },
-        { "label": "Sales Tax by State", "href": "/sales-tax" },
-        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+        {
+          "label": "Virginia Sales Tax Calculator",
+          "href": "/virginia/sales-tax"
+        },
+        {
+          "label": "Georgia Sales Tax Calculator",
+          "href": "/georgia/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
       ]
     }
   }

@@ -8,27 +8,70 @@
       "officialSourceUrl": "https://dor.georgia.gov/taxes/business-taxes/sales-use-tax",
       "officialSourceLabel": "Georgia Department of Revenue",
       "rates": {
-        "state": 0.04,
-        "average_combined": 0.0737
+        "state": 0.04
       },
       "counties": [
-        { "name": "Fulton County (Atlanta)", "rate": 0.085 },
-        { "name": "Gwinnett County", "rate": 0.06 },
-        { "name": "Cobb County", "rate": 0.06 },
-        { "name": "DeKalb County", "rate": 0.08 },
-        { "name": "Cherokee County", "rate": 0.07 },
-        { "name": "Forsyth County", "rate": 0.07 },
-        { "name": "Chatham County (Savannah)", "rate": 0.07 },
-        { "name": "Richmond County (Augusta)", "rate": 0.08 }
+        {
+          "name": "Fulton County (Atlanta)",
+          "rate": 0.085
+        },
+        {
+          "name": "Gwinnett County",
+          "rate": 0.06
+        },
+        {
+          "name": "Cobb County",
+          "rate": 0.06
+        },
+        {
+          "name": "DeKalb County",
+          "rate": 0.08
+        },
+        {
+          "name": "Cherokee County",
+          "rate": 0.07
+        },
+        {
+          "name": "Forsyth County",
+          "rate": 0.07
+        },
+        {
+          "name": "Chatham County (Savannah)",
+          "rate": 0.07
+        },
+        {
+          "name": "Richmond County (Augusta)",
+          "rate": 0.08
+        }
       ],
       "lastUpdated": "May 2026",
       "formula": "Price × 0.085 = sales tax owed (Atlanta / Fulton County example)",
-      "example": { "price": 20000, "tax": 1700, "total": 21700 },
+      "example": {
+        "price": 20000,
+        "tax": 1700,
+        "total": 21700
+      },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 1020 },
-        { "label": "New car purchase", "price": 28000, "tax": 2380 },
-        { "label": "Electronics (laptop)", "price": 1000, "tax": 85 },
-        { "label": "Home appliance", "price": 600, "tax": 51 }
+        {
+          "label": "Used car purchase",
+          "price": 12000,
+          "tax": 1020
+        },
+        {
+          "label": "New car purchase",
+          "price": 28000,
+          "tax": 2380
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 85
+        },
+        {
+          "label": "Home appliance",
+          "price": 600,
+          "tax": 51
+        }
       ],
       "taxFreeWeekends": [],
       "faqs": [
@@ -58,10 +101,22 @@
         }
       ],
       "relatedTools": [
-        { "label": "Tennessee Sales Tax Calculator", "href": "/tennessee/sales-tax" },
-        { "label": "North Carolina Sales Tax Calculator", "href": "/north-carolina/sales-tax" },
-        { "label": "Sales Tax by State", "href": "/sales-tax" },
-        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+        {
+          "label": "Tennessee Sales Tax Calculator",
+          "href": "/tennessee/sales-tax"
+        },
+        {
+          "label": "North Carolina Sales Tax Calculator",
+          "href": "/north-carolina/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
       ]
     }
   }

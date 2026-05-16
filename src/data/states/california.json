@@ -1,120 +1,119 @@
 {
-    "slug": "california",
-    "name": "California",
-    "abbreviation": "CA",
-    "taxTypes": {
-        "sales-tax": {
-            "customIntro": "California has the highest state sales tax rate in the nation at 7.25%, and with local district taxes layered on top, some areas like Los Angeles and Long Beach reach combined rates of 10.25% — something every shopper and business owner should factor into their budget.",
-            "officialSourceUrl": "https://cdtfa.ca.gov",
-            "officialSourceLabel": "California Department of Tax and Fee Administration",
-            "rates": {
-                "state": 0.0725,
-                "average_combined": 0.0868
-            },
-            "counties": [
-                {
-                    "name": "Los Angeles County",
-                    "rate": 0.1025
-                },
-                {
-                    "name": "San Diego County",
-                    "rate": 0.0775
-                },
-                {
-                    "name": "San Francisco County",
-                    "rate": 0.0875
-                },
-                {
-                    "name": "Santa Clara County (San Jose)",
-                    "rate": 0.0925
-                },
-                {
-                    "name": "Alameda County (Oakland)",
-                    "rate": 0.1025
-                },
-                {
-                    "name": "Sacramento County",
-                    "rate": 0.0875
-                },
-                {
-                    "name": "Fresno County",
-                    "rate": 0.0975
-                },
-                {
-                    "name": "Riverside County",
-                    "rate": 0.0775
-                }
-            ],
-            "lastUpdated": "May 2026",
-            "formula": "Price × 0.1025 = sales tax owed (Los Angeles example)",
-            "example": {
-                "price": 20000,
-                "tax": 2050,
-                "total": 22050
-            },
-            "scenarios": [
-                {
-                    "label": "Used car purchase",
-                    "price": 18000,
-                    "tax": 1845
-                },
-                {
-                    "label": "New car purchase",
-                    "price": 40000,
-                    "tax": 4100
-                },
-                {
-                    "label": "Electronics (laptop)",
-                    "price": 1500,
-                    "tax": 153.75
-                },
-                {
-                    "label": "Home furniture",
-                    "price": 3000,
-                    "tax": 307.50
-                }
-            ],
-            "taxFreeWeekends": [],
-            "faqs": [
-                {
-                    "question": "What is the sales tax rate in California?",
-                    "answer": "California's statewide base sales tax rate is 7.25% — the highest in the US. On top of this, local district taxes can add 0.125% to 3%, depending on where you shop. Los Angeles and several Bay Area cities reach combined rates of 10.25%."
-                },
-                {
-                    "question": "Does California have a tax-free weekend?",
-                    "answer": "No. California does not have a sales tax holiday or tax-free weekend. All standard taxable purchases are subject to the full combined rate year-round."
-                },
-                {
-                    "question": "What is exempt from sales tax in California?",
-                    "answer": "California exempts most unprepared food, prescription drugs, and certain medical devices. Unlike many states, California also partially exempts certain manufacturing and farming equipment. Prepared food, electronics, clothing, and most consumer goods are fully taxable."
-                },
-                {
-                    "question": "Do you pay sales tax on a used car in California?",
-                    "answer": "Yes. California charges sales tax on used vehicle purchases. The rate is based on where you register the vehicle, not where you buy it. The combined rate in your county of registration applies, which can range from 7.25% to over 10%."
-                },
-                {
-                    "question": "Why is California sales tax so high?",
-                    "answer": "California's high sales tax reflects its multi-layer tax structure: a 7.25% state base rate plus local district taxes added by cities, counties, and special districts for specific purposes like transportation or public safety. Voters in many jurisdictions have approved additional local measures over the years, which compound the state rate."
-                }
-            ],
-            "relatedTools": [
-                {
-                    "label": "Arizona Sales Tax Calculator",
-                    "href": "/arizona/sales-tax"
-                },
-                {
-                    "label": "Texas Sales Tax Calculator",
-                    "href": "/texas/sales-tax"
-                },
-                {
-                    "label": "Sales Tax by State",
-                    "href": "/sales-tax"
-                },
-                {
-                    "label": "Capital Gains Calculator",
-                    "href": "/capital-gains"
-                }
-            ]
+  "slug": "california",
+  "name": "California",
+  "abbreviation": "CA",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "California has the highest state sales tax rate in the nation at 7.25%, and with local district taxes layered on top, some areas like Los Angeles and Long Beach reach combined rates of 10.25% — something every shopper and business owner should factor into their budget.",
+      "officialSourceUrl": "https://www.cdtfa.ca.gov/taxes-and-fees/sales-use-tax.html",
+      "officialSourceLabel": "California Department of Tax and Fee Administration",
+      "rates": {
+        "state": 0.0725
+      },
+      "counties": [
+        {
+          "name": "Los Angeles County",
+          "rate": 0.1025
+        },
+        {
+          "name": "San Diego County",
+          "rate": 0.0775
+        },
+        {
+          "name": "San Francisco County",
+          "rate": 0.0875
+        },
+        {
+          "name": "Santa Clara County (San Jose)",
+          "rate": 0.0925
+        },
+        {
+          "name": "Alameda County (Oakland)",
+          "rate": 0.1025
+        },
+        {
+          "name": "Sacramento County",
+          "rate": 0.0875
+        },
+        {
+          "name": "Fresno County",
+          "rate": 0.0975
+        },
+        {
+          "name": "Riverside County",
+          "rate": 0.0775
         }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.1025 = sales tax owed (Los Angeles example)",
+      "example": {
+        "price": 20000,
+        "tax": 2050,
+        "total": 22050
+      },
+      "scenarios": [
+        {
+          "label": "Used car purchase",
+          "price": 18000,
+          "tax": 1845
+        },
+        {
+          "label": "New car purchase",
+          "price": 40000,
+          "tax": 4100
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1500,
+          "tax": 153.75
+        },
+        {
+          "label": "Home furniture",
+          "price": 3000,
+          "tax": 307.5
+        }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in California?",
+          "answer": "California's statewide base sales tax rate is 7.25% — the highest in the US. On top of this, local district taxes can add 0.125% to 3%, depending on where you shop. Los Angeles and several Bay Area cities reach combined rates of 10.25%."
+        },
+        {
+          "question": "Does California have a tax-free weekend?",
+          "answer": "No. California does not have a sales tax holiday or tax-free weekend. All standard taxable purchases are subject to the full combined rate year-round."
+        },
+        {
+          "question": "What is exempt from sales tax in California?",
+          "answer": "California exempts most unprepared food, prescription drugs, and certain medical devices. Unlike many states, California also partially exempts certain manufacturing and farming equipment. Prepared food, electronics, clothing, and most consumer goods are fully taxable."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in California?",
+          "answer": "Yes. California charges sales tax on used vehicle purchases. The rate is based on where you register the vehicle, not where you buy it. The combined rate in your county of registration applies, which can range from 7.25% to over 10%."
+        },
+        {
+          "question": "Why is California sales tax so high?",
+          "answer": "California's high sales tax reflects its multi-layer tax structure: a 7.25% state base rate plus local district taxes added by cities, counties, and special districts for specific purposes like transportation or public safety. Voters in many jurisdictions have approved additional local measures over the years, which compound the state rate."
+        }
+      ],
+      "relatedTools": [
+        {
+          "label": "Arizona Sales Tax Calculator",
+          "href": "/arizona/sales-tax"
+        },
+        {
+          "label": "Texas Sales Tax Calculator",
+          "href": "/texas/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
+      ]
     }
+  }
 }

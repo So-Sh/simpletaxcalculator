@@ -6,7 +6,6 @@ import LastUpdatedBadge from './LastUpdatedBadge'
 interface TaxCalculatorProps {
     rates: {
         state: number
-        average_combined: number
     }
     counties: { name: string; rate: number }[]
     stateName: string | null   // null = national/pillar page
@@ -27,8 +26,11 @@ export default function TaxCalculator({
     stateName,
     lastUpdated,
 }: TaxCalculatorProps) {
+    // Default to first county if available — most specific and useful rate
+    // Fall back to state rate if no counties provided (national pillar page)
+    const defaultRate = counties.length > 0 ? counties[0].rate : rates.state
+    const [selectedRate, setSelectedRate] = useState(defaultRate)
     const [price, setPrice] = useState('')
-    const [selectedRate, setSelectedRate] = useState(rates.average_combined)
     const [result, setResult] = useState<{ tax: number; total: number } | null>(null)
 
     const calculate = useCallback(() => {
@@ -52,7 +54,7 @@ export default function TaxCalculator({
             {/* Rate selector */}
             <div className="mb-5">
                 <label className="block text-xs font-semibold text-muted uppercase tracking-wider mb-2">
-                    {stateName ? `${stateName} tax rate` : 'Select state / rate'}
+                    {stateName ? `${stateName} — select your county or city` : 'Select state / rate'}
                 </label>
                 <select
                     value={selectedRate}
@@ -63,17 +65,16 @@ export default function TaxCalculator({
                     className="w-full rounded-lg border border-border bg-surface px-3 py-2.5 text-sm text-body
                      focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
                 >
-                    <option value={rates.average_combined}>
-                        Average combined — {formatPercent(rates.average_combined)}
-                    </option>
-                    <option value={rates.state}>
-                        State rate only — {formatPercent(rates.state)}
-                    </option>
+                    {/* County / city rates first — most useful */}
                     {counties.map((c) => (
                         <option key={c.name} value={c.rate}>
                             {c.name} — {formatPercent(c.rate)}
                         </option>
                     ))}
+                    {/* State-only rate at the bottom as a fallback */}
+                    <option value={rates.state}>
+                        {stateName ? `${stateName} state rate only` : 'State rate only'} — {formatPercent(rates.state)}
+                    </option>
                 </select>
             </div>
 

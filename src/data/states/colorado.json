@@ -8,27 +8,70 @@
       "officialSourceUrl": "https://tax.colorado.gov/sales-tax",
       "officialSourceLabel": "Colorado Department of Revenue",
       "rates": {
-        "state": 0.029,
-        "average_combined": 0.077
+        "state": 0.029
       },
       "counties": [
-        { "name": "Denver City & County", "rate": 0.0886 },
-        { "name": "Jefferson County", "rate": 0.0655 },
-        { "name": "Arapahoe County (Aurora)", "rate": 0.08 },
-        { "name": "Adams County", "rate": 0.075 },
-        { "name": "Boulder County", "rate": 0.0885 },
-        { "name": "El Paso County (Colorado Springs)", "rate": 0.082 },
-        { "name": "Larimer County (Fort Collins)", "rate": 0.0705 },
-        { "name": "Weld County", "rate": 0.059 }
+        {
+          "name": "Denver City & County",
+          "rate": 0.0886
+        },
+        {
+          "name": "Jefferson County",
+          "rate": 0.0655
+        },
+        {
+          "name": "Arapahoe County (Aurora)",
+          "rate": 0.08
+        },
+        {
+          "name": "Adams County",
+          "rate": 0.075
+        },
+        {
+          "name": "Boulder County",
+          "rate": 0.0885
+        },
+        {
+          "name": "El Paso County (Colorado Springs)",
+          "rate": 0.082
+        },
+        {
+          "name": "Larimer County (Fort Collins)",
+          "rate": 0.0705
+        },
+        {
+          "name": "Weld County",
+          "rate": 0.059
+        }
       ],
       "lastUpdated": "May 2026",
       "formula": "Price × 0.0886 = sales tax owed (Denver example)",
-      "example": { "price": 20000, "tax": 1772, "total": 21772 },
+      "example": {
+        "price": 20000,
+        "tax": 1772,
+        "total": 21772
+      },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 1063.20 },
-        { "label": "New car purchase", "price": 28000, "tax": 2480.80 },
-        { "label": "Electronics (laptop)", "price": 1000, "tax": 88.60 },
-        { "label": "Home appliance", "price": 600, "tax": 53.16 }
+        {
+          "label": "Used car purchase",
+          "price": 12000,
+          "tax": 1063.2
+        },
+        {
+          "label": "New car purchase",
+          "price": 28000,
+          "tax": 2480.8
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 88.6
+        },
+        {
+          "label": "Home appliance",
+          "price": 600,
+          "tax": 53.16
+        }
       ],
       "taxFreeWeekends": [],
       "faqs": [
@@ -58,10 +101,22 @@
         }
       ],
       "relatedTools": [
-        { "label": "Nevada Sales Tax Calculator", "href": "/nevada/sales-tax" },
-        { "label": "Arizona Sales Tax Calculator", "href": "/arizona/sales-tax" },
-        { "label": "Sales Tax by State", "href": "/sales-tax" },
-        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+        {
+          "label": "Nevada Sales Tax Calculator",
+          "href": "/nevada/sales-tax"
+        },
+        {
+          "label": "Arizona Sales Tax Calculator",
+          "href": "/arizona/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
       ]
     }
   }

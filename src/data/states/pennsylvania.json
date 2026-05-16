@@ -1,124 +1,123 @@
 {
-    "slug": "pennsylvania",
-    "name": "Pennsylvania",
-    "abbreviation": "PA",
-    "taxTypes": {
-        "sales-tax": {
-            "customIntro": "Pennsylvania keeps its sales tax structure relatively simple compared to many states — a flat 6% statewide rate with only two local exceptions: Philadelphia adds 2% and Allegheny County (Pittsburgh) adds 1%, making those the only two jurisdictions in the state with a rate above 6%.",
-            "officialSourceUrl": "https://www.pa.gov/agencies/revenue",
-            "officialSourceLabel": "Pennsylvania Department of Revenue",
-            "rates": {
-                "state": 0.06,
-                "average_combined": 0.0634
-            },
-            "counties": [
-                {
-                    "name": "Philadelphia County",
-                    "rate": 0.08
-                },
-                {
-                    "name": "Allegheny County (Pittsburgh)",
-                    "rate": 0.07
-                },
-                {
-                    "name": "Montgomery County",
-                    "rate": 0.06
-                },
-                {
-                    "name": "Bucks County",
-                    "rate": 0.06
-                },
-                {
-                    "name": "Delaware County",
-                    "rate": 0.06
-                },
-                {
-                    "name": "Chester County",
-                    "rate": 0.06
-                },
-                {
-                    "name": "Lancaster County",
-                    "rate": 0.06
-                },
-                {
-                    "name": "York County",
-                    "rate": 0.06
-                }
-            ],
-            "lastUpdated": "May 2026",
-            "formula": "Price × 0.06 = sales tax owed (most of PA) or Price × 0.08 (Philadelphia)",
-            "example": {
-                "price": 20000,
-                "tax": 1200,
-                "total": 21200
-            },
-            "scenarios": [
-                {
-                    "label": "Used car purchase",
-                    "price": 12000,
-                    "tax": 720
-                },
-                {
-                    "label": "New car purchase",
-                    "price": 28000,
-                    "tax": 1680
-                },
-                {
-                    "label": "Electronics (laptop)",
-                    "price": 1000,
-                    "tax": 60
-                },
-                {
-                    "label": "Philadelphia purchase (laptop)",
-                    "price": 1000,
-                    "tax": 80
-                }
-            ],
-            "taxFreeWeekends": [],
-            "faqs": [
-                {
-                    "question": "What is the sales tax rate in Pennsylvania?",
-                    "answer": "Pennsylvania's statewide sales tax rate is 6%. Most counties have no additional local tax, so 6% applies across most of the state. The two exceptions are Philadelphia (8% combined) and Allegheny County including Pittsburgh (7% combined)."
-                },
-                {
-                    "question": "What is the sales tax rate in Philadelphia?",
-                    "answer": "Philadelphia has a combined sales tax rate of 8% — the standard 6% Pennsylvania state rate plus an additional 2% Philadelphia local tax. This applies to most taxable purchases made within Philadelphia city limits."
-                },
-                {
-                    "question": "What is exempt from sales tax in Pennsylvania?",
-                    "answer": "Pennsylvania has notably broad sales tax exemptions. Most food (excluding restaurant meals and prepared food), clothing, and prescription drugs are exempt from sales tax. This makes Pennsylvania one of the more consumer-friendly states for everyday purchases, as clothing exemptions are relatively rare nationally."
-                },
-                {
-                    "question": "Is clothing taxable in Pennsylvania?",
-                    "answer": "No. Most clothing is exempt from Pennsylvania sales tax statewide, including in Philadelphia and Pittsburgh. This is one of Pennsylvania's most significant exemptions and applies to everyday apparel. Formal wear rentals and certain accessories may be taxable."
-                },
-                {
-                    "question": "Do you pay sales tax on a used car in Pennsylvania?",
-                    "answer": "Yes. Pennsylvania charges 6% sales tax on used vehicle purchases statewide. Purchases made in Philadelphia are subject to the 8% combined rate. The tax is collected at the time of title transfer and is based on the higher of the purchase price or the vehicle's market value as determined by PennDOT."
-                },
-                {
-                    "question": "Does Pennsylvania have a sales tax holiday?",
-                    "answer": "No. Pennsylvania does not have a general sales tax holiday. However, because clothing is permanently exempt from sales tax year-round, back-to-school shopping for apparel is always tax-free in Pennsylvania — making a dedicated holiday unnecessary for most shoppers."
-                }
-            ],
-            "relatedTools": [
-                {
-                    "label": "Ohio Sales Tax Calculator",
-                    "href": "/ohio/sales-tax"
-                },
-                {
-                    "label": "Florida Sales Tax Calculator",
-                    "href": "/florida/sales-tax"
-                },
-                {
-                    "label": "Sales Tax by State",
-                    "href": "/sales-tax"
-                },
-                {
-                    "label": "Capital Gains Calculator",
-                    "href": "/capital-gains"
-                }
-            ]
+  "slug": "pennsylvania",
+  "name": "Pennsylvania",
+  "abbreviation": "PA",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Pennsylvania keeps its sales tax structure relatively simple compared to many states — a flat 6% statewide rate with only two local exceptions: Philadelphia adds 2% and Allegheny County (Pittsburgh) adds 1%, making those the only two jurisdictions in the state with a rate above 6%.",
+      "officialSourceUrl": "https://www.revenue.pa.gov/TaxTypes/SUT/Pages/default.aspx",
+      "officialSourceLabel": "Pennsylvania Department of Revenue",
+      "rates": {
+        "state": 0.06
+      },
+      "counties": [
+        {
+          "name": "Philadelphia County",
+          "rate": 0.08
+        },
+        {
+          "name": "Allegheny County (Pittsburgh)",
+          "rate": 0.07
+        },
+        {
+          "name": "Montgomery County",
+          "rate": 0.06
+        },
+        {
+          "name": "Bucks County",
+          "rate": 0.06
+        },
+        {
+          "name": "Delaware County",
+          "rate": 0.06
+        },
+        {
+          "name": "Chester County",
+          "rate": 0.06
+        },
+        {
+          "name": "Lancaster County",
+          "rate": 0.06
+        },
+        {
+          "name": "York County",
+          "rate": 0.06
         }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.06 = sales tax owed (most of PA) or Price × 0.08 (Philadelphia)",
+      "example": {
+        "price": 20000,
+        "tax": 1200,
+        "total": 21200
+      },
+      "scenarios": [
+        {
+          "label": "Used car purchase",
+          "price": 12000,
+          "tax": 720
+        },
+        {
+          "label": "New car purchase",
+          "price": 28000,
+          "tax": 1680
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 60
+        },
+        {
+          "label": "Philadelphia purchase (laptop)",
+          "price": 1000,
+          "tax": 80
+        }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Pennsylvania?",
+          "answer": "Pennsylvania's statewide sales tax rate is 6%. Most counties have no additional local tax, so 6% applies across most of the state. The two exceptions are Philadelphia (8% combined) and Allegheny County including Pittsburgh (7% combined)."
+        },
+        {
+          "question": "What is the sales tax rate in Philadelphia?",
+          "answer": "Philadelphia has a combined sales tax rate of 8% — the standard 6% Pennsylvania state rate plus an additional 2% Philadelphia local tax. This applies to most taxable purchases made within Philadelphia city limits."
+        },
+        {
+          "question": "What is exempt from sales tax in Pennsylvania?",
+          "answer": "Pennsylvania has notably broad sales tax exemptions. Most food (excluding restaurant meals and prepared food), clothing, and prescription drugs are exempt from sales tax. This makes Pennsylvania one of the more consumer-friendly states for everyday purchases, as clothing exemptions are relatively rare nationally."
+        },
+        {
+          "question": "Is clothing taxable in Pennsylvania?",
+          "answer": "No. Most clothing is exempt from Pennsylvania sales tax statewide, including in Philadelphia and Pittsburgh. This is one of Pennsylvania's most significant exemptions and applies to everyday apparel. Formal wear rentals and certain accessories may be taxable."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Pennsylvania?",
+          "answer": "Yes. Pennsylvania charges 6% sales tax on used vehicle purchases statewide. Purchases made in Philadelphia are subject to the 8% combined rate. The tax is collected at the time of title transfer and is based on the higher of the purchase price or the vehicle's market value as determined by PennDOT."
+        },
+        {
+          "question": "Does Pennsylvania have a sales tax holiday?",
+          "answer": "No. Pennsylvania does not have a general sales tax holiday. However, because clothing is permanently exempt from sales tax year-round, back-to-school shopping for apparel is always tax-free in Pennsylvania — making a dedicated holiday unnecessary for most shoppers."
+        }
+      ],
+      "relatedTools": [
+        {
+          "label": "Ohio Sales Tax Calculator",
+          "href": "/ohio/sales-tax"
+        },
+        {
+          "label": "Florida Sales Tax Calculator",
+          "href": "/florida/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
+      ]
     }
+  }
 }

@@ -8,27 +8,70 @@
       "officialSourceUrl": "https://tax.illinois.gov/research/taxinformation/sales.html",
       "officialSourceLabel": "Illinois Department of Revenue",
       "rates": {
-        "state": 0.0625,
-        "average_combined": 0.0882
+        "state": 0.0625
       },
       "counties": [
-        { "name": "Cook County (Chicago)", "rate": 0.1025 },
-        { "name": "DuPage County", "rate": 0.0775 },
-        { "name": "Lake County", "rate": 0.07 },
-        { "name": "Will County (Joliet)", "rate": 0.0875 },
-        { "name": "Kane County (Aurora)", "rate": 0.08 },
-        { "name": "Winnebago County (Rockford)", "rate": 0.0875 },
-        { "name": "Champaign County", "rate": 0.09 },
-        { "name": "Peoria County", "rate": 0.0875 }
+        {
+          "name": "Cook County (Chicago)",
+          "rate": 0.1025
+        },
+        {
+          "name": "DuPage County",
+          "rate": 0.0775
+        },
+        {
+          "name": "Lake County",
+          "rate": 0.07
+        },
+        {
+          "name": "Will County (Joliet)",
+          "rate": 0.0875
+        },
+        {
+          "name": "Kane County (Aurora)",
+          "rate": 0.08
+        },
+        {
+          "name": "Winnebago County (Rockford)",
+          "rate": 0.0875
+        },
+        {
+          "name": "Champaign County",
+          "rate": 0.09
+        },
+        {
+          "name": "Peoria County",
+          "rate": 0.0875
+        }
       ],
       "lastUpdated": "May 2026",
       "formula": "Price × 0.1025 = sales tax owed (Chicago / Cook County example)",
-      "example": { "price": 20000, "tax": 2050, "total": 22050 },
+      "example": {
+        "price": 20000,
+        "tax": 2050,
+        "total": 22050
+      },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 1230 },
-        { "label": "New car purchase", "price": 28000, "tax": 2870 },
-        { "label": "Electronics (laptop)", "price": 1000, "tax": 102.50 },
-        { "label": "Restaurant meal", "price": 100, "tax": 10.25 }
+        {
+          "label": "Used car purchase",
+          "price": 12000,
+          "tax": 1230
+        },
+        {
+          "label": "New car purchase",
+          "price": 28000,
+          "tax": 2870
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 102.5
+        },
+        {
+          "label": "Restaurant meal",
+          "price": 100,
+          "tax": 10.25
+        }
       ],
       "taxFreeWeekends": [],
       "faqs": [
@@ -58,10 +101,22 @@
         }
       ],
       "relatedTools": [
-        { "label": "Missouri Sales Tax Calculator", "href": "/missouri/sales-tax" },
-        { "label": "Indiana Sales Tax Calculator", "href": "/indiana/sales-tax" },
-        { "label": "Sales Tax by State", "href": "/sales-tax" },
-        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+        {
+          "label": "Missouri Sales Tax Calculator",
+          "href": "/missouri/sales-tax"
+        },
+        {
+          "label": "Indiana Sales Tax Calculator",
+          "href": "/indiana/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
       ]
     }
   }

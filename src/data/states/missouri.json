@@ -8,27 +8,70 @@
       "officialSourceUrl": "https://dor.mo.gov/business/sales/",
       "officialSourceLabel": "Missouri Department of Revenue",
       "rates": {
-        "state": 0.04225,
-        "average_combined": 0.0822
+        "state": 0.04225
       },
       "counties": [
-        { "name": "St. Louis City", "rate": 0.1049 },
-        { "name": "Jackson County (Kansas City)", "rate": 0.1025 },
-        { "name": "St. Louis County", "rate": 0.0786 },
-        { "name": "Greene County (Springfield)", "rate": 0.0822 },
-        { "name": "Clay County (North KC)", "rate": 0.0825 },
-        { "name": "Jefferson County", "rate": 0.0672 },
-        { "name": "Boone County (Columbia)", "rate": 0.0756 },
-        { "name": "Cass County", "rate": 0.0672 }
+        {
+          "name": "St. Louis City",
+          "rate": 0.1049
+        },
+        {
+          "name": "Jackson County (Kansas City)",
+          "rate": 0.1025
+        },
+        {
+          "name": "St. Louis County",
+          "rate": 0.0786
+        },
+        {
+          "name": "Greene County (Springfield)",
+          "rate": 0.0822
+        },
+        {
+          "name": "Clay County (North KC)",
+          "rate": 0.0825
+        },
+        {
+          "name": "Jefferson County",
+          "rate": 0.0672
+        },
+        {
+          "name": "Boone County (Columbia)",
+          "rate": 0.0756
+        },
+        {
+          "name": "Cass County",
+          "rate": 0.0672
+        }
       ],
       "lastUpdated": "May 2026",
       "formula": "Price × 0.0822 = sales tax owed (Missouri average example)",
-      "example": { "price": 20000, "tax": 1644, "total": 21644 },
+      "example": {
+        "price": 20000,
+        "tax": 1644,
+        "total": 21644
+      },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 986.40 },
-        { "label": "New car purchase", "price": 28000, "tax": 2301.60 },
-        { "label": "Electronics (laptop)", "price": 1000, "tax": 82.20 },
-        { "label": "Home appliance", "price": 600, "tax": 49.32 }
+        {
+          "label": "Used car purchase",
+          "price": 12000,
+          "tax": 986.4
+        },
+        {
+          "label": "New car purchase",
+          "price": 28000,
+          "tax": 2301.6
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 82.2
+        },
+        {
+          "label": "Home appliance",
+          "price": 600,
+          "tax": 49.32
+        }
       ],
       "taxFreeWeekends": [
         {
@@ -64,10 +107,22 @@
         }
       ],
       "relatedTools": [
-        { "label": "Ohio Sales Tax Calculator", "href": "/ohio/sales-tax" },
-        { "label": "Illinois Sales Tax Calculator", "href": "/illinois/sales-tax" },
-        { "label": "Sales Tax by State", "href": "/sales-tax" },
-        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+        {
+          "label": "Ohio Sales Tax Calculator",
+          "href": "/ohio/sales-tax"
+        },
+        {
+          "label": "Illinois Sales Tax Calculator",
+          "href": "/illinois/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
       ]
     }
   }

@@ -1,130 +1,129 @@
 {
-    "slug": "ohio",
-    "name": "Ohio",
-    "abbreviation": "OH",
-    "taxTypes": {
-        "sales-tax": {
-            "customIntro": "Ohio's sales tax structure combines a 5.75% state base rate with mandatory county-level additions, meaning the rate you pay depends entirely on where you make your purchase — ranging from 6.5% in some rural counties all the way to 8% in Cuyahoga County (Cleveland).",
-            "officialSourceUrl": "https://tax.ohio.gov",
-            "officialSourceLabel": "Ohio Department of Taxation",
-            "rates": {
-                "state": 0.0575,
-                "average_combined": 0.0722
-            },
-            "counties": [
-                {
-                    "name": "Cuyahoga County (Cleveland)",
-                    "rate": 0.08
-                },
-                {
-                    "name": "Franklin County (Columbus)",
-                    "rate": 0.075
-                },
-                {
-                    "name": "Hamilton County (Cincinnati)",
-                    "rate": 0.075
-                },
-                {
-                    "name": "Summit County (Akron)",
-                    "rate": 0.0675
-                },
-                {
-                    "name": "Montgomery County (Dayton)",
-                    "rate": 0.075
-                },
-                {
-                    "name": "Lucas County (Toledo)",
-                    "rate": 0.075
-                },
-                {
-                    "name": "Stark County (Canton)",
-                    "rate": 0.065
-                },
-                {
-                    "name": "Mahoning County (Youngstown)",
-                    "rate": 0.075
-                }
-            ],
-            "lastUpdated": "May 2026",
-            "formula": "Price × 0.075 = sales tax owed (Columbus / Franklin County example)",
-            "example": {
-                "price": 20000,
-                "tax": 1500,
-                "total": 21500
-            },
-            "scenarios": [
-                {
-                    "label": "Used car purchase",
-                    "price": 12000,
-                    "tax": 900
-                },
-                {
-                    "label": "New car purchase",
-                    "price": 28000,
-                    "tax": 2100
-                },
-                {
-                    "label": "Electronics (laptop)",
-                    "price": 1000,
-                    "tax": 75
-                },
-                {
-                    "label": "Home appliance",
-                    "price": 600,
-                    "tax": 45
-                }
-            ],
-            "taxFreeWeekends": [
-                {
-                    "name": "Back-to-School Sales Tax Holiday",
-                    "dates": "First Friday–Sunday of August (3 days)",
-                    "items": "Clothing priced at $75 or less per item, school supplies $20 or less per item, school instructional materials $20 or less per item"
-                }
-            ],
-            "faqs": [
-                {
-                    "question": "What is the sales tax rate in Ohio?",
-                    "answer": "Ohio's state sales tax rate is 5.75%. Every county in Ohio adds an additional local tax, bringing the combined rate to between 6.5% and 8% depending on the county. Cuyahoga County (Cleveland) has the highest combined rate at 8%, while Franklin County (Columbus) and Hamilton County (Cincinnati) are both at 7.5%."
-                },
-                {
-                    "question": "What is the sales tax in Columbus, Ohio?",
-                    "answer": "Columbus is located in Franklin County, which has a combined sales tax rate of 7.5% — the 5.75% state rate plus a 1.75% Franklin County addition. This applies to most retail purchases made within Columbus city limits."
-                },
-                {
-                    "question": "Does Ohio have a sales tax holiday in 2026?",
-                    "answer": "Yes. Ohio holds an annual back-to-school sales tax holiday on the first Friday through Sunday of August. During this weekend, clothing items priced at $75 or less, school supplies priced at $20 or less per item, and school instructional materials priced at $20 or less per item are exempt from both state and local sales tax."
-                },
-                {
-                    "question": "Is there sales tax on groceries in Ohio?",
-                    "answer": "Most unprepared food items are exempt from Ohio sales tax. This includes grocery staples bought at supermarkets. However, prepared food sold at restaurants, fast food chains, and ready-to-eat deli items are subject to the full combined sales tax rate."
-                },
-                {
-                    "question": "Do you pay sales tax on a used car in Ohio?",
-                    "answer": "Yes. Ohio charges sales tax on used vehicle purchases at the combined rate for the county where the vehicle is titled. There is no cap on the taxable amount — the full purchase price is subject to tax. The tax is collected at the time of title transfer at the county BMV."
-                },
-                {
-                    "question": "What is the sales tax rate in Cleveland, Ohio?",
-                    "answer": "Cleveland is in Cuyahoga County, which has the highest combined sales tax rate in Ohio at 8% — the 5.75% state rate plus a 2.25% Cuyahoga County addition. This applies to most taxable purchases made within the Cleveland metro area."
-                }
-            ],
-            "relatedTools": [
-                {
-                    "label": "Pennsylvania Sales Tax Calculator",
-                    "href": "/pennsylvania/sales-tax"
-                },
-                {
-                    "label": "Arizona Sales Tax Calculator",
-                    "href": "/arizona/sales-tax"
-                },
-                {
-                    "label": "Sales Tax by State",
-                    "href": "/sales-tax"
-                },
-                {
-                    "label": "Capital Gains Calculator",
-                    "href": "/capital-gains"
-                }
-            ]
+  "slug": "ohio",
+  "name": "Ohio",
+  "abbreviation": "OH",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Ohio's sales tax structure combines a 5.75% state base rate with mandatory county-level additions, meaning the rate you pay depends entirely on where you make your purchase — ranging from 6.5% in some rural counties all the way to 8% in Cuyahoga County (Cleveland).",
+      "officialSourceUrl": "https://tax.ohio.gov/business/ohio-business-taxes/sales-and-use/sales-and-use-tax",
+      "officialSourceLabel": "Ohio Department of Taxation",
+      "rates": {
+        "state": 0.0575
+      },
+      "counties": [
+        {
+          "name": "Cuyahoga County (Cleveland)",
+          "rate": 0.08
+        },
+        {
+          "name": "Franklin County (Columbus)",
+          "rate": 0.075
+        },
+        {
+          "name": "Hamilton County (Cincinnati)",
+          "rate": 0.075
+        },
+        {
+          "name": "Summit County (Akron)",
+          "rate": 0.0675
+        },
+        {
+          "name": "Montgomery County (Dayton)",
+          "rate": 0.075
+        },
+        {
+          "name": "Lucas County (Toledo)",
+          "rate": 0.075
+        },
+        {
+          "name": "Stark County (Canton)",
+          "rate": 0.065
+        },
+        {
+          "name": "Mahoning County (Youngstown)",
+          "rate": 0.075
         }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.075 = sales tax owed (Columbus / Franklin County example)",
+      "example": {
+        "price": 20000,
+        "tax": 1500,
+        "total": 21500
+      },
+      "scenarios": [
+        {
+          "label": "Used car purchase",
+          "price": 12000,
+          "tax": 900
+        },
+        {
+          "label": "New car purchase",
+          "price": 28000,
+          "tax": 2100
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 75
+        },
+        {
+          "label": "Home appliance",
+          "price": 600,
+          "tax": 45
+        }
+      ],
+      "taxFreeWeekends": [
+        {
+          "name": "Back-to-School Sales Tax Holiday",
+          "dates": "First Friday–Sunday of August (3 days)",
+          "items": "Clothing priced at $75 or less per item, school supplies $20 or less per item, school instructional materials $20 or less per item"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Ohio?",
+          "answer": "Ohio's state sales tax rate is 5.75%. Every county in Ohio adds an additional local tax, bringing the combined rate to between 6.5% and 8% depending on the county. Cuyahoga County (Cleveland) has the highest combined rate at 8%, while Franklin County (Columbus) and Hamilton County (Cincinnati) are both at 7.5%."
+        },
+        {
+          "question": "What is the sales tax in Columbus, Ohio?",
+          "answer": "Columbus is located in Franklin County, which has a combined sales tax rate of 7.5% — the 5.75% state rate plus a 1.75% Franklin County addition. This applies to most retail purchases made within Columbus city limits."
+        },
+        {
+          "question": "Does Ohio have a sales tax holiday in 2026?",
+          "answer": "Yes. Ohio holds an annual back-to-school sales tax holiday on the first Friday through Sunday of August. During this weekend, clothing items priced at $75 or less, school supplies priced at $20 or less per item, and school instructional materials priced at $20 or less per item are exempt from both state and local sales tax."
+        },
+        {
+          "question": "Is there sales tax on groceries in Ohio?",
+          "answer": "Most unprepared food items are exempt from Ohio sales tax. This includes grocery staples bought at supermarkets. However, prepared food sold at restaurants, fast food chains, and ready-to-eat deli items are subject to the full combined sales tax rate."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Ohio?",
+          "answer": "Yes. Ohio charges sales tax on used vehicle purchases at the combined rate for the county where the vehicle is titled. There is no cap on the taxable amount — the full purchase price is subject to tax. The tax is collected at the time of title transfer at the county BMV."
+        },
+        {
+          "question": "What is the sales tax rate in Cleveland, Ohio?",
+          "answer": "Cleveland is in Cuyahoga County, which has the highest combined sales tax rate in Ohio at 8% — the 5.75% state rate plus a 2.25% Cuyahoga County addition. This applies to most taxable purchases made within the Cleveland metro area."
+        }
+      ],
+      "relatedTools": [
+        {
+          "label": "Pennsylvania Sales Tax Calculator",
+          "href": "/pennsylvania/sales-tax"
+        },
+        {
+          "label": "Arizona Sales Tax Calculator",
+          "href": "/arizona/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
+      ]
     }
+  }
 }

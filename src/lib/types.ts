@@ -16,7 +16,6 @@ export interface TaxTypeData {
     officialSourceLabel: string // e.g. "Ohio Department of Taxation"
     rates: {
         state: number
-        average_combined: number
     }
     counties: { name: string; rate: number }[]
     lastUpdated: string

@@ -8,27 +8,70 @@
       "officialSourceUrl": "https://tax.nv.gov/Businesses/Sales_and_Use_Tax_Information/",
       "officialSourceLabel": "Nevada Department of Taxation",
       "rates": {
-        "state": 0.0685,
-        "average_combined": 0.0824
+        "state": 0.0685
       },
       "counties": [
-        { "name": "Clark County (Las Vegas)", "rate": 0.08375 },
-        { "name": "Washoe County (Reno)", "rate": 0.08265 },
-        { "name": "Carson City", "rate": 0.08625 },
-        { "name": "Douglas County", "rate": 0.07100 },
-        { "name": "Elko County", "rate": 0.07100 },
-        { "name": "Nye County", "rate": 0.07100 },
-        { "name": "Lyon County", "rate": 0.07100 },
-        { "name": "Churchill County", "rate": 0.07100 }
+        {
+          "name": "Clark County (Las Vegas)",
+          "rate": 0.08375
+        },
+        {
+          "name": "Washoe County (Reno)",
+          "rate": 0.08265
+        },
+        {
+          "name": "Carson City",
+          "rate": 0.08625
+        },
+        {
+          "name": "Douglas County",
+          "rate": 0.071
+        },
+        {
+          "name": "Elko County",
+          "rate": 0.071
+        },
+        {
+          "name": "Nye County",
+          "rate": 0.071
+        },
+        {
+          "name": "Lyon County",
+          "rate": 0.071
+        },
+        {
+          "name": "Churchill County",
+          "rate": 0.071
+        }
       ],
       "lastUpdated": "May 2026",
       "formula": "Price × 0.08375 = sales tax owed (Las Vegas / Clark County example)",
-      "example": { "price": 20000, "tax": 1675, "total": 21675 },
+      "example": {
+        "price": 20000,
+        "tax": 1675,
+        "total": 21675
+      },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 1005 },
-        { "label": "New car purchase", "price": 28000, "tax": 2345 },
-        { "label": "Electronics (laptop)", "price": 1000, "tax": 83.75 },
-        { "label": "Home appliance", "price": 600, "tax": 50.25 }
+        {
+          "label": "Used car purchase",
+          "price": 12000,
+          "tax": 1005
+        },
+        {
+          "label": "New car purchase",
+          "price": 28000,
+          "tax": 2345
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 83.75
+        },
+        {
+          "label": "Home appliance",
+          "price": 600,
+          "tax": 50.25
+        }
       ],
       "taxFreeWeekends": [],
       "faqs": [
@@ -58,10 +101,22 @@
         }
       ],
       "relatedTools": [
-        { "label": "Arizona Sales Tax Calculator", "href": "/arizona/sales-tax" },
-        { "label": "California Sales Tax Calculator", "href": "/california/sales-tax" },
-        { "label": "Sales Tax by State", "href": "/sales-tax" },
-        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+        {
+          "label": "Arizona Sales Tax Calculator",
+          "href": "/arizona/sales-tax"
+        },
+        {
+          "label": "California Sales Tax Calculator",
+          "href": "/california/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
       ]
     }
   }
