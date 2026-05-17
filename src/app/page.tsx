@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from "next/image";
 import type { Metadata } from 'next'
 import { getAllStates } from '@/lib/rates'
 
@@ -255,6 +256,27 @@ export default function HomePage() {
           Consult a qualified tax professional for your specific situation.
         </p>
       </div>
+
+      {/* ── Featured badges ── */}
+      <section aria-labelledby="featured-heading" className="mt-14">
+        <div className="flex justify-center items-center gap-6 flex-wrap">
+          <Link href="https://wired.business" target="_blank" rel="noopener noreferrer">
+            <Image src="https://wired.business/badge0-white.svg" alt="Featured on Wired Business" width={200} height={54} />
+          </Link>
+          {/*           <Link href="https://ufind.best/products/calctools?utm_source=ufind.best" target="_blank" rel="noopener noreferrer">
+            <Image src="https://ufind.best/badges/ufind-best-badge-light.svg" alt="Featured on ufind.best" width={200} height={54} />
+          </Link>
+          <Link href="https://findly.tools/calctools?utm_source=calctools" target="_blank" rel="noopener noreferrer">
+            <Image src="https://findly.tools/badges/findly-tools-badge-light.svg" alt="Featured on Findly.tools" width={200} height={54} />
+          </Link>
+          <Link href="https://besttoolvault.com" target="_blank" rel="noopener noreferrer">
+            <Image src="https://besttoolvault.com/assets/images/badge.png" alt="Featured on Best Tool Vault" width={200} height={54} />
+          </Link>
+          <Link href="https://agentwork.tools" target="_blank" rel="noopener noreferrer">
+            <Image src="https://agentwork.tools/badge/badge_transparent.svg" alt="Featured on AgentWork.Tools" width={200} height={54} />
+          </Link> */}
+        </div>
+      </section>
     </>
   )
 }
