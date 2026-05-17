@@ -263,6 +263,10 @@ export default function HomePage() {
           <Link href="https://wired.business" target="_blank" rel="noopener noreferrer">
             <Image src="https://wired.business/badge0-white.svg" alt="Featured on Wired Business" width={200} height={54} />
           </Link>
+          <Link href="https://twelve.tools" target="_blank" rel="noopener noreferrer">
+            <Image src="https://twelve.tools/badge0-white.svg" alt="Featured on Twelve Tools" width={200} height={54} />
+          </Link>
+
           {/*           <Link href="https://ufind.best/products/calctools?utm_source=ufind.best" target="_blank" rel="noopener noreferrer">
             <Image src="https://ufind.best/badges/ufind-best-badge-light.svg" alt="Featured on ufind.best" width={200} height={54} />
           </Link>
