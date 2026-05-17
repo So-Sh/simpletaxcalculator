@@ -1,0 +1,67 @@
+{
+  "slug": "maryland",
+  "name": "Maryland",
+  "abbreviation": "MD",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Maryland applies a flat 6% statewide sales tax with no local additions — every county and city charges exactly the same rate, making Maryland one of the simplest and most predictable sales tax states in the country for both consumers and businesses.",
+      "officialSourceUrl": "https://www.marylandtaxes.gov/business/sales-use/index.shtml",
+      "officialSourceLabel": "Maryland Comptroller's Office",
+      "rates": {
+        "state": 0.06
+      },
+      "counties": [
+        { "name": "Montgomery County", "rate": 0.06 },
+        { "name": "Prince George's County", "rate": 0.06 },
+        { "name": "Baltimore City", "rate": 0.06 },
+        { "name": "Baltimore County", "rate": 0.06 },
+        { "name": "Anne Arundel County (Annapolis)", "rate": 0.06 },
+        { "name": "Howard County", "rate": 0.06 },
+        { "name": "Frederick County", "rate": 0.06 },
+        { "name": "Harford County", "rate": 0.06 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.06 = sales tax owed (statewide — same everywhere)",
+      "example": { "price": 20000, "tax": 1200, "total": 21200 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 720 },
+        { "label": "New car purchase", "price": 28000, "tax": 1680 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 60 },
+        { "label": "Home appliance", "price": 600, "tax": 36 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Maryland?",
+          "answer": "Maryland has a flat 6% statewide sales tax rate. There are no county or city additions — the rate is identical everywhere in the state, from Baltimore City to rural Western Maryland. This uniformity makes Maryland one of the simplest sales tax states to calculate for."
+        },
+        {
+          "question": "What is the sales tax rate in Baltimore?",
+          "answer": "Baltimore City charges exactly the same 6% rate as the rest of Maryland. There are no city-level additions. Whether you shop in downtown Baltimore, the Inner Harbor, or any surrounding county, the sales tax rate is a uniform 6%."
+        },
+        {
+          "question": "What is exempt from sales tax in Maryland?",
+          "answer": "Maryland exempts most unprepared food and groceries, prescription drugs, and most medical equipment. Notably, Maryland also exempts most clothing from sales tax — making it one of the few states with both a flat rate and broad clothing exemptions. Agricultural supplies and certain manufacturing equipment are also exempt."
+        },
+        {
+          "question": "Is clothing taxable in Maryland?",
+          "answer": "No. Most clothing is exempt from Maryland sales tax with no price cap. This is one of Maryland's most significant consumer benefits — apparel purchases of any price are generally not subject to sales tax, unlike neighboring states such as Virginia where clothing is fully taxable."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Maryland?",
+          "answer": "Yes. Maryland charges a 6% excise tax on vehicle purchases, which functions similarly to sales tax. It applies to the full purchase price for both new and used vehicles and is collected at the time of title transfer at the MVA. Private party sales are also subject to this tax."
+        },
+        {
+          "question": "Does Maryland have a sales tax holiday?",
+          "answer": "Maryland has held annual sales tax-free weeks in the past for back-to-school shopping and energy-efficient appliances, but these are not permanently established and must be reauthorized each year. Check the Maryland Comptroller's Office for the current year's status."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Virginia Sales Tax Calculator", "href": "/virginia/sales-tax" },
+        { "label": "Pennsylvania Sales Tax Calculator", "href": "/pennsylvania/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

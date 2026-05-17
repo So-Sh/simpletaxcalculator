@@ -1,0 +1,67 @@
+{
+  "slug": "new-jersey",
+  "name": "New Jersey",
+  "abbreviation": "NJ",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "New Jersey has a uniform 6.625% statewide sales tax with no additional local taxes in most areas — making it one of the simpler sales tax structures in the Northeast. The notable exception is Salem County, which applies a reduced rate of 3.3125% to help local retailers compete with neighboring Delaware, which has no sales tax at all.",
+      "officialSourceUrl": "https://www.nj.gov/treasury/taxation/su_over.shtml",
+      "officialSourceLabel": "New Jersey Division of Taxation",
+      "rates": {
+        "state": 0.06625
+      },
+      "counties": [
+        { "name": "Bergen County", "rate": 0.06625 },
+        { "name": "Essex County (Newark)", "rate": 0.06625 },
+        { "name": "Hudson County (Jersey City)", "rate": 0.06625 },
+        { "name": "Middlesex County", "rate": 0.06625 },
+        { "name": "Morris County", "rate": 0.06625 },
+        { "name": "Monmouth County", "rate": 0.06625 },
+        { "name": "Camden County", "rate": 0.06625 },
+        { "name": "Salem County (reduced UEZ rate)", "rate": 0.033125 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.06625 = sales tax owed (most of NJ)",
+      "example": { "price": 20000, "tax": 1325, "total": 21325 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 795 },
+        { "label": "New car purchase", "price": 28000, "tax": 1855 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 66.25 },
+        { "label": "Salem County purchase", "price": 1000, "tax": 33.13 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in New Jersey?",
+          "answer": "New Jersey's statewide sales tax rate is 6.625%. There are no additional county or city taxes in most of the state, so the rate is uniform across New Jersey — except for Salem County, which applies a reduced 3.3125% rate in Urban Enterprise Zones to help retailers compete with nearby Delaware's zero-sales-tax environment."
+        },
+        {
+          "question": "Why does Salem County NJ have a lower sales tax rate?",
+          "answer": "Salem County sits directly across the Delaware River from Delaware, which has no sales tax. To prevent residents from crossing the border for all their major purchases, New Jersey allows qualified retailers in Salem County's Urban Enterprise Zone to collect sales tax at half the standard rate — 3.3125% instead of 6.625%."
+        },
+        {
+          "question": "What is exempt from sales tax in New Jersey?",
+          "answer": "New Jersey exempts most unprepared groceries, prescription drugs, and most clothing and footwear from sales tax. The clothing exemption is broad — unlike New York, New Jersey has no price cap on exempt clothing. Medical equipment and certain agricultural supplies are also exempt."
+        },
+        {
+          "question": "Is clothing taxable in New Jersey?",
+          "answer": "No. Most clothing and footwear is exempt from New Jersey sales tax with no price threshold — unlike New York's $110-per-item cap. This makes New Jersey one of the more consumer-friendly states for apparel purchases."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in New Jersey?",
+          "answer": "Yes. New Jersey charges 6.625% sales tax on used vehicle purchases. The tax applies to the full purchase price and is collected at the time of title transfer. There is no cap on the taxable amount, and the tax applies whether you purchase from a dealer or a private party."
+        },
+        {
+          "question": "Does New Jersey have a sales tax holiday?",
+          "answer": "No. New Jersey does not currently have a sales tax holiday. However, because clothing is permanently exempt from sales tax year-round, back-to-school shopping for apparel is always tax-free in New Jersey."
+        }
+      ],
+      "relatedTools": [
+        { "label": "New York Sales Tax Calculator", "href": "/new-york/sales-tax" },
+        { "label": "Pennsylvania Sales Tax Calculator", "href": "/pennsylvania/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

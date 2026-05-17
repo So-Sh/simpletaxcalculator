@@ -1,0 +1,67 @@
+{
+  "slug": "indiana",
+  "name": "Indiana",
+  "abbreviation": "IN",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Indiana has one of the simplest sales tax structures in the United States — a flat 7% statewide rate with absolutely no county, city, or local additions. Whether you're shopping in Indianapolis, Fort Wayne, or a small rural town, the sales tax rate is always exactly 7%.",
+      "officialSourceUrl": "https://www.in.gov/dor/business-tax/sales-tax/",
+      "officialSourceLabel": "Indiana Department of Revenue",
+      "rates": {
+        "state": 0.07
+      },
+      "counties": [
+        { "name": "Marion County (Indianapolis)", "rate": 0.07 },
+        { "name": "Allen County (Fort Wayne)", "rate": 0.07 },
+        { "name": "Hamilton County (Carmel)", "rate": 0.07 },
+        { "name": "St. Joseph County (South Bend)", "rate": 0.07 },
+        { "name": "Tippecanoe County (Lafayette)", "rate": 0.07 },
+        { "name": "Vanderburgh County (Evansville)", "rate": 0.07 },
+        { "name": "Lake County (Gary)", "rate": 0.07 },
+        { "name": "Monroe County (Bloomington)", "rate": 0.07 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.07 = sales tax owed (statewide — same everywhere)",
+      "example": { "price": 20000, "tax": 1400, "total": 21400 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 840 },
+        { "label": "New car purchase", "price": 28000, "tax": 1960 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 70 },
+        { "label": "Home appliance", "price": 600, "tax": 42 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Indiana?",
+          "answer": "Indiana's sales tax rate is a flat 7% statewide. There are no county, city, or local additions permitted — the rate is identical in every corner of the state. This makes Indiana one of the easiest states to calculate sales tax for, with no lookup tables or jurisdiction-level variations needed."
+        },
+        {
+          "question": "What is the sales tax rate in Indianapolis?",
+          "answer": "Indianapolis, like every other city in Indiana, has a sales tax rate of exactly 7%. Marion County cannot add local sales taxes on top of the state rate. The simplicity of Indiana's tax structure means there is no difference between buying in Indianapolis, Fort Wayne, Evansville, or any other Indiana city."
+        },
+        {
+          "question": "What is exempt from sales tax in Indiana?",
+          "answer": "Indiana exempts most unprepared groceries and prescription drugs. Farm equipment, manufacturing machinery used directly in production, and certain medical devices are also exempt. Clothing is fully taxable in Indiana with no exemption — the full 7% applies to all apparel purchases."
+        },
+        {
+          "question": "Is clothing taxable in Indiana?",
+          "answer": "Yes. All clothing and footwear is taxable in Indiana at the standard 7% rate. Indiana provides no clothing exemption, unlike neighboring Illinois (which introduced a grocery exemption in 2026) or states like Minnesota and Pennsylvania where clothing is exempt."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Indiana?",
+          "answer": "Yes. Indiana charges 7% sales tax on used vehicle purchases. The tax applies to the full purchase price whether buying from a dealer or a private party. It is collected at the BMV at the time of title transfer. There is no cap or reduced rate for vehicle sales."
+        },
+        {
+          "question": "Does Indiana have a sales tax holiday?",
+          "answer": "No. Indiana does not have a sales tax holiday or tax-free weekend. All taxable purchases including clothing are subject to the full 7% rate year-round."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Illinois Sales Tax Calculator", "href": "/illinois/sales-tax" },
+        { "label": "Ohio Sales Tax Calculator", "href": "/ohio/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "new-york",
+  "name": "New York",
+  "abbreviation": "NY",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "New York's sales tax system runs on a 4% state base rate, but it's the local additions that define what you actually pay — New York City's combined rate of 8.875% is among the highest of any major US city, while upstate counties typically land between 7% and 8.75% depending on local levies.",
+      "officialSourceUrl": "https://www.tax.ny.gov/bus/st/stidx.htm",
+      "officialSourceLabel": "New York Department of Taxation and Finance",
+      "rates": {
+        "state": 0.04
+      },
+      "counties": [
+        { "name": "New York City (all 5 boroughs)", "rate": 0.08875 },
+        { "name": "Erie County (Buffalo)", "rate": 0.0875 },
+        { "name": "Monroe County (Rochester)", "rate": 0.08 },
+        { "name": "Onondaga County (Syracuse)", "rate": 0.08 },
+        { "name": "Albany County", "rate": 0.08 },
+        { "name": "Westchester County", "rate": 0.08375 },
+        { "name": "Nassau County (Long Island)", "rate": 0.08625 },
+        { "name": "Suffolk County (Long Island)", "rate": 0.08625 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.08875 = sales tax owed (New York City example)",
+      "example": { "price": 20000, "tax": 1775, "total": 21775 },
+      "scenarios": [
+        { "label": "Used car purchase (NYC)", "price": 15000, "tax": 1331.25 },
+        { "label": "New car purchase (NYC)", "price": 35000, "tax": 3106.25 },
+        { "label": "Electronics (laptop, NYC)", "price": 1000, "tax": 88.75 },
+        { "label": "Clothing over $110 (NYC)", "price": 200, "tax": 17.75 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in New York?",
+          "answer": "New York's state sales tax rate is 4%. Counties and cities add local rates on top, ranging from 3% to 4.875%. New York City's combined rate is 8.875% — the highest in the state. Upstate counties typically range from 7% to 8.75%."
+        },
+        {
+          "question": "What is the sales tax rate in New York City?",
+          "answer": "New York City has a combined sales tax rate of 8.875% — the 4% state rate, a 4.5% NYC local rate, and a 0.375% Metropolitan Commuter Transportation District (MCTD) surcharge. This rate applies to all five boroughs: Manhattan, Brooklyn, Queens, The Bronx, and Staten Island."
+        },
+        {
+          "question": "Is clothing taxable in New York?",
+          "answer": "Clothing and footwear priced under $110 per item are exempt from New York State sales tax. However, New York City and some counties do not follow this exemption and tax all clothing. In NYC, only clothing under $110 is exempt from the state portion of tax but still subject to the city and MCTD taxes."
+        },
+        {
+          "question": "What is exempt from sales tax in New York?",
+          "answer": "New York exempts most unprepared groceries, prescription drugs, and over-the-counter medications. Clothing and footwear under $110 per item are exempt from state tax. Notably, New York taxes SaaS (software-as-a-service) but exempts most digital goods like e-books and music downloads."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in New York?",
+          "answer": "Yes. New York charges sales tax on used vehicle purchases at the combined rate for the county where the buyer resides. In New York City that is 8.875%. The tax is based on the purchase price or the vehicle's book value, whichever is higher, and is paid at the DMV when registering the title."
+        },
+        {
+          "question": "Does New York have a sales tax holiday?",
+          "answer": "No. New York does not have a general sales tax holiday. However, clothing and footwear under $110 per item is permanently exempt from state sales tax year-round, which functions similarly to a clothing-specific tax holiday for everyday shopping."
+        }
+      ],
+      "relatedTools": [
+        { "label": "New Jersey Sales Tax Calculator", "href": "/new-jersey/sales-tax" },
+        { "label": "Pennsylvania Sales Tax Calculator", "href": "/pennsylvania/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

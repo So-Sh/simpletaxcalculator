@@ -1,0 +1,67 @@
+{
+  "slug": "michigan",
+  "name": "Michigan",
+  "abbreviation": "MI",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Michigan has one of the simplest sales tax structures in the United States — a flat 6% rate that applies uniformly statewide with no county, city, or local additions permitted under the state constitution. Detroit, Grand Rapids, Ann Arbor, and every other Michigan city all charge exactly 6%.",
+      "officialSourceUrl": "https://www.michigan.gov/taxes/business-taxes/sales-use-tax",
+      "officialSourceLabel": "Michigan Department of Treasury",
+      "rates": {
+        "state": 0.06
+      },
+      "counties": [
+        { "name": "Wayne County (Detroit)", "rate": 0.06 },
+        { "name": "Oakland County", "rate": 0.06 },
+        { "name": "Macomb County", "rate": 0.06 },
+        { "name": "Kent County (Grand Rapids)", "rate": 0.06 },
+        { "name": "Genesee County (Flint)", "rate": 0.06 },
+        { "name": "Washtenaw County (Ann Arbor)", "rate": 0.06 },
+        { "name": "Ingham County (Lansing)", "rate": 0.06 },
+        { "name": "Ottawa County", "rate": 0.06 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.06 = sales tax owed (statewide — same everywhere)",
+      "example": { "price": 20000, "tax": 1200, "total": 21200 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 720 },
+        { "label": "New car purchase", "price": 28000, "tax": 1680 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 60 },
+        { "label": "Home appliance", "price": 600, "tax": 36 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Michigan?",
+          "answer": "Michigan's sales tax rate is a flat 6% statewide. Michigan's constitution prohibits local governments from levying their own sales taxes, so the rate is identical in every county and city — Detroit, Grand Rapids, Ann Arbor, Lansing, and every other location all charge exactly 6%."
+        },
+        {
+          "question": "What is the sales tax rate in Detroit?",
+          "answer": "Detroit charges exactly 6% — the same rate as every other location in Michigan. There is no additional Wayne County or city of Detroit sales tax. Michigan's flat statewide structure means there are no jurisdiction differences to look up."
+        },
+        {
+          "question": "What is exempt from sales tax in Michigan?",
+          "answer": "Michigan exempts most unprepared groceries and prescription drugs. Notably, as of January 1, 2026, Michigan exempted motor fuel (gasoline and diesel) from the 6% sales tax, replacing it with an increased per-gallon excise tax. Residential utilities, certain manufacturing equipment, and agricultural supplies are also exempt. Most clothing is fully taxable in Michigan."
+        },
+        {
+          "question": "Is clothing taxable in Michigan?",
+          "answer": "Yes. All clothing and footwear is taxable in Michigan at the standard 6% rate. Michigan provides no clothing exemption — unlike neighboring Minnesota and Wisconsin where clothing tax treatment varies."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Michigan?",
+          "answer": "Yes. Michigan charges 6% sales tax on used vehicle purchases. The tax applies to the purchase price and is collected at the Secretary of State office when the title is transferred. Michigan's uniform statewide rate means the calculation is the same regardless of which county you're in."
+        },
+        {
+          "question": "Does Michigan have a sales tax holiday?",
+          "answer": "No. Michigan does not have a sales tax holiday. All standard taxable purchases are subject to the full 6% rate year-round."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Ohio Sales Tax Calculator", "href": "/ohio/sales-tax" },
+        { "label": "Indiana Sales Tax Calculator", "href": "/indiana/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

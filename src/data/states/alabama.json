@@ -1,0 +1,78 @@
+{
+  "slug": "alabama",
+  "name": "Alabama",
+  "abbreviation": "AL",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Alabama has a relatively low 4% state sales tax rate, but local county and city taxes are among the highest and most varied in the nation — pushing combined rates in Birmingham and Montgomery above 10% and making Alabama one of the most complex states for sales tax calculation, with over 400 distinct taxing jurisdictions.",
+      "officialSourceUrl": "https://www.revenue.alabama.gov/division/sales-use/",
+      "officialSourceLabel": "Alabama Department of Revenue",
+      "rates": {
+        "state": 0.04
+      },
+      "counties": [
+        { "name": "Jefferson County (Birmingham)", "rate": 0.1000 },
+        { "name": "Montgomery County", "rate": 0.10 },
+        { "name": "Mobile County", "rate": 0.10 },
+        { "name": "Madison County (Huntsville)", "rate": 0.09 },
+        { "name": "Tuscaloosa County", "rate": 0.10 },
+        { "name": "Lee County (Auburn)", "rate": 0.09 },
+        { "name": "Shelby County", "rate": 0.09 },
+        { "name": "Baldwin County", "rate": 0.07 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.10 = sales tax owed (Birmingham / Jefferson County example)",
+      "example": { "price": 20000, "tax": 2000, "total": 22000 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 1200 },
+        { "label": "New car purchase", "price": 28000, "tax": 2800 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 100 },
+        { "label": "Groceries (taxable in AL)", "price": 200, "tax": 20 }
+      ],
+      "taxFreeWeekends": [
+        {
+          "name": "Back-to-School Sales Tax Holiday",
+          "dates": "Third Friday–Sunday of July (3 days)",
+          "items": "Clothing $100 or less per item, school supplies $50 or less per item, computers $750 or less, books $30 or less per book"
+        },
+        {
+          "name": "Severe Weather Preparedness Sales Tax Holiday",
+          "dates": "Last weekend of February (Fri–Sun)",
+          "items": "Generators under $1,000, weather radios, tarps, first aid kits, batteries, flashlights"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Alabama?",
+          "answer": "Alabama's state sales tax rate is 4%, but local county and city taxes add significantly on top — often 4% to 6% more. Most major Alabama cities have combined rates of 9% to 10%. Birmingham and Montgomery typically reach 10%, while more rural areas may be 7% to 8%. Alabama has over 400 distinct taxing jurisdictions, making it one of the most complex states for sales tax."
+        },
+        {
+          "question": "Does Alabama tax groceries?",
+          "answer": "Yes. Alabama is one of the few states that taxes most groceries at the full combined sales tax rate. This includes most unprepared food sold at grocery stores. There is a state-level effort to reduce or eliminate the grocery tax, but as of 2026 Alabama still taxes most food purchases, which is a significant burden given the high combined local rates."
+        },
+        {
+          "question": "Does Alabama have a sales tax holiday in 2026?",
+          "answer": "Yes. Alabama holds two annual sales tax holidays. The back-to-school holiday falls on the third Friday through Sunday of July — covering clothing under $100 per item, school supplies under $50, and computers under $750. A Severe Weather Preparedness holiday is held the last weekend of February for emergency supplies."
+        },
+        {
+          "question": "What is the sales tax rate in Birmingham, Alabama?",
+          "answer": "Birmingham is in Jefferson County. The combined rate depends on the exact location within the city — the standard combined rate is approximately 10%, consisting of the 4% state rate plus Jefferson County and City of Birmingham local taxes. Some special districts within Birmingham may have slightly different rates."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Alabama?",
+          "answer": "Yes. Alabama charges sales tax on used vehicle purchases. The rate varies by county since local taxes apply. However, Alabama caps the sales tax on vehicle purchases at $1 on vehicles purchased from a dealer — a significant consumer protection. Private party vehicle purchases are subject to the state's 2% rate without the cap."
+        },
+        {
+          "question": "Why is Alabama's combined sales tax so high?",
+          "answer": "Alabama's high combined rates stem from its low state property tax base — Alabama has some of the lowest property taxes in the nation. Local governments rely heavily on sales taxes to fund schools, infrastructure, and services, resulting in some of the highest local sales tax additions in the country."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Georgia Sales Tax Calculator", "href": "/georgia/sales-tax" },
+        { "label": "Tennessee Sales Tax Calculator", "href": "/tennessee/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

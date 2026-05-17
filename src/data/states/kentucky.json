@@ -1,0 +1,67 @@
+{
+  "slug": "kentucky",
+  "name": "Kentucky",
+  "abbreviation": "KY",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Kentucky imposes a flat 6% statewide sales tax with no county or local additions permitted — the same rate applies uniformly from Louisville to Lexington to the most remote counties in Appalachia, making it one of the most straightforward sales tax states in the South.",
+      "officialSourceUrl": "https://revenue.ky.gov/Business/Sales-Use-Tax/Pages/default.aspx",
+      "officialSourceLabel": "Kentucky Department of Revenue",
+      "rates": {
+        "state": 0.06
+      },
+      "counties": [
+        { "name": "Jefferson County (Louisville)", "rate": 0.06 },
+        { "name": "Fayette County (Lexington)", "rate": 0.06 },
+        { "name": "Kenton County (Covington)", "rate": 0.06 },
+        { "name": "Warren County (Bowling Green)", "rate": 0.06 },
+        { "name": "Madison County (Richmond)", "rate": 0.06 },
+        { "name": "Hardin County (Elizabethtown)", "rate": 0.06 },
+        { "name": "Boone County (Florence)", "rate": 0.06 },
+        { "name": "Daviess County (Owensboro)", "rate": 0.06 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.06 = sales tax owed (statewide — same everywhere)",
+      "example": { "price": 20000, "tax": 1200, "total": 21200 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 720 },
+        { "label": "New car purchase", "price": 28000, "tax": 1680 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 60 },
+        { "label": "Home appliance", "price": 600, "tax": 36 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Kentucky?",
+          "answer": "Kentucky's sales tax rate is a flat 6% statewide. No county or city additions are permitted, so the rate is identical everywhere in the state. Kentucky is one of the simplest sales tax states — no jurisdiction lookup is needed, and the calculation is always the same 6% regardless of where you shop."
+        },
+        {
+          "question": "What is the sales tax rate in Louisville, Kentucky?",
+          "answer": "Louisville, like every other Kentucky city, has a sales tax rate of exactly 6%. Jefferson County and Louisville Metro cannot levy additional local sales taxes. The uniform statewide rate applies whether shopping in downtown Louisville, Lexington, or any rural Kentucky county."
+        },
+        {
+          "question": "What is exempt from sales tax in Kentucky?",
+          "answer": "Kentucky exempts most unprepared groceries, prescription drugs, and certain medical devices. Notably, Kentucky began taxing more services in recent years, including those in categories like landscaping, janitorial services, and some personal care services. Most clothing is fully taxable in Kentucky."
+        },
+        {
+          "question": "Is clothing taxable in Kentucky?",
+          "answer": "Yes. All clothing and footwear is taxable in Kentucky at the flat 6% rate. Unlike neighboring states such as Pennsylvania and Maryland that exempt clothing, Kentucky provides no clothing exemption."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Kentucky?",
+          "answer": "Yes. Kentucky charges 6% sales tax on used vehicle purchases, based on the higher of the actual purchase price or the vehicle's retail value as listed in a standard reference guide. The tax is paid at the county clerk's office at the time of title transfer."
+        },
+        {
+          "question": "Does Kentucky have a sales tax holiday?",
+          "answer": "No. Kentucky does not currently have a sales tax holiday or tax-free weekend. All taxable purchases are subject to the full 6% rate year-round."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Tennessee Sales Tax Calculator", "href": "/tennessee/sales-tax" },
+        { "label": "Ohio Sales Tax Calculator", "href": "/ohio/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

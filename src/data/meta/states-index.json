@@ -1,122 +1,202 @@
 [
-    {
-        "slug": "ohio",
-        "name": "Ohio",
-        "abbreviation": "OH",
-        "availableTaxTypes": [
-            "sales-tax"
-        ]
-    },
-    {
-        "slug": "arizona",
-        "name": "Arizona",
-        "abbreviation": "AZ",
-        "availableTaxTypes": [
-            "sales-tax"
-        ]
-    },
-    {
-        "slug": "pennsylvania",
-        "name": "Pennsylvania",
-        "abbreviation": "PA",
-        "availableTaxTypes": [
-            "sales-tax"
-        ]
-    },
-    {
-        "slug": "florida",
-        "name": "Florida",
-        "abbreviation": "FL",
-        "availableTaxTypes": [
-            "sales-tax"
-        ]
-    },
-    {
-        "slug": "texas",
-        "name": "Texas",
-        "abbreviation": "TX",
-        "availableTaxTypes": [
-            "sales-tax"
-        ]
-    },
-    {
-        "slug": "california",
-        "name": "California",
-        "abbreviation": "CA",
-        "availableTaxTypes": [
-            "sales-tax"
-        ]
-    },
-    {
-        "slug": "missouri",
-        "name": "Missouri",
-        "abbreviation": "MO",
-        "availableTaxTypes": [
-            "sales-tax"
-        ]
-    },
-    {
-        "slug": "georgia",
-        "name": "Georgia",
-        "abbreviation": "GA",
-        "availableTaxTypes": [
-            "sales-tax"
-        ]
-    },
-    {
-        "slug": "tennessee",
-        "name": "Tennessee",
-        "abbreviation": "TN",
-        "availableTaxTypes": [
-            "sales-tax"
-        ]
-    },
-    {
-        "slug": "north-carolina",
-        "name": "North Carolina",
-        "abbreviation": "NC",
-        "availableTaxTypes": [
-            "sales-tax"
-        ]
-    },
-    {
-        "slug": "virginia",
-        "name": "Virginia",
-        "abbreviation": "VA",
-        "availableTaxTypes": [
-            "sales-tax"
-        ]
-    },
-    {
-        "slug": "colorado",
-        "name": "Colorado",
-        "abbreviation": "CO",
-        "availableTaxTypes": [
-            "sales-tax"
-        ]
-    },
-    {
-        "slug": "washington",
-        "name": "Washington",
-        "abbreviation": "WA",
-        "availableTaxTypes": [
-            "sales-tax"
-        ]
-    },
-    {
-        "slug": "nevada",
-        "name": "Nevada",
-        "abbreviation": "NV",
-        "availableTaxTypes": [
-            "sales-tax"
-        ]
-    },
-    {
-        "slug": "illinois",
-        "name": "Illinois",
-        "abbreviation": "IL",
-        "availableTaxTypes": [
-            "sales-tax"
-        ]
-    }
+  {
+    "slug": "ohio",
+    "name": "Ohio",
+    "abbreviation": "OH",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "arizona",
+    "name": "Arizona",
+    "abbreviation": "AZ",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "pennsylvania",
+    "name": "Pennsylvania",
+    "abbreviation": "PA",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "florida",
+    "name": "Florida",
+    "abbreviation": "FL",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "texas",
+    "name": "Texas",
+    "abbreviation": "TX",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "california",
+    "name": "California",
+    "abbreviation": "CA",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "missouri",
+    "name": "Missouri",
+    "abbreviation": "MO",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "georgia",
+    "name": "Georgia",
+    "abbreviation": "GA",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "tennessee",
+    "name": "Tennessee",
+    "abbreviation": "TN",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "north-carolina",
+    "name": "North Carolina",
+    "abbreviation": "NC",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "virginia",
+    "name": "Virginia",
+    "abbreviation": "VA",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "colorado",
+    "name": "Colorado",
+    "abbreviation": "CO",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "washington",
+    "name": "Washington",
+    "abbreviation": "WA",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "nevada",
+    "name": "Nevada",
+    "abbreviation": "NV",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "illinois",
+    "name": "Illinois",
+    "abbreviation": "IL",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "new-york",
+    "name": "New York",
+    "abbreviation": "NY",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "new-jersey",
+    "name": "New Jersey",
+    "abbreviation": "NJ",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "maryland",
+    "name": "Maryland",
+    "abbreviation": "MD",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "minnesota",
+    "name": "Minnesota",
+    "abbreviation": "MN",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "wisconsin",
+    "name": "Wisconsin",
+    "abbreviation": "WI",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "indiana",
+    "name": "Indiana",
+    "abbreviation": "IN",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "kentucky",
+    "name": "Kentucky",
+    "abbreviation": "KY",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "michigan",
+    "name": "Michigan",
+    "abbreviation": "MI",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "alabama",
+    "name": "Alabama",
+    "abbreviation": "AL",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "louisiana",
+    "name": "Louisiana",
+    "abbreviation": "LA",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  }
 ]

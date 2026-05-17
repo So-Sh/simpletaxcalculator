@@ -1,0 +1,67 @@
+{
+  "slug": "wisconsin",
+  "name": "Wisconsin",
+  "abbreviation": "WI",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Wisconsin has a 5% state sales tax rate, with most counties adding a 0.5% county tax — bringing the standard combined rate to 5.5% across most of the state. Milwaukee County has an additional 0.9% transit tax, making it the highest-rate jurisdiction in Wisconsin at 5.9%.",
+      "officialSourceUrl": "https://www.revenue.wi.gov/Pages/SalesAndUse/Home.aspx",
+      "officialSourceLabel": "Wisconsin Department of Revenue",
+      "rates": {
+        "state": 0.05
+      },
+      "counties": [
+        { "name": "Milwaukee County", "rate": 0.059 },
+        { "name": "Dane County (Madison)", "rate": 0.055 },
+        { "name": "Waukesha County", "rate": 0.055 },
+        { "name": "Brown County (Green Bay)", "rate": 0.055 },
+        { "name": "Racine County", "rate": 0.055 },
+        { "name": "Outagamie County (Appleton)", "rate": 0.055 },
+        { "name": "Winnebago County (Oshkosh)", "rate": 0.055 },
+        { "name": "Marathon County (Wausau)", "rate": 0.055 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.055 = sales tax owed (most WI counties example)",
+      "example": { "price": 20000, "tax": 1100, "total": 21100 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 660 },
+        { "label": "New car purchase", "price": 28000, "tax": 1540 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 55 },
+        { "label": "Milwaukee purchase (laptop)", "price": 1000, "tax": 59 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Wisconsin?",
+          "answer": "Wisconsin's state sales tax rate is 5%. Most counties add a 0.5% county tax, bringing the standard combined rate to 5.5% in the majority of the state. Milwaukee County adds an additional 0.9% transit tax, making its combined rate 5.9% — the highest in Wisconsin."
+        },
+        {
+          "question": "What is the sales tax rate in Milwaukee?",
+          "answer": "Milwaukee is in Milwaukee County, which has a combined sales tax rate of 5.9% — the 5% state rate, a 0.5% Milwaukee County rate, and a 0.4% baseball stadium district tax plus a transit authority tax. This makes Milwaukee the highest-taxed jurisdiction in Wisconsin."
+        },
+        {
+          "question": "What is exempt from sales tax in Wisconsin?",
+          "answer": "Wisconsin exempts most unprepared groceries and prescription drugs. Unlike many Midwestern neighbors, Wisconsin does tax most clothing — there is no general clothing exemption. Farm equipment, certain manufacturing machinery, and medical devices are also exempt."
+        },
+        {
+          "question": "Is clothing taxable in Wisconsin?",
+          "answer": "Yes. Wisconsin taxes most clothing at the standard combined sales tax rate. Unlike neighboring Minnesota, which has a broad clothing exemption, Wisconsin provides no general clothing exemption. This is a meaningful distinction for cross-border shoppers in the Twin Cities / Hudson area."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Wisconsin?",
+          "answer": "Yes. Wisconsin charges sales tax on used vehicle purchases at the combined county rate for where the buyer resides. For most Wisconsin counties that is 5.5%. Milwaukee County residents pay 5.9%. The tax is collected at the DMV at the time of title transfer."
+        },
+        {
+          "question": "Does Wisconsin have a sales tax holiday?",
+          "answer": "No. Wisconsin does not have a sales tax holiday or tax-free weekend. All standard taxable purchases including clothing are subject to the full combined rate year-round."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Minnesota Sales Tax Calculator", "href": "/minnesota/sales-tax" },
+        { "label": "Illinois Sales Tax Calculator", "href": "/illinois/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

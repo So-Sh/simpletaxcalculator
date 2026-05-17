@@ -1,0 +1,67 @@
+{
+  "slug": "minnesota",
+  "name": "Minnesota",
+  "abbreviation": "MN",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Minnesota has a 6.875% state sales tax rate — the 12th highest state rate in the nation — with local city and county taxes that push the Twin Cities metro area to between 7.375% and 8.025%, while greater Minnesota cities typically add 0.5% to 1% on top of the state rate.",
+      "officialSourceUrl": "https://www.revenue.state.mn.us/sales-tax",
+      "officialSourceLabel": "Minnesota Department of Revenue",
+      "rates": {
+        "state": 0.06875
+      },
+      "counties": [
+        { "name": "Hennepin County (Minneapolis)", "rate": 0.08025 },
+        { "name": "Ramsey County (St. Paul)", "rate": 0.07875 },
+        { "name": "Dakota County", "rate": 0.07375 },
+        { "name": "Anoka County", "rate": 0.07375 },
+        { "name": "Washington County", "rate": 0.07375 },
+        { "name": "St. Louis County (Duluth)", "rate": 0.08375 },
+        { "name": "Olmsted County (Rochester)", "rate": 0.07375 },
+        { "name": "Stearns County (St. Cloud)", "rate": 0.07875 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.08025 = sales tax owed (Minneapolis / Hennepin County example)",
+      "example": { "price": 20000, "tax": 1605, "total": 21605 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 963 },
+        { "label": "New car purchase", "price": 28000, "tax": 2247 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 80.25 },
+        { "label": "Home appliance", "price": 600, "tax": 48.15 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Minnesota?",
+          "answer": "Minnesota's state sales tax rate is 6.875%. Most cities and counties add local taxes on top, typically 0.5% to 1.5%. Minneapolis (Hennepin County) has a combined rate of approximately 8.025%, while St. Paul (Ramsey County) is around 7.875%. Greater Minnesota cities are usually 7.375% to 7.875%."
+        },
+        {
+          "question": "What is the sales tax rate in Minneapolis?",
+          "answer": "Minneapolis is in Hennepin County and has a combined sales tax rate of approximately 8.025% — including the 6.875% state rate, a 0.15% Hennepin County rate, a 0.5% Minneapolis city rate, and a 0.5% Metro Transit sales tax. Additional special district taxes may apply in some parts of the city."
+        },
+        {
+          "question": "What is exempt from sales tax in Minnesota?",
+          "answer": "Minnesota exempts most unprepared groceries, prescription drugs, and clothing. The clothing exemption has no price cap — any apparel item is exempt from state sales tax, though some local jurisdictions may tax clothing. Farm equipment, certain medical devices, and most capital equipment for manufacturing are also exempt."
+        },
+        {
+          "question": "Is clothing taxable in Minnesota?",
+          "answer": "No. Most clothing is exempt from Minnesota sales tax at the state level with no price threshold. This is a permanent exemption, not a seasonal holiday. Some Minnesota cities that impose local sales taxes may apply those local taxes to clothing, so the full combined rate exemption depends on your location."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Minnesota?",
+          "answer": "Yes. Minnesota charges sales tax on used vehicle purchases at the state rate of 6.875% plus any applicable local tax. A 6.5% motor vehicle sales tax applies specifically to vehicle purchases in addition to the standard sales tax structure. The tax is paid at the time of registration at the DVS."
+        },
+        {
+          "question": "Does Minnesota have a sales tax holiday?",
+          "answer": "No. Minnesota does not have a sales tax holiday. However, clothing is permanently exempt from state sales tax year-round, making everyday apparel shopping effectively tax-free at the state level."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Wisconsin Sales Tax Calculator", "href": "/wisconsin/sales-tax" },
+        { "label": "Illinois Sales Tax Calculator", "href": "/illinois/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}
