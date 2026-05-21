@@ -1,0 +1,78 @@
+{
+  "slug": "mississippi",
+  "name": "Mississippi",
+  "abbreviation": "MS",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Mississippi has a 7% state sales tax rate — tied for the second-highest state rate in the nation alongside Indiana and Rhode Island — with only very limited local additions permitted, meaning most Mississippians pay exactly 7% on most purchases, rising to 8% in Jackson and a handful of other cities.",
+      "officialSourceUrl": "https://www.dor.ms.gov/business/sales-tax",
+      "officialSourceLabel": "Mississippi Department of Revenue",
+      "rates": {
+        "state": 0.07
+      },
+      "counties": [
+        { "name": "Hinds County (Jackson)", "rate": 0.08 },
+        { "name": "Harrison County (Gulfport/Biloxi)", "rate": 0.07 },
+        { "name": "Rankin County (Brandon/Pearl)", "rate": 0.08 },
+        { "name": "DeSoto County (Southaven)", "rate": 0.07 },
+        { "name": "Madison County (Madison)", "rate": 0.07 },
+        { "name": "Forrest County (Hattiesburg)", "rate": 0.07 },
+        { "name": "Lee County (Tupelo)", "rate": 0.07 },
+        { "name": "Lamar County (Purvis)", "rate": 0.07 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.07 = sales tax owed (most of Mississippi)",
+      "example": { "price": 20000, "tax": 1400, "total": 21400 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 840 },
+        { "label": "New car purchase", "price": 28000, "tax": 1960 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 70 },
+        { "label": "Groceries (taxable in MS)", "price": 200, "tax": 14 }
+      ],
+      "taxFreeWeekends": [
+        {
+          "name": "Back-to-School Sales Tax Holiday",
+          "dates": "Last Friday–Saturday of July (2 days)",
+          "items": "Clothing and footwear $100 or less per item — no cap on number of items. School supplies are not included."
+        },
+        {
+          "name": "Second Amendment Sales Tax Holiday",
+          "dates": "Last Friday–Sunday of August (3 days)",
+          "items": "Firearms, ammunition, and hunting supplies — state sales tax exempt"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Mississippi?",
+          "answer": "Mississippi's state sales tax rate is 7% — tied for the second-highest state rate in the US alongside Indiana and Rhode Island. Local additions are minimal, so most Mississippians pay exactly 7% on standard purchases. Jackson and a few other cities have a 1% local addition bringing their combined rate to 8%."
+        },
+        {
+          "question": "Does Mississippi tax groceries?",
+          "answer": "Yes. Mississippi is one of the few states that taxes most groceries at the full standard sales tax rate of 7%. There is no grocery exemption or reduced rate for unprepared food in Mississippi, making it one of the least favorable states for food affordability from a tax perspective."
+        },
+        {
+          "question": "Does Mississippi have a sales tax holiday in 2026?",
+          "answer": "Yes, two. Mississippi holds a back-to-school clothing holiday on the last Friday and Saturday of July — covering clothing and footwear at $100 or less per item with no limit on the number of items. Mississippi also holds a Second Amendment holiday on the last Friday through Sunday of August for firearms, ammunition, and hunting supplies."
+        },
+        {
+          "question": "What is the sales tax rate in Jackson, Mississippi?",
+          "answer": "Jackson is in Hinds County and has a combined sales tax rate of 8% — the 7% state rate plus a 1% Jackson city addition. Pearl and Clinton in Rankin County also reach 8%. Most other Mississippi cities and counties have the standard 7% rate with no local addition."
+        },
+        {
+          "question": "What is exempt from sales tax in Mississippi?",
+          "answer": "Mississippi exempts prescription drugs and certain medical equipment. Unlike most states, Mississippi does not exempt groceries. Farm equipment used directly in agricultural production and certain manufacturing machinery are also exempt. Most clothing is taxable except during the annual back-to-school holiday."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Mississippi?",
+          "answer": "Yes. Mississippi charges 5% sales tax on used vehicle purchases — a rate lower than the standard 7% retail rate that applies to most goods. This reduced vehicle rate applies whether you buy from a dealer or in a private party transaction and is paid at the county tax collector's office at the time of title transfer."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Alabama Sales Tax Calculator", "href": "/alabama/sales-tax" },
+        { "label": "Tennessee Sales Tax Calculator", "href": "/tennessee/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

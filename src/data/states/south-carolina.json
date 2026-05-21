@@ -1,0 +1,73 @@
+{
+  "slug": "south-carolina",
+  "name": "South Carolina",
+  "abbreviation": "SC",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "South Carolina has a 6% state sales tax rate, with most counties adding a 1% to 3% local option sales tax — bringing typical combined rates to 7% to 9%. The state also caps sales tax on certain large purchases like vehicles and boats, providing meaningful savings for high-value transactions.",
+      "officialSourceUrl": "https://dor.sc.gov/tax/sales",
+      "officialSourceLabel": "South Carolina Department of Revenue",
+      "rates": {
+        "state": 0.06
+      },
+      "counties": [
+        { "name": "Richland County (Columbia)", "rate": 0.08 },
+        { "name": "Charleston County", "rate": 0.09 },
+        { "name": "Greenville County", "rate": 0.06 },
+        { "name": "Horry County (Myrtle Beach)", "rate": 0.09 },
+        { "name": "Spartanburg County", "rate": 0.07 },
+        { "name": "Lexington County", "rate": 0.08 },
+        { "name": "York County (Rock Hill)", "rate": 0.07 },
+        { "name": "Anderson County", "rate": 0.07 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.08 = sales tax owed (Columbia / Richland County example)",
+      "example": { "price": 20000, "tax": 1600, "total": 21600 },
+      "scenarios": [
+        { "label": "Used car purchase (capped at $500)", "price": 12000, "tax": 500 },
+        { "label": "New car purchase (capped at $500)", "price": 28000, "tax": 500 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 80 },
+        { "label": "Myrtle Beach purchase", "price": 600, "tax": 54 }
+      ],
+      "taxFreeWeekends": [
+        {
+          "name": "Back-to-School Sales Tax Holiday",
+          "dates": "First Friday through Sunday of August (3 days)",
+          "items": "Clothing, footwear, school supplies, and computers — no price cap. One of the most generous back-to-school holidays in the nation."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in South Carolina?",
+          "answer": "South Carolina's state sales tax rate is 6%. Most counties add local option sales taxes of 1% to 3%, bringing combined rates to between 6% and 9% depending on the county. Charleston County and Horry County (Myrtle Beach) have the highest combined rates at 9%."
+        },
+        {
+          "question": "Is there a sales tax cap on cars in South Carolina?",
+          "answer": "Yes — and it's one of the most significant in the nation. South Carolina caps the sales tax on vehicle purchases at $500 regardless of the purchase price or county rate. This means whether you buy a $15,000 used car or a $80,000 luxury vehicle, the maximum sales tax you will ever pay is $500. This cap also applies to boats and other watercraft."
+        },
+        {
+          "question": "Does South Carolina have a sales tax holiday in 2026?",
+          "answer": "Yes. South Carolina holds an annual back-to-school sales tax holiday on the first Friday through Sunday of August. The exemption covers clothing, footwear, school supplies, and computers with no price cap — one of the most generous back-to-school holidays in the United States."
+        },
+        {
+          "question": "What is exempt from sales tax in South Carolina?",
+          "answer": "South Carolina exempts most unprepared groceries and prescription drugs. Vehicle purchases are subject to a $500 cap regardless of price. Notably, South Carolina also exempts certain manufacturing machinery and agricultural equipment. Most clothing is taxable except during the annual tax-free weekend."
+        },
+        {
+          "question": "What is the sales tax rate in Myrtle Beach, South Carolina?",
+          "answer": "Myrtle Beach is in Horry County, which has one of the highest combined sales tax rates in South Carolina at 9% — the 6% state rate plus a 3% Horry County local option tax. This applies to most retail purchases within the Myrtle Beach area."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in South Carolina?",
+          "answer": "Yes, but South Carolina's $500 sales tax cap on vehicle purchases makes it one of the most affordable states for vehicle sales tax. Regardless of the purchase price or your county's combined rate, you will never pay more than $500 in sales tax on a vehicle. This cap is automatic and applies at the point of sale."
+        }
+      ],
+      "relatedTools": [
+        { "label": "North Carolina Sales Tax Calculator", "href": "/north-carolina/sales-tax" },
+        { "label": "Georgia Sales Tax Calculator", "href": "/georgia/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

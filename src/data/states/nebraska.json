@@ -1,0 +1,67 @@
+{
+  "slug": "nebraska",
+  "name": "Nebraska",
+  "abbreviation": "NE",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Nebraska has a 5.5% state sales tax rate with local city taxes on top — but unlike most states, Nebraska counties do not levy their own sales taxes. Only incorporated cities can add local taxes, bringing Omaha and Lincoln to 7% and leaving smaller cities and rural areas at the base 5.5% state rate.",
+      "officialSourceUrl": "https://revenue.nebraska.gov/businesses/sales-and-use-tax",
+      "officialSourceLabel": "Nebraska Department of Revenue",
+      "rates": {
+        "state": 0.055
+      },
+      "counties": [
+        { "name": "Douglas County (Omaha)", "rate": 0.07 },
+        { "name": "Lancaster County (Lincoln)", "rate": 0.07 },
+        { "name": "Sarpy County (Bellevue/Papillion)", "rate": 0.07 },
+        { "name": "Hall County (Grand Island)", "rate": 0.065 },
+        { "name": "Dodge County (Fremont)", "rate": 0.065 },
+        { "name": "Madison County (Norfolk)", "rate": 0.065 },
+        { "name": "Scotts Bluff County (Scottsbluff)", "rate": 0.065 },
+        { "name": "Dawson County (Lexington)", "rate": 0.055 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.07 = sales tax owed (Omaha example)",
+      "example": { "price": 20000, "tax": 1400, "total": 21400 },
+      "scenarios": [
+        { "label": "Used car purchase (Omaha)", "price": 12000, "tax": 840 },
+        { "label": "New car purchase (Lincoln)", "price": 28000, "tax": 1960 },
+        { "label": "Electronics (laptop, Omaha)", "price": 1000, "tax": 70 },
+        { "label": "Rural Nebraska purchase", "price": 1000, "tax": 55 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Nebraska?",
+          "answer": "Nebraska's state sales tax rate is 5.5%. Nebraska counties cannot levy their own sales taxes — only incorporated cities can add local rates. Omaha and Lincoln both have a 1.5% city tax bringing their combined rate to 7%. Rural areas and smaller cities without a local tax pay just the 5.5% state rate."
+        },
+        {
+          "question": "What is the sales tax rate in Omaha, Nebraska?",
+          "answer": "Omaha has a combined sales tax rate of 7% — the 5.5% state rate plus a 1.5% City of Omaha local tax. This is the same rate as Lincoln. Most of the Omaha metro area including Bellevue, Papillion, and La Vista in Sarpy County also reaches 7%."
+        },
+        {
+          "question": "Does Nebraska have a sales tax holiday?",
+          "answer": "No. Nebraska does not have a sales tax holiday or tax-free weekend."
+        },
+        {
+          "question": "What is exempt from sales tax in Nebraska?",
+          "answer": "Nebraska exempts most unprepared groceries and prescription drugs. Farm machinery and equipment used in agricultural production is also exempt. Nebraska taxes digital goods, SaaS, and digital downloads, which is noteworthy for online purchases. Most clothing is fully taxable."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Nebraska?",
+          "answer": "Yes. Nebraska charges sales tax on used vehicle purchases at the combined city rate where the buyer registers the vehicle. In Omaha and Lincoln that is 7%. Rural residents without a city tax pay the 5.5% state rate only. The tax is paid at the county treasurer's office at the time of registration."
+        },
+        {
+          "question": "Is clothing taxable in Nebraska?",
+          "answer": "Yes. All clothing and footwear is taxable in Nebraska at the standard combined rate. Nebraska does not provide a clothing exemption, unlike neighboring states such as Minnesota where clothing is permanently exempt."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Iowa Sales Tax Calculator", "href": "/iowa/sales-tax" },
+        { "label": "Kansas Sales Tax Calculator", "href": "/kansas/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

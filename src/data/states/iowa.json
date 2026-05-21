@@ -1,0 +1,67 @@
+{
+  "slug": "iowa",
+  "name": "Iowa",
+  "abbreviation": "IA",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Iowa has a 6% state sales tax rate, and most cities and counties have adopted an additional 1% local option sales tax (LOST), making the effective combined rate 7% across most of the state. Iowa updated its local option tax landscape in January 2026, with several jurisdictions removing sunset clauses to make their local taxes permanent.",
+      "officialSourceUrl": "https://tax.iowa.gov/sales-retailers",
+      "officialSourceLabel": "Iowa Department of Revenue",
+      "rates": {
+        "state": 0.06
+      },
+      "counties": [
+        { "name": "Polk County (Des Moines)", "rate": 0.07 },
+        { "name": "Linn County (Cedar Rapids)", "rate": 0.07 },
+        { "name": "Scott County (Davenport)", "rate": 0.07 },
+        { "name": "Johnson County (Iowa City)", "rate": 0.07 },
+        { "name": "Black Hawk County (Waterloo)", "rate": 0.07 },
+        { "name": "Woodbury County (Sioux City)", "rate": 0.07 },
+        { "name": "Dubuque County", "rate": 0.07 },
+        { "name": "Story County (Ames)", "rate": 0.07 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.07 = sales tax owed (most Iowa counties example)",
+      "example": { "price": 20000, "tax": 1400, "total": 21400 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 840 },
+        { "label": "New car purchase", "price": 28000, "tax": 1960 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 70 },
+        { "label": "Home appliance", "price": 600, "tax": 42 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Iowa?",
+          "answer": "Iowa's state sales tax rate is 6%. Most Iowa cities and counties have adopted a 1% local option sales tax (LOST), bringing the effective combined rate to 7% across the majority of the state. A small number of rural areas without a local option tax pay only the 6% state rate."
+        },
+        {
+          "question": "What is the sales tax rate in Des Moines, Iowa?",
+          "answer": "Des Moines is in Polk County, which has a combined sales tax rate of 7% — the 6% state rate plus a 1% local option sales tax. This is the standard rate for most major Iowa cities including Cedar Rapids, Davenport, Iowa City, and Waterloo."
+        },
+        {
+          "question": "Does Iowa have a sales tax holiday?",
+          "answer": "No. Iowa does not have a general sales tax holiday or tax-free weekend."
+        },
+        {
+          "question": "What is exempt from sales tax in Iowa?",
+          "answer": "Iowa exempts most unprepared groceries and prescription drugs from sales tax. Farm machinery and equipment used directly in agricultural production is also exempt. Most clothing is taxable in Iowa — unlike neighboring Minnesota and Illinois where clothing has different treatment."
+        },
+        {
+          "question": "Is clothing taxable in Iowa?",
+          "answer": "Yes. Most clothing and footwear is fully taxable in Iowa at the standard combined rate. Iowa does not have a clothing exemption, unlike neighboring states Minnesota (which permanently exempts clothing) or Illinois."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Iowa?",
+          "answer": "Iowa charges a one-time registration fee instead of traditional sales tax on vehicle purchases. This fee is 5% of the purchase price for most vehicles and is paid at the time of registration at the county treasurer's office. It replaces the standard 6%–7% sales tax rate that would otherwise apply."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Missouri Sales Tax Calculator", "href": "/missouri/sales-tax" },
+        { "label": "Illinois Sales Tax Calculator", "href": "/illinois/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

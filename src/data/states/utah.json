@@ -1,0 +1,67 @@
+{
+  "slug": "utah",
+  "name": "Utah",
+  "abbreviation": "UT",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Utah's sales tax structure includes a 4.85% state rate plus a mandatory 1.25% statewide local option rate, making the effective base rate 6.1% before any additional city or county additions. Combined rates across Utah's major cities range from 6.75% to 8.35%, with Salt Lake City and resort communities like Park City at the higher end.",
+      "officialSourceUrl": "https://tax.utah.gov/sales",
+      "officialSourceLabel": "Utah State Tax Commission",
+      "rates": {
+        "state": 0.061
+      },
+      "counties": [
+        { "name": "Salt Lake County (Salt Lake City)", "rate": 0.0785 },
+        { "name": "Utah County (Provo/Orem)", "rate": 0.0720 },
+        { "name": "Davis County (Layton)", "rate": 0.0720 },
+        { "name": "Weber County (Ogden)", "rate": 0.0730 },
+        { "name": "Washington County (St. George)", "rate": 0.0675 },
+        { "name": "Cache County (Logan)", "rate": 0.0760 },
+        { "name": "Summit County (Park City)", "rate": 0.0835 },
+        { "name": "Tooele County", "rate": 0.0720 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.0785 = sales tax owed (Salt Lake City example)",
+      "example": { "price": 20000, "tax": 1570, "total": 21570 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 942 },
+        { "label": "New car purchase", "price": 28000, "tax": 2198 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 78.50 },
+        { "label": "Home appliance", "price": 600, "tax": 47.10 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Utah?",
+          "answer": "Utah's effective base sales tax rate is 6.1% — a 4.85% state rate plus a mandatory 1.25% statewide local option rate. On top of this, individual counties and cities add their own local taxes, bringing most combined rates to between 6.75% and 8.35%. Salt Lake City's combined rate is approximately 7.85%."
+        },
+        {
+          "question": "What is the sales tax rate in Salt Lake City?",
+          "answer": "Salt Lake City is in Salt Lake County and has a combined sales tax rate of approximately 7.85% — including the 6.1% base rate plus Salt Lake County, Salt Lake City, and TRAX transit taxes. This is one of the higher rates in Utah due to the multiple transit tax additions in the metro area."
+        },
+        {
+          "question": "What is the sales tax rate in Park City, Utah?",
+          "answer": "Park City is in Summit County, which has the highest combined sales tax rate in Utah at approximately 8.35% — the standard 6.1% base rate plus Summit County additions and a resort community tax. The resort tax is specifically permitted in Utah for communities where tourism is a significant part of the local economy."
+        },
+        {
+          "question": "What is exempt from sales tax in Utah?",
+          "answer": "Utah exempts most unprepared groceries at the state level, though a reduced combined rate applies to food rather than a full exemption. Prescription drugs and most medical devices are fully exempt. Farm equipment, manufacturing machinery, and certain energy equipment also qualify for exemptions."
+        },
+        {
+          "question": "Does Utah tax groceries?",
+          "answer": "Utah applies a reduced rate to most unprepared food rather than a full exemption. The state portion of the grocery rate is lower than the standard rate, but local taxes still apply. In practice, most Utah shoppers pay a combined rate of approximately 3% on groceries rather than the full 6.1%+ combined rate."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Utah?",
+          "answer": "Yes. Utah charges sales tax on used vehicle purchases at the combined county rate where the vehicle is registered. For Salt Lake County residents that is approximately 7.85% of the purchase price. The tax is collected at the DMV at the time of title and registration transfer."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Colorado Sales Tax Calculator", "href": "/colorado/sales-tax" },
+        { "label": "Nevada Sales Tax Calculator", "href": "/nevada/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

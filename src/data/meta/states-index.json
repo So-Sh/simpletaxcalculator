@@ -198,5 +198,77 @@
     "availableTaxTypes": [
       "sales-tax"
     ]
+  },
+  {
+    "slug": "south-carolina",
+    "name": "South Carolina",
+    "abbreviation": "SC",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "oklahoma",
+    "name": "Oklahoma",
+    "abbreviation": "OK",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "kansas",
+    "name": "Kansas",
+    "abbreviation": "KS",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "iowa",
+    "name": "Iowa",
+    "abbreviation": "IA",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "utah",
+    "name": "Utah",
+    "abbreviation": "UT",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "arkansas",
+    "name": "Arkansas",
+    "abbreviation": "AR",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "mississippi",
+    "name": "Mississippi",
+    "abbreviation": "MS",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "nebraska",
+    "name": "Nebraska",
+    "abbreviation": "NE",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "new-mexico",
+    "name": "New Mexico",
+    "abbreviation": "NM",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
   }
 ]

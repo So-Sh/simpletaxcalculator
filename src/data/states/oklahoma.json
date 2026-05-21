@@ -1,0 +1,73 @@
+{
+  "slug": "oklahoma",
+  "name": "Oklahoma",
+  "abbreviation": "OK",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Oklahoma has a modest 4.5% state sales tax rate, but local county and city additions are among the highest in the nation by average — pushing Oklahoma City and Tulsa above 8.5% and making Oklahoma one of the top five states for highest average local sales tax additions, with over 470 distinct taxing jurisdictions across the state.",
+      "officialSourceUrl": "https://www.oktax.state.ok.us/salestax.html",
+      "officialSourceLabel": "Oklahoma Tax Commission",
+      "rates": {
+        "state": 0.045
+      },
+      "counties": [
+        { "name": "Oklahoma County (Oklahoma City)", "rate": 0.0863 },
+        { "name": "Tulsa County (Tulsa)", "rate": 0.0852 },
+        { "name": "Cleveland County (Norman)", "rate": 0.0838 },
+        { "name": "Comanche County (Lawton)", "rate": 0.0938 },
+        { "name": "Payne County (Stillwater)", "rate": 0.0888 },
+        { "name": "Garfield County (Enid)", "rate": 0.0838 },
+        { "name": "Muskogee County", "rate": 0.0999 },
+        { "name": "Pontotoc County (Ada)", "rate": 0.0938 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.0863 = sales tax owed (Oklahoma City / Oklahoma County example)",
+      "example": { "price": 20000, "tax": 1726, "total": 21726 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 1035.60 },
+        { "label": "New car purchase", "price": 28000, "tax": 2416.40 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 86.30 },
+        { "label": "Home appliance", "price": 600, "tax": 51.78 }
+      ],
+      "taxFreeWeekends": [
+        {
+          "name": "Oklahoma Sales Tax Holiday",
+          "dates": "First Friday–Sunday of August (3 days)",
+          "items": "Clothing and footwear $100 or less per item — state and local sales taxes both suspended"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Oklahoma?",
+          "answer": "Oklahoma's state sales tax rate is 4.5%. Local county and city taxes add significantly on top — Oklahoma has one of the highest average local addition rates in the country. Oklahoma City's combined rate is approximately 8.63% and Tulsa's is around 8.52%. Some smaller cities in rural counties exceed 10%."
+        },
+        {
+          "question": "What is the sales tax rate in Oklahoma City?",
+          "answer": "Oklahoma City has a combined sales tax rate of approximately 8.63% — the 4.5% state rate plus Oklahoma County and City of Oklahoma City local taxes. The exact rate can vary slightly by zip code within the city due to special transit and economic development district taxes."
+        },
+        {
+          "question": "What is the sales tax rate in Tulsa, Oklahoma?",
+          "answer": "Tulsa has a combined sales tax rate of approximately 8.52% — the 4.5% state rate plus Tulsa County and City of Tulsa local additions. Tulsa's rate has remained relatively stable, though surrounding Tulsa County cities vary between 8% and 10%."
+        },
+        {
+          "question": "Does Oklahoma have a sales tax holiday in 2026?",
+          "answer": "Yes. Oklahoma holds an annual sales tax holiday on the first Friday through Sunday of August. Clothing and footwear priced at $100 or less per item are exempt from both state and local sales taxes during the holiday weekend."
+        },
+        {
+          "question": "What is exempt from sales tax in Oklahoma?",
+          "answer": "Oklahoma exempts most unprepared groceries from state sales tax, though some local taxes may still apply. Prescription drugs are exempt. Manufacturing equipment used directly in production and certain agricultural supplies are also exempt. Most clothing is taxable except during the annual holiday weekend."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Oklahoma?",
+          "answer": "Oklahoma charges a 3.25% excise tax on used vehicle purchases instead of the standard sales tax rate. This excise tax is calculated on the purchase price or the vehicle's actual cash value, whichever is greater, and is paid at the tag agency at the time of title transfer."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Texas Sales Tax Calculator", "href": "/texas/sales-tax" },
+        { "label": "Kansas Sales Tax Calculator", "href": "/kansas/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "arkansas",
+  "name": "Arkansas",
+  "abbreviation": "AR",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Arkansas has a 6.5% state sales tax and one of the highest average combined rates in the nation at approximately 9.46% — the result of 411 local tax jurisdictions layering county and city taxes on top of the state rate. Notably, Arkansas eliminated its state sales tax on groceries effective January 1, 2026 under the Grocery Tax Relief Act, though local taxes may still apply to food.",
+      "officialSourceUrl": "https://www.dfa.arkansas.gov/office/taxes/excise-tax-administration/sales-use-tax/",
+      "officialSourceLabel": "Arkansas Department of Finance and Administration",
+      "rates": {
+        "state": 0.065
+      },
+      "counties": [
+        { "name": "Pulaski County (Little Rock)", "rate": 0.0875 },
+        { "name": "Benton County (Bentonville)", "rate": 0.0850 },
+        { "name": "Washington County (Fayetteville)", "rate": 0.0950 },
+        { "name": "Sebastian County (Fort Smith)", "rate": 0.0875 },
+        { "name": "Craighead County (Jonesboro)", "rate": 0.0875 },
+        { "name": "Garland County (Hot Springs)", "rate": 0.0975 },
+        { "name": "Jefferson County (Pine Bluff)", "rate": 0.0925 },
+        { "name": "Saline County (Benton)", "rate": 0.0875 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.0875 = sales tax owed (Little Rock / Pulaski County example)",
+      "example": { "price": 20000, "tax": 1750, "total": 21750 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 1050 },
+        { "label": "New car purchase", "price": 28000, "tax": 2450 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 87.50 },
+        { "label": "Grocery purchase (state tax now exempt)", "price": 200, "tax": 0 }
+      ],
+      "taxFreeWeekends": [
+        {
+          "name": "Back-to-School Sales Tax Holiday",
+          "dates": "First Saturday–Sunday of August (2 days)",
+          "items": "Clothing and footwear $100 or less per item, clothing accessories $50 or less, school supplies $50 or less, electronic devices $1,000 or less. Both state and local taxes suspended."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Arkansas?",
+          "answer": "Arkansas's state sales tax rate is 6.5%. Local county and city taxes add an average of approximately 3% on top, making Arkansas one of the five highest combined sales tax states in the nation at approximately 9.46% on average. The highest combined rates in small cities can exceed 12%."
+        },
+        {
+          "question": "Does Arkansas tax groceries in 2026?",
+          "answer": "Arkansas eliminated its state sales tax on groceries effective January 1, 2026 under the Grocery Tax Relief Act. This removes the 6.5% state portion from most unprepared food purchases. However, local county and city sales taxes may still apply to groceries depending on your jurisdiction, so the effective grocery rate varies by location."
+        },
+        {
+          "question": "Does Arkansas have a sales tax holiday in 2026?",
+          "answer": "Yes. Arkansas holds an annual back-to-school sales tax holiday on the first Saturday and Sunday of August. Qualifying items include clothing and footwear at $100 or less per item, clothing accessories at $50 or less, school supplies at $50 or less, and electronic devices at $1,000 or less. Both state and local sales taxes are suspended during the holiday."
+        },
+        {
+          "question": "What is the sales tax rate in Little Rock, Arkansas?",
+          "answer": "Little Rock is in Pulaski County and has a combined sales tax rate of approximately 8.75% — the 6.5% state rate plus Pulaski County and City of Little Rock local additions."
+        },
+        {
+          "question": "What is the sales tax rate in Fayetteville, Arkansas?",
+          "answer": "Fayetteville is in Washington County and has one of the higher combined rates in Arkansas at approximately 9.5% — the 6.5% state rate plus Washington County and City of Fayetteville local taxes. Northwest Arkansas has seen significant local tax additions in recent years as the region has grown rapidly."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Arkansas?",
+          "answer": "Yes. Arkansas charges sales tax on used vehicle purchases at the combined local rate where the buyer registers the vehicle. The tax applies to the full purchase price with no cap and is paid at the state revenue office at the time of title transfer."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Missouri Sales Tax Calculator", "href": "/missouri/sales-tax" },
+        { "label": "Tennessee Sales Tax Calculator", "href": "/tennessee/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

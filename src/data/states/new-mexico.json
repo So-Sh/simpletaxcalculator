@@ -1,0 +1,67 @@
+{
+  "slug": "new-mexico",
+  "name": "New Mexico",
+  "abbreviation": "NM",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "New Mexico does not technically have a 'sales tax' — instead it levies a Gross Receipts Tax (GRT) on the seller rather than the buyer. In practice it functions like a sales tax since businesses pass the cost to consumers, but the legal distinction means it applies broadly to services as well as goods, with combined rates in Albuquerque and Santa Fe reaching 8.3% to 8.9%.",
+      "officialSourceUrl": "https://www.tax.newmexico.gov/businesses/gross-receipts-tax-overview/",
+      "officialSourceLabel": "New Mexico Taxation and Revenue Department",
+      "rates": {
+        "state": 0.05
+      },
+      "counties": [
+        { "name": "Bernalillo County (Albuquerque)", "rate": 0.083 },
+        { "name": "Santa Fe County (Santa Fe)", "rate": 0.089 },
+        { "name": "Doña Ana County (Las Cruces)", "rate": 0.083 },
+        { "name": "San Juan County (Farmington)", "rate": 0.0794 },
+        { "name": "Sandoval County (Rio Rancho)", "rate": 0.0794 },
+        { "name": "Chaves County (Roswell)", "rate": 0.0769 },
+        { "name": "Lea County (Hobbs)", "rate": 0.0744 },
+        { "name": "Eddy County (Carlsbad)", "rate": 0.0744 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.083 = gross receipts tax owed (Albuquerque example)",
+      "example": { "price": 20000, "tax": 1660, "total": 21660 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 996 },
+        { "label": "New car purchase", "price": 28000, "tax": 2324 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 83 },
+        { "label": "Professional service ($500)", "price": 500, "tax": 41.50 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in New Mexico?",
+          "answer": "New Mexico does not have a traditional sales tax. Instead, it levies a Gross Receipts Tax (GRT) at a state rate of 5%, with local county and city additions that bring combined rates to between 5% and 9.3125% depending on location. Albuquerque's combined rate is approximately 8.3% and Santa Fe is approximately 8.9%."
+        },
+        {
+          "question": "What is New Mexico's Gross Receipts Tax?",
+          "answer": "The Gross Receipts Tax is New Mexico's equivalent of a sales tax, but with a key difference — it is legally imposed on the seller (the business) rather than the buyer, as a tax on the privilege of doing business in New Mexico. Businesses typically pass this cost to consumers as a line item. Unlike most state sales taxes, GRT applies broadly to services as well as goods, making New Mexico's tax base one of the widest in the nation."
+        },
+        {
+          "question": "What is the sales tax rate in Albuquerque, New Mexico?",
+          "answer": "Albuquerque has a combined Gross Receipts Tax rate of approximately 8.3% — the 5% state rate plus Bernalillo County and City of Albuquerque local additions. The exact rate can vary slightly depending on the specific location within the city."
+        },
+        {
+          "question": "What is the sales tax rate in Santa Fe, New Mexico?",
+          "answer": "Santa Fe has one of the highest combined GRT rates in New Mexico at approximately 8.9% — the 5% state rate plus Santa Fe County and City of Santa Fe additions. Santa Fe's high local additions reflect significant city-level investment in arts, culture, and public services."
+        },
+        {
+          "question": "Are groceries taxable in New Mexico?",
+          "answer": "Most grocery food items are exempt from New Mexico's Gross Receipts Tax at both the state and local level. This exemption covers most unprepared food sold at grocery stores. Restaurant meals and prepared food are taxable at the full GRT rate."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in New Mexico?",
+          "answer": "Yes. Vehicle purchases in New Mexico are subject to the Gross Receipts Tax at the combined rate for the county where the vehicle is registered. In Albuquerque (Bernalillo County) that is approximately 8.3% of the purchase price. The tax is collected at the Motor Vehicle Division at the time of title transfer."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Arizona Sales Tax Calculator", "href": "/arizona/sales-tax" },
+        { "label": "Colorado Sales Tax Calculator", "href": "/colorado/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}
