@@ -1,0 +1,73 @@
+{
+  "slug": "massachusetts",
+  "name": "Massachusetts",
+  "abbreviation": "MA",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Massachusetts has a flat 6.25% statewide sales tax with no county or city additions — the same rate applies uniformly from Boston to the Berkshires. Massachusetts also has one of the broadest clothing exemptions in the nation, permanently exempting most clothing and footwear priced under $175 per item from sales tax.",
+      "officialSourceUrl": "https://www.mass.gov/sales-and-use-tax",
+      "officialSourceLabel": "Massachusetts Department of Revenue",
+      "rates": {
+        "state": 0.0625
+      },
+      "counties": [
+        { "name": "Suffolk County (Boston)", "rate": 0.0625 },
+        { "name": "Middlesex County (Cambridge/Lowell)", "rate": 0.0625 },
+        { "name": "Worcester County", "rate": 0.0625 },
+        { "name": "Essex County (Salem/Lawrence)", "rate": 0.0625 },
+        { "name": "Norfolk County (Quincy)", "rate": 0.0625 },
+        { "name": "Bristol County (New Bedford)", "rate": 0.0625 },
+        { "name": "Hampden County (Springfield)", "rate": 0.0625 },
+        { "name": "Barnstable County (Cape Cod)", "rate": 0.0625 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.0625 = sales tax owed (statewide — same everywhere)",
+      "example": { "price": 20000, "tax": 1250, "total": 21250 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 750 },
+        { "label": "New car purchase", "price": 28000, "tax": 1750 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 62.50 },
+        { "label": "Clothing under $175 per item (exempt)", "price": 150, "tax": 0 }
+      ],
+      "taxFreeWeekends": [
+        {
+          "name": "Sales Tax Holiday Weekend",
+          "dates": "Third Saturday and Sunday of August (2 days)",
+          "items": "Most tangible personal property priced at $2,500 or less per item — one of the most generous tax-free weekends in the nation in terms of item price cap. Excludes motor vehicles, motorboats, meals, and telecommunications."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Massachusetts?",
+          "answer": "Massachusetts has a flat 6.25% statewide sales tax rate. There are no county or city additions permitted — the same rate applies everywhere in the state. Massachusetts also has an annual tax-free weekend in August covering most items under $2,500."
+        },
+        {
+          "question": "What is the sales tax rate in Boston?",
+          "answer": "Boston has a sales tax rate of exactly 6.25% — the standard Massachusetts statewide rate. Suffolk County cannot add local taxes. Whether you shop in Boston, Cambridge, Worcester, or any other Massachusetts city, the rate is always 6.25%."
+        },
+        {
+          "question": "Is clothing taxable in Massachusetts?",
+          "answer": "Clothing and footwear priced under $175 per item are permanently exempt from Massachusetts sales tax. Items $175 or more are taxed at 6.25% — but only on the amount over $175. For example, a $200 jacket would generate $1.56 in tax (6.25% × $25 over the threshold). This is a very generous permanent clothing exemption."
+        },
+        {
+          "question": "Does Massachusetts have a sales tax holiday in 2026?",
+          "answer": "Yes. Massachusetts holds an annual sales tax holiday on the third Saturday and Sunday of August. Most tangible personal property priced at $2,500 or less per item is exempt during the weekend. This is one of the most generous tax-free weekends in the nation. Excluded items include motor vehicles, motorboats, restaurant meals, and telecommunications services."
+        },
+        {
+          "question": "What is exempt from sales tax in Massachusetts?",
+          "answer": "Massachusetts exempts most unprepared groceries, prescription drugs, and clothing and footwear under $175 per item. Medical equipment and certain agricultural supplies are also exempt. Massachusetts does not generally exempt services, though it taxes a narrower range of services than some other states."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Massachusetts?",
+          "answer": "Yes. Massachusetts charges 6.25% sales tax on used vehicle purchases. The tax is based on the purchase price or the book value, whichever is higher, and is paid at the RMV at the time of title and registration transfer. There is no cap on the taxable amount."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Connecticut Sales Tax Calculator", "href": "/connecticut/sales-tax" },
+        { "label": "New York Sales Tax Calculator", "href": "/new-york/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

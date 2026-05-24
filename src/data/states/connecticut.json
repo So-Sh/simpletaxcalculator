@@ -1,0 +1,67 @@
+{
+  "slug": "connecticut",
+  "name": "Connecticut",
+  "abbreviation": "CT",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Connecticut has a flat 6.35% statewide sales tax rate with no county or city additions — one of the few states where the rate is identical in every town and city, from Stamford to Hartford to New Haven. Connecticut also has an unusual tiered structure for certain goods, with luxury items like high-end clothing and vehicles taxed at a higher 7.75% rate.",
+      "officialSourceUrl": "https://portal.ct.gov/DRS/Sales-Tax/Sales-and-Use-Tax",
+      "officialSourceLabel": "Connecticut Department of Revenue Services",
+      "rates": {
+        "state": 0.0635
+      },
+      "counties": [
+        { "name": "Hartford County (Hartford)", "rate": 0.0635 },
+        { "name": "New Haven County (New Haven)", "rate": 0.0635 },
+        { "name": "Fairfield County (Stamford/Bridgeport)", "rate": 0.0635 },
+        { "name": "New London County", "rate": 0.0635 },
+        { "name": "Middlesex County (Middletown)", "rate": 0.0635 },
+        { "name": "Tolland County", "rate": 0.0635 },
+        { "name": "Windham County", "rate": 0.0635 },
+        { "name": "Litchfield County", "rate": 0.0635 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.0635 = sales tax owed (statewide — same everywhere)",
+      "example": { "price": 20000, "tax": 1270, "total": 21270 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 762 },
+        { "label": "New car over $50,000 (luxury rate 7.75%)", "price": 65000, "tax": 5037.50 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 63.50 },
+        { "label": "Clothing under $50 (exempt)", "price": 45, "tax": 0 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Connecticut?",
+          "answer": "Connecticut's statewide sales tax rate is 6.35%. There are no county or city additions — the rate is the same in every Connecticut town. However, Connecticut has a higher 7.75% rate that applies to certain luxury goods: motor vehicles priced over $50,000, jewelry over $5,000, and clothing or footwear priced over $1,000 per item."
+        },
+        {
+          "question": "Is clothing taxable in Connecticut?",
+          "answer": "Clothing and footwear priced at $50 or less per item are exempt from Connecticut sales tax. Items between $50.01 and $999.99 are taxed at the standard 6.35% rate. Items priced at $1,000 or more per item are taxed at the higher luxury rate of 7.75%. This tiered structure means everyday clothing is effectively tax-free while designer items are taxed at a premium rate."
+        },
+        {
+          "question": "What is the sales tax rate in Hartford, Connecticut?",
+          "answer": "Hartford charges exactly 6.35% — the same as every other location in Connecticut. Hartford County cannot add local taxes. The uniform statewide rate applies whether you shop in Hartford, New Haven, Stamford, or any other Connecticut city or town."
+        },
+        {
+          "question": "What is exempt from sales tax in Connecticut?",
+          "answer": "Connecticut exempts most unprepared groceries, prescription drugs, and clothing and footwear at $50 or less per item. Medical equipment and most agricultural supplies are also exempt. Connecticut notably taxes most services, including many professional and business services, more broadly than many other states."
+        },
+        {
+          "question": "Does Connecticut have a sales tax holiday?",
+          "answer": "No. Connecticut eliminated its annual sales tax-free week in 2015 and has not reinstated it. The state does provide a permanent exemption for clothing under $50, which offers year-round savings on everyday apparel."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Connecticut?",
+          "answer": "Yes. Connecticut charges 6.35% sales tax on used vehicle purchases priced at $50,000 or less. Vehicles priced over $50,000 are subject to the 7.75% luxury rate. The tax is collected at the DMV at the time of title and registration transfer."
+        }
+      ],
+      "relatedTools": [
+        { "label": "New York Sales Tax Calculator", "href": "/new-york/sales-tax" },
+        { "label": "Massachusetts Sales Tax Calculator", "href": "/massachusetts/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

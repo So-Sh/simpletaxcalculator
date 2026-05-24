@@ -1,0 +1,67 @@
+{
+  "slug": "vermont",
+  "name": "Vermont",
+  "abbreviation": "VT",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Vermont has a 6% state sales tax rate with only a small number of municipalities adding a 1% local option tax — meaning most Vermonters pay exactly 6%, with Burlington and a handful of other towns reaching 7%. Vermont also permanently exempts most clothing from sales tax, making it a relatively consumer-friendly state for apparel purchases.",
+      "officialSourceUrl": "https://tax.vermont.gov/business-and-corp/sales-and-use-tax",
+      "officialSourceLabel": "Vermont Department of Taxes",
+      "rates": {
+        "state": 0.06
+      },
+      "counties": [
+        { "name": "Chittenden County (Burlington)", "rate": 0.07 },
+        { "name": "Rutland County (Rutland)", "rate": 0.06 },
+        { "name": "Washington County (Montpelier)", "rate": 0.06 },
+        { "name": "Windsor County (White River Junction)", "rate": 0.06 },
+        { "name": "Windham County (Brattleboro)", "rate": 0.07 },
+        { "name": "Caledonia County (St. Johnsbury)", "rate": 0.06 },
+        { "name": "Franklin County (St. Albans)", "rate": 0.06 },
+        { "name": "Lamoille County (Stowe)", "rate": 0.06 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.06 = sales tax owed (most of Vermont)",
+      "example": { "price": 20000, "tax": 1200, "total": 21200 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 720 },
+        { "label": "New car purchase", "price": 28000, "tax": 1680 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 60 },
+        { "label": "Clothing (exempt)", "price": 150, "tax": 0 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Vermont?",
+          "answer": "Vermont's state sales tax rate is 6%. Most of the state pays exactly 6%, with a small number of municipalities — including Burlington and Brattleboro — adding a 1% local option tax for a combined rate of 7%. Vermont is one of the simpler sales tax states, with most residents paying the uniform statewide rate."
+        },
+        {
+          "question": "What is the sales tax rate in Burlington, Vermont?",
+          "answer": "Burlington has a combined sales tax rate of 7% — the 6% state rate plus a 1% Burlington local option tax. Burlington is the largest city in Vermont and the most prominent jurisdiction with a local addition. Most other Vermont cities and towns are at the standard 6%."
+        },
+        {
+          "question": "Is clothing taxable in Vermont?",
+          "answer": "No. Most clothing and footwear is permanently exempt from Vermont sales tax with no price cap. This is one of Vermont's most significant consumer benefits — apparel purchases of any price are generally not subject to sales tax."
+        },
+        {
+          "question": "What is exempt from sales tax in Vermont?",
+          "answer": "Vermont exempts most unprepared groceries, prescription drugs, and most clothing and footwear. Farm equipment and agricultural supplies are also exempt. Vermont also exempts certain manufacturing machinery used directly in production."
+        },
+        {
+          "question": "Does Vermont have a sales tax holiday?",
+          "answer": "No. Vermont does not have a general sales tax holiday. However, clothing is permanently exempt from sales tax year-round, so back-to-school clothing shopping is always tax-free in Vermont."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Vermont?",
+          "answer": "Yes. Vermont charges 6% sales tax on used vehicle purchases. The tax is based on the purchase price or the NADA book value, whichever is higher, and is collected at the DMV at the time of title and registration transfer. Burlington residents also pay the 1% local tax for a combined 7%."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Maine Sales Tax Calculator", "href": "/maine/sales-tax" },
+        { "label": "New Hampshire Sales Tax Calculator", "href": "/new-hampshire/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

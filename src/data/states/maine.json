@@ -1,0 +1,67 @@
+{
+  "slug": "maine",
+  "name": "Maine",
+  "abbreviation": "ME",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Maine has a flat 5.5% statewide sales tax with no county or city additions permitted — the same rate applies uniformly from Portland to Bangor to the most remote corners of Aroostook County, making it one of the simplest sales tax states in the Northeast.",
+      "officialSourceUrl": "https://www.maine.gov/revenue/taxes/sales-use-service-provider-tax",
+      "officialSourceLabel": "Maine Revenue Services",
+      "rates": {
+        "state": 0.055
+      },
+      "counties": [
+        { "name": "Cumberland County (Portland)", "rate": 0.055 },
+        { "name": "York County (Biddeford / Saco)", "rate": 0.055 },
+        { "name": "Penobscot County (Bangor)", "rate": 0.055 },
+        { "name": "Kennebec County (Augusta)", "rate": 0.055 },
+        { "name": "Androscoggin County (Lewiston)", "rate": 0.055 },
+        { "name": "Waldo County", "rate": 0.055 },
+        { "name": "Knox County (Rockland)", "rate": 0.055 },
+        { "name": "Aroostook County", "rate": 0.055 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.055 = sales tax owed (statewide — same everywhere)",
+      "example": { "price": 20000, "tax": 1100, "total": 21100 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 660 },
+        { "label": "New car purchase", "price": 28000, "tax": 1540 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 55 },
+        { "label": "Home appliance", "price": 600, "tax": 33 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Maine?",
+          "answer": "Maine has a flat 5.5% statewide sales tax rate. There are no county or city additions — the rate is identical throughout the entire state. Maine is one of the simplest sales tax states in the US, with no local rate variations to calculate."
+        },
+        {
+          "question": "What is the sales tax rate in Portland, Maine?",
+          "answer": "Portland charges exactly 5.5% — the same as every other location in Maine. Cumberland County and the City of Portland cannot add local sales taxes. Maine's uniform statewide rate eliminates any difference between shopping in Portland, Bangor, Augusta, or rural areas."
+        },
+        {
+          "question": "What is exempt from sales tax in Maine?",
+          "answer": "Maine exempts most unprepared groceries, prescription drugs, and most clothing. The clothing exemption covers most apparel items without a price cap, making Maine clothing purchases generally tax-free. Farm equipment and certain manufacturing machinery are also exempt."
+        },
+        {
+          "question": "Is clothing taxable in Maine?",
+          "answer": "No. Most clothing is exempt from Maine sales tax with no price cap. This is a permanent exemption applying to everyday apparel. Maine is one of several northeastern states — along with New York, Pennsylvania, New Jersey, and Vermont — that exempt clothing from sales tax."
+        },
+        {
+          "question": "Does Maine have a sales tax holiday?",
+          "answer": "No. Maine does not have a general sales tax holiday. However, clothing is permanently exempt from sales tax year-round, which means back-to-school clothing shopping is always tax-free in Maine."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Maine?",
+          "answer": "Yes. Maine charges 5.5% sales tax on used vehicle purchases. The tax applies to the full purchase price and is collected at the Bureau of Motor Vehicles at the time of title transfer. There is no cap on the taxable amount."
+        }
+      ],
+      "relatedTools": [
+        { "label": "New Hampshire Sales Tax Calculator", "href": "/new-hampshire/sales-tax" },
+        { "label": "Vermont Sales Tax Calculator", "href": "/vermont/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

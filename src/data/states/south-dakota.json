@@ -1,0 +1,67 @@
+{
+  "slug": "south-dakota",
+  "name": "South Dakota",
+  "abbreviation": "SD",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "South Dakota's current state sales tax rate is 4.2% — reduced from 4.5% in July 2023 as a temporary measure currently scheduled to revert to 4.5% on July 1, 2027. Most major cities add a 2% local tax, bringing the typical combined rate in Sioux Falls and Rapid City to 6.2%. Notably, South Dakota is one of only two states in the nation that taxes groceries at the full sales tax rate.",
+      "officialSourceUrl": "https://dor.sd.gov/businesses/taxes/sales-use-tax/",
+      "officialSourceLabel": "South Dakota Department of Revenue",
+      "rates": {
+        "state": 0.042
+      },
+      "counties": [
+        { "name": "Minnehaha County (Sioux Falls)", "rate": 0.062 },
+        { "name": "Pennington County (Rapid City)", "rate": 0.062 },
+        { "name": "Brown County (Aberdeen)", "rate": 0.062 },
+        { "name": "Brookings County (Brookings)", "rate": 0.062 },
+        { "name": "Codington County (Watertown)", "rate": 0.062 },
+        { "name": "Hughes County (Pierre)", "rate": 0.062 },
+        { "name": "Lawrence County (Spearfish/Deadwood)", "rate": 0.062 },
+        { "name": "Meade County (Sturgis)", "rate": 0.062 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.062 = sales tax owed (Sioux Falls / most major cities)",
+      "example": { "price": 20000, "tax": 1240, "total": 21240 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 744 },
+        { "label": "New car purchase", "price": 28000, "tax": 1736 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 62 },
+        { "label": "Groceries (taxable in SD)", "price": 200, "tax": 12.40 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in South Dakota?",
+          "answer": "South Dakota's current state sales tax rate is 4.2% — temporarily reduced from 4.5% in July 2023. This rate is scheduled to revert to 4.5% on July 1, 2027. Most South Dakota cities add a 2% local tax, bringing the typical combined rate to 6.2% in Sioux Falls, Rapid City, Aberdeen, and most other major cities."
+        },
+        {
+          "question": "Will South Dakota's sales tax rate increase?",
+          "answer": "Yes. The current 4.2% state rate is a temporary reduction set to expire on July 1, 2027, at which point it returns to 4.5%. The 2026 South Dakota legislature debated extending the reduction but the measure failed. Shoppers and businesses should plan for the rate increase in mid-2027."
+        },
+        {
+          "question": "Does South Dakota tax groceries?",
+          "answer": "Yes. South Dakota is one of only two states in the nation — along with Mississippi — that taxes groceries at the full sales tax rate with no exemption or reduction. All unprepared food, including items purchased at grocery stores, is subject to the standard 4.2% state rate plus applicable city taxes. SNAP purchases are exempt."
+        },
+        {
+          "question": "What is the sales tax rate in Sioux Falls, South Dakota?",
+          "answer": "Sioux Falls has a combined sales tax rate of 6.2% — the 4.2% state rate plus a 2% City of Sioux Falls local tax. Rapid City, Aberdeen, Brookings, and most other major South Dakota cities also charge the standard 2% city addition, making 6.2% the typical rate across the state."
+        },
+        {
+          "question": "Does South Dakota have a sales tax holiday?",
+          "answer": "No. South Dakota does not have a sales tax holiday or tax-free weekend."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in South Dakota?",
+          "answer": "Yes. South Dakota charges the standard 4.2% state sales tax plus applicable city taxes on used vehicle purchases. The tax is based on the purchase price and is collected at the DMV at the time of title and registration transfer."
+        }
+      ],
+      "relatedTools": [
+        { "label": "North Dakota Sales Tax Calculator", "href": "/north-dakota/sales-tax" },
+        { "label": "Nebraska Sales Tax Calculator", "href": "/nebraska/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

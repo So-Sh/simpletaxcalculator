@@ -270,5 +270,93 @@
     "availableTaxTypes": [
       "sales-tax"
     ]
+  },
+  {
+    "slug": "idaho",
+    "name": "Idaho",
+    "abbreviation": "ID",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "west-virginia",
+    "name": "West Virginia",
+    "abbreviation": "WV",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "hawaii",
+    "name": "Hawaii",
+    "abbreviation": "HI",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "maine",
+    "name": "Maine",
+    "abbreviation": "ME",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "connecticut",
+    "name": "Connecticut",
+    "abbreviation": "CT",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "massachusetts",
+    "name": "Massachusetts",
+    "abbreviation": "MA",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "rhode-island",
+    "name": "Rhode Island",
+    "abbreviation": "RI",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "north-dakota",
+    "name": "North Dakota",
+    "abbreviation": "ND",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "south-dakota",
+    "name": "South Dakota",
+    "abbreviation": "SD",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "wyoming",
+    "name": "Wyoming",
+    "abbreviation": "WY",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
+  },
+  {
+    "slug": "vermont",
+    "name": "Vermont",
+    "abbreviation": "VT",
+    "availableTaxTypes": [
+      "sales-tax"
+    ]
   }
 ]

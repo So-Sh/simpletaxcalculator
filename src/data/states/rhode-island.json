@@ -1,0 +1,70 @@
+{
+  "slug": "rhode-island",
+  "name": "Rhode Island",
+  "abbreviation": "RI",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Rhode Island has a flat 7% statewide sales tax — tied for the second-highest state rate in the nation alongside Indiana, Tennessee, and Mississippi — with no county or city additions permitted. The entire state pays exactly 7% on taxable purchases, making it one of the simplest but most expensive flat-rate sales tax states in the US.",
+      "officialSourceUrl": "https://tax.ri.gov/tax-sections/sales-excise/sales-use-tax",
+      "officialSourceLabel": "Rhode Island Division of Taxation",
+      "rates": {
+        "state": 0.07
+      },
+      "counties": [
+        { "name": "Providence County (Providence)", "rate": 0.07 },
+        { "name": "Kent County (Warwick / Cranston)", "rate": 0.07 },
+        { "name": "Washington County (South Kingstown)", "rate": 0.07 },
+        { "name": "Newport County", "rate": 0.07 },
+        { "name": "Bristol County", "rate": 0.07 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.07 = sales tax owed (statewide — same everywhere)",
+      "example": { "price": 20000, "tax": 1400, "total": 21400 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 840 },
+        { "label": "New car purchase", "price": 28000, "tax": 1960 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 70 },
+        { "label": "Home appliance", "price": 600, "tax": 42 }
+      ],
+      "taxFreeWeekends": [
+        {
+          "name": "Sales Tax Holiday Weekend",
+          "dates": "Second Saturday and Sunday of August (2 days)",
+          "items": "Most tangible personal property priced at $2,500 or less per item. Excludes motor vehicles, motorboats, meals, tobacco, and telecommunications. Note: Rhode Island began imposing a new tax on short-term rental of whole homes effective January 1, 2026."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Rhode Island?",
+          "answer": "Rhode Island's statewide sales tax rate is 7% — tied with Indiana, Tennessee, and Mississippi for the second-highest state rate in the US, behind only California's 7.25%. There are no county or city additions, so the rate is identical everywhere in the state."
+        },
+        {
+          "question": "What is the sales tax rate in Providence?",
+          "answer": "Providence has a sales tax rate of exactly 7% — the same as every other location in Rhode Island. Providence County and the City of Providence cannot levy local additions. The flat statewide rate means there is no difference between shopping in Providence, Warwick, Newport, or any other Rhode Island city."
+        },
+        {
+          "question": "Does Rhode Island have a sales tax holiday in 2026?",
+          "answer": "Yes. Rhode Island holds an annual sales tax holiday on the second Saturday and Sunday of August. Most tangible personal property priced at $2,500 or less per item is exempt during the weekend. Excluded items include motor vehicles, motorboats, restaurant meals, tobacco, and telecommunications."
+        },
+        {
+          "question": "What is exempt from sales tax in Rhode Island?",
+          "answer": "Rhode Island exempts most unprepared groceries, prescription drugs, and most clothing and footwear under $250 per item. Medical equipment is also generally exempt. Rhode Island began imposing a new tax on short-term rentals of entire homes (as opposed to rooms) effective January 1, 2026."
+        },
+        {
+          "question": "Is clothing taxable in Rhode Island?",
+          "answer": "Clothing and footwear under $250 per item are exempt from Rhode Island sales tax. Items $250 or more per item are taxable at the standard 7% rate. This exemption covers most everyday clothing purchases, with only higher-end or designer items falling into the taxable range."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Rhode Island?",
+          "answer": "Yes. Rhode Island charges 7% sales tax on used vehicle purchases. The tax is based on the purchase price and is paid at the DMV at the time of title and registration transfer. There is no cap on the taxable amount."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Massachusetts Sales Tax Calculator", "href": "/massachusetts/sales-tax" },
+        { "label": "Connecticut Sales Tax Calculator", "href": "/connecticut/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

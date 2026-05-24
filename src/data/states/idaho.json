@@ -1,0 +1,67 @@
+{
+  "slug": "idaho",
+  "name": "Idaho",
+  "abbreviation": "ID",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Idaho has a flat 6% state sales tax with no county-level additions — only incorporated cities can levy local taxes, and most do not. Boise, Nampa, and Meridian all charge exactly 6%, while only a handful of resort towns like Sun Valley add local taxes, bringing their combined rate to 9%.",
+      "officialSourceUrl": "https://tax.idaho.gov/taxes/sales-use/",
+      "officialSourceLabel": "Idaho State Tax Commission",
+      "rates": {
+        "state": 0.06
+      },
+      "counties": [
+        { "name": "Ada County (Boise / Meridian)", "rate": 0.06 },
+        { "name": "Canyon County (Nampa / Caldwell)", "rate": 0.06 },
+        { "name": "Kootenai County (Coeur d'Alene)", "rate": 0.06 },
+        { "name": "Bannock County (Pocatello)", "rate": 0.06 },
+        { "name": "Bonneville County (Idaho Falls)", "rate": 0.06 },
+        { "name": "Twin Falls County", "rate": 0.06 },
+        { "name": "Blaine County (Sun Valley resort area)", "rate": 0.09 },
+        { "name": "Teton County (Driggs)", "rate": 0.06 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.06 = sales tax owed (most of Idaho)",
+      "example": { "price": 20000, "tax": 1200, "total": 21200 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 720 },
+        { "label": "New car purchase", "price": 28000, "tax": 1680 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 60 },
+        { "label": "Sun Valley resort purchase", "price": 1000, "tax": 90 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Idaho?",
+          "answer": "Idaho's state sales tax rate is 6%. Idaho counties cannot levy their own sales taxes — only incorporated cities can add local rates, and most choose not to. The vast majority of Idaho residents pay exactly 6%. The exception is a small number of resort towns: Sun Valley (Blaine County) reaches a combined rate of 9% through local resort taxes."
+        },
+        {
+          "question": "What is the sales tax rate in Boise, Idaho?",
+          "answer": "Boise has a sales tax rate of exactly 6% — the statewide rate with no local additions. Ada County cannot add county-level taxes, and the City of Boise does not levy a city sales tax. Meridian, Nampa, and most other major Idaho cities are also at the standard 6%."
+        },
+        {
+          "question": "What is exempt from sales tax in Idaho?",
+          "answer": "Idaho exempts most unprepared groceries and prescription drugs. Farm equipment used directly in agricultural production and certain manufacturing machinery are also exempt. Most clothing is fully taxable in Idaho at the standard 6% rate."
+        },
+        {
+          "question": "Does Idaho have a sales tax holiday?",
+          "answer": "No. Idaho does not have a general sales tax holiday or tax-free weekend. All standard taxable purchases are subject to the full rate year-round."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Idaho?",
+          "answer": "Yes. Idaho charges 6% sales tax on used vehicle purchases based on the purchase price. There is no cap on the taxable amount. The tax is paid at the DMV at the time of title transfer. County and city additions do not apply to vehicle purchases in most Idaho jurisdictions."
+        },
+        {
+          "question": "Why does Sun Valley have a higher sales tax rate?",
+          "answer": "Sun Valley is in Blaine County and has a combined rate of 9% — the 6% state rate plus a 3% resort community tax. Idaho law permits designated resort cities to levy additional sales taxes to fund tourism infrastructure, public services, and amenities. Only a small number of Idaho resort communities use this authority."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Utah Sales Tax Calculator", "href": "/utah/sales-tax" },
+        { "label": "Nevada Sales Tax Calculator", "href": "/nevada/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

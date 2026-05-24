@@ -1,0 +1,67 @@
+{
+  "slug": "wyoming",
+  "name": "Wyoming",
+  "abbreviation": "WY",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Wyoming has the lowest state sales tax rate of any state that actually has a sales tax — just 4% — with county additions of 1% to 2% bringing most combined rates to 5% to 6%. The notable exception is Teton County (Jackson Hole), which reaches up to 8% due to multiple resort and special district taxes.",
+      "officialSourceUrl": "https://revenue.wyo.gov/tax-types/sales-use-tax",
+      "officialSourceLabel": "Wyoming Department of Revenue",
+      "rates": {
+        "state": 0.04
+      },
+      "counties": [
+        { "name": "Laramie County (Cheyenne)", "rate": 0.06 },
+        { "name": "Natrona County (Casper)", "rate": 0.06 },
+        { "name": "Teton County (Jackson Hole)", "rate": 0.08 },
+        { "name": "Albany County (Laramie)", "rate": 0.06 },
+        { "name": "Campbell County (Gillette)", "rate": 0.06 },
+        { "name": "Fremont County (Lander/Riverton)", "rate": 0.05 },
+        { "name": "Park County (Cody)", "rate": 0.05 },
+        { "name": "Sweetwater County (Rock Springs)", "rate": 0.06 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.06 = sales tax owed (Cheyenne / Casper example)",
+      "example": { "price": 20000, "tax": 1200, "total": 21200 },
+      "scenarios": [
+        { "label": "Used car purchase (Cheyenne)", "price": 12000, "tax": 720 },
+        { "label": "New car purchase (Jackson Hole)", "price": 28000, "tax": 2240 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 60 },
+        { "label": "Jackson Hole luxury purchase", "price": 5000, "tax": 400 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Wyoming?",
+          "answer": "Wyoming's state sales tax rate is 4% — the lowest of any US state that has a sales tax. Counties can add up to 2% in local taxes, bringing most combined rates to 5% or 6%. Teton County (Jackson Hole) is the highest at up to 8% due to resort and special district taxes."
+        },
+        {
+          "question": "What is the sales tax rate in Jackson Hole, Wyoming?",
+          "answer": "Jackson Hole is in Teton County, which has the highest combined sales tax rate in Wyoming at up to 8% — the 4% state rate plus Teton County additions including a resort district tax. Teton Village and Alta can reach 9% in some specific locations due to additional special district levies."
+        },
+        {
+          "question": "What is the sales tax rate in Cheyenne, Wyoming?",
+          "answer": "Cheyenne is in Laramie County with a combined sales tax rate of 6% — the 4% state rate plus a 2% Laramie County addition. This is the typical rate in most populated Wyoming counties including Natrona County (Casper) and Campbell County (Gillette)."
+        },
+        {
+          "question": "What is exempt from sales tax in Wyoming?",
+          "answer": "Wyoming exempts most unprepared groceries, prescription drugs, and certain agricultural equipment. Wyoming also exempts manufacturing machinery and equipment used directly in production. Most clothing is taxable at the standard combined rate."
+        },
+        {
+          "question": "Does Wyoming have a sales tax holiday?",
+          "answer": "No. Wyoming does not have a general sales tax holiday or tax-free weekend."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Wyoming?",
+          "answer": "Yes. Wyoming charges sales tax on used vehicle purchases at the combined county rate where the buyer registers the vehicle. In Cheyenne and Casper that is 6%. In Teton County (Jackson Hole) it is up to 8%. The tax is paid at the county treasurer's office at the time of registration."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Colorado Sales Tax Calculator", "href": "/colorado/sales-tax" },
+        { "label": "Utah Sales Tax Calculator", "href": "/utah/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

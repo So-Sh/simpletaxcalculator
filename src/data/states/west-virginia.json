@@ -1,0 +1,67 @@
+{
+  "slug": "west-virginia",
+  "name": "West Virginia",
+  "abbreviation": "WV",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "West Virginia has a 6% state sales tax rate with a small number of cities that add 1% local taxes — bringing most combined rates to either 6% or 7%. The state's tax structure is relatively simple, with the majority of West Virginians paying the standard 6% rate outside of certain municipalities.",
+      "officialSourceUrl": "https://tax.wv.gov/Business/SalesAndUseTax/Pages/SalesAndUseTax.aspx",
+      "officialSourceLabel": "West Virginia State Tax Department",
+      "rates": {
+        "state": 0.06
+      },
+      "counties": [
+        { "name": "Kanawha County (Charleston)", "rate": 0.06 },
+        { "name": "Cabell County (Huntington)", "rate": 0.07 },
+        { "name": "Monongalia County (Morgantown)", "rate": 0.07 },
+        { "name": "Berkeley County (Martinsburg)", "rate": 0.06 },
+        { "name": "Raleigh County (Beckley)", "rate": 0.06 },
+        { "name": "Wood County (Parkersburg)", "rate": 0.06 },
+        { "name": "Marion County (Fairmont)", "rate": 0.07 },
+        { "name": "Putnam County (Hurricane)", "rate": 0.06 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.06 = sales tax owed (most of West Virginia)",
+      "example": { "price": 20000, "tax": 1200, "total": 21200 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 720 },
+        { "label": "New car purchase", "price": 28000, "tax": 1680 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 60 },
+        { "label": "Huntington / Morgantown purchase", "price": 1000, "tax": 70 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in West Virginia?",
+          "answer": "West Virginia's state sales tax rate is 6%. A number of municipalities add a 1% city tax bringing their combined rate to 7%. These include Huntington, Morgantown, Fairmont, and several others. Most of the state — including Charleston, Martinsburg, and Beckley — remains at the standard 6% state rate."
+        },
+        {
+          "question": "What is the sales tax rate in Charleston, West Virginia?",
+          "answer": "Charleston (Kanawha County) has a sales tax rate of 6% — the standard state rate with no local addition. Charleston is the state capital and largest city in West Virginia, and it does not levy a city sales tax on top of the state rate."
+        },
+        {
+          "question": "What is exempt from sales tax in West Virginia?",
+          "answer": "West Virginia exempts most unprepared groceries and prescription drugs. Farm equipment and agricultural supplies are exempt. Certain manufacturing machinery used directly in production is also exempt. Notably, West Virginia taxes most services more broadly than many states, including some professional and personal services."
+        },
+        {
+          "question": "Does West Virginia have a sales tax holiday?",
+          "answer": "No. West Virginia does not currently have a general sales tax holiday or tax-free weekend."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in West Virginia?",
+          "answer": "Yes. West Virginia charges a 6% sales tax on used vehicle purchases. The tax is based on the purchase price and is collected at the DMV at the time of title transfer. There is no cap on the taxable amount."
+        },
+        {
+          "question": "Is clothing taxable in West Virginia?",
+          "answer": "Yes. Most clothing and footwear is taxable in West Virginia at the standard combined rate. West Virginia does not provide a clothing exemption."
+        }
+      ],
+      "relatedTools": [
+        { "label": "Virginia Sales Tax Calculator", "href": "/virginia/sales-tax" },
+        { "label": "Ohio Sales Tax Calculator", "href": "/ohio/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

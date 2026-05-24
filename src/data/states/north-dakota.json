@@ -1,0 +1,67 @@
+{
+  "slug": "north-dakota",
+  "name": "North Dakota",
+  "abbreviation": "ND",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "North Dakota has a 5% state sales tax with local city additions bringing most combined rates to between 6% and 8.5%. Fargo, Bismarck, and Grand Forks are the largest cities and typically sit around 7%, while some smaller municipalities with higher local levies can approach 8.5%.",
+      "officialSourceUrl": "https://www.tax.nd.gov/business/sales-use-tax",
+      "officialSourceLabel": "North Dakota Office of State Tax Commissioner",
+      "rates": {
+        "state": 0.05
+      },
+      "counties": [
+        { "name": "Cass County (Fargo)", "rate": 0.075 },
+        { "name": "Burleigh County (Bismarck)", "rate": 0.07 },
+        { "name": "Grand Forks County (Grand Forks)", "rate": 0.07 },
+        { "name": "Ward County (Minot)", "rate": 0.07 },
+        { "name": "Morton County (Mandan)", "rate": 0.065 },
+        { "name": "Stark County (Dickinson)", "rate": 0.065 },
+        { "name": "Williams County (Williston)", "rate": 0.065 },
+        { "name": "Richland County (Wahpeton)", "rate": 0.065 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.075 = sales tax owed (Fargo / Cass County example)",
+      "example": { "price": 20000, "tax": 1500, "total": 21500 },
+      "scenarios": [
+        { "label": "Used car purchase", "price": 12000, "tax": 900 },
+        { "label": "New car purchase", "price": 28000, "tax": 2100 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 75 },
+        { "label": "Home appliance", "price": 600, "tax": 45 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in North Dakota?",
+          "answer": "North Dakota's state sales tax rate is 5%. Cities can add local option taxes — most major cities add 1.5% to 2.5%, bringing combined rates to between 6.5% and 7.5%. Fargo's combined rate is approximately 7.5%, Bismarck and Grand Forks are around 7%. Some smaller cities with higher local levies can approach 8.5%."
+        },
+        {
+          "question": "What is the sales tax rate in Fargo, North Dakota?",
+          "answer": "Fargo has a combined sales tax rate of approximately 7.5% — the 5% state rate plus a 2.5% City of Fargo local tax. Fargo is the largest city in North Dakota and has updated its city boundaries for tax purposes effective January 2026 and April 2026 due to annexations."
+        },
+        {
+          "question": "What is exempt from sales tax in North Dakota?",
+          "answer": "North Dakota exempts most unprepared groceries and prescription drugs. Farm machinery and certain manufacturing equipment are also exempt. Unlike some neighboring states, North Dakota taxes most clothing at the standard rate with no general clothing exemption."
+        },
+        {
+          "question": "Does North Dakota have a sales tax holiday?",
+          "answer": "No. North Dakota does not have a general sales tax holiday or tax-free weekend."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in North Dakota?",
+          "answer": "Yes. North Dakota charges sales tax on used vehicle purchases. A 5% motor vehicle excise tax applies at the time of title transfer, collected by the DMV. This is separate from the standard retail sales tax, though it functions similarly."
+        },
+        {
+          "question": "Is clothing taxable in North Dakota?",
+          "answer": "Yes. Most clothing and footwear is fully taxable in North Dakota at the standard combined rate. There is no clothing exemption."
+        }
+      ],
+      "relatedTools": [
+        { "label": "South Dakota Sales Tax Calculator", "href": "/south-dakota/sales-tax" },
+        { "label": "Minnesota Sales Tax Calculator", "href": "/minnesota/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}

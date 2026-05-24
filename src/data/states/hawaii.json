@@ -1,0 +1,63 @@
+{
+  "slug": "hawaii",
+  "name": "Hawaii",
+  "abbreviation": "HI",
+  "taxTypes": {
+    "sales-tax": {
+      "customIntro": "Hawaii does not have a traditional sales tax — instead it levies a General Excise Tax (GET) of 4% on businesses, with all four counties now charging a 0.5% surcharge through December 2030. Because the GET is a tax on the seller rather than the buyer, businesses that pass it on must charge 4.712% to fully recover their tax liability — which is the rate most consumers see on receipts.",
+      "officialSourceUrl": "https://tax.hawaii.gov/geninfo/get/",
+      "officialSourceLabel": "Hawaii Department of Taxation",
+      "rates": {
+        "state": 0.04
+      },
+      "counties": [
+        { "name": "City & County of Honolulu (Oahu)", "rate": 0.04712 },
+        { "name": "Maui County (Maui, Molokai, Lanai)", "rate": 0.04712 },
+        { "name": "Hawaii County (Big Island)", "rate": 0.04712 },
+        { "name": "Kauai County", "rate": 0.04712 }
+      ],
+      "lastUpdated": "May 2026",
+      "formula": "Price × 0.04712 = GET pass-on amount (all counties — surcharge in effect through Dec 2030)",
+      "example": { "price": 20000, "tax": 942.40, "total": 20942.40 },
+      "scenarios": [
+        { "label": "Used car purchase (Honolulu)", "price": 12000, "tax": 565.44 },
+        { "label": "New car purchase (Maui)", "price": 28000, "tax": 1319.36 },
+        { "label": "Electronics (laptop)", "price": 1000, "tax": 47.12 },
+        { "label": "Restaurant meal", "price": 100, "tax": 4.71 }
+      ],
+      "taxFreeWeekends": [],
+      "faqs": [
+        {
+          "question": "What is the sales tax rate in Hawaii?",
+          "answer": "Hawaii does not have a traditional sales tax. Instead, it levies a General Excise Tax (GET) at a base rate of 4% statewide, with all four counties currently charging an additional 0.5% surcharge through December 31, 2030. Businesses that pass the GET on to customers are authorized to charge 4.712% — the rate most consumers see on receipts — to fully recover their tax liability after accounting for the tax-on-tax effect."
+        },
+        {
+          "question": "What is the GET pass-on rate in Hawaii?",
+          "answer": "The pass-on rate is 4.712% in all four Hawaii counties as of 2026. This is slightly higher than the 4.5% nominal GET rate because the tax is calculated on the gross amount including the tax itself. The math: to net $1,000 after paying 4.5% GET, you must invoice $1,047.12, which is 4.712% more than the pre-tax amount. Hawaii consumer protection rules prohibit charging more than this calculated amount."
+        },
+        {
+          "question": "Does Hawaii have a sales tax holiday?",
+          "answer": "No. Hawaii does not have a sales tax holiday or tax-free weekend. The GET applies year-round to virtually all business transactions including retail sales, services, and rentals."
+        },
+        {
+          "question": "What is exempt from Hawaii's General Excise Tax?",
+          "answer": "The GET has a very broad base — broader than most state sales taxes. It applies not just to retail goods but also to most services, rentals, and business-to-business transactions. Exemptions are narrow: certain agricultural sales, some nonprofit activity, insurance commissions (taxed at 0.15%), and wholesale transactions (taxed at 0.5% rather than 4%). Most groceries, clothing, and everyday consumer purchases are fully subject to GET."
+        },
+        {
+          "question": "Do you pay sales tax on a used car in Hawaii?",
+          "answer": "Yes. Vehicle purchases in Hawaii are subject to the GET at the 4.712% pass-on rate in all counties. There is no special reduced rate for vehicle sales. The GET is collected at the time of purchase and is typically included in the dealer's price or shown as a separate line item."
+        },
+        {
+          "question": "Why does Hawaii have a GET instead of a sales tax?",
+          "answer": "Hawaii adopted the General Excise Tax in 1935, long before most states built their sales tax systems. The GET is structured as a privilege tax on businesses rather than a consumer tax, which gives it a broader base — it applies to services and B2B transactions that most sales taxes exempt. This broad base allows Hawaii to maintain relatively low GET rates while generating significant revenue."
+        }
+      ],
+      "relatedTools": [
+        { "label": "California Sales Tax Calculator", "href": "/california/sales-tax" },
+        { "label": "Washington Sales Tax Calculator", "href": "/washington/sales-tax" },
+        { "label": "Sales Tax by State", "href": "/sales-tax" },
+        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+      ]
+    }
+  }
+}
