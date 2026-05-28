@@ -7,8 +7,6 @@ const tools = [
     { label: 'Sales Tax', href: '/sales-tax' },
     { label: 'Capital Gains', href: '/capital-gains' },
     { label: 'Property Tax', href: '/property-tax' },
-    { label: 'Tip Calculator', href: '/tip-calculator' },
-    { label: 'Sales Tax by State', href: '/sales-tax-by-state' },
 ]
 
 export default function Navbar() {

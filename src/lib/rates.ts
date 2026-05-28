@@ -6,25 +6,15 @@ import statesIndex from '@/data/meta/states-index.json'
 // ---------------------------------------------------------------------------
 
 export function getAllStates(): StateMeta[] {
-    return statesIndex as StateMeta[]
+  return statesIndex as StateMeta[]
 }
 
 export function getStateMeta(slug: string): StateMeta | null {
-    return (statesIndex as StateMeta[]).find((s) => s.slug === slug) ?? null
+  return (statesIndex as StateMeta[]).find((s) => s.slug === slug) ?? null
 }
 
 export function getAllStateSlugs(): { state: string }[] {
-    return (statesIndex as StateMeta[]).map((s) => ({ state: s.slug }))
-}
-
-export function getAllStateAndTaxTypeSlugs(): { state: string; taxType: string }[] {
-    const paths: { state: string; taxType: string }[] = []
-    for (const state of statesIndex as StateMeta[]) {
-        for (const taxType of state.availableTaxTypes) {
-            paths.push({ state: state.slug, taxType })
-        }
-    }
-    return paths
+  return (statesIndex as StateMeta[]).map((s) => ({ state: s.slug }))
 }
 
 // ---------------------------------------------------------------------------
@@ -32,16 +22,16 @@ export function getAllStateAndTaxTypeSlugs(): { state: string; taxType: string }
 // ---------------------------------------------------------------------------
 
 function loadStateFile(slug: string): StateFile | null {
-    try {
-        // eslint-disable-next-line @typescript-eslint/no-require-imports
-        return require(`@/data/states/${slug}.json`) as StateFile
-    } catch {
-        return null
-    }
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    return require(`@/data/states/${slug}.json`) as StateFile
+  } catch {
+    return null
+  }
 }
 
 export function getStateData(slug: string): StateFile | null {
-    return loadStateFile(slug)
+  return loadStateFile(slug)
 }
 
 // ---------------------------------------------------------------------------
@@ -50,19 +40,19 @@ export function getStateData(slug: string): StateFile | null {
 // ---------------------------------------------------------------------------
 
 export function getTaxTypeData(
-    stateSlug: string,
-    taxType: string
+  stateSlug: string,
+  taxType: string
 ): TaxTypeData | null {
-    const stateFile = loadStateFile(stateSlug)
-    if (!stateFile) return null
+  const stateFile = loadStateFile(stateSlug)
+  if (!stateFile) return null
 
-    const taxData = stateFile.taxTypes[taxType]
-    if (!taxData) return null
+  const taxData = stateFile.taxTypes[taxType]
+  if (!taxData) return null
 
-    return {
-        ...taxData,
-        stateName: stateFile.name,
-        stateSlug: stateFile.slug,
-        taxType,
-    }
+  return {
+    ...taxData,
+    stateName: stateFile.name,
+    stateSlug: stateFile.slug,
+    taxType,
+  }
 }

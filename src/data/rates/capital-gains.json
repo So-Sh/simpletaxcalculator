@@ -1,0 +1,457 @@
+{
+  "lastUpdated": "May 2026",
+  "officialSourceUrl": "https://www.irs.gov/taxtopics/tc409",
+  "officialSourceLabel": "IRS Topic No. 409 — Capital Gains and Losses",
+
+  "federal": {
+    "longTerm": {
+      "note": "Applies to assets held more than 12 months. Thresholds based on taxable income (after deductions). Source: IRS Rev. Proc. 2025-32.",
+      "rates": [
+        {
+          "rate": 0.00,
+          "brackets": {
+            "single":               { "min": 0,      "max": 49450 },
+            "married_jointly":      { "min": 0,      "max": 98900 },
+            "married_separately":   { "min": 0,      "max": 49450 },
+            "head_of_household":    { "min": 0,      "max": 66200 }
+          }
+        },
+        {
+          "rate": 0.15,
+          "brackets": {
+            "single":               { "min": 49451,  "max": 545500 },
+            "married_jointly":      { "min": 98901,  "max": 613700 },
+            "married_separately":   { "min": 49451,  "max": 306850 },
+            "head_of_household":    { "min": 66201,  "max": 545500 }
+          }
+        },
+        {
+          "rate": 0.20,
+          "brackets": {
+            "single":               { "min": 545501, "max": null },
+            "married_jointly":      { "min": 613701, "max": null },
+            "married_separately":   { "min": 306851, "max": null },
+            "head_of_household":    { "min": 545501, "max": null }
+          }
+        }
+      ]
+    },
+    "shortTerm": {
+      "note": "Assets held 12 months or less. Taxed as ordinary income at standard federal income tax rates (10%–37%).",
+      "rates": [0.10, 0.12, 0.22, 0.24, 0.32, 0.35, 0.37]
+    },
+    "niit": {
+      "rate": 0.038,
+      "note": "Net Investment Income Tax (3.8%) applies when MAGI exceeds threshold. NOT inflation-adjusted since 2013.",
+      "thresholds": {
+        "single": 200000,
+        "married_jointly": 250000,
+        "married_separately": 125000,
+        "head_of_household": 200000
+      }
+    },
+    "standardDeduction2026": {
+      "single": 16100,
+      "married_jointly": 32200,
+      "head_of_household": 24150
+    }
+  },
+
+  "states": [
+    {
+      "slug": "alabama",
+      "name": "Alabama",
+      "treatment": "ordinary_income",
+      "topRate": 0.05,
+      "note": "Capital gains taxed as ordinary income. Top rate 5%."
+    },
+    {
+      "slug": "alaska",
+      "name": "Alaska",
+      "treatment": "no_tax",
+      "topRate": 0.00,
+      "note": "No state income tax. No capital gains tax."
+    },
+    {
+      "slug": "arizona",
+      "name": "Arizona",
+      "treatment": "flat",
+      "topRate": 0.025,
+      "note": "Flat 2.5% income tax rate including capital gains as of 2023. One of the lowest in the nation."
+    },
+    {
+      "slug": "arkansas",
+      "name": "Arkansas",
+      "treatment": "ordinary_income",
+      "topRate": 0.039,
+      "note": "Capital gains taxed as ordinary income. Top rate 3.9% as of 2024."
+    },
+    {
+      "slug": "california",
+      "name": "California",
+      "treatment": "ordinary_income",
+      "topRate": 0.133,
+      "topRateWithSurcharge": 0.144,
+      "note": "Highest state capital gains tax in the US. No preferential treatment for long-term gains — all gains taxed as ordinary income. 1% mental health surcharge applies above $1M income, bringing effective top to 14.4%."
+    },
+    {
+      "slug": "colorado",
+      "name": "Colorado",
+      "treatment": "flat",
+      "topRate": 0.044,
+      "note": "Flat 4.4% state income tax rate including capital gains."
+    },
+    {
+      "slug": "connecticut",
+      "name": "Connecticut",
+      "treatment": "ordinary_income",
+      "topRate": 0.0699,
+      "note": "Capital gains taxed as ordinary income. Top marginal rate 6.99%."
+    },
+    {
+      "slug": "delaware",
+      "name": "Delaware",
+      "treatment": "ordinary_income",
+      "topRate": 0.066,
+      "note": "Capital gains taxed as ordinary income. Top rate 6.6%."
+    },
+    {
+      "slug": "florida",
+      "name": "Florida",
+      "treatment": "no_tax",
+      "topRate": 0.00,
+      "note": "No state income tax. No capital gains tax."
+    },
+    {
+      "slug": "georgia",
+      "name": "Georgia",
+      "treatment": "flat",
+      "topRate": 0.0549,
+      "note": "Flat 5.49% state income tax including capital gains as of 2024, reducing to 4.99% by 2029."
+    },
+    {
+      "slug": "hawaii",
+      "name": "Hawaii",
+      "treatment": "preferential",
+      "topRate": 0.0725,
+      "note": "Long-term capital gains taxed at lower preferential rate. Top rate 7.25% on long-term gains. Ordinary income top rate is 11%."
+    },
+    {
+      "slug": "idaho",
+      "name": "Idaho",
+      "treatment": "flat",
+      "topRate": 0.058,
+      "note": "Flat 5.8% state income tax including capital gains."
+    },
+    {
+      "slug": "illinois",
+      "name": "Illinois",
+      "treatment": "flat",
+      "topRate": 0.0495,
+      "note": "Flat 4.95% state income tax including capital gains."
+    },
+    {
+      "slug": "indiana",
+      "name": "Indiana",
+      "treatment": "flat",
+      "topRate": 0.0305,
+      "note": "Flat 3.05% state income tax including capital gains."
+    },
+    {
+      "slug": "iowa",
+      "name": "Iowa",
+      "treatment": "flat",
+      "topRate": 0.0575,
+      "note": "Flat 5.75% state income tax including capital gains as of 2024. Iowa is phasing down to 3.9% flat rate by 2026 under 2022 tax reform."
+    },
+    {
+      "slug": "kansas",
+      "name": "Kansas",
+      "treatment": "ordinary_income",
+      "topRate": 0.057,
+      "note": "Capital gains taxed as ordinary income. Top rate 5.7%."
+    },
+    {
+      "slug": "kentucky",
+      "name": "Kentucky",
+      "treatment": "flat",
+      "topRate": 0.04,
+      "note": "Flat 4.0% state income tax including capital gains."
+    },
+    {
+      "slug": "louisiana",
+      "name": "Louisiana",
+      "treatment": "ordinary_income",
+      "topRate": 0.03,
+      "note": "Capital gains taxed as ordinary income. Louisiana reduced top income tax rate to 3% effective January 1, 2025."
+    },
+    {
+      "slug": "maine",
+      "name": "Maine",
+      "treatment": "ordinary_income",
+      "topRate": 0.0715,
+      "note": "Capital gains taxed as ordinary income. Top rate 7.15% on income over $70,350 (single)."
+    },
+    {
+      "slug": "maryland",
+      "name": "Maryland",
+      "treatment": "ordinary_income",
+      "topRate": 0.0575,
+      "note": "Capital gains taxed as ordinary income. State top rate 5.75% plus local income taxes of 2.25%–3.2% depending on county."
+    },
+    {
+      "slug": "massachusetts",
+      "name": "Massachusetts",
+      "treatment": "flat",
+      "topRate": 0.05,
+      "note": "Most capital gains taxed at flat 5% income tax rate. Short-term capital gains taxed at 8.5% for assets held less than 1 year. Gains on certain assets held 1–5 years have different treatment."
+    },
+    {
+      "slug": "michigan",
+      "name": "Michigan",
+      "treatment": "flat",
+      "topRate": 0.0425,
+      "note": "Flat 4.25% state income tax including capital gains."
+    },
+    {
+      "slug": "minnesota",
+      "name": "Minnesota",
+      "treatment": "ordinary_income",
+      "topRate": 0.0985,
+      "note": "Capital gains taxed as ordinary income. Top rate 9.85% — one of the highest in the nation."
+    },
+    {
+      "slug": "mississippi",
+      "name": "Mississippi",
+      "treatment": "ordinary_income",
+      "topRate": 0.047,
+      "note": "Capital gains taxed as ordinary income. Top rate 4.7% as of 2024, scheduled to reduce further."
+    },
+    {
+      "slug": "missouri",
+      "name": "Missouri",
+      "treatment": "ordinary_income",
+      "topRate": 0.048,
+      "note": "Capital gains taxed as ordinary income. Top rate 4.8% as of 2024."
+    },
+    {
+      "slug": "montana",
+      "name": "Montana",
+      "treatment": "preferential",
+      "topRate": 0.045,
+      "note": "Montana offers a capital gains credit — effective rate on long-term gains is approximately 4.5%. Top ordinary income rate is higher."
+    },
+    {
+      "slug": "nebraska",
+      "name": "Nebraska",
+      "treatment": "ordinary_income",
+      "topRate": 0.0584,
+      "note": "Capital gains taxed as ordinary income. Top rate 5.84%."
+    },
+    {
+      "slug": "nevada",
+      "name": "Nevada",
+      "treatment": "no_tax",
+      "topRate": 0.00,
+      "note": "No state income tax. No capital gains tax."
+    },
+    {
+      "slug": "new-hampshire",
+      "name": "New Hampshire",
+      "treatment": "no_tax",
+      "topRate": 0.00,
+      "note": "No state income tax and no capital gains tax. New Hampshire repealed its Interest and Dividends Tax effective January 1, 2025."
+    },
+    {
+      "slug": "new-jersey",
+      "name": "New Jersey",
+      "treatment": "ordinary_income",
+      "topRate": 0.1075,
+      "note": "Capital gains taxed as ordinary income. Top rate 10.75% — one of the highest in the nation."
+    },
+    {
+      "slug": "new-mexico",
+      "name": "New Mexico",
+      "treatment": "ordinary_income",
+      "topRate": 0.059,
+      "note": "Capital gains taxed as ordinary income. Top rate 5.9%."
+    },
+    {
+      "slug": "new-york",
+      "name": "New York",
+      "treatment": "ordinary_income",
+      "topRate": 0.109,
+      "topRateWithCityTax": 0.14776,
+      "note": "Capital gains taxed as ordinary income. State top rate 10.9%. NYC residents add 3.876% city income tax, bringing combined state+city rate to approximately 14.776% — among the highest in the country."
+    },
+    {
+      "slug": "north-carolina",
+      "name": "North Carolina",
+      "treatment": "flat",
+      "topRate": 0.045,
+      "note": "Flat 4.5% state income tax including capital gains as of 2024, with further reductions planned."
+    },
+    {
+      "slug": "north-dakota",
+      "name": "North Dakota",
+      "treatment": "ordinary_income",
+      "topRate": 0.025,
+      "note": "Capital gains taxed as ordinary income. Top rate 2.5% — one of the lowest income tax states."
+    },
+    {
+      "slug": "ohio",
+      "name": "Ohio",
+      "treatment": "ordinary_income",
+      "topRate": 0.035,
+      "note": "Capital gains taxed as ordinary income. Top rate 3.5% as of 2023. Ohio has no separate capital gains tax."
+    },
+    {
+      "slug": "oklahoma",
+      "name": "Oklahoma",
+      "treatment": "ordinary_income",
+      "topRate": 0.0475,
+      "note": "Capital gains taxed as ordinary income. Top rate 4.75%."
+    },
+    {
+      "slug": "oregon",
+      "name": "Oregon",
+      "treatment": "ordinary_income",
+      "topRate": 0.099,
+      "note": "Capital gains taxed as ordinary income. Top rate 9.9% — one of the highest in the nation. Oregon also has no sales tax, so capital gains tax is a key state revenue source."
+    },
+    {
+      "slug": "pennsylvania",
+      "name": "Pennsylvania",
+      "treatment": "flat",
+      "topRate": 0.0307,
+      "note": "Flat 3.07% state income tax including capital gains."
+    },
+    {
+      "slug": "rhode-island",
+      "name": "Rhode Island",
+      "treatment": "ordinary_income",
+      "topRate": 0.0599,
+      "note": "Capital gains taxed as ordinary income. Top rate 5.99%."
+    },
+    {
+      "slug": "south-carolina",
+      "name": "South Carolina",
+      "treatment": "ordinary_income",
+      "topRate": 0.064,
+      "note": "Capital gains taxed as ordinary income. Top rate 6.4%. South Carolina offers a 44% deduction on long-term capital gains, effectively reducing the rate to approximately 3.6% for long-term gains."
+    },
+    {
+      "slug": "south-dakota",
+      "name": "South Dakota",
+      "treatment": "no_tax",
+      "topRate": 0.00,
+      "note": "No state income tax. No capital gains tax."
+    },
+    {
+      "slug": "tennessee",
+      "name": "Tennessee",
+      "treatment": "no_tax",
+      "topRate": 0.00,
+      "note": "No state income tax on wages or capital gains. Hall Income Tax was fully repealed in 2021."
+    },
+    {
+      "slug": "texas",
+      "name": "Texas",
+      "treatment": "no_tax",
+      "topRate": 0.00,
+      "note": "No state income tax. No capital gains tax."
+    },
+    {
+      "slug": "utah",
+      "name": "Utah",
+      "treatment": "flat",
+      "topRate": 0.0455,
+      "note": "Flat 4.55% state income tax including capital gains."
+    },
+    {
+      "slug": "vermont",
+      "name": "Vermont",
+      "treatment": "ordinary_income",
+      "topRate": 0.0875,
+      "note": "Capital gains taxed as ordinary income. Top rate 8.75%."
+    },
+    {
+      "slug": "virginia",
+      "name": "Virginia",
+      "treatment": "ordinary_income",
+      "topRate": 0.0575,
+      "note": "Capital gains taxed as ordinary income. Top rate 5.75%."
+    },
+    {
+      "slug": "washington",
+      "name": "Washington",
+      "treatment": "special",
+      "topRate": 0.07,
+      "note": "Washington has no general income tax but levies a 7% capital gains tax on long-term gains above $262,000 per year (inflation-adjusted). Primary residence sales and charitable donations are excluded. Survived state Supreme Court challenge in 2023."
+    },
+    {
+      "slug": "west-virginia",
+      "name": "West Virginia",
+      "treatment": "ordinary_income",
+      "topRate": 0.065,
+      "note": "Capital gains taxed as ordinary income. Top rate 6.5%."
+    },
+    {
+      "slug": "wisconsin",
+      "name": "Wisconsin",
+      "treatment": "preferential",
+      "topRate": 0.0765,
+      "preferentialRate": 0.030,
+      "note": "Long-term capital gains from most assets qualify for a 30% exclusion, effectively reducing the top rate from 7.65% to approximately 5.355%. Some assets have different treatment."
+    },
+    {
+      "slug": "wyoming",
+      "name": "Wyoming",
+      "treatment": "no_tax",
+      "topRate": 0.00,
+      "note": "No state income tax. No capital gains tax."
+    },
+    {
+      "slug": "dc",
+      "name": "Washington D.C.",
+      "treatment": "ordinary_income",
+      "topRate": 0.1075,
+      "note": "Capital gains taxed as ordinary income. DC top income tax rate 10.75%."
+    }
+  ],
+
+  "faqs": [
+    {
+      "question": "What are the 2026 long-term capital gains tax rates?",
+      "answer": "For 2026, the federal long-term capital gains tax rates are 0%, 15%, and 20%, depending on your taxable income and filing status. Single filers pay 0% on income up to $49,450, 15% from $49,451 to $545,500, and 20% above $545,500. Married filing jointly pays 0% up to $98,900 and 20% above $613,700. These rates apply to assets held more than 12 months."
+    },
+    {
+      "question": "What is the difference between short-term and long-term capital gains?",
+      "answer": "Short-term capital gains apply to assets held 12 months or less and are taxed at ordinary income tax rates (10%–37%). Long-term capital gains apply to assets held more than 12 months and receive preferential federal rates of 0%, 15%, or 20%. The one-year holding threshold is one of the most important distinctions in US tax law."
+    },
+    {
+      "question": "What is the Net Investment Income Tax (NIIT)?",
+      "answer": "The NIIT is a 3.8% federal surtax on net investment income — including capital gains, dividends, and interest — for taxpayers whose Modified Adjusted Gross Income (MAGI) exceeds $200,000 for single filers or $250,000 for married filing jointly. These thresholds have not been adjusted for inflation since 2013, meaning more taxpayers are subject to the NIIT each year."
+    },
+    {
+      "question": "Which states have no capital gains tax?",
+      "answer": "Nine states have no state-level capital gains tax: Alaska, Florida, Nevada, New Hampshire, South Dakota, Tennessee, Texas, Washington (for gains under $262,000), and Wyoming. Note that New Hampshire repealed its Interest and Dividends Tax effective January 1, 2025, making it fully tax-free on capital gains."
+    },
+    {
+      "question": "Which state has the highest capital gains tax?",
+      "answer": "California has the highest state capital gains tax rate at 13.3% (14.4% with the 1% mental health surcharge on income over $1 million). California treats all capital gains as ordinary income with no preferential treatment for long-term gains. For high earners, combined federal and California tax on long-term gains can exceed 37%."
+    },
+    {
+      "question": "Do I pay capital gains tax when I sell my home?",
+      "answer": "Usually not fully. The IRS allows a home sale exclusion of up to $250,000 in gains for single filers and up to $500,000 for married couples filing jointly, provided you owned and lived in the home as your primary residence for at least 2 of the last 5 years. Gains above these thresholds are taxable as long-term capital gains if you held the home over a year."
+    },
+    {
+      "question": "What is the maximum combined federal and state capital gains tax rate?",
+      "answer": "For California residents, the combined maximum rate is approximately 37.1% on long-term gains for the highest earners — the 20% federal rate plus 3.8% NIIT plus 13.3% California state rate. With California's 1% mental health surcharge for income over $1M, the effective combined top rate reaches approximately 38.1%. New York City residents face combined rates of approximately 38.5% when factoring in the 3.876% NYC city income tax."
+    },
+    {
+      "question": "Are capital gains taxed differently for real estate vs stocks?",
+      "answer": "The basic long-term 0%/15%/20% federal rates apply to both. However, real estate has a special rule: the unrecaptured Section 1250 gain (depreciation recapture) is taxed at a maximum 25% federal rate, higher than the standard 20% maximum. Primary home sales also qualify for the $250,000/$500,000 exclusion. Qualified Opportunity Zone investments offer deferral and potential exclusion benefits."
+    }
+  ]
+}

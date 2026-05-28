@@ -26,6 +26,24 @@ const PILLARS = [
     ),
   },
   {
+  title: 'Capital Gains Tax Calculator',
+  description: 'Estimate federal and state capital gains tax on stocks, crypto, real estate, and other investments.',
+  href: '/capital-gains',
+  live: true,
+  tag: null,
+  icon: (
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="text-accent">
+      <path
+        d="M10 3v14M13 6.5c0-1.381-1.343-2.5-3-2.5s-3 1.119-3 2.5 1.343 2.5 3 2.5 3 1.119 3 2.5-1.343 2.5-3 2.5-3-1.119-3-2.5"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  ),
+},
+  {
     title: 'Property Tax Estimator',
     description: 'Estimate annual property tax based on assessed value and local mill rate.',
     href: '/property-tax',
@@ -36,7 +54,7 @@ const PILLARS = [
         <path d="M3 17V9l7-6 7 6v8M8 17v-5h4v5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
-  },
+  },/* 
   {
     title: 'Inheritance Tax Calculator',
     description: 'Estimate inheritance tax liability by state based on estate value and heir relationship.',
@@ -77,7 +95,7 @@ const PILLARS = [
         <path d="M4 17c0-3.314 2.686-5 6-5s6 1.686 6 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
       </svg>
     ),
-  },
+  }, */
 ]
 
 const STATS = [

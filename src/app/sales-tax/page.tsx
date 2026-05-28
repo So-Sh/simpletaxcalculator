@@ -82,10 +82,8 @@ const FAQS = [
 ]
 
 const RELATED_TOOLS = [
-    { label: 'Property Tax Estimator', href: '/property-tax' },
     { label: 'Capital Gains Calculator', href: '/capital-gains' },
-    { label: 'Inheritance Tax Calculator', href: '/inheritance-tax' },
-    { label: 'Self-Employment Tax Calculator', href: '/self-employment-tax' },
+    { label: 'Property Tax Estimator', href: '/property-tax' },
 ]
 
 // States with no sales tax — shown separately in the directory
