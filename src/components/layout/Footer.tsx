@@ -53,7 +53,7 @@ export default function Footer() {
                     </div>
 
                     {/* Company */}
-                    {/*                     <div>
+                   <div>
                         <p className="text-xs font-semibold tracking-widest text-white/30 uppercase mb-4">Company</p>
                         <ul className="space-y-2">
                             {company.map((c) => (
@@ -64,7 +64,7 @@ export default function Footer() {
                                 </li>
                             ))}
                         </ul>
-                    </div> */}
+                    </div> 
 
                 </div>
 
