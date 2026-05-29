@@ -11,23 +11,67 @@
         "state": 0.042
       },
       "counties": [
-        { "name": "Minnehaha County (Sioux Falls)", "rate": 0.062 },
-        { "name": "Pennington County (Rapid City)", "rate": 0.062 },
-        { "name": "Brown County (Aberdeen)", "rate": 0.062 },
-        { "name": "Brookings County (Brookings)", "rate": 0.062 },
-        { "name": "Codington County (Watertown)", "rate": 0.062 },
-        { "name": "Hughes County (Pierre)", "rate": 0.062 },
-        { "name": "Lawrence County (Spearfish/Deadwood)", "rate": 0.062 },
-        { "name": "Meade County (Sturgis)", "rate": 0.062 }
+        {
+          "name": "Minnehaha County (Sioux Falls)",
+          "rate": 0.062
+        },
+        {
+          "name": "Pennington County (Rapid City)",
+          "rate": 0.062
+        },
+        {
+          "name": "Brown County (Aberdeen)",
+          "rate": 0.062
+        },
+        {
+          "name": "Brookings County (Brookings)",
+          "rate": 0.062
+        },
+        {
+          "name": "Codington County (Watertown)",
+          "rate": 0.062
+        },
+        {
+          "name": "Hughes County (Pierre)",
+          "rate": 0.062
+        },
+        {
+          "name": "Lawrence County (Spearfish/Deadwood)",
+          "rate": 0.062
+        },
+        {
+          "name": "Meade County (Sturgis)",
+          "rate": 0.062
+        }
       ],
       "lastUpdated": "May 2026",
       "formula": "Price × 0.062 = sales tax owed (Sioux Falls / most major cities)",
-      "example": { "price": 20000, "tax": 1240, "total": 21240 },
+      "example": {
+        "price": 20000,
+        "tax": 1240,
+        "total": 21240
+      },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 744 },
-        { "label": "New car purchase", "price": 28000, "tax": 1736 },
-        { "label": "Electronics (laptop)", "price": 1000, "tax": 62 },
-        { "label": "Groceries (taxable in SD)", "price": 200, "tax": 12.40 }
+        {
+          "label": "Used car purchase",
+          "price": 12000,
+          "tax": 744
+        },
+        {
+          "label": "New car purchase",
+          "price": 28000,
+          "tax": 1736
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 62
+        },
+        {
+          "label": "Groceries (taxable in SD)",
+          "price": 200,
+          "tax": 12.40
+        }
       ],
       "taxFreeWeekends": [],
       "faqs": [
@@ -41,7 +85,7 @@
         },
         {
           "question": "Does South Dakota tax groceries?",
-          "answer": "Yes. South Dakota is one of only two states in the nation — along with Mississippi — that taxes groceries at the full sales tax rate with no exemption or reduction. All unprepared food, including items purchased at grocery stores, is subject to the standard 4.2% state rate plus applicable city taxes. SNAP purchases are exempt."
+          "answer": "Yes. South Dakota is one of only a handful of states that subjects qualifying grocery food to the full state retail sales tax rate. Unprepared food items purchased at grocery stores are taxed at the standard 4.2% state rate plus any applicable local municipal sales taxes (which generally range from 1% to 2%). In compliance with federal law, purchases made with SNAP benefits are entirely tax-exempt."
         },
         {
           "question": "What is the sales tax rate in Sioux Falls, South Dakota?",
@@ -57,10 +101,22 @@
         }
       ],
       "relatedTools": [
-        { "label": "North Dakota Sales Tax Calculator", "href": "/north-dakota/sales-tax" },
-        { "label": "Nebraska Sales Tax Calculator", "href": "/nebraska/sales-tax" },
-        { "label": "Sales Tax by State", "href": "/sales-tax" },
-        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+        {
+          "label": "North Dakota Sales Tax Calculator",
+          "href": "/north-dakota/sales-tax"
+        },
+        {
+          "label": "Nebraska Sales Tax Calculator",
+          "href": "/nebraska/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
       ]
     }
   }

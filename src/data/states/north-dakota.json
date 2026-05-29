@@ -4,40 +4,80 @@
   "abbreviation": "ND",
   "taxTypes": {
     "sales-tax": {
-      "customIntro": "North Dakota has a 5% state sales tax with local city additions bringing most combined rates to between 6% and 8.5%. Fargo, Bismarck, and Grand Forks are the largest cities and typically sit around 7%, while some smaller municipalities with higher local levies can approach 8.5%.",
+      "customIntro": "North Dakota has a 5% state sales tax, with local city and county additions bringing the total combined rates to between 5% and 8.5%. While the state's largest cities hover between 7.25% and 8%, a handful of smaller municipalities—such as Surrey, Tioga, and Park River—reach the maximum 8.5% rate by stacking both local city and county levies on top of the state baseline.",
       "officialSourceUrl": "https://www.tax.nd.gov/business/sales-use-tax",
       "officialSourceLabel": "North Dakota Office of State Tax Commissioner",
       "rates": {
         "state": 0.05
       },
       "counties": [
-        { "name": "Cass County (Fargo)", "rate": 0.075 },
-        { "name": "Burleigh County (Bismarck)", "rate": 0.07 },
-        { "name": "Grand Forks County (Grand Forks)", "rate": 0.07 },
-        { "name": "Ward County (Minot)", "rate": 0.07 },
-        { "name": "Morton County (Mandan)", "rate": 0.065 },
-        { "name": "Stark County (Dickinson)", "rate": 0.065 },
-        { "name": "Williams County (Williston)", "rate": 0.065 },
-        { "name": "Richland County (Wahpeton)", "rate": 0.065 }
+        {
+          "name": "Cass County (Fargo)",
+          "rate": 0.075
+        },
+        {
+          "name": "Burleigh County (Bismarck)",
+          "rate": 0.07
+        },
+        {
+          "name": "Grand Forks County (Grand Forks)",
+          "rate": 0.07
+        },
+        {
+          "name": "Ward County (Minot)",
+          "rate": 0.07
+        },
+        {
+          "name": "Morton County (Mandan)",
+          "rate": 0.065
+        },
+        {
+          "name": "Stark County (Dickinson)",
+          "rate": 0.065
+        },
+        {
+          "name": "Williams County (Williston)",
+          "rate": 0.065
+        },
+        {
+          "name": "Richland County (Wahpeton)",
+          "rate": 0.065
+        }
       ],
       "lastUpdated": "May 2026",
       "formula": "Price × 0.075 = sales tax owed (Fargo / Cass County example)",
-      "example": { "price": 20000, "tax": 1500, "total": 21500 },
+      "example": {
+        "price": 20000,
+        "tax": 1500,
+        "total": 21500
+      },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 900 },
-        { "label": "New car purchase", "price": 28000, "tax": 2100 },
-        { "label": "Electronics (laptop)", "price": 1000, "tax": 75 },
-        { "label": "Home appliance", "price": 600, "tax": 45 }
+        {
+          "label": "Used car purchase",
+          "price": 12000,
+          "tax": 900
+        },
+        {
+          "label": "New car purchase",
+          "price": 28000,
+          "tax": 2100
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 75
+        },
+        {
+          "label": "Home appliance",
+          "price": 600,
+          "tax": 45
+        }
       ],
       "taxFreeWeekends": [],
       "faqs": [
         {
           "question": "What is the sales tax rate in North Dakota?",
           "answer": "North Dakota's state sales tax rate is 5%. Cities can add local option taxes — most major cities add 1.5% to 2.5%, bringing combined rates to between 6.5% and 7.5%. Fargo's combined rate is approximately 7.5%, Bismarck and Grand Forks are around 7%. Some smaller cities with higher local levies can approach 8.5%."
-        },
-        {
-          "question": "What is the sales tax rate in Fargo, North Dakota?",
-          "answer": "Fargo has a combined sales tax rate of approximately 7.5% — the 5% state rate plus a 2.5% City of Fargo local tax. Fargo is the largest city in North Dakota and has updated its city boundaries for tax purposes effective January 2026 and April 2026 due to annexations."
         },
         {
           "question": "What is exempt from sales tax in North Dakota?",
@@ -57,10 +97,22 @@
         }
       ],
       "relatedTools": [
-        { "label": "South Dakota Sales Tax Calculator", "href": "/south-dakota/sales-tax" },
-        { "label": "Minnesota Sales Tax Calculator", "href": "/minnesota/sales-tax" },
-        { "label": "Sales Tax by State", "href": "/sales-tax" },
-        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+        {
+          "label": "South Dakota Sales Tax Calculator",
+          "href": "/south-dakota/sales-tax"
+        },
+        {
+          "label": "Minnesota Sales Tax Calculator",
+          "href": "/minnesota/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
       ]
     }
   }

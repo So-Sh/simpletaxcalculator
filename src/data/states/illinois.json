@@ -45,7 +45,7 @@
         }
       ],
       "lastUpdated": "May 2026",
-      "formula": "Price × 0.1025 = sales tax owed (Chicago / Cook County example)",
+      "formula": "Price × 0.1025 = sales tax owed (Chicago example)",
       "example": {
         "price": 20000,
         "tax": 2050,
@@ -85,7 +85,7 @@
         },
         {
           "question": "Does Illinois have a sales tax holiday?",
-          "answer": "Illinois has held temporary sales tax reductions rather than traditional holidays. In 2022, Illinois suspended the 1% grocery tax for a year. As of 2026, check the Illinois Department of Revenue for any current temporary reductions or holiday periods, as these are set annually by the legislature."
+          "answer": "No. Illinois does not host an annual or recurring sales tax holiday, and there are none scheduled for 2026. The state previously held a one-time, 10-day back-to-school tax reduction in August 2022, but the legislature has not renewed it. Additionally, rather than a temporary holiday, Illinois permanently eliminated its statewide 1% grocery sales tax effective January 1, 2026."
         },
         {
           "question": "What is the sales tax on groceries in Illinois?",

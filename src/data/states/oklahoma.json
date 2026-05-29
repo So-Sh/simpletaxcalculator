@@ -5,29 +5,73 @@
   "taxTypes": {
     "sales-tax": {
       "customIntro": "Oklahoma has a modest 4.5% state sales tax rate, but local county and city additions are among the highest in the nation by average — pushing Oklahoma City and Tulsa above 8.5% and making Oklahoma one of the top five states for highest average local sales tax additions, with over 470 distinct taxing jurisdictions across the state.",
-      "officialSourceUrl": "https://www.oktax.state.ok.us/salestax.html",
+      "officialSourceUrl": "https://oklahoma.gov/tax/businesses/sales-use-tax.html",
       "officialSourceLabel": "Oklahoma Tax Commission",
       "rates": {
         "state": 0.045
       },
       "counties": [
-        { "name": "Oklahoma County (Oklahoma City)", "rate": 0.0863 },
-        { "name": "Tulsa County (Tulsa)", "rate": 0.0852 },
-        { "name": "Cleveland County (Norman)", "rate": 0.0838 },
-        { "name": "Comanche County (Lawton)", "rate": 0.0938 },
-        { "name": "Payne County (Stillwater)", "rate": 0.0888 },
-        { "name": "Garfield County (Enid)", "rate": 0.0838 },
-        { "name": "Muskogee County", "rate": 0.0999 },
-        { "name": "Pontotoc County (Ada)", "rate": 0.0938 }
+        {
+          "name": "Oklahoma County (Oklahoma City)",
+          "rate": 0.0863
+        },
+        {
+          "name": "Tulsa County (Tulsa)",
+          "rate": 0.0852
+        },
+        {
+          "name": "Cleveland County (Norman)",
+          "rate": 0.0838
+        },
+        {
+          "name": "Comanche County (Lawton)",
+          "rate": 0.0938
+        },
+        {
+          "name": "Payne County (Stillwater)",
+          "rate": 0.0888
+        },
+        {
+          "name": "Garfield County (Enid)",
+          "rate": 0.0838
+        },
+        {
+          "name": "Muskogee County",
+          "rate": 0.0999
+        },
+        {
+          "name": "Pontotoc County (Ada)",
+          "rate": 0.0938
+        }
       ],
       "lastUpdated": "May 2026",
       "formula": "Price × 0.0863 = sales tax owed (Oklahoma City / Oklahoma County example)",
-      "example": { "price": 20000, "tax": 1726, "total": 21726 },
+      "example": {
+        "price": 20000,
+        "tax": 1726,
+        "total": 21726
+      },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 1035.60 },
-        { "label": "New car purchase", "price": 28000, "tax": 2416.40 },
-        { "label": "Electronics (laptop)", "price": 1000, "tax": 86.30 },
-        { "label": "Home appliance", "price": 600, "tax": 51.78 }
+        {
+          "label": "Used car purchase",
+          "price": 12000,
+          "tax": 390.00
+        },
+        {
+          "label": "New car purchase",
+          "price": 28000,
+          "tax": 910.00
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 86.30
+        },
+        {
+          "label": "Home appliance",
+          "price": 600,
+          "tax": 51.78
+        }
       ],
       "taxFreeWeekends": [
         {
@@ -63,10 +107,22 @@
         }
       ],
       "relatedTools": [
-        { "label": "Texas Sales Tax Calculator", "href": "/texas/sales-tax" },
-        { "label": "Kansas Sales Tax Calculator", "href": "/kansas/sales-tax" },
-        { "label": "Sales Tax by State", "href": "/sales-tax" },
-        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+        {
+          "label": "Texas Sales Tax Calculator",
+          "href": "/texas/sales-tax"
+        },
+        {
+          "label": "Kansas Sales Tax Calculator",
+          "href": "/kansas/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
       ]
     }
   }

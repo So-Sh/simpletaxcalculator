@@ -8,26 +8,70 @@
       "officialSourceUrl": "https://tax.utah.gov/sales",
       "officialSourceLabel": "Utah State Tax Commission",
       "rates": {
-        "state": 0.061
+        "state": 0.0485
       },
       "counties": [
-        { "name": "Salt Lake County (Salt Lake City)", "rate": 0.0785 },
-        { "name": "Utah County (Provo/Orem)", "rate": 0.0720 },
-        { "name": "Davis County (Layton)", "rate": 0.0720 },
-        { "name": "Weber County (Ogden)", "rate": 0.0730 },
-        { "name": "Washington County (St. George)", "rate": 0.0675 },
-        { "name": "Cache County (Logan)", "rate": 0.0760 },
-        { "name": "Summit County (Park City)", "rate": 0.0835 },
-        { "name": "Tooele County", "rate": 0.0720 }
+        {
+          "name": "Salt Lake County (Salt Lake City)",
+          "rate": 0.0785
+        },
+        {
+          "name": "Utah County (Provo/Orem)",
+          "rate": 0.0720
+        },
+        {
+          "name": "Davis County (Layton)",
+          "rate": 0.0720
+        },
+        {
+          "name": "Weber County (Ogden)",
+          "rate": 0.0730
+        },
+        {
+          "name": "Washington County (St. George)",
+          "rate": 0.0675
+        },
+        {
+          "name": "Cache County (Logan)",
+          "rate": 0.0760
+        },
+        {
+          "name": "Summit County (Park City)",
+          "rate": 0.0835
+        },
+        {
+          "name": "Tooele County",
+          "rate": 0.0720
+        }
       ],
       "lastUpdated": "May 2026",
       "formula": "Price × 0.0785 = sales tax owed (Salt Lake City example)",
-      "example": { "price": 20000, "tax": 1570, "total": 21570 },
+      "example": {
+        "price": 20000,
+        "tax": 1570,
+        "total": 21570
+      },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 942 },
-        { "label": "New car purchase", "price": 28000, "tax": 2198 },
-        { "label": "Electronics (laptop)", "price": 1000, "tax": 78.50 },
-        { "label": "Home appliance", "price": 600, "tax": 47.10 }
+        {
+          "label": "Used car purchase",
+          "price": 12000,
+          "tax": 942
+        },
+        {
+          "label": "New car purchase",
+          "price": 28000,
+          "tax": 2198
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 78.50
+        },
+        {
+          "label": "Home appliance",
+          "price": 600,
+          "tax": 47.10
+        }
       ],
       "taxFreeWeekends": [],
       "faqs": [
@@ -49,7 +93,7 @@
         },
         {
           "question": "Does Utah tax groceries?",
-          "answer": "Utah applies a reduced rate to most unprepared food rather than a full exemption. The state portion of the grocery rate is lower than the standard rate, but local taxes still apply. In practice, most Utah shoppers pay a combined rate of approximately 3% on groceries rather than the full 6.1%+ combined rate."
+          "answer": "Yes. Utah taxes grocery food (unprepared food and food ingredients) at a reduced, uniform combined rate of 3% statewide. This rate consists of a 1.75% state tax and a 1.25% local jurisdiction tax. This 3% rate applies only to food items intended for home consumption; prepared foods, restaurant meals, and alcohol are taxed at the state's full local sales tax rate."
         },
         {
           "question": "Do you pay sales tax on a used car in Utah?",
@@ -57,10 +101,22 @@
         }
       ],
       "relatedTools": [
-        { "label": "Colorado Sales Tax Calculator", "href": "/colorado/sales-tax" },
-        { "label": "Nevada Sales Tax Calculator", "href": "/nevada/sales-tax" },
-        { "label": "Sales Tax by State", "href": "/sales-tax" },
-        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+        {
+          "label": "Colorado Sales Tax Calculator",
+          "href": "/colorado/sales-tax"
+        },
+        {
+          "label": "Nevada Sales Tax Calculator",
+          "href": "/nevada/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
       ]
     }
   }

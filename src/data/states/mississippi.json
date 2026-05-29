@@ -4,30 +4,74 @@
   "abbreviation": "MS",
   "taxTypes": {
     "sales-tax": {
-      "customIntro": "Mississippi has a 7% state sales tax rate — tied for the second-highest state rate in the nation alongside Indiana and Rhode Island — with only very limited local additions permitted, meaning most Mississippians pay exactly 7% on most purchases, rising to 8% in Jackson and a handful of other cities.",
+      "customIntro": "Mississippi has a flat 7% statewide sales tax rate, which is tied for the second-highest state rate in the US behind only California's 7.25%. Mississippi counties do not levy general sales taxes, and only two cities impose general local additions: Jackson (bringing its total combined rate to 8%) and Tupelo (bringing its total to 7.25%). Consequently, most retail purchases throughout the rest of the state are taxed at exactly 7%.",
       "officialSourceUrl": "https://www.dor.ms.gov/business/sales-tax",
       "officialSourceLabel": "Mississippi Department of Revenue",
       "rates": {
         "state": 0.07
       },
       "counties": [
-        { "name": "Hinds County (Jackson)", "rate": 0.08 },
-        { "name": "Harrison County (Gulfport/Biloxi)", "rate": 0.07 },
-        { "name": "Rankin County (Brandon/Pearl)", "rate": 0.08 },
-        { "name": "DeSoto County (Southaven)", "rate": 0.07 },
-        { "name": "Madison County (Madison)", "rate": 0.07 },
-        { "name": "Forrest County (Hattiesburg)", "rate": 0.07 },
-        { "name": "Lee County (Tupelo)", "rate": 0.07 },
-        { "name": "Lamar County (Purvis)", "rate": 0.07 }
+        {
+          "name": "Hinds County (Jackson)",
+          "rate": 0.08
+        },
+        {
+          "name": "Harrison County (Gulfport/Biloxi)",
+          "rate": 0.07
+        },
+        {
+          "name": "Rankin County (Brandon/Pearl)",
+          "rate": 0.08
+        },
+        {
+          "name": "DeSoto County (Southaven)",
+          "rate": 0.07
+        },
+        {
+          "name": "Madison County (Madison)",
+          "rate": 0.07
+        },
+        {
+          "name": "Forrest County (Hattiesburg)",
+          "rate": 0.07
+        },
+        {
+          "name": "Lee County (Tupelo)",
+          "rate": 0.07
+        },
+        {
+          "name": "Lamar County (Purvis)",
+          "rate": 0.07
+        }
       ],
       "lastUpdated": "May 2026",
       "formula": "Price × 0.07 = sales tax owed (most of Mississippi)",
-      "example": { "price": 20000, "tax": 1400, "total": 21400 },
+      "example": {
+        "price": 20000,
+        "tax": 1400,
+        "total": 21400
+      },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 840 },
-        { "label": "New car purchase", "price": 28000, "tax": 1960 },
-        { "label": "Electronics (laptop)", "price": 1000, "tax": 70 },
-        { "label": "Groceries (taxable in MS)", "price": 200, "tax": 14 }
+        {
+          "label": "Used car purchase (5% sales tax)",
+          "price": 12000,
+          "tax": 600
+        },
+        {
+          "label": "New car purchase",
+          "price": 28000,
+          "tax": 1960
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 70
+        },
+        {
+          "label": "Groceries (taxable in MS)",
+          "price": 200,
+          "tax": 14
+        }
       ],
       "taxFreeWeekends": [
         {
@@ -68,10 +112,22 @@
         }
       ],
       "relatedTools": [
-        { "label": "Alabama Sales Tax Calculator", "href": "/alabama/sales-tax" },
-        { "label": "Tennessee Sales Tax Calculator", "href": "/tennessee/sales-tax" },
-        { "label": "Sales Tax by State", "href": "/sales-tax" },
-        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+        {
+          "label": "Alabama Sales Tax Calculator",
+          "href": "/alabama/sales-tax"
+        },
+        {
+          "label": "Tennessee Sales Tax Calculator",
+          "href": "/tennessee/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
       ]
     }
   }

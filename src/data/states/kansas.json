@@ -4,30 +4,74 @@
   "abbreviation": "KS",
   "taxTypes": {
     "sales-tax": {
-      "customIntro": "Kansas has a 6.5% state sales tax rate and allows local county and city additions, with combined rates in Wichita and Kansas City area reaching 8.5% to 10%. Notably, Kansas eliminated its state sales tax on groceries on January 1, 2025, making it one of the most recent states to fully exempt food from state-level sales tax.",
+      "customIntro": "Kansas has a 6.5% state sales tax rate and allows local county and city additions, with combined rates in Johnson County and Kansas City area reaching 8.5% to 10%. Notably, Kansas eliminated its state sales tax on groceries on January 1, 2025, making it one of the most recent states to fully exempt food from state-level sales tax.",
       "officialSourceUrl": "https://www.ksrevenue.gov/salestax.html",
       "officialSourceLabel": "Kansas Department of Revenue",
       "rates": {
         "state": 0.065
       },
       "counties": [
-        { "name": "Sedgwick County (Wichita)", "rate": 0.075 },
-        { "name": "Johnson County (Overland Park)", "rate": 0.0975 },
-        { "name": "Wyandotte County (Kansas City KS)", "rate": 0.1000 },
-        { "name": "Douglas County (Lawrence)", "rate": 0.091 },
-        { "name": "Riley County (Manhattan)", "rate": 0.0875 },
-        { "name": "Shawnee County (Topeka)", "rate": 0.0815 },
-        { "name": "Leavenworth County", "rate": 0.0800 },
-        { "name": "Saline County (Salina)", "rate": 0.0875 }
+        {
+          "name": "Sedgwick County (Wichita)",
+          "rate": 0.075
+        },
+        {
+          "name": "Johnson County (Overland Park)",
+          "rate": 0.0975
+        },
+        {
+          "name": "Wyandotte County (Kansas City KS)",
+          "rate": 0.1000
+        },
+        {
+          "name": "Douglas County (Lawrence)",
+          "rate": 0.091
+        },
+        {
+          "name": "Riley County (Manhattan)",
+          "rate": 0.0875
+        },
+        {
+          "name": "Shawnee County (Topeka)",
+          "rate": 0.0815
+        },
+        {
+          "name": "Leavenworth County",
+          "rate": 0.0800
+        },
+        {
+          "name": "Saline County (Salina)",
+          "rate": 0.0875
+        }
       ],
       "lastUpdated": "May 2026",
       "formula": "Price × 0.075 = sales tax owed (Wichita / Sedgwick County example)",
-      "example": { "price": 20000, "tax": 1500, "total": 21500 },
+      "example": {
+        "price": 20000,
+        "tax": 1500,
+        "total": 21500
+      },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 900 },
-        { "label": "New car purchase", "price": 28000, "tax": 2100 },
-        { "label": "Electronics (laptop)", "price": 1000, "tax": 75 },
-        { "label": "Grocery purchase (state tax exempt)", "price": 200, "tax": 0 }
+        {
+          "label": "Used car purchase",
+          "price": 12000,
+          "tax": 900
+        },
+        {
+          "label": "New car purchase",
+          "price": 28000,
+          "tax": 2100
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 75
+        },
+        {
+          "label": "Grocery purchase (state tax exempt; local taxes may apply)",
+          "price": 200,
+          "tax": 0
+        }
       ],
       "taxFreeWeekends": [],
       "faqs": [
@@ -57,10 +101,22 @@
         }
       ],
       "relatedTools": [
-        { "label": "Missouri Sales Tax Calculator", "href": "/missouri/sales-tax" },
-        { "label": "Oklahoma Sales Tax Calculator", "href": "/oklahoma/sales-tax" },
-        { "label": "Sales Tax by State", "href": "/sales-tax" },
-        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+        {
+          "label": "Missouri Sales Tax Calculator",
+          "href": "/missouri/sales-tax"
+        },
+        {
+          "label": "Oklahoma Sales Tax Calculator",
+          "href": "/oklahoma/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
       ]
     }
   }

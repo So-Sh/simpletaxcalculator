@@ -4,7 +4,7 @@
   "abbreviation": "GA",
   "taxTypes": {
     "sales-tax": {
-      "customIntro": "Georgia has a 4% state sales tax rate, but nearly every county imposes additional local option sales taxes — most commonly a 1% LOST (Local Option Sales Tax) and a 1% SPLOST (Special Purpose Local Option Sales Tax) — pushing most Georgians to a combined rate of 7% or 8%.",
+      "customIntro": "Georgia has a 4% state sales tax rate, but nearly every county imposes additional local option sales taxes — most commonly a 1% LOST (Local Option Sales Tax) and a 1% SPLOST (Special Purpose Local Option Sales Tax) — pushing most Georgians to a combined rate of 6% or 8.5%.",
       "officialSourceUrl": "https://dor.georgia.gov/taxes/business-taxes/sales-use-tax",
       "officialSourceLabel": "Georgia Department of Revenue",
       "rates": {
@@ -55,12 +55,12 @@
         {
           "label": "Used car purchase",
           "price": 12000,
-          "tax": 1020
+          "tax": 840
         },
         {
           "label": "New car purchase",
           "price": 28000,
-          "tax": 2380
+          "tax": 1960
         },
         {
           "label": "Electronics (laptop)",
@@ -85,7 +85,7 @@
         },
         {
           "question": "Does Georgia have a sales tax holiday?",
-          "answer": "Georgia historically held an annual Energy Star and back-to-school tax-free weekend, but the legislature has not consistently renewed it in recent years. Check the Georgia Department of Revenue website for the current year's status, as it is reauthorized annually."
+          "answer": "No. Georgia does not have an annual or recurring retail sales tax holiday, and none are scheduled for 2026. The state's previous back-to-school and Energy Star tax-free weekends were eliminated years ago and have not been revived by the state legislature."
         },
         {
           "question": "What is exempt from sales tax in Georgia?",

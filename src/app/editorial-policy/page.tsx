@@ -110,11 +110,8 @@ export default function EditorialPolicyPage() {
         </p>
 
         <ReviewBlock label="Financial review">
-          Calculator methodologies, tax assumptions, and rate logic are reviewed by{' '}
-          <strong className="text-body">Talha Mansoor, FCCA</strong> — a Fellow of the
-          Association of Chartered Certified Accountants with over 15 years of experience
-          in statutory compliance, multi-jurisdiction tax reporting, and financial
-          controllership. His review covers the financial accuracy of calculation logic
+          Calculator methodologies, tax assumptions, and rate logic are reviewed by our Lead Financial Reviewer.
+          His review covers the financial accuracy of calculation logic
           and rate data before publication.
         </ReviewBlock>
 

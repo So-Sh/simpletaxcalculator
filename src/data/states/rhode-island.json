@@ -4,33 +4,68 @@
   "abbreviation": "RI",
   "taxTypes": {
     "sales-tax": {
-      "customIntro": "Rhode Island has a flat 7% statewide sales tax — tied for the second-highest state rate in the nation alongside Indiana, Tennessee, and Mississippi — with no county or city additions permitted. The entire state pays exactly 7% on taxable purchases, making it one of the simplest but most expensive flat-rate sales tax states in the US.",
+      "customIntro": "Rhode Island has a flat 7% statewide sales tax with no additional local, county, or city sales taxes permitted. While its 7% state-level rate is tied for the second-highest in the nation, the lack of local levies means Rhode Island's total combined sales tax rate is actually lower than in many states where local additions push the total checkout rate past 8% or 9%.",
       "officialSourceUrl": "https://tax.ri.gov/tax-sections/sales-excise/sales-use-tax",
       "officialSourceLabel": "Rhode Island Division of Taxation",
       "rates": {
         "state": 0.07
       },
       "counties": [
-        { "name": "Providence County (Providence)", "rate": 0.07 },
-        { "name": "Kent County (Warwick / Cranston)", "rate": 0.07 },
-        { "name": "Washington County (South Kingstown)", "rate": 0.07 },
-        { "name": "Newport County", "rate": 0.07 },
-        { "name": "Bristol County", "rate": 0.07 }
+        {
+          "name": "Providence County (Providence)",
+          "rate": 0.07
+        },
+        {
+          "name": "Kent County (Warwick / Cranston)",
+          "rate": 0.07
+        },
+        {
+          "name": "Washington County (South Kingstown)",
+          "rate": 0.07
+        },
+        {
+          "name": "Newport County",
+          "rate": 0.07
+        },
+        {
+          "name": "Bristol County",
+          "rate": 0.07
+        }
       ],
       "lastUpdated": "May 2026",
       "formula": "Price × 0.07 = sales tax owed (statewide — same everywhere)",
-      "example": { "price": 20000, "tax": 1400, "total": 21400 },
+      "example": {
+        "price": 20000,
+        "tax": 1400,
+        "total": 21400
+      },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 840 },
-        { "label": "New car purchase", "price": 28000, "tax": 1960 },
-        { "label": "Electronics (laptop)", "price": 1000, "tax": 70 },
-        { "label": "Home appliance", "price": 600, "tax": 42 }
+        {
+          "label": "Used car purchase",
+          "price": 12000,
+          "tax": 840
+        },
+        {
+          "label": "New car purchase",
+          "price": 28000,
+          "tax": 1960
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 70
+        },
+        {
+          "label": "Home appliance",
+          "price": 600,
+          "tax": 42
+        }
       ],
       "taxFreeWeekends": [
         {
           "name": "Sales Tax Holiday Weekend",
           "dates": "Second Saturday and Sunday of August (2 days)",
-          "items": "Most tangible personal property priced at $2,500 or less per item. Excludes motor vehicles, motorboats, meals, tobacco, and telecommunications. Note: Rhode Island began imposing a new tax on short-term rental of whole homes effective January 1, 2026."
+          "items": "Most tangible personal property priced at $2,500 or less per item. Excludes motor vehicles, motorboats, meals, tobacco, and telecommunications."
         }
       ],
       "faqs": [
@@ -44,7 +79,7 @@
         },
         {
           "question": "Does Rhode Island have a sales tax holiday in 2026?",
-          "answer": "Yes. Rhode Island holds an annual sales tax holiday on the second Saturday and Sunday of August. Most tangible personal property priced at $2,500 or less per item is exempt during the weekend. Excluded items include motor vehicles, motorboats, restaurant meals, tobacco, and telecommunications."
+          "answer": "No. Rhode Island does not currently offer a statewide sales tax holiday. While lawmakers have frequently introduced legislation to create an annual tax-free weekend—often proposed as a Christmas in July or back-to-school event—none of these measures have been signed into law, and the state does not have any scheduled holidays."
         },
         {
           "question": "What is exempt from sales tax in Rhode Island?",
@@ -57,13 +92,29 @@
         {
           "question": "Do you pay sales tax on a used car in Rhode Island?",
           "answer": "Yes. Rhode Island charges 7% sales tax on used vehicle purchases. The tax is based on the purchase price and is paid at the DMV at the time of title and registration transfer. There is no cap on the taxable amount."
+        },
+        {
+          "question": "How are short-term rentals taxed in Rhode Island?",
+          "answer": "Effective January 1, 2026, short-term rentals (30 days or less) of an entire residential home are subject to a combined 14% tax rate. This includes the standard 7% sales tax, a new 5% whole-home short-term rental tax, and a local hotel tax that was increased to 2%."
         }
       ],
       "relatedTools": [
-        { "label": "Massachusetts Sales Tax Calculator", "href": "/massachusetts/sales-tax" },
-        { "label": "Connecticut Sales Tax Calculator", "href": "/connecticut/sales-tax" },
-        { "label": "Sales Tax by State", "href": "/sales-tax" },
-        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+        {
+          "label": "Massachusetts Sales Tax Calculator",
+          "href": "/massachusetts/sales-tax"
+        },
+        {
+          "label": "Connecticut Sales Tax Calculator",
+          "href": "/connecticut/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
       ]
     }
   }
