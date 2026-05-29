@@ -4,7 +4,8 @@
     "name": "Ohio",
     "abbreviation": "OH",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -12,7 +13,8 @@
     "name": "Arizona",
     "abbreviation": "AZ",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -20,7 +22,8 @@
     "name": "Pennsylvania",
     "abbreviation": "PA",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -28,7 +31,8 @@
     "name": "Florida",
     "abbreviation": "FL",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -36,7 +40,8 @@
     "name": "Texas",
     "abbreviation": "TX",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -44,7 +49,8 @@
     "name": "California",
     "abbreviation": "CA",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -52,7 +58,8 @@
     "name": "Missouri",
     "abbreviation": "MO",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -60,7 +67,8 @@
     "name": "Georgia",
     "abbreviation": "GA",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -68,7 +76,8 @@
     "name": "Tennessee",
     "abbreviation": "TN",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -76,7 +85,8 @@
     "name": "North Carolina",
     "abbreviation": "NC",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -84,7 +94,8 @@
     "name": "Virginia",
     "abbreviation": "VA",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -92,7 +103,8 @@
     "name": "Colorado",
     "abbreviation": "CO",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -100,7 +112,8 @@
     "name": "Washington",
     "abbreviation": "WA",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -108,7 +121,8 @@
     "name": "Nevada",
     "abbreviation": "NV",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -116,7 +130,8 @@
     "name": "Illinois",
     "abbreviation": "IL",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -124,7 +139,8 @@
     "name": "New York",
     "abbreviation": "NY",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -132,7 +148,8 @@
     "name": "New Jersey",
     "abbreviation": "NJ",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -140,7 +157,8 @@
     "name": "Maryland",
     "abbreviation": "MD",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -148,7 +166,8 @@
     "name": "Minnesota",
     "abbreviation": "MN",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -156,7 +175,8 @@
     "name": "Wisconsin",
     "abbreviation": "WI",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -164,7 +184,8 @@
     "name": "Indiana",
     "abbreviation": "IN",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -172,7 +193,8 @@
     "name": "Kentucky",
     "abbreviation": "KY",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -180,7 +202,8 @@
     "name": "Michigan",
     "abbreviation": "MI",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -188,7 +211,8 @@
     "name": "Alabama",
     "abbreviation": "AL",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -196,7 +220,8 @@
     "name": "Louisiana",
     "abbreviation": "LA",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -204,7 +229,8 @@
     "name": "South Carolina",
     "abbreviation": "SC",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -212,7 +238,8 @@
     "name": "Oklahoma",
     "abbreviation": "OK",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -220,7 +247,8 @@
     "name": "Kansas",
     "abbreviation": "KS",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -228,7 +256,8 @@
     "name": "Iowa",
     "abbreviation": "IA",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -236,7 +265,8 @@
     "name": "Utah",
     "abbreviation": "UT",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -244,7 +274,8 @@
     "name": "Arkansas",
     "abbreviation": "AR",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -252,7 +283,8 @@
     "name": "Mississippi",
     "abbreviation": "MS",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -260,7 +292,8 @@
     "name": "Nebraska",
     "abbreviation": "NE",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -268,7 +301,8 @@
     "name": "New Mexico",
     "abbreviation": "NM",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -276,7 +310,8 @@
     "name": "Idaho",
     "abbreviation": "ID",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -284,7 +319,8 @@
     "name": "West Virginia",
     "abbreviation": "WV",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -292,7 +328,8 @@
     "name": "Hawaii",
     "abbreviation": "HI",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -300,7 +337,8 @@
     "name": "Maine",
     "abbreviation": "ME",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -308,7 +346,8 @@
     "name": "Connecticut",
     "abbreviation": "CT",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -316,7 +355,8 @@
     "name": "Massachusetts",
     "abbreviation": "MA",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -324,7 +364,8 @@
     "name": "Rhode Island",
     "abbreviation": "RI",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -332,7 +373,8 @@
     "name": "North Dakota",
     "abbreviation": "ND",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -340,7 +382,8 @@
     "name": "South Dakota",
     "abbreviation": "SD",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -348,7 +391,8 @@
     "name": "Wyoming",
     "abbreviation": "WY",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   },
   {
@@ -356,7 +400,8 @@
     "name": "Vermont",
     "abbreviation": "VT",
     "availableTaxTypes": [
-      "sales-tax"
+      "sales-tax",
+      "capital-gains"
     ]
   }
 ]

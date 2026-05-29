@@ -43,7 +43,7 @@ const TAX_TYPE_LABELS: Record<string, { label: string; description: string }> = 
         label: 'Self-Employment Tax Calculator',
         description: 'Estimate self-employment tax and quarterly estimated payments.',
     },
-    'capital-gains-tax': {
+    'capital-gains': {
         label: 'Capital Gains Tax Calculator',
         description: 'Calculate short and long-term capital gains tax based on asset sale profits',
     },
