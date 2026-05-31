@@ -61,7 +61,7 @@ function TeamMember({
             View LinkedIn profile
             <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
               <path d="M2 8L8 2M8 2H4M8 2v4" stroke="currentColor" strokeWidth="1.25"
-                    strokeLinecap="round" strokeLinejoin="round" />
+                strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </a>
         )}
@@ -100,7 +100,7 @@ export default function AboutPage() {
           The platform is operated by{' '}
           <Link href="https://kobina.se" target='_blank' className="hover:text-primary transition-colors underline underline-offset-2">
             Kobina
-          </Link>          
+          </Link>
           , a software and digital service
           company based in Stockholm, Sweden.
         </p>
@@ -185,7 +185,7 @@ export default function AboutPage() {
         >
           <p>
             Ray contributes to tax data collection, source verification, and structured data
-            management for the platform. His background includes data reporting systems, 
+            management for the platform. His background includes data reporting systems,
             compliance processes, and operational data analytics, with
             experience at Siemens Energy and Siemens Gamesa Renewable Energy.
           </p>
@@ -200,8 +200,8 @@ export default function AboutPage() {
           name="Saeed Davari"
           title="Technical Architect"
           photo="/team/saeed.jpg"
-          linkedIn="https://www.linkedin.com/in/saeed-davari-3a218511b/"
-            >
+          linkedIn="https://www.linkedin.com/in/saeed-davari-3a218511b"
+        >
           <p>
             Saeed is a senior software developer and solutions architect and is responsible
             for the technical architecture, calculation logic, infrastructure, and ongoing
