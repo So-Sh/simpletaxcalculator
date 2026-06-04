@@ -11,17 +11,17 @@
         "state": 0.04
       },
       "counties": [
-        { "name": "City & County of Honolulu (Oahu)", "rate": 0.04712 },
-        { "name": "Maui County (Maui, Molokai, Lanai)", "rate": 0.04712 },
-        { "name": "Hawaii County (Big Island)", "rate": 0.04712 },
-        { "name": "Kauai County", "rate": 0.04712 }
+        { "name": "City & County of Honolulu (Oahu)", "rate": 0.045  },
+        { "name": "Maui County (Maui, Molokai, Lanai)", "rate": 0.045 },
+        { "name": "Hawaii County (Big Island)", "rate": 0.045 },
+        { "name": "Kauai County", "rate": 0.045 }
       ],
       "lastUpdated": "May 2026",
-      "formula": "Price × 0.04712 = GET pass-on amount (all counties — surcharge in effect through Dec 2030)",
+      "formula": "Price × 0.045 = GET pass-on amount (all counties — surcharge in effect through Dec 2030)",
       "example": { "price": 20000, "tax": 942.40, "total": 20942.40 },
       "scenarios": [
-        { "label": "Used car purchase (Honolulu)", "price": 12000, "tax": 565.44 },
-        { "label": "New car purchase (Maui)", "price": 28000, "tax": 1319.36 },
+        { "label": "Used car purchase", "price": 12000, "tax": 565.44 },
+        { "label": "New car purchase", "price": 28000, "tax": 1319.36 },
         { "label": "Electronics (laptop)", "price": 1000, "tax": 47.12 },
         { "label": "Restaurant meal", "price": 100, "tax": 4.71 }
       ],

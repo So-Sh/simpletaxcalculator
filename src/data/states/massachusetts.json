@@ -27,7 +27,8 @@
         { "label": "Used car purchase", "price": 12000, "tax": 750 },
         { "label": "New car purchase", "price": 28000, "tax": 1750 },
         { "label": "Electronics (laptop)", "price": 1000, "tax": 62.50 },
-        { "label": "Clothing under $175 per item (exempt)", "price": 150, "tax": 0 }
+        { "label": "Clothing under $175 per item (exempt)", "price": 150, "tax": 0 },
+        { "label": "Clothing", "price": 200, "tax": 1.56 }
       ],
       "taxFreeWeekends": [
         {

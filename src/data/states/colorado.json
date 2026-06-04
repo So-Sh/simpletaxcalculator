@@ -4,7 +4,7 @@
   "abbreviation": "CO",
   "taxTypes": {
     "sales-tax": {
-      "customIntro": "Colorado has one of the most decentralized sales tax systems in the US — a low 2.9% state rate combined with city, county, and special district taxes that each set and administer their own rates independently, resulting in over 700 different sales tax jurisdictions and combined rates that range from 2.9% to over 11% depending on where you shop.",
+      "customIntro": "Colorado has one of the most decentralized sales tax systems in the US — a low 2.9% state rate combined with city, county, and special district taxes that each set and administer their own rates independently, resulting in over 700 different sales tax jurisdictions and combined rates that range from 2.9% to nearly 12% depending on where you shop.",
       "officialSourceUrl": "https://tax.colorado.gov/sales-tax",
       "officialSourceLabel": "Colorado Department of Revenue",
       "rates": {
@@ -53,22 +53,22 @@
       },
       "scenarios": [
         {
-          "label": "Used car purchase",
+          "label": "Used car purchase (Denver example)",
           "price": 12000,
           "tax": 1063.2
         },
         {
-          "label": "New car purchase",
+          "label": "New car purchase (Denver example)",
           "price": 28000,
           "tax": 2480.8
         },
         {
-          "label": "Electronics (laptop)",
+          "label": "Electronics (laptop, Denver example)",
           "price": 1000,
           "tax": 88.6
         },
         {
-          "label": "Home appliance",
+          "label": "Home appliance (Denver example)",
           "price": 600,
           "tax": 53.16
         }

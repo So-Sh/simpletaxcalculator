@@ -11,7 +11,7 @@
         "state": 0.04
       },
       "counties": [
-        { "name": "Jefferson County (Birmingham)", "rate": 0.1000 },
+        { "name": "Jefferson County (Birmingham)", "rate": 0.10 },
         { "name": "Montgomery County", "rate": 0.10 },
         { "name": "Mobile County", "rate": 0.10 },
         { "name": "Madison County (Huntsville)", "rate": 0.09 },

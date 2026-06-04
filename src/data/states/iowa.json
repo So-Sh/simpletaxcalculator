@@ -24,8 +24,8 @@
       "formula": "Price × 0.07 = sales tax owed (most Iowa counties example)",
       "example": { "price": 20000, "tax": 1400, "total": 21400 },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 840 },
-        { "label": "New car purchase", "price": 28000, "tax": 1960 },
+        { "label": "Used car purchase (5% registration fee)", "price": 12000, "tax": 600 },
+        { "label": "New car purchase (5% registration fee)", "price": 28000, "tax": 1400 },
         { "label": "Electronics (laptop)", "price": 1000, "tax": 70 },
         { "label": "Home appliance", "price": 600, "tax": 42 }
       ],

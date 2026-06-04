@@ -24,10 +24,10 @@
       "formula": "Price × 0.0875 = sales tax owed (Little Rock / Pulaski County example)",
       "example": { "price": 20000, "tax": 1750, "total": 21750 },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 1050 },
-        { "label": "New car purchase", "price": 28000, "tax": 2450 },
-        { "label": "Electronics (laptop)", "price": 1000, "tax": 87.50 },
-        { "label": "Grocery purchase (state tax now exempt)", "price": 200, "tax": 0 }
+        { "label": "Used car purchase (8.75%)", "price": 12000, "tax": 1050 },
+        { "label": "New car purchase (8.75%)", "price": 28000, "tax": 2450 },
+        { "label": "Electronics (laptop, 8.75%)", "price": 1000, "tax": 87.50 },
+        { "label": "Grocery purchase (state tax now exempt, 2.25% )", "price": 200, "tax": 0 }
       ],
       "taxFreeWeekends": [
         {
