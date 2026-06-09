@@ -3,7 +3,7 @@ import Link from 'next/link'
 const tools = [
     { label: 'Sales Tax Calculator', href: '/sales-tax' },
     { label: 'Capital Gains Calculator', href: '/capital-gains' },
-    { label: 'Property Tax Estimator', href: '/property-tax' },
+    { label: 'Gas Tax Calculator', href: '/gas-tax' },
 ]
 
 const company = [
@@ -53,7 +53,7 @@ export default function Footer() {
                     </div>
 
                     {/* Company */}
-                   <div>
+                    <div>
                         <p className="text-xs font-semibold tracking-widest text-white/30 uppercase mb-4">Company</p>
                         <ul className="space-y-2">
                             {company.map((c) => (
@@ -64,7 +64,7 @@ export default function Footer() {
                                 </li>
                             ))}
                         </ul>
-                    </div> 
+                    </div>
 
                 </div>
 

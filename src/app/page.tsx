@@ -26,23 +26,38 @@ const PILLARS = [
     ),
   },
   {
-  title: 'Capital Gains Tax Calculator',
-  description: 'Estimate federal and state capital gains tax on stocks, crypto, real estate, and other investments.',
-  href: '/capital-gains',
-  live: true,
-  tag: null,
-  icon: (
-    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="text-accent">
-      <path
-        d="M10 3v14M13 6.5c0-1.381-1.343-2.5-3-2.5s-3 1.119-3 2.5 1.343 2.5 3 2.5 3 1.119 3 2.5-1.343 2.5-3 2.5-3-1.119-3-2.5"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  ),
-},
+    title: 'Capital Gains Tax Calculator',
+    description: 'Estimate federal and state capital gains tax on stocks, crypto, real estate, and other investments.',
+    href: '/capital-gains',
+    live: true,
+    tag: null,
+    icon: (
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="text-accent">
+        <path
+          d="M10 3v14M13 6.5c0-1.381-1.343-2.5-3-2.5s-3 1.119-3 2.5 1.343 2.5 3 2.5 3 1.119 3 2.5-1.343 2.5-3 2.5-3-1.119-3-2.5"
+          stroke="currentColor"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: 'Gas Tax Calculator',
+    description: 'Calculate state and federal gas tax per gallon and per fill-up, by state.',
+    href: '/gas-tax',
+    live: true,
+    tag: null,
+    icon: (
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="text-accent">
+        <path d="M5 17V5a2 2 0 012-2h4a2 2 0 012 2v3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+        <path d="M13 8h2a2 2 0 012 2v4a1 1 0 01-1 1h-1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+        <path d="M5 17h8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+        <path d="M7 8h4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+      </svg>
+    ),
+  },
   {
     title: 'Property Tax Estimator',
     description: 'Estimate annual property tax based on assessed value and local mill rate.',
@@ -67,35 +82,21 @@ const PILLARS = [
         <path d="M5 17h10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
       </svg>
     ),
-  },
-  {
-    title: 'Gas Tax Calculator',
-    description: 'Calculate state and federal gas tax per gallon and per fill-up, by state.',
-    href: '/gas-tax',
-    live: false,
-    tag: null,
-    icon: (
-      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="text-accent">
-        <path d="M5 17V5a2 2 0 012-2h4a2 2 0 012 2v3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-        <path d="M13 8h2a2 2 0 012 2v4a1 1 0 01-1 1h-1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-        <path d="M5 17h8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-        <path d="M7 8h4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-      </svg>
-    ),
-  },
-  {
-    title: 'Self-Employment Tax Calculator',
-    description: 'Estimate self-employment tax and quarterly estimated payment amounts.',
-    href: '/self-employment-tax',
-    live: false,
-    tag: null,
-    icon: (
-      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="text-accent">
-        <circle cx="10" cy="7" r="3" stroke="currentColor" strokeWidth="1.5" />
-        <path d="M4 17c0-3.314 2.686-5 6-5s6 1.686 6 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-      </svg>
-    ),
-  }, */
+  },*/
+
+  /*   {
+      title: 'Self-Employment Tax Calculator',
+      description: 'Estimate self-employment tax and quarterly estimated payment amounts.',
+      href: '/self-employment-tax',
+      live: false,
+      tag: null,
+      icon: (
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="text-accent">
+          <circle cx="10" cy="7" r="3" stroke="currentColor" strokeWidth="1.5" />
+          <path d="M4 17c0-3.314 2.686-5 6-5s6 1.686 6 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+        </svg>
+      ),
+    }, */
 ]
 
 const STATS = [

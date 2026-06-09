@@ -6,7 +6,7 @@ import { useState } from 'react'
 const tools = [
     { label: 'Sales Tax', href: '/sales-tax' },
     { label: 'Capital Gains', href: '/capital-gains' },
-    { label: 'Property Tax', href: '/property-tax' },
+    { label: 'Gas Tax', href: '/gas-tax' },
 ]
 
 export default function Navbar() {
