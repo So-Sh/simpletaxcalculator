@@ -1,0 +1,103 @@
+{
+    "slug": "delaware",
+    "name": "Delaware",
+    "abbreviation": "DE",
+    "taxTypes": {
+        "sales-tax": {
+            "customIntro": "Delaware does not impose a traditional state or local sales tax, resulting in an effective consumer sales tax rate of 0% statewide. Instead of taxing the buyer at the point of sale, the state levies a Gross Receipts Tax (GRT) directly on businesses based on total gross revenue. Because this tax is upstream and cannot legally be tacked onto a consumer receipt as a dedicated sales tax line item, customers pay exactly the sticker price on goods and services.",
+            "officialSourceUrl": "https://revenue.delaware.gov/business-tax-forms/doing-business-in-delaware/step-4-gross-receipts-taxes/",
+            "officialSourceLabel": "Delaware Division of Revenue",
+            "rates": {
+                "state": 0.0
+            },
+            "counties": [
+                {
+                    "name": "New Castle County",
+                    "rate": 0.0
+                },
+                {
+                    "name": "Kent County",
+                    "rate": 0.0
+                },
+                {
+                    "name": "Sussex County",
+                    "rate": 0.0
+                }
+            ],
+            "lastUpdated": "June 2026",
+            "formula": "Price × 0.00 = $0.00 Consumer Sales Tax (Delaware is completely sales tax-free)",
+            "example": {
+                "price": 20000,
+                "tax": 0.00,
+                "total": 20000.00
+            },
+            "scenarios": [
+                {
+                    "label": "Used car purchase (Excl. registration fee)",
+                    "price": 12000,
+                    "tax": 0.00
+                },
+                {
+                    "label": "New car purchase (Excl. registration fee)",
+                    "price": 28000,
+                    "tax": 0.00
+                },
+                {
+                    "label": "Electronics (laptop)",
+                    "price": 1000,
+                    "tax": 0.00
+                },
+                {
+                    "label": "Restaurant meal",
+                    "price": 100,
+                    "tax": 0.00
+                }
+            ],
+            "taxFreeWeekends": [],
+            "faqs": [
+                {
+                    "question": "What is the sales tax rate in Delaware?",
+                    "answer": "The state and local sales tax rate in Delaware is 0%. Delaware is one of only five states in the country without a general consumer sales tax, meaning buyers never pay additional sales tax on goods or services at retail checkout."
+                },
+                {
+                    "question": "How does Delaware raise revenue without a sales tax?",
+                    "answer": "Delaware generates revenue primarily through its corporate franchise taxes, individual income taxes, and a Gross Receipts Tax (GRT) assessed directly on business revenue. This GRT ranges generally from 0.0945% to 1.9914% depending on the industry activity."
+                },
+                {
+                    "question": "Does Delaware have a sales tax holiday?",
+                    "answer": "No, Delaware does not host a sales tax holiday. Because the state maintains a 0% sales tax rate year-round on all eligible tangible goods and services, a designated tax-free weekend is unnecessary."
+                },
+                {
+                    "question": "Are services or SaaS products taxed in Delaware?",
+                    "answer": "Consumers do not pay sales tax on services or software. Under Delaware’s business tax structure, digital applications like Software as a Service (SaaS) are currently not subject to corporate Gross Receipts Taxes either, making the state highly favorable for tech companies."
+                },
+                {
+                    "question": "Do you pay sales tax on a vehicle purchase in Delaware?",
+                    "answer": "No sales tax is collected on vehicle purchases. However, Delaware residents must pay a 4.25% motor vehicle 'document fee' to the DMV when registering a car. Out-of-state buyers will owe their home state's applicable sales tax upon registering the vehicle back home."
+                },
+                {
+                    "question": "Do out-of-state businesses have to pay tax when selling into Delaware?",
+                    "answer": "No. Because Delaware lacks a sales tax framework entirely, there are no remote seller economic nexus laws, marketplace facilitator collection requirements, or consumer use tax obligations tracking out-of-state sales shipped into Delaware."
+                }
+            ],
+            "relatedTools": [
+                {
+                    "label": "Maryland Sales Tax Calculator",
+                    "href": "/maryland/sales-tax"
+                },
+                {
+                    "label": "Pennsylvania Sales Tax Calculator",
+                    "href": "/pennsylvania/sales-tax"
+                },
+                {
+                    "label": "New Jersey Sales Tax Calculator",
+                    "href": "/new-jersey/sales-tax"
+                },
+                {
+                    "label": "Sales Tax by State",
+                    "href": "/sales-tax"
+                }
+            ]
+        }
+    }
+}

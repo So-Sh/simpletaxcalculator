@@ -5,7 +5,8 @@
     "abbreviation": "OH",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -14,7 +15,8 @@
     "abbreviation": "AZ",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -23,7 +25,8 @@
     "abbreviation": "PA",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -32,7 +35,8 @@
     "abbreviation": "FL",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -41,7 +45,8 @@
     "abbreviation": "TX",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -50,7 +55,8 @@
     "abbreviation": "CA",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -59,7 +65,8 @@
     "abbreviation": "MO",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -68,7 +75,8 @@
     "abbreviation": "GA",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -77,7 +85,8 @@
     "abbreviation": "TN",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -86,7 +95,8 @@
     "abbreviation": "NC",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -95,7 +105,8 @@
     "abbreviation": "VA",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -104,7 +115,8 @@
     "abbreviation": "CO",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -113,7 +125,8 @@
     "abbreviation": "WA",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -122,7 +135,8 @@
     "abbreviation": "NV",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -131,7 +145,8 @@
     "abbreviation": "IL",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -140,7 +155,8 @@
     "abbreviation": "NY",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -149,7 +165,8 @@
     "abbreviation": "NJ",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -158,7 +175,8 @@
     "abbreviation": "MD",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -167,7 +185,8 @@
     "abbreviation": "MN",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -176,7 +195,8 @@
     "abbreviation": "WI",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -185,7 +205,8 @@
     "abbreviation": "IN",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -194,7 +215,8 @@
     "abbreviation": "KY",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -203,7 +225,8 @@
     "abbreviation": "MI",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -212,7 +235,8 @@
     "abbreviation": "AL",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -221,7 +245,8 @@
     "abbreviation": "LA",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -230,7 +255,8 @@
     "abbreviation": "SC",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -239,7 +265,8 @@
     "abbreviation": "OK",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -248,7 +275,8 @@
     "abbreviation": "KS",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -257,7 +285,8 @@
     "abbreviation": "IA",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -266,7 +295,8 @@
     "abbreviation": "UT",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -275,7 +305,8 @@
     "abbreviation": "AR",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -284,7 +315,8 @@
     "abbreviation": "MS",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -293,7 +325,8 @@
     "abbreviation": "NE",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -302,7 +335,8 @@
     "abbreviation": "NM",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -311,7 +345,8 @@
     "abbreviation": "ID",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -320,7 +355,8 @@
     "abbreviation": "WV",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -329,7 +365,8 @@
     "abbreviation": "HI",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -338,7 +375,8 @@
     "abbreviation": "ME",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -347,7 +385,8 @@
     "abbreviation": "CT",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -356,7 +395,8 @@
     "abbreviation": "MA",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -365,7 +405,8 @@
     "abbreviation": "RI",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -374,7 +415,8 @@
     "abbreviation": "ND",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -383,7 +425,8 @@
     "abbreviation": "SD",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -392,7 +435,8 @@
     "abbreviation": "WY",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
     ]
   },
   {
@@ -401,7 +445,17 @@
     "abbreviation": "VT",
     "availableTaxTypes": [
       "sales-tax",
-      "capital-gains"
+      "capital-gains",
+      "gas-tax"
+    ]
+  },
+  {
+    "slug": "delaware",
+    "name": "Delaware",
+    "abbreviation": "DE",
+    "availableTaxTypes": [
+      "capital-gains",
+      "gas-tax"
     ]
   }
 ]
