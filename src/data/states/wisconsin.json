@@ -4,30 +4,74 @@
   "abbreviation": "WI",
   "taxTypes": {
     "sales-tax": {
-      "customIntro": "Wisconsin has a 5% state sales tax rate, with most counties adding a 0.5% county tax — bringing the standard combined rate to 5.5% across most of the state. Milwaukee County has an additional 0.9% transit tax, making it the highest-rate jurisdiction in Wisconsin at 5.9%.",
+      "customIntro": "Wisconsin has a 5.0% state sales tax rate, with most counties adding a 0.5% county tax to bring the standard rate to 5.5%. Milwaukee County imposes a 0.9% county tax, and the City of Milwaukee levies an additional 2.0% city tax, creating the state's highest combined rate of 7.9%.",
       "officialSourceUrl": "https://www.revenue.wi.gov/Pages/SalesAndUse/Home.aspx",
       "officialSourceLabel": "Wisconsin Department of Revenue",
       "rates": {
         "state": 0.05
       },
       "counties": [
-        { "name": "Milwaukee County", "rate": 0.059 },
-        { "name": "Dane County (Madison)", "rate": 0.055 },
-        { "name": "Waukesha County", "rate": 0.055 },
-        { "name": "Brown County (Green Bay)", "rate": 0.055 },
-        { "name": "Racine County", "rate": 0.055 },
-        { "name": "Outagamie County (Appleton)", "rate": 0.055 },
-        { "name": "Winnebago County (Oshkosh)", "rate": 0.055 },
-        { "name": "Marathon County (Wausau)", "rate": 0.055 }
+        {
+          "name": "Milwaukee County",
+          "rate": 0.059
+        },
+        {
+          "name": "Dane County (Madison)",
+          "rate": 0.055
+        },
+        {
+          "name": "Waukesha County",
+          "rate": 0.050
+        },
+        {
+          "name": "Brown County (Green Bay)",
+          "rate": 0.055
+        },
+        {
+          "name": "Racine County",
+          "rate": 0.055
+        },
+        {
+          "name": "Outagamie County (Appleton)",
+          "rate": 0.055
+        },
+        {
+          "name": "Winnebago County (Oshkosh)",
+          "rate": 0.050
+        },
+        {
+          "name": "Marathon County (Wausau)",
+          "rate": 0.055
+        }
       ],
       "lastUpdated": "May 2026",
       "formula": "Price × 0.055 = sales tax owed (most WI counties example)",
-      "example": { "price": 20000, "tax": 1100, "total": 21100 },
+      "example": {
+        "price": 20000,
+        "tax": 1100,
+        "total": 21100
+      },
       "scenarios": [
-        { "label": "Used car purchase", "price": 12000, "tax": 660 },
-        { "label": "New car purchase", "price": 28000, "tax": 1540 },
-        { "label": "Electronics (laptop)", "price": 1000, "tax": 55 },
-        { "label": "Milwaukee purchase (laptop)", "price": 1000, "tax": 59 }
+        {
+          "label": "Used car purchase (statewide baseline)",
+          "price": 12000,
+          "tax": 660
+        },
+        {
+          "label": "New car purchase (statewide baseline)",
+          "price": 28000,
+          "tax": 1540
+        },
+        {
+          "label": "Electronics (laptop)",
+          "price": 1000,
+          "tax": 55
+        },
+        {
+          "label": "Milwaukee purchase (laptop)",
+          "price": 1000,
+          "tax": 59
+        }
       ],
       "taxFreeWeekends": [],
       "faqs": [
@@ -37,7 +81,7 @@
         },
         {
           "question": "What is the sales tax rate in Milwaukee?",
-          "answer": "Milwaukee is in Milwaukee County, which has a combined sales tax rate of 5.9% — the 5% state rate, a 0.5% Milwaukee County rate, and a 0.4% baseball stadium district tax plus a transit authority tax. This makes Milwaukee the highest-taxed jurisdiction in Wisconsin."
+          "answer": "The combined sales tax rate within the City of Milwaukee is 7.9%. This total includes the 5.0% Wisconsin state sales tax, a 0.9% Milwaukee County sales tax, and a 2.0% City of Milwaukee municipal sales tax. This creates the highest-taxed jurisdiction in Wisconsin."
         },
         {
           "question": "What is exempt from sales tax in Wisconsin?",
@@ -57,10 +101,22 @@
         }
       ],
       "relatedTools": [
-        { "label": "Minnesota Sales Tax Calculator", "href": "/minnesota/sales-tax" },
-        { "label": "Illinois Sales Tax Calculator", "href": "/illinois/sales-tax" },
-        { "label": "Sales Tax by State", "href": "/sales-tax" },
-        { "label": "Capital Gains Calculator", "href": "/capital-gains" }
+        {
+          "label": "Minnesota Sales Tax Calculator",
+          "href": "/minnesota/sales-tax"
+        },
+        {
+          "label": "Illinois Sales Tax Calculator",
+          "href": "/illinois/sales-tax"
+        },
+        {
+          "label": "Sales Tax by State",
+          "href": "/sales-tax"
+        },
+        {
+          "label": "Capital Gains Calculator",
+          "href": "/capital-gains"
+        }
       ]
     }
   }

@@ -53,24 +53,24 @@
       },
       "scenarios": [
         {
-          "label": "Used car purchase",
+          "label": "Used car purchase (North Carolina, 3.00%)",
           "price": 12000,
-          "tax": 810
+          "tax": 360.0
         },
         {
-          "label": "New car purchase",
+          "label": "New car purchase (North Carolina, 3.00%)",
           "price": 28000,
-          "tax": 1890
+          "tax": 840.0
         },
         {
-          "label": "Electronics (laptop)",
+          "label": "Electronics (laptop) (Wake County, 7.25%)",
           "price": 1000,
-          "tax": 67.5
+          "tax": 72.5
         },
         {
-          "label": "Home appliance",
+          "label": "Home appliance (Mecklenburg County, 7.25%)",
           "price": 600,
-          "tax": 40.5
+          "tax": 43.5
         }
       ],
       "taxFreeWeekends": [],

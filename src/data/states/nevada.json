@@ -5,7 +5,7 @@
   "taxTypes": {
     "sales-tax": {
       "customIntro": "Nevada has no state income tax and funds much of its public services through sales tax and gaming revenue — the 6.85% state rate plus local additions means Las Vegas visitors and residents typically pay 8.375%, while other counties range from 6.85% to 8.375% depending on local levies.",
-      "officialSourceUrl": "https://tax.nv.gov/Businesses/Sales_and_Use_Tax_Information/",
+      "officialSourceUrl": "https://tax.nv.gov/",
       "officialSourceLabel": "Nevada Department of Taxation",
       "rates": {
         "state": 0.0685
@@ -21,27 +21,27 @@
         },
         {
           "name": "Carson City",
-          "rate": 0.08625
+          "rate": 0.07600
         },
         {
           "name": "Douglas County",
-          "rate": 0.071
+          "rate": 0.07100
         },
         {
           "name": "Elko County",
-          "rate": 0.071
+          "rate": 0.07100
         },
         {
           "name": "Nye County",
-          "rate": 0.071
+          "rate": 0.07600
         },
         {
           "name": "Lyon County",
-          "rate": 0.071
+          "rate": 0.07100
         },
         {
           "name": "Churchill County",
-          "rate": 0.071
+          "rate": 0.07600
         }
       ],
       "lastUpdated": "May 2026",
@@ -53,22 +53,22 @@
       },
       "scenarios": [
         {
-          "label": "Used car purchase",
+          "label": "Used car purchase (Clark County, 8.375%)",
           "price": 12000,
-          "tax": 1005
+          "tax": 1005.0
         },
         {
-          "label": "New car purchase",
+          "label": "New car purchase (Clark County, 8.375%)",
           "price": 28000,
-          "tax": 2345
+          "tax": 2345.0
         },
         {
-          "label": "Electronics (laptop)",
+          "label": "Electronics (laptop, Clark County, 8.375%)",
           "price": 1000,
           "tax": 83.75
         },
         {
-          "label": "Home appliance",
+          "label": "Home appliance (Clark County, 8.375%)",
           "price": 600,
           "tax": 50.25
         }

@@ -53,24 +53,24 @@
       },
       "scenarios": [
         {
-          "label": "Used car purchase",
+          "label": "Used car purchase (Seattle, 11.05%)",
           "price": 12000,
-          "tax": 1230
+          "tax": 1326.0
         },
         {
-          "label": "New car purchase",
+          "label": "New car purchase (Seattle, 11.05%)",
           "price": 28000,
-          "tax": 2870
+          "tax": 3094.0
         },
         {
-          "label": "Electronics (laptop)",
+          "label": "Electronics (laptop) (Seattle, 10.55%)",
           "price": 1000,
-          "tax": 102.5
+          "tax": 105.5
         },
         {
-          "label": "Home appliance",
+          "label": "Home appliance (Seattle, 10.55%)",
           "price": 600,
-          "tax": 61.5
+          "tax": 63.3
         }
       ],
       "taxFreeWeekends": [],
@@ -81,7 +81,7 @@
         },
         {
           "question": "What is the sales tax rate in Seattle, Washington?",
-          "answer": "Seattle has a combined sales tax rate of 10.25% — the 6.5% state rate plus 3.6% in city and county local taxes and a 0.1% Regional Transit Authority addition. Seattle consistently ranks among the highest sales tax rates of any major US city."
+          "answer": "Seattle has a combined sales tax rate of 10.55%. This total includes the 6.5% Washington state sales tax and 4.05% in local city, county, and regional transit authority (RTA) taxes. Seattle features one of the highest municipal sales tax ceilings in the United States."
         },
         {
           "question": "Does Washington State have a sales tax holiday?",
