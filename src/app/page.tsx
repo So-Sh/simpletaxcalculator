@@ -99,11 +99,6 @@ const PILLARS = [
     }, */
 ]
 
-const STATS = [
-  { value: '6', label: 'States covered' },
-  { value: '5', label: 'Tax calculators' },
-  { value: '2026', label: 'Rates updated' },
-]
 
 // Featured states — launch priority order
 const FEATURED_STATE_SLUGS = ['ohio', 'arizona', 'pennsylvania', 'florida', 'texas', 'california']
@@ -121,14 +116,14 @@ export default function HomePage() {
       {/* ------------------------------------------------------------------ */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 pt-14 pb-10">
         <div className="max-w-2xl">
-          <p className="section-label mb-3">Free · No signup · Updated for 2026</p>
+          <p className="section-label mb-3">Free · No signup</p>
           <h1 className="text-4xl sm:text-5xl font-semibold text-primary leading-tight mb-4">
             US tax calculators
             <br />
             that actually work.
           </h1>
           <p className="text-lg text-muted leading-relaxed max-w-xl">
-            State-specific sales tax, property tax, inheritance tax, and more.
+            State-specific sales tax, property tax, gas tax, and more.
             All rates sourced directly from official state Department of Revenue
             websites and updated quarterly.
           </p>
@@ -289,6 +284,10 @@ export default function HomePage() {
 
           <Link href="https://startupfa.me/s/simpletaxcalculator?utm_source=simpletaxcalculator.app" target="_blank" rel="noopener noreferrer">
             <Image src="https://startupfa.me/badges/featured-badge.webp" alt="Featured on Startup Fame" width={200} height={54} />
+          </Link>
+
+          <Link href="https://neeed.directory/products/simple-tax-calculator?utm_source=simple-tax-calculator" target="_blank" rel="noopener noreferrer">
+            <Image src="https://neeed.directory/badges/neeed-badge-light.svg" alt="Featured on neeed.directory" width={200} height={54} />
           </Link>
 
 
