@@ -62,7 +62,7 @@ const PILLARS = [
     title: 'Property Tax Estimator',
     description: 'Estimate annual property tax based on assessed value and local mill rate.',
     href: '/property-tax',
-    live: false,
+    live: true,
     tag: null,
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="text-accent">
