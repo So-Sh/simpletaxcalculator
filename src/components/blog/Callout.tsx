@@ -68,7 +68,9 @@ export function Callout({ children, type = 'info', title }: CalloutProps) {
           {title ?? c.label}
         </span>
       </div>
-      <div className="text-[0.9rem] leading-relaxed text-body">{children}</div>
+      <div className="text-[0.9rem] leading-relaxed text-body [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:my-3 [&_li]:mb-1">
+        {children}
+      </div>
     </div>
   )
 }

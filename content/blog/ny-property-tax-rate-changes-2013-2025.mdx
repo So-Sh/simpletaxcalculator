@@ -52,16 +52,25 @@ We left New York City out of this analysis. The city's property tax system works
 
 **Data Source:** This analysis utilizes the [Real Property Tax Rates Levy Data By Municipality](https://catalog.data.gov/dataset/real-property-tax-rates-levy-data-by-municipality-beginning-2004) dataset published by data.ny.gov and maintained by the State of New York.
 
-<Callout type="scope" title="What this analysis does not measure">
-This analysis looks only at the municipal tax rate, the town or city government's share of your property tax bill. It does not measure:
+<Callout type="info" title="What this analysis does not measure">
+  <p>This analysis looks only at the municipal tax rate, the town or city government's share of your property tax bill. It does not measure:</p>
+  <ul>
+    <li>school tax rates, which are often the largest part of a property tax bill</li>
+    <li>county tax rates</li>
+    <li>special district charges</li>
+    <li>your actual, individual tax bill</li>
+    <li>changes in your home's assessed value or market price</li>
+  </ul>
+  <p>Your total property tax bill can go up or down for reasons this analysis does not capture. A rising municipal rate does not necessarily mean your total bill rose by the same amount, and a flat municipal rate does not mean your total bill stayed the same.</p>
+</Callout>
 
-- school tax rates, which are often the largest part of a property tax bill
-- county tax rates
-- special district charges
-- your actual, individual tax bill
-- changes in your home's assessed value or market price
-
-Your total property tax bill can go up or down for reasons this analysis does not capture. A rising municipal rate does not necessarily mean your total bill rose by the same amount, and a flat municipal rate does not mean your total bill stayed the same.
+<Callout type="warning" title="Data Note: State Aggregations vs. Local General Funds">
+  <p>The municipal rates tracked in state-level datasets reflect properties located <strong>outside of incorporated villages</strong>. To maintain a standardized cross-state baseline, the State of New York automatically rolls two distinct items into its high-level "Municipal Full Value" column:</p>
+  <ul>
+    <li><strong>The Part-Town Factor:</strong> Extra highway or zoning levies applied only to out-of-village properties to cover services village residents pay for independently.</li>
+    <li><strong>Special Taxing Districts:</strong> Localized consolidated charges for fire protection, libraries, and ambulance services.</li>
+  </ul>
+  <p>Because of this aggregation, the state's recorded municipal rate will frequently look higher than the baseline "General Fund" rate listed on a town's local budget sheet.</p>
 </Callout>
 
 <a id="why-percentages-mislead"></a>
