@@ -1,0 +1,248 @@
+{
+  "lastUpdated": "June 2026",
+  "dataAsOf": "2026 (current statutory rates as of publication)",
+  "officialSourceLabel": "State Departments of Revenue (PA, NJ, KY, NE, MD) and IRS — see per-state and federal sourceUrl fields",
+  "notes": {
+    "scope": "Only 5 US states currently impose a state-level inheritance tax: Pennsylvania, New Jersey, Kentucky, Nebraska, and Maryland (Maryland also imposes a separate state estate tax — not covered here). Iowa repealed its inheritance tax effective January 1, 2025, and is intentionally excluded from this dataset. We deliberately do NOT build pages for the ~44 states with no inheritance tax — see CLAUDE.md for the duplicate-content rationale. Those states are instead covered by a single comparison page, not per-state JSON entries.",
+    "beneficiaryClasses": "Each of the 5 states taxes beneficiaries differently based on their relationship to the deceased, not based on the size of the estate. This is fundamentally different from estate tax, which taxes the estate itself regardless of who inherits. Rates and exemptions below are per-beneficiary, not per-estate.",
+    "federalEstateTax": "Separate from all state inheritance taxes. Applies regardless of which state the decedent lived in, but only to estates above the federal exemption ($15 million per individual for 2026, $30 million per married couple with portability). Fewer than 1% of US estates owe federal estate tax. This applies even in the 45 states with no state inheritance tax, which is why every page on this site (including no-tax states) covers federal estate tax exposure.",
+    "watchItems": "Kentucky HB726/HB46 would exempt Class B beneficiaries entirely, but as of this data's last verification the bill had NOT been confirmed as enacted current law (Kentucky's own Department of Revenue guidance still describes Class B as taxable under the existing $1,000 exemption / 4-16% rates). Treat Class B as still taxable until confirmed otherwise. Under active Nebraska law established by LB310, Class 2 remote relatives remain subject to an 11% tax rate on all inherited amounts exceeding their individual $40,000 exemption threshold."
+},
+"federalEstateTax": {
+    "exemptionPerIndividual": 15000000,
+    "exemptionPerMarriedCouple": 30000000,
+    "topRate": 0.40,
+    "note": "The federal estate tax exemption is $15 million per individual for 2026 ($30 million per married couple using portability), permanently set by the One Big Beautiful Bill Act (OBBBA), signed July 4, 2025. The rate schedule technically starts at 18% and graduates to 40%, but the unified credit absorbs all the lower brackets — in practice, every dollar of a taxable estate above the exemption is effectively taxed at the flat 40% top rate. This is an ESTATE tax, paid by the estate before distribution, not an inheritance tax paid by the beneficiary — the two are separate and can both apply to the same estate.",
+    "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/estate-tax",
+    "sourceLabel": "Internal Revenue Service — Estate Tax"
+},
+    "states": [
+    {
+      "slug": "pennsylvania",
+      "name": "Pennsylvania",
+      "abbreviation": "PA",
+      "hasInheritanceTax": true,
+      "customIntro": "",
+      "exemptionThreshold": null,
+      "exemptionNote": "Pennsylvania has no dollar exemption threshold. The tax applies to the first dollar inherited by any non-exempt beneficiary, regardless of estate size.",
+      "beneficiaryClasses": [
+        {
+          "class": "Spouse",
+          "rate": 0.00,
+          "description": "Surviving spouse — fully exempt, regardless of inheritance size.",
+          "exemptionAmount": null
+        },
+        {
+          "class": "Child age 21 or younger (from a parent)",
+          "rate": 0.00,
+          "description": "Transfers to a child age 21 or younger from a natural, adoptive, or stepparent are fully exempt (effective for deaths on or after January 1, 2020).",
+          "exemptionAmount": null
+        },
+        {
+          "class": "Lineal descendants/ascendants (adult children, grandchildren, stepchildren, parents)",
+          "rate": 0.045,
+          "description": "Children, grandchildren, stepchildren, and parents — 4.5% flat rate on the full amount, no exemption.",
+          "exemptionAmount": null
+        },
+        {
+          "class": "Siblings",
+          "rate": 0.12,
+          "description": "Brothers and sisters (including half-siblings) — 12% flat rate on the full amount, no exemption.",
+          "exemptionAmount": null
+        },
+        {
+          "class": "All other beneficiaries",
+          "rate": 0.15,
+          "description": "Nieces, nephews, friends, unmarried partners, and all other non-exempt beneficiaries — 15% flat rate on the full amount, no exemption.",
+          "exemptionAmount": null
+        },
+        {
+          "class": "Charities and government entities",
+          "rate": 0.00,
+          "description": "Qualified charitable, religious, educational, and government transfers — fully exempt.",
+          "exemptionAmount": null
+        }
+      ],
+      "earlyPaymentDiscount": {
+        "rate": 0.05,
+        "deadlineMonths": 3,
+        "description": "5% discount on the total tax due if paid within 3 months of the date of death."
+      },
+      "filingDeadlineMonths": 9,
+      "hasStateEstateTax": false,
+      "faqs": [],
+      "relatedTools": [],
+      "officialSourceUrl": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/inheritance-tax",
+      "officialSourceLabel": "Pennsylvania Department of Revenue — Inheritance Tax"
+    },
+    {
+      "slug": "new-jersey",
+      "name": "New Jersey",
+      "abbreviation": "NJ",
+      "hasInheritanceTax": true,
+      "customIntro": "",
+      "exemptionThreshold": null,
+      "exemptionNote": "New Jersey's inheritance tax applies to transfers of property valued at $500 or more. Class A and Class E beneficiaries are fully exempt regardless of amount; Class C and Class D have their own per-class exemptions, detailed below.",
+      "beneficiaryClasses": [
+        {
+          "class": "Class A — spouse, civil union/domestic partner, children, stepchildren, grandchildren, parents, grandparents",
+          "rate": 0.00,
+          "description": "Fully exempt regardless of inheritance size.",
+          "exemptionAmount": null
+        },
+        {
+          "class": "Class C — siblings, sons-in-law, daughters-in-law",
+          "rate": null,
+          "description": "First $25,000 exempt. Graduated rates above that: 11% from $25,001-$1,100,000; 13% from $1,100,001-$1,400,000; 14% from $1,400,001-$1,700,000; 16% above $1,700,000.",
+          "exemptionAmount": 25000,
+          "brackets": [
+            { "upTo": 1100000, "rate": 0.11 },
+            { "upTo": 1400000, "rate": 0.13 },
+            { "upTo": 1700000, "rate": 0.14 },
+            { "upTo": null, "rate": 0.16 }
+          ]
+        },
+        {
+          "class": "Class D — everyone else (nieces, nephews, friends, unmarried partners, cousins)",
+          "rate": null,
+          "description": "No exemption. 15% on the first $700,000; 16% above $700,000.",
+          "exemptionAmount": 0,
+          "brackets": [
+            { "upTo": 700000, "rate": 0.15 },
+            { "upTo": null, "rate": 0.16 }
+          ]
+        },
+        {
+          "class": "Class E — charities, government entities, religious/educational institutions",
+          "rate": 0.00,
+          "description": "Fully exempt regardless of amount.",
+          "exemptionAmount": null
+        }
+      ],
+      "earlyPaymentDiscount": null,
+      "filingDeadlineMonths": 8,
+      "hasStateEstateTax": false,
+      "faqs": [],
+      "relatedTools": [],
+      "officialSourceUrl": "https://www.nj.gov/treasury/taxation/inheritance-estate/",
+      "officialSourceLabel": "New Jersey Division of Taxation — Inheritance and Estate Tax"
+    },
+    {
+      "slug": "kentucky",
+      "name": "Kentucky",
+      "abbreviation": "KY",
+      "hasInheritanceTax": true,
+      "customIntro": "",
+      "exemptionThreshold": null,
+      "exemptionNote": "Kentucky uses small flat-dollar exemptions per class (not a single statewide threshold), detailed per class below.",
+      "beneficiaryClasses": [
+        {
+          "class": "Class A — spouse, parents, children, grandchildren, siblings, half-siblings",
+          "rate": 0.00,
+          "description": "Fully exempt regardless of inheritance size.",
+          "exemptionAmount": null
+        },
+        {
+          "class": "Class B — nieces, nephews, daughters/sons-in-law, aunts, uncles, great-grandchildren",
+          "rate": null,
+          "description": "$1,000 exemption, then graduated rates from 4% to 16% depending on the amount inherited. NOTE: a 2026 legislative proposal (HB726/HB46) would fully exempt Class B, but this has not been confirmed as enacted current law as of this data's last verification — see notes.watchItems.",
+          "exemptionAmount": 1000,
+          "rateRange": { "min": 0.04, "max": 0.16 }
+        },
+        {
+          "class": "Class C — all others (cousins, friends, unrelated individuals, most organizations)",
+          "rate": null,
+          "description": "$500 exemption, then graduated rates from 6% to 16% depending on the amount inherited.",
+          "exemptionAmount": 500,
+          "rateRange": { "min": 0.06, "max": 0.16 }
+        }
+      ],
+      "earlyPaymentDiscount": {
+        "rate": 0.05,
+        "deadlineMonths": 9,
+        "description": "5% discount if paid within 9 months of the date of death."
+      },
+      "filingDeadlineMonths": 18,
+      "hasStateEstateTax": false,
+      "faqs": [],
+      "relatedTools": [],
+      "officialSourceUrl": "https://revenue.ky.gov/Individual/Inheritance-Estate-Tax/Pages/default.aspx",
+      "officialSourceLabel": "Kentucky Department of Revenue — Inheritance Tax"
+    },
+    {
+    "slug": "nebraska",
+    "name": "Nebraska",
+    "abbreviation": "NE",
+    "hasInheritanceTax": true,
+    "customIntro": "",
+    "exemptionThreshold": null,
+    "exemptionNote": "Nebraska is unique among inheritance-tax states: the tax is collected at the COUNTY level (paid to the county treasurer where the deceased resided, or where real estate is located), not statewide, even though the rates and exemptions are set by state law.",
+    "isCountyCollected": true,
+    "beneficiaryClasses": [
+        {
+        "class": "Spouse",
+        "rate": 0.00,
+        "description": "Fully exempt regardless of inheritance size.",
+        "exemptionAmount": null
+        },
+        {
+        "class": "Class 1 — immediate relatives (parents, grandparents, siblings, children, other lineal descendants)",
+        "rate": 0.01,
+        "description": "$100,000 individual exemption, then 1% flat rate on the clear market value above that.",
+        "exemptionAmount": 100000
+        },
+        {
+        "class": "Class 2 — remote relatives (aunts, uncles, nieces, nephews, and their spouses/descendants)",
+        "rate": 0.11,
+        "description": "$40,000 individual exemption, then 11% flat rate on the clear market value above that.",
+        "exemptionAmount": 40000
+        },
+        {
+        "class": "Class 3 — all other beneficiaries",
+        "rate": 0.15,
+        "description": "$25,000 individual exemption, then 15% flat rate on the clear market value above that.",
+        "exemptionAmount": 25000
+        }
+    ],
+    "additionalExemptions": "Anyone under age 22 is fully exempt from Nebraska inheritance tax, regardless of beneficiary class (effective January 1, 2023).",
+    "earlyPaymentDiscount": null,
+    "filingDeadlineMonths": 12,
+    "hasStateEstateTax": false,
+    "faqs": [],
+    "relatedTools": [],
+    "officialSourceUrl": "https://nebraska.gov",
+    "officialSourceLabel": "Nebraska Department of Revenue — Property Assessment Division"
+    },
+    {
+    "slug": "maryland",
+    "name": "Maryland",
+    "abbreviation": "MD",
+    "hasInheritanceTax": true,
+    "hasStateEstateTax": true,
+    "customIntro": "Maryland is the only state in the nation that imposes both a flat inheritance tax on collateral heirs and a separate estate tax on large asset pools.",
+    "exemptionThreshold": 5000000,
+    "exemptionNote": "The $5,000,000 threshold applies strictly to the Maryland Estate Tax layer. The Inheritance Tax layer relies entirely on beneficiary relationship classes.",
+    "beneficiaryClasses": [
+        {
+        "class": "Exempt Class — spouse, registered domestic partner, parents, grandparents, children, stepchildren, grandchildren, siblings, sons/daughters-in-law",
+        "rate": 0.00,
+        "description": "Fully exempt from the 10% inheritance tax regardless of inheritance size.",
+        "exemptionAmount": null
+        },
+        {
+        "class": "Collateral Heirs — nieces, nephews, aunts, uncles, cousins, friends, unmarried partners",
+        "rate": 0.10,
+        "description": "Flat 10% tax applied to the clear market value of the property. Inheritances of $1,000 or less per person are completely exempt.",
+        "exemptionAmount": 1000
+        }
+    ],
+    "earlyPaymentDiscount": null,
+    "filingDeadlineMonths": 9,
+    "stateEstateTaxNote": "The state estate tax exemption is $5 million per individual (not indexed for inflation) with a top rate of 16%, applied to the estate itself before distribution. Inheritance tax paid is credited against estate tax owed, so the same assets are not fully taxed twice.",
+    "faqs": [],
+    "relatedTools": [],
+    "officialSourceUrl": "https://registers.maryland.gov/main/taxes.html",
+    "officialSourceLabel": "Maryland Register of Wills — Inheritance Tax"
+    }
+  ]
+}

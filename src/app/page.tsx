@@ -69,12 +69,12 @@ const PILLARS = [
         <path d="M3 17V9l7-6 7 6v8M8 17v-5h4v5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
-  },/* 
+  },
   {
     title: 'Inheritance Tax Calculator',
     description: 'Estimate inheritance tax liability by state based on estate value and heir relationship.',
     href: '/inheritance-tax',
-    live: false,
+    live: true,
     tag: null,
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="text-accent">
@@ -82,7 +82,7 @@ const PILLARS = [
         <path d="M5 17h10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
       </svg>
     ),
-  },*/
+  },
 
   /*   {
       title: 'Self-Employment Tax Calculator',

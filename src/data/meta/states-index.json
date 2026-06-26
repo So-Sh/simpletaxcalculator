@@ -29,7 +29,8 @@
       "sales-tax",
       "capital-gains",
       "gas-tax",
-      "property-tax"
+      "property-tax",
+      "inheritance-tax"
     ]
   },
   {
@@ -183,7 +184,8 @@
       "sales-tax",
       "capital-gains",
       "gas-tax",
-      "property-tax"
+      "property-tax",
+      "inheritance-tax"
     ]
   },
   {
@@ -194,7 +196,8 @@
       "sales-tax",
       "capital-gains",
       "gas-tax",
-      "property-tax"
+      "property-tax",
+      "inheritance-tax"
     ]
   },
   {
@@ -238,7 +241,8 @@
       "sales-tax",
       "capital-gains",
       "gas-tax",
-      "property-tax"
+      "property-tax",
+      "inheritance-tax"
     ]
   },
   {
@@ -359,7 +363,8 @@
       "sales-tax",
       "capital-gains",
       "gas-tax",
-      "property-tax"
+      "property-tax",
+      "inheritance-tax"
     ]
   },
   {
