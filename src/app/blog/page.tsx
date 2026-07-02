@@ -100,7 +100,7 @@ export default async function BlogIndexPage() {
                       {post.tags.map((tag) => (
                         <span
                           key={tag}
-                          className="text-2xs font-semibold tracking-wider text-accent
+                          className="text-[10px] font-bold tracking-wider text-accent
                                      bg-accent/10 px-2 py-0.5 rounded-full uppercase"
                         >
                           {tag}
