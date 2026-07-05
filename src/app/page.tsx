@@ -274,10 +274,10 @@ export default function HomePage() {
       {/* ── Featured badges ── */}
       <section aria-labelledby="featured-heading" className="mt-14">
         <div className="flex justify-center items-center gap-6 flex-wrap">
-          <Link href="https://wired.business" target="_blank" rel="noopener noreferrer">
+          <Link href="https://wired.business/category/finance" target="_blank" rel="noopener noreferrer">
             <Image src="https://wired.business/badge0-white.svg" alt="Featured on Wired Business" width={200} height={54} />
           </Link>
-          <Link href="https://twelve.tools" target="_blank" rel="noopener noreferrer">
+          <Link href="https://twelve.tools/simpletaxcalculator-app" target="_blank" rel="noopener noreferrer">
             <Image src="https://twelve.tools/badge0-white.svg" alt="Featured on Twelve Tools" width={200} height={54} />
           </Link>
 
