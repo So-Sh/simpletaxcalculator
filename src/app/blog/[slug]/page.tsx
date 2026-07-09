@@ -17,6 +17,7 @@ import { SoftCTA } from '@/components/blog/SoftCTA'
 import { DataTable } from '@/components/blog/DataTable'
 import { KeyFindings } from '@/components/blog/KeyFindings'
 import { HeroStat } from '@/components/blog/HeroStat'
+import { FaqAccordion } from '@/components/blog/FaqAccordion'
 
 import { getAuthor } from '@/lib/authors'
 
@@ -29,7 +30,8 @@ const components = {
   SoftCTA,
   DataTable,
   KeyFindings,
-  HeroStat
+  HeroStat,
+  FaqAccordion
 }
 
 interface PageProps {
@@ -150,7 +152,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         </header>
 
         {/* MDX content */}
-       <div
+        <div
           className="
             prose prose-slate max-w-none
 
