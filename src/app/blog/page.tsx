@@ -10,7 +10,7 @@ import { getAuthor } from '@/lib/authors'
 const CONTENT_DIR = path.join(process.cwd(), 'content/blog')
 
 export const metadata: Metadata = {
-  title: 'Tax Insights & Research — simpletaxcalculator.app',
+  title: 'Tax Insights  — simpletaxcalculator.app',
   description:
     'Original research and clear explainers on sales tax, property tax, inheritance tax, and more. Sourced from official state and federal data.',
 }
@@ -66,7 +66,7 @@ export default async function BlogIndexPage() {
 
         {/* Header */}
         <div className="mb-12">
-          <p className="section-label mb-3">Research &amp; insights</p>
+          <p className="section-label mb-3">Tax Insights</p>
           <h1 className="text-3xl sm:text-4xl font-semibold text-primary leading-tight mb-3">
             Tax data, explained clearly
           </h1>
