@@ -119,6 +119,7 @@ export default function GasTaxPillarPage() {
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
                         {states.map((state) => (
                             <Link
+                                prefetch={false}
                                 key={state.slug}
                                 href={`/${state.slug}/gas-tax`}
                                 className="flex items-center justify-between px-3 py-2.5 rounded-lg border
@@ -181,7 +182,7 @@ export default function GasTaxPillarPage() {
                                         <tr key={state.slug}
                                             className={`border-b border-border last:border-0 ${i % 2 === 0 ? '' : 'bg-bg/60'}`}>
                                             <td className="py-2.5 pr-4">
-                                                <Link href={`/${state.slug}/gas-tax`}
+                                                <Link prefetch={false} href={`/${state.slug}/gas-tax`}
                                                     className="font-medium text-accent hover:underline underline-offset-2">
                                                     {state.name}
                                                 </Link>
@@ -202,7 +203,7 @@ export default function GasTaxPillarPage() {
                                                 {formatCents(state.gasoline.combinedRateCents + FEDERAL_GAS_COMBINED)}
                                             </td>
                                             <td className="py-2.5 text-right">
-                                                <Link href={`/${state.slug}/gas-tax`}
+                                                <Link prefetch={false} href={`/${state.slug}/gas-tax`}
                                                     className="text-xs text-accent hover:underline">
                                                     Calculate →
                                                 </Link>

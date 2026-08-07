@@ -41,7 +41,7 @@ export default function ComingSoon({
             </p>
 
             {/* Back link */}
-            <Link
+            <Link prefetch={false}
                 href={backHref}
                 className="inline-flex items-center gap-2 text-sm font-medium text-accent
                    hover:underline underline-offset-2"

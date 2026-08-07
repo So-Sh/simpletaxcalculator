@@ -31,9 +31,9 @@ export default async function StateSelfEmploymentTaxPage({ params }: Props) {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
       <p className="text-xs text-muted mb-6">
-        <Link href="/" className="hover:text-primary transition-colors">Home</Link>
+        <Link prefetch={false} href="/" className="hover:text-primary transition-colors">Home</Link>
         {' / '}
-        <Link href={`/${slug}`} className="hover:text-primary transition-colors">{meta.name}</Link>
+        <Link prefetch={false} href={`/${slug}`} className="hover:text-primary transition-colors">{meta.name}</Link>
         {' / '}
         <span className="text-body">Self-Employment Tax</span>
       </p>

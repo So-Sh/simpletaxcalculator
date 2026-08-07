@@ -103,6 +103,7 @@ export default function InheritanceTaxPillarPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
             {states.map((state) => (
               <Link
+                prefetch={false}
                 key={state.slug}
                 href={`/${state.slug}/inheritance-tax`}
                 className="flex items-center justify-between px-3 py-2.5 rounded-lg border

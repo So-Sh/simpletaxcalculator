@@ -163,7 +163,7 @@ export default function SalesTaxPillarPage() {
                     {/* States with sales tax */}
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mb-6">
                         {states.map((state) => (
-                            <Link
+                            <Link prefetch={false}
                                 key={state.slug}
                                 href={`/${state.slug}/sales-tax`}
                                 className="flex items-center gap-2 px-3 py-2.5 rounded-lg border border-border
@@ -246,7 +246,7 @@ export default function SalesTaxPillarPage() {
                                         className={`border-b border-border last:border-0 ${i % 2 === 0 ? '' : 'bg-bg/60'}`}>
                                         <td className="py-2.5 pr-4">
                                             {row.slug ? (
-                                                <Link href={`/${row.slug}/sales-tax`}
+                                                <Link prefetch={false} href={`/${row.slug}/sales-tax`}
                                                     className="text-accent hover:underline underline-offset-2">
                                                     {row.name}
                                                 </Link>

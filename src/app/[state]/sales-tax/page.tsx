@@ -52,9 +52,9 @@ export default async function StateSalesTaxPage({ params }: Props) {
 
       <ToolPageLayout>
         <p className="text-xs text-muted">
-          <Link href="/" className="hover:text-primary transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-primary transition-colors">Home</Link>
           {' / '}
-          <Link href={`/${slug}`} className="hover:text-primary transition-colors">{data.stateName}</Link>
+          <Link prefetch={false} href={`/${slug}`} className="hover:text-primary transition-colors">{data.stateName}</Link>
           {' / '}
           <span className="text-body">Sales Tax</span>
         </p>

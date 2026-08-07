@@ -94,7 +94,7 @@ export default function PropertyTaxPillarPage() {
                     </p>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
                         {states.map((state) => (
-                            <Link
+                            <Link prefetch={false}
                                 key={state.slug}
                                 href={`/${state.slug}/property-tax`}
                                 className="flex items-center gap-2 px-3 py-2.5 rounded-lg border
@@ -147,7 +147,7 @@ export default function PropertyTaxPillarPage() {
                                     <tr key={state.slug}
                                         className={`border-b border-border last:border-0 ${i % 2 === 0 ? '' : 'bg-bg/60'}`}>
                                         <td className="py-2.5 pr-4">
-                                            <Link href={`/${state.slug}/property-tax`}
+                                            <Link prefetch={false} href={`/${state.slug}/property-tax`}
                                                 className="font-medium text-accent hover:underline underline-offset-2">
                                                 {state.name}
                                             </Link>
@@ -169,7 +169,7 @@ export default function PropertyTaxPillarPage() {
                                             ) : 'N/A'}
                                         </td>
                                         <td className="py-2.5 text-right">
-                                            <Link href={`/${state.slug}/property-tax`}
+                                            <Link prefetch={false} href={`/${state.slug}/property-tax`}
                                                 className="text-xs text-accent hover:underline">
                                                 Estimate →
                                             </Link>

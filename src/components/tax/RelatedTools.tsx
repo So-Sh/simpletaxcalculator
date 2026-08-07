@@ -10,7 +10,7 @@ export default function RelatedTools({ links }: RelatedToolsProps) {
             <h2 className="text-base font-semibold text-primary mb-4">Related calculators</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 {links.map((link) => (
-                    <Link
+                    <Link prefetch={false}
                         key={link.href}
                         href={link.href}
                         className="flex items-center gap-2 px-4 py-2.5 rounded-lg border border-border

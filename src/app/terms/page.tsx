@@ -116,7 +116,7 @@ export default function TermsOfServicePage() {
         </a>
 
         <p className="text-xs text-muted mt-6">
-          <Link
+          <Link prefetch={false}
             href="/about"
             className="hover:text-primary transition-colors underline underline-offset-2"
           >

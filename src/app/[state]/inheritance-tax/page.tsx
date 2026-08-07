@@ -65,18 +65,16 @@ export default async function StateInheritanceTaxPage({ params }: Props) {
   const stateFaqs = [
     {
       question: `What is the inheritance tax rate in ${stateData.name}?`,
-      answer: `${stateData.name}'s inheritance tax rate depends entirely on your relationship to the deceased. ${
-        exemptClasses.length > 0
-          ? `${exemptClasses.map((c) => c.class).join(', ')} are fully exempt. `
-          : ''
-      }${
-        taxableClasses.length > 0
+      answer: `${stateData.name}'s inheritance tax rate depends entirely on your relationship to the deceased. ${exemptClasses.length > 0
+        ? `${exemptClasses.map((c) => c.class).join(', ')} are fully exempt. `
+        : ''
+        }${taxableClasses.length > 0
           ? `Other beneficiaries pay rates ranging from ${taxableClasses
-              .map((c) => (c.rate !== null ? formatPercent(c.rate) : c.rateRange ? `${formatPercent(c.rateRange.min)}–${formatPercent(c.rateRange.max)}` : ''))
-              .filter(Boolean)
-              .join(' to ')}, depending on the beneficiary class and amount inherited.`
+            .map((c) => (c.rate !== null ? formatPercent(c.rate) : c.rateRange ? `${formatPercent(c.rateRange.min)}–${formatPercent(c.rateRange.max)}` : ''))
+            .filter(Boolean)
+            .join(' to ')}, depending on the beneficiary class and amount inherited.`
           : ''
-      } Select your relationship to the deceased above for your specific rate and exemption.`,
+        } Select your relationship to the deceased above for your specific rate and exemption.`,
     },
     ...(stateData.isCountyCollected
       ? [{
@@ -124,9 +122,9 @@ export default async function StateInheritanceTaxPage({ params }: Props) {
 
         {/* Breadcrumb */}
         <p className="text-xs text-muted">
-          <Link href="/" className="hover:text-primary transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-primary transition-colors">Home</Link>
           {' / '}
-          <Link href={`/${slug}`} className="hover:text-primary transition-colors">{stateData.name}</Link>
+          <Link prefetch={false} href={`/${slug}`} className="hover:text-primary transition-colors">{stateData.name}</Link>
           {' / '}
           <span className="text-body">Inheritance Tax</span>
         </p>

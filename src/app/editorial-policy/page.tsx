@@ -200,7 +200,7 @@ export default function EditorialPolicyPage() {
           contact@simpletaxcalculator.app
         </a>
         <p className="text-xs text-muted mt-6">
-          <Link href="/about" className="hover:text-primary transition-colors underline underline-offset-2">
+          <Link prefetch={false} href="/about" className="hover:text-primary transition-colors underline underline-offset-2">
             About Us
           </Link>
           {' '}· Last reviewed: May 2026

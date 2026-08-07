@@ -90,6 +90,7 @@ export default async function BlogIndexPage() {
               const author = post.authorSlug ? getAuthor(post.authorSlug) : null
               return (
                 <Link
+                  prefetch={false}
                   key={post.slug}
                   href={`/blog/${post.slug}`}
                   className="tool-card flex flex-col h-full group transition-all duration-200

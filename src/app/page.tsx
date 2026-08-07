@@ -183,7 +183,7 @@ export default function HomePage() {
             )
 
             return tool.live ? (
-              <Link key={tool.href} href={tool.href} className="flex flex-col">
+              <Link key={tool.href} href={tool.href} className="flex flex-col" prefetch={false}>
                 {card}
               </Link>
             ) : (
@@ -203,6 +203,7 @@ export default function HomePage() {
           <div className="flex items-baseline justify-between gap-4 mb-5">
             <p className="section-label">Popular state calculators</p>
             <Link href="/sales-tax"
+              prefetch={false}
               className="text-xs text-accent hover:underline underline-offset-2">
               View all states →
             </Link>
@@ -210,6 +211,7 @@ export default function HomePage() {
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
             {featuredStates.map((state) => (
               <Link
+                prefetch={false}
                 key={state.slug}
                 href={`/${state.slug}/sales-tax`}
                 className="tool-card flex flex-col items-center text-center gap-2 py-5
@@ -274,19 +276,19 @@ export default function HomePage() {
       {/* ── Featured badges ── */}
       <section aria-labelledby="featured-heading" className="mt-14">
         <div className="flex justify-center items-center gap-6 flex-wrap">
-          <Link href="https://wired.business/category/finance" target="_blank" rel="noopener noreferrer">
+          <Link prefetch={false} href="https://wired.business/category/finance" target="_blank" rel="noopener noreferrer">
             <Image src="https://wired.business/badge0-white.svg" alt="Featured on Wired Business" width={200} height={54} />
           </Link>
-          <Link href="https://twelve.tools/simpletaxcalculator-app" target="_blank" rel="noopener noreferrer">
+          <Link prefetch={false} href="https://twelve.tools/simpletaxcalculator-app" target="_blank" rel="noopener noreferrer">
             <Image src="https://twelve.tools/badge0-white.svg" alt="Featured on Twelve Tools" width={200} height={54} />
           </Link>
 
 
-          <Link href="https://startupfa.me/s/simpletaxcalculator?utm_source=simpletaxcalculator.app" target="_blank" rel="noopener noreferrer">
+          <Link prefetch={false} href="https://startupfa.me/s/simpletaxcalculator?utm_source=simpletaxcalculator.app" target="_blank" rel="noopener noreferrer">
             <Image src="https://startupfa.me/badges/featured-badge.webp" alt="Featured on Startup Fame" width={200} height={54} />
           </Link>
 
-          <Link href="https://neeed.directory/products/simple-tax-calculator?utm_source=simple-tax-calculator" target="_blank" rel="noopener noreferrer">
+          <Link prefetch={false} href="https://neeed.directory/products/simple-tax-calculator?utm_source=simple-tax-calculator" target="_blank" rel="noopener noreferrer">
             <Image src="https://neeed.directory/badges/neeed-badge-light.svg" alt="Featured on neeed.directory" width={200} height={54} />
           </Link>
 

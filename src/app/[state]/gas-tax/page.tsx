@@ -100,9 +100,9 @@ export default async function StateGasTaxPage({ params }: Props) {
 
         {/* Breadcrumb */}
         <p className="text-xs text-muted">
-          <Link href="/" className="hover:text-primary transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-primary transition-colors">Home</Link>
           {' / '}
-          <Link href={`/${slug}`} className="hover:text-primary transition-colors">{stateData.name}</Link>
+          <Link prefetch={false} href={`/${slug}`} className="hover:text-primary transition-colors">{stateData.name}</Link>
           {' / '}
           <span className="text-body">Gas Tax</span>
         </p>

@@ -64,8 +64,8 @@ export default async function StateCapitalGainsPage({ params }: Props) {
       answer: isNoTax
         ? `No. ${stateName} does not tax capital gains at the state level. Residents generally only owe federal capital gains tax.`
         : stateData.treatment === 'flat'
-        ? `Yes. ${stateName} taxes capital gains as part of its flat ${formatPercent(stateData.topRate)} state income tax rate. All income including capital gains is taxed at the same flat rate.`
-        : `Yes. ${stateData.note}`,
+          ? `Yes. ${stateName} taxes capital gains as part of its flat ${formatPercent(stateData.topRate)} state income tax rate. All income including capital gains is taxed at the same flat rate.`
+          : `Yes. ${stateData.note}`,
     },
     {
       question: `What is the combined federal and ${stateName} capital gains tax rate?`,
@@ -95,9 +95,9 @@ export default async function StateCapitalGainsPage({ params }: Props) {
 
       <ToolPageLayout>
         <p className="text-xs text-muted">
-          <Link href="/" className="hover:text-primary transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-primary transition-colors">Home</Link>
           {' / '}
-          <Link href={`/${slug}`} className="hover:text-primary transition-colors">{stateName}</Link>
+          <Link prefetch={false} href={`/${slug}`} className="hover:text-primary transition-colors">{stateName}</Link>
           {' / '}
           <span className="text-body">Capital Gains Tax</span>
         </p>
@@ -172,7 +172,7 @@ export default async function StateCapitalGainsPage({ params }: Props) {
                   { label: 'Long-term + NIIT (20% + 3.8%)', fed: 0.238 },
                 ].map((row, i) => (
                   <tr key={row.label}
-                      className={`border-b border-border last:border-0 ${i % 2 === 0 ? '' : 'bg-bg/60'}`}>
+                    className={`border-b border-border last:border-0 ${i % 2 === 0 ? '' : 'bg-bg/60'}`}>
                     <td className="py-2.5 pr-4 text-body">{row.label}</td>
                     <td className="py-2.5 pr-4 font-mono text-muted">{formatPercent(row.fed)}</td>
                     <td className="py-2.5 pr-4 font-mono text-muted">

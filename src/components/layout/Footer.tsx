@@ -47,7 +47,7 @@ export default function Footer() {
                         <ul className="space-y-2">
                             {tools.map((t) => (
                                 <li key={t.href}>
-                                    <Link href={t.href} className="text-sm hover:text-white transition-colors">
+                                    <Link prefetch={false} href={t.href} className="text-sm hover:text-white transition-colors">
                                         {t.label}
                                     </Link>
                                 </li>
@@ -61,7 +61,7 @@ export default function Footer() {
                         <ul className="space-y-2">
                             {company.map((c) => (
                                 <li key={c.href}>
-                                    <Link href={c.href} className="text-sm hover:text-white transition-colors">
+                                    <Link prefetch={false} href={c.href} className="text-sm hover:text-white transition-colors">
                                         {c.label}
                                     </Link>
                                 </li>

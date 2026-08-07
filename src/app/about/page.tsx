@@ -98,7 +98,7 @@ export default function AboutPage() {
         </p>
         <p className="text-sm text-muted leading-relaxed mt-2">
           The platform is operated by{' '}
-          <Link href="https://kobina.se" target='_blank' className="hover:text-primary transition-colors underline underline-offset-2">
+          <Link prefetch={false} href="https://kobina.se" target='_blank' className="hover:text-primary transition-colors underline underline-offset-2">
             Kobina
           </Link>
           , a software and digital service
@@ -232,7 +232,7 @@ export default function AboutPage() {
           contact@simpletaxcalculator.app
         </a>
         <p className="text-xs text-muted mt-6">
-          <Link href="/editorial-policy" className="hover:text-primary transition-colors underline underline-offset-2">
+          <Link prefetch={false} href="/editorial-policy" className="hover:text-primary transition-colors underline underline-offset-2">
             Editorial Policy
           </Link>
           {' '}· Last reviewed: May 2026

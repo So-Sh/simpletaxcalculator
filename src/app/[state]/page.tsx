@@ -60,7 +60,7 @@ export default async function StateHubPage({ params }: Props) {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
             {/* Breadcrumb */}
             <p className="text-xs text-muted mb-6">
-                <Link href="/" className="hover:text-primary transition-colors">Home</Link>
+                <Link prefetch={false} href="/" className="hover:text-primary transition-colors">Home</Link>
                 {' / '}
                 <span className="text-body">{meta.name}</span>
             </p>
