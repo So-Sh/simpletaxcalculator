@@ -393,6 +393,285 @@ Below FAQ	Rectangle (300×250)	End of content
 Mobile interstitial	Avoid	Google penalty risk on YMYL
 Do not place ads above the calculator on mobile.
 
+## Home Affordability Estimator — NEW
+
+### What this is
+Per-county "how much house can I afford" pages, built as long-tail spokes off
+county-level home value data (Zillow ZHVI). Deliberately **not** a single
+general affordability calculator — that's a saturated, off-topic vertical
+(Zillow, Bankrate, NerdWallet, SmartAsset) where a new site has no DA
+advantage. This follows the same long-tail logic already proven by the
+state/tax-type pSEO strategy, at county granularity, using data that's
+natively county-level with no synthetic step required.
+
+Naming: **Estimator**, not Calculator (see Naming conventions above). The
+result depends on stated assumptions (mortgage rate, down payment, DTI
+ratio, insurance, PMI), so it fails the "identical inputs → identical
+real-world bill" test outright.
+
+### Core model: income in, price out
+The page must answer the keyword it targets. "How much house can I afford"
+means income is the input and home price is the output — not the reverse.
+
+**MVP scope boundary — state this explicitly so it doesn't drift:**
+No debt-to-income input in MVP. The 28% ratio is applied to gross household
+income only, as a simplified housing-cost rule of thumb. Existing debts
+(car loans, student loans, credit cards, etc.) are not modeled. Do not add
+a debt input without a deliberate scope decision — this is exactly the kind
+of "obviously we should add X" creep that turns an estimator into a full
+mortgage calculator one field at a time.
+
+**The equation.** Let:
+```
+P = home price (unknown, solving for this)
+D = down payment %          (0.20 or 0.10)
+r = annual mortgage rate    (from mortgage-assumptions.json)
+T = county effective property-tax rate (from property-tax.json)
+I = insurance assumption %  (from mortgage-assumptions.json)
+M = PMI assumption % of loan amount, applied only when D < 0.20
+A = annual household income (user input)
+d = DTI ratio = 0.28
+```
+Monthly costs, all proportional to P or to the loan amount P×(1−D):
+```
+monthly P&I        = P × (1 − D) × mortgageFactor(r, 30yr)
+monthly tax         = P × T / 12
+monthly insurance   = P × I / 12
+monthly PMI         = P × (1 − D) × M / 12     (only if D < 0.20)
+```
+Setting total monthly housing cost equal to the monthly housing budget:
+```
+A × d / 12 = P × [ (1 − D) × mortgageFactor + T/12 + I/12 + (1 − D) × M/12 ]
+```
+This is linear in P, so **solve algebraically** — divide both sides by the
+bracketed coefficient to get P directly. Do not implement an iterative
+solver for the MVP; the cost components are all proportional to price, so
+there's nothing to iterate. Only revisit this if a future assumption
+introduces genuine non-linearity (e.g., tiered PMI rates by LTV band) —
+note that possibility here so a future session doesn't need to rediscover
+it, but don't build for it now.
+
+Then estimated affordable home price = P from the equation above, and
+estimated monthly payment = A × d / 12 (by construction).
+
+**Secondary calculation (the ZHVI benchmark):** run the same cost formula
+forward (not solving for P — P is already known, it's the county's ZHVI
+value) to answer "what income would a household need for the typical home
+here":
+```
+monthly housing cost for ZHVI value = ZHVI × [(1−D)×mortgageFactor + T/12 + I/12 + (1−D)×M/12]
+required annual income = monthly housing cost × 12 / d
+```
+ZHVI is a **benchmark for comparison, never an input to the primary
+affordability calculation.** This was the fundamental fix from the first
+draft — previously ZHVI drove the calculation and income was absent
+entirely, which didn't match the search intent the page targets. Keep this
+as a stated architectural decision, not just an implementation detail.
+
+Together, one page produces:
+- estimated affordable home price (from user's income)
+- county typical home value (ZHVI)
+- difference and % above/below
+- income needed for the typical home
+- estimated monthly payment, both for the user's estimate and for the
+  typical home
+- effective property tax rate used
+- 1-year / 5-year ZHVI change
+
+That's several independently derived, genuinely county-specific facts per
+page, not just one number with the county name swapped in — the real
+argument for defensibility at ~3,000 pages, stronger than "different
+numbers per page" alone.
+
+### Differentiator vs. competitors
+`property-tax.json` already has a real per-county effective rate, joined by
+FIPS, instead of a single national assumption. **Don't claim this makes the
+estimator "more accurate than Bankrate/NerdWallet/SmartAsset"** — that's an
+unverified comparative claim about how competitors' calculators actually
+work internally. The defensible framing: this gives the estimator a
+county-specific property-tax input rather than a national-average
+assumption, which makes the property-tax component more geographically
+specific — and creates a strong internal-link opportunity back to
+`/[state]/[county]/property-tax`.
+
+### URL structure
+```
+/[state]/home-affordability            ← state pillar (mirrors other tax-type pillars)
+/[state]/home-affordability/[county]   ← long-tail spoke (mirrors planned city-page pattern)
+```
+Target keywords: "home affordability [county]", "how much house can I afford
+in [county]", "income needed to buy a house in [county]".
+
+**Open item before finalizing page copy:** verify actual SERP intent for
+these terms on a sample of counties (calculator-intent vs. purely
+informational) rather than assuming the conventional affordability-tool
+shape matches search intent everywhere.
+
+### Data architecture
+Three separate files — different sources, different refresh cadences,
+consistent with the existing per-file decision rule.
+
+**`data/home-values.json` — ZHVI benchmark data.** All-states pattern
+(uniform/numeric). Source: Zillow Research, ZHVI (smoothed, seasonally
+adjusted, all-home mid-tier, 35th–65th percentile "typical home value" —
+state this precisely, it is not literally the median). Free for public use
+with clear attribution required per Zillow's published research-data
+terms — looser than Zillow's listings/API/MLS terms, don't conflate them.
+```json
+{
+  "dataAsOf": "2026-08-31",
+  "officialSourceUrl": "https://www.zillow.com/research/data/",
+  "officialSourceLabel": "Zillow Research (ZHVI, smoothed, seasonally adjusted)",
+  "counties": [
+    {
+      "fips": "39049",
+      "sizeRank": 123,
+      "name": "Franklin County",
+      "stateSlug": "ohio",
+      "latestValue": 268400,
+      "oneYearAgoValue": 254100,
+      "oneYearChangePct": 0.0563,
+      "fiveYearAgoValue": 198700,
+      "fiveYearChangePct": 0.3508
+    }
+  ]
+}
+```
+Keep `sizeRank` — it's free from the source CSV and is the rollout-phasing
+signal below; don't discard it during conversion. Never ship the full 300+
+column monthly time series into this file — compute the fields above at
+build time and discard the rest. Missing counties (~72 of 3,143 — no Zillow
+coverage) → `null`, render as "Data not available," never `0`.
+
+**`data/mortgage-assumptions.json`** — small, global, not per-county.
+Refreshed monthly; `dataAsOf` must name the specific week's rate.
+```json
+{
+  "rate": 0.0665,
+  "rateSource": "Freddie Mac PMMS, 30-year fixed, national average",
+  "rateSourceUrl": "https://www.freddiemac.com/pmms",
+  "dataAsOf": "2026-09-11",
+  "lastUpdated": "2026-09-16",
+  "insuranceAssumptionPct": 0.0035,
+  "insuranceAssumptionLabel": "Estimated at 0.35% of home value annually — a national assumption, not county-specific. Actual premiums vary by location, coverage, and deductible.",
+  "pmiAssumptionPct": 0.006,
+  "pmiAssumptionLabel": "PMI assumption: 0.6% of loan amount annually, applied only when down payment is below 20%. A national simplifying assumption; actual PMI varies by loan-to-value ratio, lender, and credit profile. Do not extrapolate this rate to down payment options beyond the 20%/10% toggle.",
+  "downPaymentOptionsPct": [0.20, 0.10],
+  "dtiRatio": 0.28
+}
+```
+Add an entry to the existing `lastAudited.json` mechanism alongside tax
+rates.
+
+**`meta/home-affordability-counties-index.json`** — lightweight index (fips,
+sizeRank, slug, name, state) for route generation only. Never load the full
+`home-values.json` just to render a list.
+
+### Component architecture
+Keep the pure-math component ignorant of Zillow entirely — it should not
+know what ZHVI is:
+
+```
+HomeAffordabilityCalculator   (pure math: solves the equation above in
+                                both directions — income → price, and
+                                price → required income)
+        ↓
+CountyAffordabilityContent    (page-level: calls the calculator twice —
+                                once for user input, once for the county's
+                                ZHVI value — and merges in property-tax rate,
+                                ZHVI 1yr/5yr change, and the benchmark
+                                comparison)
+```
+This preserves the existing "components are logic, pages are layout"
+principle — the first draft violated it by letting the calculator component
+know about Zillow directly.
+
+### Page content plan
+```
+H1: How Much House Can I Afford in Franklin County, Ohio?
+
+Home Affordability Estimator
+  Annual household income: [input]
+  Down payment: 20% / 10% [toggle]
+  Mortgage rate assumption: 6.65% — Freddie Mac PMMS, September 11, 2026
+  Estimated property tax: based on Franklin County's 1.53% effective rate
+  Insurance assumption: 0.35% of home value/year (national assumption)
+  PMI assumption: 0.6% of loan amount/year — shown only if down payment < 20%
+
+  → Estimated affordable home price: $XXX,XXX
+  → Estimated monthly payment: $X,XXX
+
+Compared with the county's typical home value
+  Typical home value (Zillow ZHVI): $268,400
+  1-year change: +5.6%   5-year change: +35.1%
+  Your estimated affordable home price is $XX,XXX [below/above] the
+  county's typical home value.
+
+What income is needed for a typical Franklin County home?
+  Based on the same assumptions, a household would need approximately
+  $XX,XXX in annual income to support the typical $268,400 home at a 28%
+  housing-cost ratio.
+
+Franklin County property taxes
+  Effective property tax rate: 1.53% [link to /ohio/property-tax page]
+
+How we estimate this
+  Show the actual equation, per the existing formula-section rule. State
+  the 28% ratio explicitly as a rule-of-thumb assumption, not an
+  underwriting model — it doesn't account for other debt, credit score,
+  HOA, utilities, maintenance, or lender-specific DTI requirements. State
+  the MVP scope boundary (no debt input) here too.
+```
+
+### Wording rules (YMYL)
+- "Estimated affordable home price," never "you can afford $X" — the 28%
+  ratio is a rule-of-thumb, not a lending decision.
+- Never frame the ZHVI comparison as an affordability threshold — "Compared
+  with the county's typical home value" / "your estimate is $X below/above,"
+  not language implying the Zillow figure is what the user should target.
+- "Mortgage rate assumption: 6.65% — Freddie Mac PMMS, September 11, 2026,"
+  never "today's rate" or "current rate."
+- "Estimated property tax: based on the county's effective rate," never a
+  bare "Property tax: $X."
+- "PMI assumption: 0.6% of loan amount annually," never bare "PMI: $X" —
+  don't let the simplifying assumption read as the borrower's actual PMI.
+- Insurance and PMI assumptions must carry their `*AssumptionLabel` text
+  on-page, not just exist in the JSON.
+
+### Rollout phasing (batched, with a concrete demand threshold)
+`sizeRank` is a phasing signal, not a demand signal.
+1. Batch 1: top ~50 counties by `sizeRank` that also have a live
+   `/[state]/property-tax` page (maximizes internal-link synergy).
+2. Validate at the batch level, not county-by-county: confirm the target
+   keyword pattern clears a minimum search-volume threshold across the
+   batch — **team to set the actual number** before this ships; don't leave
+   "meaningful demand" undefined, or the gate becomes a rubber stamp.
+3. Individually re-check any county in the batch that trips one of these
+   flags, rather than every county: unusually small population, an
+   ambiguous or dominant-unrelated-meaning SERP, or search volume close to
+   the threshold in either direction.
+4. Publish batch 1, then repeat steps 2–3 for the next ~50–100, working
+   outward by `sizeRank`.
+5. Hold or skip the lowest-population tail — negligible search volume
+   expected, same reasoning as not building unvalidated city pages.
+
+### What not to build (this feature)
+- ❌ A single national/generic affordability calculator.
+- ❌ Using ZHVI as the primary calculation input — income must drive the
+  primary output; ZHVI is the comparison benchmark only.
+- ❌ A debt-to-income input in MVP — see the explicit scope boundary above.
+- ❌ A 10%-down scenario with no PMI accounted for.
+- ❌ Custom down payment entry beyond the 20%/10% toggle.
+- ❌ Extrapolating the PMI assumption to any down payment option beyond
+  20%/10%.
+- ❌ Publishing a batch without a defined, agreed search-volume threshold —
+  "meaningful demand" is not itself a threshold.
+- ❌ An unsourced or hand-picked mortgage rate — must be Freddie Mac PMMS (or
+  equivalent citable source) with an explicit `dataAsOf`.
+- ❌ Any comparative accuracy claim against named competitors.
+- ❌ Page copy implying the mortgage rate, insurance, or PMI figures are
+  live or county-specific when they are fixed national assumptions.
+
 Performance requirements
 Calculator/estimator interactive within 1 second of page load
 All rate data static JSON — no API calls on page load
