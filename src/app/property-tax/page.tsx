@@ -77,7 +77,6 @@ export default function PropertyTaxPillarPage() {
 
                 {/* Header */}
                 <div>
-                    <p className="section-label mb-2">Free · No signup · 2024 Census data</p>
                     <h1 className="text-3xl font-semibold text-primary mb-2">Property Tax Estimator</h1>
                     <p className="text-sm text-muted leading-relaxed max-w-xl">
                         Estimate your property tax by county for any US state, based on median effective

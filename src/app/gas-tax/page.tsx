@@ -52,7 +52,6 @@ export default function GasTaxPillarPage() {
 
                 {/* Header */}
                 <div>
-                    <p className="section-label mb-2">Free · No signup · 2026 rates</p>
                     <h1 className="text-3xl font-semibold text-primary mb-2">Gas Tax Calculator</h1>
                     <p className="text-sm text-muted leading-relaxed max-w-xl">
                         Calculate how much gas tax you pay per gallon and per fill-up for any US state.

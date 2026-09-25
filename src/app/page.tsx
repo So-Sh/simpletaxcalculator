@@ -116,7 +116,6 @@ export default function HomePage() {
       {/* ------------------------------------------------------------------ */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 pt-14 pb-10">
         <div className="max-w-2xl">
-          <p className="section-label mb-3">Free · No signup</p>
           <h1 className="text-4xl sm:text-5xl font-semibold text-primary leading-tight mb-4">
             US tax calculators
             <br />

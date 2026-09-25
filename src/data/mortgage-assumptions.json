@@ -1,0 +1,13 @@
+{
+  "rate": 0.0695,
+  "rateSource": "Freddie Mac Primary Mortgage Market Survey (30-Year FRM)",
+  "rateSourceUrl": "https://www.freddiemac.com/pmms",
+  "dataAsOf": "2026-09-17",
+  "lastUpdated": "2026-09-24",
+  "insuranceAssumptionPct": 0.005,
+  "insuranceAssumptionLabel": "Estimated annual homeowner's insurance (0.50% of home value)",
+  "pmiAssumptionPct": 0.0075,
+  "pmiAssumptionLabel": "Estimated annual Private Mortgage Insurance (0.75% for down payments under 20%)",
+  "downPaymentOptionsPct": [0.035, 0.05, 0.1, 0.2],
+  "dtiRatio": 0.36
+}

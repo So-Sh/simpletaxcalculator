@@ -47,6 +47,10 @@ const TAX_TYPE_LABELS: Record<string, { label: string; description: string }> = 
         label: 'Capital Gains Tax Calculator',
         description: 'Calculate short and long-term capital gains tax based on asset sale profits',
     },
+    'home-affordability': {
+        label: 'Home Affordability Estimator',
+        description: 'Estimate how much home you could afford by county, based on your income.',
+    },
 }
 
 export default async function StateHubPage({ params }: Props) {

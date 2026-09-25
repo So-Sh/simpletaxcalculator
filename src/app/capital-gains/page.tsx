@@ -79,7 +79,6 @@ export default function CapitalGainsPillarPage() {
 
                 {/* Header */}
                 <div>
-                    <p className="section-label mb-2">Free · No signup · 2026 rates</p>
                     <h1 className="text-3xl font-semibold text-primary mb-2">
                         Capital Gains Tax Calculator
                     </h1>

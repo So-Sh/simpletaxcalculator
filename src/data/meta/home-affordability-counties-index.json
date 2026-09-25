@@ -1,0 +1,555 @@
+[
+  {
+    "fips": "06037",
+    "sizeRank": 0,
+    "slug": "los-angeles-county",
+    "name": "Los Angeles County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06073",
+    "sizeRank": 4,
+    "slug": "san-diego-county",
+    "name": "San Diego County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06059",
+    "sizeRank": 5,
+    "slug": "orange-county",
+    "name": "Orange County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06065",
+    "sizeRank": 9,
+    "slug": "riverside-county",
+    "name": "Riverside County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06071",
+    "sizeRank": 13,
+    "slug": "san-bernardino-county",
+    "name": "San Bernardino County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06085",
+    "sizeRank": 16,
+    "slug": "santa-clara-county",
+    "name": "Santa Clara County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06001",
+    "sizeRank": 19,
+    "slug": "alameda-county",
+    "name": "Alameda County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06067",
+    "sizeRank": 23,
+    "slug": "sacramento-county",
+    "name": "Sacramento County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06013",
+    "sizeRank": 37,
+    "slug": "contra-costa-county",
+    "name": "Contra Costa County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06019",
+    "sizeRank": 46,
+    "slug": "fresno-county",
+    "name": "Fresno County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "34003",
+    "sizeRank": 54,
+    "slug": "bergen-county",
+    "name": "Bergen County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06029",
+    "sizeRank": 61,
+    "slug": "kern-county",
+    "name": "Kern County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06075",
+    "sizeRank": 65,
+    "slug": "san-francisco-county",
+    "name": "San Francisco County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "34023",
+    "sizeRank": 69,
+    "slug": "middlesex-county",
+    "name": "Middlesex County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "34013",
+    "sizeRank": 71,
+    "slug": "essex-county",
+    "name": "Essex County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06111",
+    "sizeRank": 74,
+    "slug": "ventura-county",
+    "name": "Ventura County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06077",
+    "sizeRank": 83,
+    "slug": "san-joaquin-county",
+    "name": "San Joaquin County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06081",
+    "sizeRank": 85,
+    "slug": "san-mateo-county",
+    "name": "San Mateo County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "34017",
+    "sizeRank": 94,
+    "slug": "hudson-county",
+    "name": "Hudson County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "34025",
+    "sizeRank": 107,
+    "slug": "monmouth-county",
+    "name": "Monmouth County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "34029",
+    "sizeRank": 108,
+    "slug": "ocean-county",
+    "name": "Ocean County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "34039",
+    "sizeRank": 120,
+    "slug": "union-county",
+    "name": "Union County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06099",
+    "sizeRank": 124,
+    "slug": "stanislaus-county",
+    "name": "Stanislaus County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "34007",
+    "sizeRank": 134,
+    "slug": "camden-county",
+    "name": "Camden County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "34031",
+    "sizeRank": 135,
+    "slug": "passaic-county",
+    "name": "Passaic County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "34027",
+    "sizeRank": 140,
+    "slug": "morris-county",
+    "name": "Morris County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06097",
+    "sizeRank": 144,
+    "slug": "sonoma-county",
+    "name": "Sonoma County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06107",
+    "sizeRank": 151,
+    "slug": "tulare-county",
+    "name": "Tulare County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "34005",
+    "sizeRank": 154,
+    "slug": "burlington-county",
+    "name": "Burlington County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06095",
+    "sizeRank": 158,
+    "slug": "solano-county",
+    "name": "Solano County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06083",
+    "sizeRank": 159,
+    "slug": "santa-barbara-county",
+    "name": "Santa Barbara County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06053",
+    "sizeRank": 161,
+    "slug": "monterey-county",
+    "name": "Monterey County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06061",
+    "sizeRank": 177,
+    "slug": "placer-county",
+    "name": "Placer County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "34021",
+    "sizeRank": 182,
+    "slug": "mercer-county",
+    "name": "Mercer County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "34035",
+    "sizeRank": 209,
+    "slug": "somerset-county",
+    "name": "Somerset County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "34015",
+    "sizeRank": 233,
+    "slug": "gloucester-county",
+    "name": "Gloucester County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06079",
+    "sizeRank": 247,
+    "slug": "san-luis-obispo-county",
+    "name": "San Luis Obispo County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06047",
+    "sizeRank": 249,
+    "slug": "merced-county",
+    "name": "Merced County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "34001",
+    "sizeRank": 252,
+    "slug": "atlantic-county",
+    "name": "Atlantic County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06087",
+    "sizeRank": 254,
+    "slug": "santa-cruz-county",
+    "name": "Santa Cruz County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06041",
+    "sizeRank": 266,
+    "slug": "marin-county",
+    "name": "Marin County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06007",
+    "sizeRank": 314,
+    "slug": "butte-county",
+    "name": "Butte County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06113",
+    "sizeRank": 315,
+    "slug": "yolo-county",
+    "name": "Yolo County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06017",
+    "sizeRank": 350,
+    "slug": "el-dorado-county",
+    "name": "El Dorado County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06089",
+    "sizeRank": 368,
+    "slug": "shasta-county",
+    "name": "Shasta County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06025",
+    "sizeRank": 373,
+    "slug": "imperial-county",
+    "name": "Imperial County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06039",
+    "sizeRank": 430,
+    "slug": "madera-county",
+    "name": "Madera County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "34011",
+    "sizeRank": 435,
+    "slug": "cumberland-county",
+    "name": "Cumberland County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06031",
+    "sizeRank": 446,
+    "slug": "kings-county",
+    "name": "Kings County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "34037",
+    "sizeRank": 454,
+    "slug": "sussex-county",
+    "name": "Sussex County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06055",
+    "sizeRank": 472,
+    "slug": "napa-county",
+    "name": "Napa County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06023",
+    "sizeRank": 476,
+    "slug": "humboldt-county",
+    "name": "Humboldt County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "34019",
+    "sizeRank": 503,
+    "slug": "hunterdon-county",
+    "name": "Hunterdon County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "34041",
+    "sizeRank": 562,
+    "slug": "warren-county",
+    "name": "Warren County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06057",
+    "sizeRank": 600,
+    "slug": "nevada-county",
+    "name": "Nevada County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06101",
+    "sizeRank": 610,
+    "slug": "sutter-county",
+    "name": "Sutter County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "34009",
+    "sizeRank": 631,
+    "slug": "cape-may-county",
+    "name": "Cape May County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06045",
+    "sizeRank": 654,
+    "slug": "mendocino-county",
+    "name": "Mendocino County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06115",
+    "sizeRank": 713,
+    "slug": "yuba-county",
+    "name": "Yuba County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06033",
+    "sizeRank": 797,
+    "slug": "lake-county",
+    "name": "Lake County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06103",
+    "sizeRank": 831,
+    "slug": "tehama-county",
+    "name": "Tehama County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "34033",
+    "sizeRank": 841,
+    "slug": "salem-county",
+    "name": "Salem County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06069",
+    "sizeRank": 852,
+    "slug": "san-benito-county",
+    "name": "San Benito County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06109",
+    "sizeRank": 938,
+    "slug": "tuolumne-county",
+    "name": "Tuolumne County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06009",
+    "sizeRank": 1082,
+    "slug": "calaveras-county",
+    "name": "Calaveras County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06093",
+    "sizeRank": 1108,
+    "slug": "siskiyou-county",
+    "name": "Siskiyou County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06005",
+    "sizeRank": 1200,
+    "slug": "amador-county",
+    "name": "Amador County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06035",
+    "sizeRank": 1396,
+    "slug": "lassen-county",
+    "name": "Lassen County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06021",
+    "sizeRank": 1507,
+    "slug": "glenn-county",
+    "name": "Glenn County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06015",
+    "sizeRank": 1552,
+    "slug": "del-norte-county",
+    "name": "Del Norte County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06011",
+    "sizeRank": 1783,
+    "slug": "colusa-county",
+    "name": "Colusa County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06063",
+    "sizeRank": 1897,
+    "slug": "plumas-county",
+    "name": "Plumas County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06027",
+    "sizeRank": 1942,
+    "slug": "inyo-county",
+    "name": "Inyo County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06043",
+    "sizeRank": 2019,
+    "slug": "mariposa-county",
+    "name": "Mariposa County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06105",
+    "sizeRank": 2109,
+    "slug": "trinity-county",
+    "name": "Trinity County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06051",
+    "sizeRank": 2268,
+    "slug": "mono-county",
+    "name": "Mono County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06049",
+    "sizeRank": 2585,
+    "slug": "modoc-county",
+    "name": "Modoc County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06091",
+    "sizeRank": 3029,
+    "slug": "sierra-county",
+    "name": "Sierra County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06003",
+    "sizeRank": 3164,
+    "slug": "alpine-county",
+    "name": "Alpine County",
+    "stateSlug": "california"
+  }
+]
