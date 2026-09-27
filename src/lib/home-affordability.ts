@@ -66,6 +66,36 @@ export interface HomeValueRange {
 
 const ALL_COUNTIES = homeValues.counties as HomeAffordabilityCounty[]
 
+let cachedNationalMedian: number | null | undefined // undefined = not yet computed
+
+/**
+ * Median ZHVI value across every county with data. Computed once and
+ * cached — used to bucket a county as high/mid/low cost relative to the
+ * nation, for FAQ content that genuinely varies rather than being
+ * boilerplate with swapped numbers. Derived entirely from home-values.json,
+ * already loaded — this is not a new data source.
+ */
+export function getNationalMedianHomeValue(): number | null {
+    if (cachedNationalMedian !== undefined) return cachedNationalMedian
+
+    const values = ALL_COUNTIES
+        .map((c) => c.latestValue)
+        .filter((v): v is number => v !== null)
+        .sort((a, b) => a - b)
+
+    if (values.length === 0) {
+        cachedNationalMedian = null
+        return null
+    }
+
+    const mid = Math.floor(values.length / 2)
+    cachedNationalMedian = values.length % 2 === 0
+        ? (values[mid - 1] + values[mid]) / 2
+        : values[mid]
+
+    return cachedNationalMedian
+}
+
 export interface CountyIndexEntry {
     fips: string
     sizeRank: number

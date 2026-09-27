@@ -78,6 +78,12 @@ export default function CountyAffordabilityContent({ county, assumptions }: Coun
         return { diff, pct: diff / county.zhvi.latestValue, pctOfTypical }
     }, [userResult, county.zhvi.latestValue])
 
+    // Rounded to the nearest $1,000 so it reads as a normal income figure
+    // rather than a suspiciously precise derived number (e.g. $232,000, not
+    // $231,810). This also gives the page real, county-specific numbers on
+    // initial (server) render instead of an empty input.
+    const defaultIncome = benchmark ? Math.round(benchmark.requiredAnnualIncome / 1000) * 1000 : undefined
+
     if (!hasPropertyTaxRate) {
         return (
             <div className="tool-card">
@@ -103,6 +109,7 @@ export default function CountyAffordabilityContent({ county, assumptions }: Coun
                 dtiRatio={assumptions.dtiRatio}
                 downPaymentPct={downPaymentPct}
                 onDownPaymentPctChange={setDownPaymentPct}
+                defaultIncome={defaultIncome}
                 onResult={(result, context) => {
                     setUserResult(result)
                     setUserIncome(context.income)
@@ -132,7 +139,7 @@ export default function CountyAffordabilityContent({ county, assumptions }: Coun
                             <p className="text-sm text-body mt-3">
                                 Your estimated affordable home price is{' '}
                                 <span className="font-semibold">{formatMoney(Math.abs(comparison.diff))}</span>{' '}
-                                {comparison.diff >= 0 ? 'above ' : 'below '} the county&apos;s typical home value.
+                                {comparison.diff >= 0 ? 'above' : 'below'}{' '}the county&apos;s typical home value.
                             </p>
                         )}
                         {comparison && userIncome !== null && (

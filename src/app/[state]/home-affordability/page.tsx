@@ -232,7 +232,7 @@ export default async function StateHomeAffordabilityPage({ params }: { params: P
                 <RelatedTools
                     links={[
                         { label: `${stateMeta.name} Property Tax Estimator`, href: `/${state}/property-tax` },
-                        { label: 'Home Affordability — all states', href: '/home-affordability' },
+                        { label: 'Capital Gains Tax Calculator', href: '/capital-gains' },
                     ]}
                 />
 

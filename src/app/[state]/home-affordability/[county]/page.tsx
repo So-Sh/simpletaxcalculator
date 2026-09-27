@@ -16,7 +16,9 @@ import {
     getHomeAffordabilityMeta,
     getMortgageAssumptions,
     getHomeAffordabilityRouteParams,
+    getNationalMedianHomeValue,
 } from '@/lib/home-affordability'
+import { requiredIncomeForPrice, type AffordabilityAssumptions } from '@/lib/home-affordability-math'
 import { webApplicationSchema, faqSchema } from '@/lib/schema'
 import { breadcrumbSchema } from '@/lib/breadcrumb-schema'
 import { article } from '@/lib/text-utils'
@@ -45,8 +47,32 @@ export async function generateMetadata({ params }: { params: Promise<PageParams>
     }
 }
 
-function buildFaqs(countyName: string, stateName: string, dtiRatioPct: string) {
-    return [
+function formatMoney(n: number) {
+    return '$' + Math.round(n).toLocaleString()
+}
+
+type CostBracket = 'high' | 'mid' | 'low'
+
+/**
+ * Buckets a county relative to the national median ZHVI value. Thresholds
+ * are a starting heuristic (1.5x / 0.6x median) — tune once you have real
+ * distribution data across published counties.
+ */
+function getCostBracket(countyValue: number, nationalMedian: number): CostBracket {
+    const ratio = countyValue / nationalMedian
+    if (ratio >= 1.5) return 'high'
+    if (ratio <= 0.6) return 'low'
+    return 'mid'
+}
+
+function buildFaqs(
+    countyName: string,
+    stateName: string,
+    dtiRatioPct: string,
+    bracket: CostBracket | null,
+    requiredIncomeForTypicalHome: number | null
+) {
+    const faqs = [
         {
             question: `Is this ${article(countyName)} ${countyName} home affordability calculator or an estimator?`,
             answer:
@@ -63,6 +89,22 @@ function buildFaqs(countyName: string, stateName: string, dtiRatioPct: string) {
                 `${countyName}'s typical home value comes from Zillow Research's Home Value Index (ZHVI). Its property tax rate comes from the U.S. Census Bureau's American Community Survey, as compiled by the Tax Foundation. The mortgage rate assumption comes from Freddie Mac's Primary Mortgage Market Survey (PMMS).`,
         },
     ]
+
+    if (bracket === 'high') {
+        faqs.push({
+            question: `Why are home prices so far above the affordable range in ${countyName}?`,
+            answer:
+                `${countyName}'s typical home value is well above the national median. High-cost counties like this typically have housing supply that hasn't kept pace with demand, which pushes prices above what a household earning a typical income can afford at conventional lending ratios. That gap between typical income and typical home price is real and shows up directly in the estimate above.`,
+        })
+    } else if (bracket === 'low' && requiredIncomeForTypicalHome !== null) {
+        faqs.push({
+            question: `Is ${formatMoney(requiredIncomeForTypicalHome)} considered a strong income for buying a home in ${countyName}?`,
+            answer:
+                `${countyName}'s typical home value is below the national median, so the income needed to afford it \u2014 roughly ${formatMoney(requiredIncomeForTypicalHome)} at a ${dtiRatioPct} housing-cost ratio \u2014 tends to be lower than in many other counties nationwide. What counts as a "strong" income still depends on your local job market and cost of living beyond housing.`,
+        })
+    }
+
+    return faqs
 }
 
 export default async function CountyHomeAffordabilityPage({ params }: { params: Promise<PageParams> }) {
@@ -72,8 +114,31 @@ export default async function CountyHomeAffordabilityPage({ params }: { params: 
 
     const meta = getHomeAffordabilityMeta()
     const assumptions = getMortgageAssumptions()
-    const dtiRatioPct = `${(assumptions.dtiRatio * 100).toFixed(0)}% `
-    const faqs = buildFaqs(data.countyName, data.stateName, dtiRatioPct)
+    const dtiRatioPct = `${(assumptions.dtiRatio * 100).toFixed(0)}%`.trim()
+
+    let bracket: CostBracket | null = null
+    let requiredIncomeForTypicalHome: number | null = null
+    if (data.zhvi.latestValue !== null && data.propertyTaxRatePct !== null) {
+        const nationalMedian = getNationalMedianHomeValue()
+        if (nationalMedian !== null) {
+            bracket = getCostBracket(data.zhvi.latestValue, nationalMedian)
+        }
+        if (bracket === 'low') {
+            const mathAssumptions: AffordabilityAssumptions = {
+                mortgageRate: assumptions.rate,
+                propertyTaxRate: data.propertyTaxRatePct,
+                insuranceAssumptionPct: assumptions.insuranceAssumptionPct,
+                pmiAssumptionPct: assumptions.pmiAssumptionPct,
+                dtiRatio: assumptions.dtiRatio,
+            }
+            requiredIncomeForTypicalHome = requiredIncomeForPrice(
+                data.zhvi.latestValue,
+                assumptions.downPaymentOptionsPct[0],
+                mathAssumptions
+            ).requiredAnnualIncome
+        }
+    }
+    const faqs = buildFaqs(data.countyName, data.stateName, dtiRatioPct, bracket, requiredIncomeForTypicalHome)
 
     const appSchema = webApplicationSchema(
         `Home Affordability Estimator — ${data.countyName}, ${data.stateAbbreviation}`
@@ -151,14 +216,14 @@ export default async function CountyHomeAffordabilityPage({ params }: { params: 
                     </p>
                 </div>
 
-                {/* FAQ */}
+                {/* FAQ — varies by cost bracket, see buildFaqs */}
                 <FaqAccordion faqs={faqs} />
 
                 {/* Related tools */}
                 <RelatedTools
                     links={[
                         { label: `${data.stateName} Property Tax Estimator`, href: `/${data.stateSlug}/property-tax` },
-                        { label: 'Home Affordability — all states', href: '/home-affordability' },
+                        { label: `${data.stateName} Home Affordability Estimator`, href: `/${data.stateSlug}/home-affordability` },
                     ]}
                 />
 

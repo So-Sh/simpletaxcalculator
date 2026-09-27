@@ -38,6 +38,10 @@ interface HomeAffordabilityCalculatorProps {
     onDownPaymentPctChange?: (pct: number) => void
     /** Fires whenever the computed result changes, so a parent (e.g. CountyAffordabilityContent) can reuse the same income/result for a benchmark comparison without duplicating input state. */
     onResult?: (result: AffordablePriceResult | null, context: { income: number | null; downPaymentPct: number }) => void
+    /** Pre-populates the income field so the page has real, county-specific
+        numbers on initial (server) render instead of an empty prompt state.
+        User can still edit or clear it. */
+    defaultIncome?: number
 }
 
 function formatMoney(n: number) {
@@ -61,8 +65,9 @@ export default function HomeAffordabilityCalculator({
     downPaymentPct: controlledDownPaymentPct,
     onDownPaymentPctChange,
     onResult,
+    defaultIncome,
 }: HomeAffordabilityCalculatorProps) {
-    const [incomeInput, setIncomeInput] = useState('')
+    const [incomeInput, setIncomeInput] = useState(defaultIncome ? String(defaultIncome) : '')
     const [internalDownPaymentPct, setInternalDownPaymentPct] = useState(downPaymentOptionsPct[0])
 
     const downPaymentPct = controlledDownPaymentPct ?? internalDownPaymentPct
@@ -103,6 +108,9 @@ export default function HomeAffordabilityCalculator({
             <p className="text-sm text-muted mb-4">
                 Enter your annual household income to estimate the home price that may
                 fit within a {(dtiRatio * 100).toFixed(0)}% housing-cost ratio.
+                {defaultIncome && (
+                    <> We&apos;ve pre-filled an example figure below — enter your own income to personalize the estimate.</>
+                )}
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4 mb-4">
