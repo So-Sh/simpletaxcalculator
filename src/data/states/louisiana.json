@@ -36,7 +36,7 @@
         { "name": "Vernon Parish (Leesville)", "rate": 0.09 },
         { "name": "Washington Parish (Bogalusa)", "rate": 0.1083 }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.10 = sales tax owed (New Orleans / Orleans Parish example)",
       "example": { "price": 20000, "tax": 2000, "total": 22000 },
       "scenarios": [

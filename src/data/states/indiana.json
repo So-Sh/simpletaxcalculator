@@ -20,7 +20,7 @@
         { "name": "Lake County (Gary)", "rate": 0.07 },
         { "name": "Monroe County (Bloomington)", "rate": 0.07 }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.07 = sales tax owed (statewide — same everywhere)",
       "example": { "price": 20000, "tax": 1400, "total": 21400 },
       "scenarios": [

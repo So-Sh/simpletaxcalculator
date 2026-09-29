@@ -117,7 +117,7 @@ Per-state file shape (sales tax pattern)
         "state": 0.0575
       },
       "counties": [{ "name": "Franklin County (Columbus)", "rate": 0.075 }],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price x 0.075 = sales tax owed",
       "example": { "price": 20000, "tax": 1500, "total": 21500 },
       "scenarios": [{ "label": "Used car purchase", "price": 12000, "tax": 900 }],
@@ -129,7 +129,7 @@ Per-state file shape (sales tax pattern)
 }
 All-states file shape (gas tax / capital gains / property tax pattern)
 {
-  "lastUpdated": "June 2026",
+  "lastUpdated": "August 2026",
   "dataAsOf": "...",                          // be explicit about vintage — see Data sourcing & vintage rules below
   "officialSourceUrl": "...",
   "officialSourceLabel": "...",
@@ -320,7 +320,7 @@ YMYL compliance (non-negotiable)
 Every tool page must include:
 
 DisclaimerBanner immediately below calculator — never in footer
-lastUpdated near the Calculate button ("Rates updated for May 2026")
+lastUpdated near the Calculate button ("Rates updated for August 2026")
 Schema: FAQPage + WebApplication on every page
 Disclaimer copy (use exactly):
 
@@ -370,7 +370,7 @@ Keywords to target: [state] [tax type], [state] [tax type] calculator, [state] [
 Keywords to avoid: login, registration, filing, exemption form — government process keywords with high bounce, poor monetization.
 
 Meta title: [State] Sales Tax Calculator 2026 — simpletaxcalculator.app
-Meta description: Calculate [State] sales tax instantly. Includes county rates, real examples, and [State]'s [X]% average combined rate. Rates updated for May 2026.
+Meta description: Calculate [State] sales tax instantly. Includes county rates, real examples, and [State]'s [X]% average combined rate. Rates updated for August 2026.
 
 Phase 3 — City pages (months 7–12)
 /ohio/sales-tax/columbus
@@ -693,5 +693,5 @@ What not to build (year 1)
 ❌ Master cross-state aggregate JSON files for editorial-heavy tax types (per-state files stay per-state — see Data architecture)
 ❌ 50 near-duplicate state pages for tax types with no real state variance (e.g. self-employment tax — ship as one national page instead)
 
-Last updated: June 2026
+Last updated: August 2026
 Project owner: Saeed Davari, Technical Architect & Founder (Kobina AB) — see TEAM.md

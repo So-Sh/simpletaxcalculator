@@ -15,7 +15,7 @@ export default function TermsOfServicePage() {
       label="simpletaxcalculator.app"
       title="Terms of Service"
       description="Please read these Terms of Service carefully before using our platform. By accessing or using our tools, you agree to these terms."
-      lastReviewed="July 2026"
+      lastReviewed="September 2026"
     >
       <PolicySection title="1. Agreement to Terms">
         <p className="text-sm text-muted leading-relaxed">
@@ -122,7 +122,7 @@ export default function TermsOfServicePage() {
           >
             About Us
           </Link>{' '}
-          · Last reviewed: July 2026
+          · Last reviewed: September 2026
         </p>
       </PolicySection>
     </PolicyLayout>

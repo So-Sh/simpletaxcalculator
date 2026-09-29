@@ -18,7 +18,7 @@ import { webApplicationSchema, faqSchema } from '@/lib/schema'
 export const metadata: Metadata = {
     title: 'Property Tax Estimator 2026 — All 50 States by County',
     description:
-        'Estimate property tax by county for any US state, based on US Census Bureau median effective rates. Updated June 2026.',
+        'Estimate property tax by county for any US state, based on US Census Bureau median effective rates. Updated August 2026.',
     openGraph: {
         title: 'Property Tax Estimator 2026 — All 50 States by County',
         description: 'Free property tax estimator using Census ACS county-level data. All 50 states.',

@@ -44,7 +44,7 @@
           "rate": 0.0938
         }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.0863 = sales tax owed (Oklahoma City / Oklahoma County example)",
       "example": {
         "price": 20000,

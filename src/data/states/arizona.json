@@ -44,7 +44,7 @@
           "rate": 0.099
         }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.086 = sales tax owed (Phoenix example)",
       "example": {
         "price": 20000,

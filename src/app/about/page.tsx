@@ -235,7 +235,7 @@ export default function AboutPage() {
           <Link prefetch={false} href="/editorial-policy" className="hover:text-primary transition-colors underline underline-offset-2">
             Editorial Policy
           </Link>
-          {' '}· Last reviewed: May 2026
+          {' '}· Last reviewed: August 2026
         </p>
       </Section>
 

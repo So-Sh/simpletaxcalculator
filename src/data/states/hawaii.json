@@ -16,7 +16,7 @@
         { "name": "Hawaii County (Big Island)", "rate": 0.045 },
         { "name": "Kauai County", "rate": 0.045 }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.045 = GET pass-on amount (all counties — surcharge in effect through Dec 2030)",
       "example": { "price": 20000, "tax": 942.40, "total": 20942.40 },
       "scenarios": [

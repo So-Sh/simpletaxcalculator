@@ -47,4 +47,4 @@ Platform/methodology/builder posts	Saeed
 Product or feature announcements	Saeed
 If a topic doesn't clearly fit one column, default to asking: is this explaining a number's meaning for the reader (Talha), presenting data (Ray), or explaining how the site itself works (Saeed)? Don't split a byline across authors or invent a fourth voice without updating this file first.
 
-Last updated: June 2026
+Last updated: August 2026

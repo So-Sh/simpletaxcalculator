@@ -44,7 +44,7 @@
           "rate": 0.0675
         }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.0675 = sales tax owed (most NC counties example)",
       "example": {
         "price": 20000,

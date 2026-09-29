@@ -20,7 +20,7 @@
         { "name": "York County (Rock Hill)", "rate": 0.07 },
         { "name": "Anderson County", "rate": 0.07 }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.08 = sales tax owed (Columbia / Richland County example)",
       "example": { "price": 20000, "tax": 1600, "total": 21600 },
       "scenarios": [

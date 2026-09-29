@@ -12,7 +12,7 @@ import { webApplicationSchema, faqSchema } from '@/lib/schema'
 export const metadata: Metadata = {
     title: 'Gas Tax Calculator 2026 — Federal + All 50 States',
     description:
-        'Calculate gas tax per gallon and per fill-up for all 50 US states. Federal rate 18.4¢/gal + state combined rates from 9.0¢ (Alaska) to 70.9¢ (California). Updated June 2026.',
+        'Calculate gas tax per gallon and per fill-up for all 50 US states. Federal rate 18.4¢/gal + state combined rates from 9.0¢ (Alaska) to 70.9¢ (California). Updated August 2026.',
     openGraph: {
         title: 'Gas Tax Calculator 2026 — Federal + All 50 States',
         description: 'Free gas tax calculator. Federal 18.4¢/gal + every state rate. Updated 2026.',
@@ -56,7 +56,7 @@ export default function GasTaxPillarPage() {
                     <p className="text-sm text-muted leading-relaxed max-w-xl">
                         Calculate how much gas tax you pay per gallon and per fill-up for any US state.
                         Covers federal excise tax plus all 50 state combined rates (excise + all fees).
-                        Rates sourced from the U.S. Energy Information Administration, June 2026.
+                        Rates sourced from the U.S. Energy Information Administration, August 2026.
                     </p>
                 </div>
 

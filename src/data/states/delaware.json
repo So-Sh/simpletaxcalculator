@@ -24,7 +24,7 @@
                     "rate": 0.0
                 }
             ],
-            "lastUpdated": "June 2026",
+            "lastUpdated": "August 2026",
             "formula": "Price × 0.00 = $0.00 Consumer Sales Tax (Delaware is completely sales tax-free)",
             "example": {
                 "price": 20000,

@@ -44,7 +44,7 @@
           "rate": 0.065
         }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.075 = sales tax owed (Fargo / Cass County example)",
       "example": {
         "price": 20000,

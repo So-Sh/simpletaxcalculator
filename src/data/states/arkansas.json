@@ -20,7 +20,7 @@
         { "name": "Jefferson County (Pine Bluff)", "rate": 0.0925 },
         { "name": "Saline County (Benton)", "rate": 0.0875 }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.0875 = sales tax owed (Little Rock / Pulaski County example)",
       "example": { "price": 20000, "tax": 1750, "total": 21750 },
       "scenarios": [

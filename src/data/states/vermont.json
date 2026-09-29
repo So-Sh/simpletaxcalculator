@@ -20,7 +20,7 @@
         { "name": "Franklin County (St. Albans)", "rate": 0.06 },
         { "name": "Lamoille County (Stowe)", "rate": 0.06 }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.06 = sales tax owed (most of Vermont)",
       "example": { "price": 20000, "tax": 1200, "total": 21200 },
       "scenarios": [

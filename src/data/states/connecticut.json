@@ -20,7 +20,7 @@
         { "name": "Windham County", "rate": 0.0635 },
         { "name": "Litchfield County", "rate": 0.0635 }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.0635 = sales tax owed (statewide — same everywhere)",
       "example": { "price": 20000, "tax": 1270, "total": 21270 },
       "scenarios": [

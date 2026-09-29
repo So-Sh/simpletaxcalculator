@@ -20,7 +20,7 @@
         { "name": "Scotts Bluff County (Scottsbluff)", "rate": 0.065 },
         { "name": "Dawson County (Lexington)", "rate": 0.055 }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.07 = sales tax owed (Omaha example)",
       "example": { "price": 20000, "tax": 1400, "total": 21400 },
       "scenarios": [

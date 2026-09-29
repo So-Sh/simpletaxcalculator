@@ -44,7 +44,7 @@
           "rate": 0.062
         }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.062 = sales tax owed (Sioux Falls / most major cities)",
       "example": {
         "price": 20000,

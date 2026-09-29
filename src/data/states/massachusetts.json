@@ -20,7 +20,7 @@
         { "name": "Hampden County (Springfield)", "rate": 0.0625 },
         { "name": "Barnstable County (Cape Cod)", "rate": 0.0625 }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.0625 = sales tax owed (statewide — same everywhere)",
       "example": { "price": 20000, "tax": 1250, "total": 21250 },
       "scenarios": [

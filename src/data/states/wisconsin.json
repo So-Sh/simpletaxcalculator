@@ -44,7 +44,7 @@
           "rate": 0.055
         }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.055 = sales tax owed (most WI counties example)",
       "example": {
         "price": 20000,

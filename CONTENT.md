@@ -71,4 +71,4 @@ integrates, boasts, merge, tapestry, enriching, abundance, treasure trove, awe-i
 Style baseline (cross-project)
 Concise, use-case-focused copy. No technical sourcing details in marketing-facing copy (save that for /editorial-policy and notes fields). Recommendations and competitive claims must be cross-referenced against existing site content before publishing — never claim something doesn't exist on the site without checking. 10th-grade reading level baseline for blog posts unless a specific post calls for more technical depth (e.g. Talha's methodology pieces may run more technical given the audience).
 
-Last updated: June 2026
+Last updated: August 2026

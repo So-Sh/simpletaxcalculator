@@ -61,7 +61,7 @@ export default function EditorialPolicyPage() {
           This page explains how Simple Tax Calculator collects, reviews, validates, and
           maintains the tax rate data and calculation logic used across this platform.
         </p>
-        <p className="text-xs text-muted mt-3">Last reviewed: May 2026</p>
+        <p className="text-xs text-muted mt-3">Last reviewed: August 2026</p>
       </div>
 
       {/* Principles */}
@@ -203,7 +203,7 @@ export default function EditorialPolicyPage() {
           <Link prefetch={false} href="/about" className="hover:text-primary transition-colors underline underline-offset-2">
             About Us
           </Link>
-          {' '}· Last reviewed: May 2026
+          {' '}· Last reviewed: August 2026
         </p>
       </Section>
 

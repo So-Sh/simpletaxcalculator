@@ -15,7 +15,7 @@ export default function PrivacyPolicyPage() {
       label="simpletaxcalculator.app"
       title="Privacy Policy"
       description="This Privacy Policy explains what information we collect, how it is used, and the choices you have when using our website."
-      lastReviewed="July 2026"
+      lastReviewed="September 2026"
     >
       <PolicySection title="1. Information We Collect">
         <p className="text-sm text-muted leading-relaxed">
@@ -144,7 +144,7 @@ export default function PrivacyPolicyPage() {
           >
             About Us
           </Link>
-          {' '}· Last reviewed: July 2026
+          {' '}· Last reviewed: September 2026
         </p>
       </PolicySection>
     </PolicyLayout>

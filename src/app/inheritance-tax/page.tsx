@@ -14,7 +14,7 @@ import { webApplicationSchema, faqSchema } from '@/lib/schema'
 export const metadata: Metadata = {
   title: 'Inheritance Tax Calculator 2026 — All 5 States + Federal Estate Tax',
   description:
-    'Calculate inheritance tax for Pennsylvania, New Jersey, Kentucky, Nebraska, and Maryland — the only 5 US states with an inheritance tax. Plus federal estate tax for every state. Updated June 2026.',
+    'Calculate inheritance tax for Pennsylvania, New Jersey, Kentucky, Nebraska, and Maryland — the only 5 US states with an inheritance tax. Plus federal estate tax for every state. Updated August 2026.',
   openGraph: {
     title: 'Inheritance Tax Calculator 2026 — All 5 States + Federal Estate Tax',
     description: 'Free inheritance tax calculator covering all 5 inheritance-tax states and federal estate tax.',

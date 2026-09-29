@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 // National-level data — not tied to any state file
 // ---------------------------------------------------------------------------
 
-const LAST_UPDATED = 'May 2026'
+const LAST_UPDATED = 'August 2026'
 
 // Representative rates for the national calculator dropdown
 // These give users a quick estimate before they navigate to their state page

@@ -44,7 +44,7 @@
           "rate": 0.07
         }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.07 = sales tax owed (Miami-Dade example)",
       "example": {
         "price": 20000,

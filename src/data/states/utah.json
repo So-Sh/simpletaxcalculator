@@ -44,7 +44,7 @@
           "rate": 0.0720
         }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.0785 = sales tax owed (Salt Lake City example)",
       "example": {
         "price": 20000,

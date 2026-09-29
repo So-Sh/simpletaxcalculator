@@ -20,7 +20,7 @@
         { "name": "Nassau County (Long Island)", "rate": 0.08625 },
         { "name": "Suffolk County (Long Island)", "rate": 0.08625 }
       ],
-      "lastUpdated": "May 2026",
+      "lastUpdated": "August 2026",
       "formula": "Price × 0.08875 = sales tax owed (New York City example)",
       "example": { "price": 20000, "tax": 1775, "total": 21775 },
       "scenarios": [
