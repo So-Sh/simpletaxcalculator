@@ -99,7 +99,7 @@ export default function AboutPage() {
         <p className="text-sm text-muted leading-relaxed mt-2">
           The platform is operated by{' '}
           <Link prefetch={false} href="https://kobina.se" target='_blank' className="hover:text-primary transition-colors underline underline-offset-2">
-            Kobina
+            Kobina AB
           </Link>
           , a software and digital service
           company based in Stockholm, Sweden.

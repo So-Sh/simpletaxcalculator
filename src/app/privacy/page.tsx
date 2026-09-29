@@ -40,13 +40,37 @@ export default function PrivacyPolicyPage() {
       <PolicySection title="2. Cookies and Advertising">
         <p className="text-sm text-muted leading-relaxed">
           We display advertisements to help keep our calculators free to use.
-          Advertising partners may use cookies and similar technologies to measure ad
-          performance, prevent fraud, and show more relevant advertisements.
+          Third-party vendors, including Google, use cookies to serve ads based on a
+          user's prior visits to our website or other websites across the internet.
         </p>
 
         <p className="text-sm text-muted leading-relaxed mt-3">
-          These technologies are governed by the privacy policies of the
-          respective advertising providers.
+          Google's use of advertising cookies enables it and its partners to serve
+          ads to our users based on their visit to simpletaxcalculator.app and/or other
+          sites on the Internet.
+        </p>
+
+        <p className="text-sm text-muted leading-relaxed mt-3">
+          Users may opt out of personalized advertising by visiting{' '}
+          <a
+            href="https://www.google.com/settings/ads"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline underline-offset-2"
+          >
+            Google Ad Settings
+          </a>
+          . Alternatively, you can opt out of a third-party vendor's use of cookies for
+          personalized advertising by visiting{' '}
+          <a
+            href="https://www.aboutads.info/choices/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline underline-offset-2"
+          >
+            www.aboutads.info
+          </a>
+          .
         </p>
       </PolicySection>
 

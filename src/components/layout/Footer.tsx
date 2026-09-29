@@ -12,6 +12,7 @@ const company = [
     { label: 'Editorial Policy', href: '/editorial-policy' },
     { label: 'Terms of Service', href: '/terms' },
     { label: 'Privacy Policy', href: '/privacy' },
+    { label: 'Contact', href: '/contact' },
 ]
 
 export default function Footer() {
