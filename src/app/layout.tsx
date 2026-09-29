@@ -68,6 +68,15 @@ export default function RootLayout({
         gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID!}
       />
 
+      {/* Google AdSense Script */}
+        <Script
+          id="adsense-init"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8013456464637205"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+
       <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
     </html>
   )
