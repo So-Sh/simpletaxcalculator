@@ -63,12 +63,12 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
-      </body>
-      <GoogleAnalytics
-        gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID!}
-      />
 
-      {/* Google AdSense Script */}
+        <GoogleAnalytics
+          gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID!}
+        />
+
+        {/* Google AdSense Script */}
         <Script
           id="adsense-init"
           async
@@ -77,7 +77,9 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
 
-      <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
+        <Script src="https://scripts.simpleanalyticscdn.com/latest.js" strategy="lazyOnload" />
+
+      </body>
     </html>
   )
 }
