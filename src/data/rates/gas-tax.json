@@ -118,16 +118,16 @@
             "name": "California",
             "abbreviation": "CA",
             "gasoline": {
-                "exciseRateCents": 61.20,
-                "exciseRate": 0.6120,
-                "combinedRateCents": 72.50,
-                "combinedRate": 0.7250
+                "exciseRateCents": 63.40,
+                "exciseRate": 0.6340,
+                "combinedRateCents": 73.64,
+                "combinedRate": 0.7364
             },
             "diesel": {
-                "exciseRateCents": 46.60,
-                "exciseRate": 0.4660,
-                "combinedRateCents": 89.90,
-                "combinedRate": 0.8990
+                "exciseRateCents": 48.20,
+                "exciseRate": 0.4820,
+                "combinedRateCents": 97.90,
+                "combinedRate": 0.9790
             },
             "note": "Highest combined state fuel tax in the US. Gasoline excise (61.2 c/gal) adjusts annually; combined 72.5 c/gal includes the 2.25% sales tax on gasoline. Diesel excise is 46.6 c/gal; combined 89.9 c/gal includes the 13.00% sales tax on diesel. Cap-and-trade and LCFS costs are additional and not reflected here.",
             "officialSourceUrl": "https://cdtfa.ca.gov/taxes-and-fees/sales-tax-rates-for-fuels.htm",
