@@ -59,6 +59,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.variable}>
+      <head>
+        <Script
+          id="mediavine-script-wrapper"
+          src="https://scripts.scriptwrapper.com/tags/f8631653-1135-4909-abd7-137716619448.js"
+          strategy="afterInteractive"
+          async
+          data-noptimize="1"
+          data-cfasync="false"
+        />
+      </head>
       <body className="min-h-screen flex flex-col bg-bg">
         <Navbar />
         <main className="flex-1">{children}</main>
