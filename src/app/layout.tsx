@@ -64,18 +64,47 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
 
+        {/* Journey by Mediavine — Grow */}
+        <Script
+          id="grow-initializer"
+          strategy="afterInteractive"
+          data-grow-initializer=""
+          dangerouslySetInnerHTML={{
+            __html: `
+              !(function(){
+                window.growMe || (
+                  (window.growMe = function(e) {
+                    window.growMe._.push(e);
+                  }),
+                  (window.growMe._ = [])
+                );
+                var e = document.createElement("script");
+                e.type = "text/javascript";
+                e.src = "https://faves.grow.me/main.js";
+                e.defer = true;
+                e.setAttribute(
+                  "data-grow-faves-site-id",
+                  "U2l0ZTpjODYzMjEzMC1hZGFiLTQ3NWYtYmVhZS03ZDFjMzkyMzcwM2U="
+                );
+                var t = document.getElementsByTagName("script")[0];
+                t.parentNode.insertBefore(e, t);
+              })();
+            `,
+          }}
+        />
+
         <GoogleAnalytics
           gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID!}
         />
 
-        {/* Google AdSense Script */}
+        {/* Google AdSense Script 
         <Script
           id="adsense-init"
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8013456464637205"
           crossOrigin="anonymous"
           strategy="afterInteractive"
-        />
+        />*/}
 
         <Script src="https://scripts.simpleanalyticscdn.com/latest.js" strategy="lazyOnload" />
 
