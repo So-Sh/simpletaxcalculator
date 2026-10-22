@@ -291,6 +291,10 @@ export default function HomePage() {
             <Image src="https://neeed.directory/badges/neeed-badge-light.svg" alt="Featured on neeed.directory" width={200} height={54} />
           </Link>
 
+          <Link prefetch={false} href="https://apptooling.com/projects/simpletaxcalculator?utm_source=badge" target="_blank" rel="noopener noreferrer">
+            <Image src="https://apptooling.com/apptooling/images/badges/featured-on-light.svg" alt="App Tooling" width={200} height={54} />
+          </Link>
+
 
           {/*           <Link href="https://ufind.best/products/calctools?utm_source=ufind.best" target="_blank" rel="noopener noreferrer">
             <Image src="https://ufind.best/badges/ufind-best-badge-light.svg" alt="Featured on ufind.best" width={200} height={54} />
