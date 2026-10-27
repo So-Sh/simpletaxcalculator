@@ -9,6 +9,8 @@ import FaqAccordion from '@/components/tax/FaqAccordion'
 import RelatedTools from '@/components/tax/RelatedTools'
 import { getStateGasTax, getAllGasTaxStates, getGasTaxMeta } from '@/lib/gas-tax'
 import { webApplicationSchema, faqSchema } from '@/lib/schema'
+import gasTaxNews from "@/data/gas-tax-news.json";
+import GasTaxNewsBox from "@/components/tax/GasTaxNewsBox";
 
 interface Props {
   params: Promise<{ state: string }>
@@ -59,6 +61,15 @@ export default async function StateGasTaxPage({ params }: Props) {
 
   const totalGasCents = gasCombined + FEDERAL_GAS_CENTS + FEDERAL_LUST
   const totalDieselCents = dieselCombined + FEDERAL_DIESEL_CENTS + FEDERAL_LUST
+
+  const today = new Date().toISOString().slice(0, 10);
+
+  const news = gasTaxNews.find(
+    (item) =>
+      item.slug === stateData.slug &&
+      item.until >= today
+  );
+
 
   // State-specific FAQs
   const stateFaqs = [
@@ -122,6 +133,9 @@ export default async function StateGasTaxPage({ params }: Props) {
             )}
           </p>
         </div>
+
+        {news && <GasTaxNewsBox news={news} />}
+
 
         {/* Rate highlight cards */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">

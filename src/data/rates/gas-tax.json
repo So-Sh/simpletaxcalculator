@@ -1,12 +1,12 @@
 {
-    "lastUpdated": "August 2026",
-    "dataAsOf": "January 1, 2026 (EIA biannual update, corrected March 4, 2026)",
+    "lastUpdated": "October 27, 2026",
+    "dataAsOf": "October 1, 2026 (state rates verified against official sources; individual effective dates vary)",
     "officialSourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=67165",
-    "officialSourceLabel": "U.S. Energy Information Administration (EIA) — January 2026 State Taxes and Fees (corrected March 2026)",
+    "officialSourceLabel": "U.S. Energy Information Administration (EIA) — State Taxes and Fees as of January 1, 2026 (national baseline)",
     "secondarySourceUrl": "https://www.irs.gov/publications/p510",
-    "secondarySourceLabel": "IRS Publication 510 — Excise Taxes",
+    "secondarySourceLabel": "IRS Publication 510 — Federal Fuel Excise Taxes and Related Rules",
     "tertiarySourceUrl": "https://igentax.com/blog/gas-tax-state/",
-    "tertiarySourceLabel": "IGEN — State Excise Tax Rates for 2026 (June 1, 2026)",
+    "tertiarySourceLabel": "IGEN — State Fuel Tax Rates for 2026 (June 1, 2026; secondary cross-check)",
     "notes": {
         "exciseRate": "The pure statutory per-gallon excise tax levied by the state, excluding additional fees, environmental surcharges, or sales tax components.",
         "combinedRate": "Total state-level taxes and fees per gallon as reported by the EIA, including excise tax plus environmental fees, inspection fees, storage tank fees, petroleum product taxes, and applicable sales taxes on fuel — but excluding federal taxes and local/county taxes unless noted.",
@@ -69,8 +69,8 @@
                 "combinedRateCents": 9.00,
                 "combinedRate": 0.0900
             },
-            "note": "Lowest state gas tax in the US. Unchanged since 1970. The EIA-reported combined rate rounds to 9.0 c/gal including a minor inspection fee. Alaska funds roads primarily through federal transfers and Permanent Fund earnings.",
-            "officialSourceUrl": "https://alaska.gov",
+            "note": "Lowest state gas tax in the US. Unchanged base excise since 1970 (8.0 c/gal). Combined rate includes the base 8.0 c/gal excise plus the 0.95 c/gal refined fuel surcharge (Spill Prevention & Response Fund), rounding to 9.0 c/gal. Alaska funds roads primarily through federal transfers and Permanent Fund earnings.",
+            "officialSourceUrl": "https://tax.alaska.gov/programs/programs/index.aspx?60010",
             "officialSourceLabel": "Alaska Department of Revenue — Motor Fuel Tax"
         },
         {
@@ -89,7 +89,7 @@
                 "combinedRateCents": 27.00,
                 "combinedRate": 0.2700
             },
-            "note": "State excise is 18 c/gal gasoline and 26 c/gal diesel. Combined rate includes a 1-cent environmental and inspection fee. State gasoline excise rate unchanged since 1991.",
+            "note": "Base state excise is 18.0 c/gal for gasoline and 26.0 c/gal for diesel (use fuel on vehicles with 3+ axles/GVWR over 26,000 lbs; light diesel vehicles pay 18.0 c/gal). Combined rates include a 1.0 c/gal Underground Storage Tank (UST) environmental fee. Gasoline excise tax has remained unchanged since 1991.",
             "officialSourceUrl": "https://azdot.gov/mvd/services/professional-services/fuel-tax-information",
             "officialSourceLabel": "Arizona Department of Transportation — Fuel Tax Information"
         },
@@ -98,10 +98,10 @@
             "name": "Arkansas",
             "abbreviation": "AR",
             "gasoline": {
-                "exciseRateCents": 24.50,
-                "exciseRate": 0.2450,
-                "combinedRateCents": 24.80,
-                "combinedRate": 0.2480
+                "exciseRateCents": 24.70,
+                "exciseRate": 0.2470,
+                "combinedRateCents": 25.00,
+                "combinedRate": 0.2500
             },
             "diesel": {
                 "exciseRateCents": 28.50,
@@ -109,8 +109,8 @@
                 "combinedRateCents": 28.80,
                 "combinedRate": 0.2880
             },
-            "note": "Excise rate is 24.5 c/gal gasoline and 28.5 c/gal diesel. Combined rate includes a flat 0.3 c/gal environmental assurance fee applied to both fuel types.",
-            "officialSourceUrl": "https://arkansas.gov",
+            "note": "State excise tax is 24.7 c/gal gasoline (21.5 c/gal base + 3.2 c/gal wholesale tax) and 28.5 c/gal diesel (22.5 c/gal base + 6.0 c/gal wholesale tax). Combined rate includes a 0.3 c/gal Petroleum Environmental Assurance Fee applied to both fuel types.",
+            "officialSourceUrl": "https://www.dfa.arkansas.gov/excise-tax/motor-fuel-tax/",
             "officialSourceLabel": "Arkansas Department of Finance and Administration — Motor Fuel Tax"
         },
         {
@@ -129,9 +129,9 @@
                 "combinedRateCents": 97.90,
                 "combinedRate": 0.9790
             },
-            "note": "Highest combined state fuel tax in the US. Gasoline excise (61.2 c/gal) adjusts annually; combined 72.5 c/gal includes the 2.25% sales tax on gasoline. Diesel excise is 46.6 c/gal; combined 89.9 c/gal includes the 13.00% sales tax on diesel. Cap-and-trade and LCFS costs are additional and not reflected here.",
-            "officialSourceUrl": "https://cdtfa.ca.gov/taxes-and-fees/sales-tax-rates-for-fuels.htm",
-            "officialSourceLabel": "California Department of Tax and Fee Administration — Sales Tax Rates for Fuels"
+            "note": "Highest state fuel tax rates in the U.S. Gasoline state excise is 63.4 c/gal; the combined rate (~73.64 c/gal) includes the 2.25% state fuel sales tax plus average local/district taxes and fees. Diesel excise is 48.2 c/gal; the combined rate (97.9 c/gal) includes component taxes and the 13.00% sales tax on diesel. Cap-and-trade and LCFS compliance costs are embedded in retail prices and are not included in these tax rates.",
+            "officialSourceUrl": "https://cdtfa.ca.gov/taxes-and-fees/special-taxes-and-fees-tax-rates/fuel-taxes.htm",
+            "officialSourceLabel": "California Department of Tax and Fee Administration — Fuel Tax Rates"
         },
         {
             "slug": "colorado",
@@ -149,7 +149,7 @@
                 "combinedRateCents": 34.68,
                 "combinedRate": 0.3468
             },
-            "note": "Excise rate reflects the base statutory rate. Combined rate accounts for the core excise plus active HUTF fees, Bridge and Tunnel Impact fees, and indexed state Road Usage Fees.",
+            "note": "Excise rate reflects the base statutory rate (22.0 c/gal gasoline, 20.5 c/gal diesel). Combined rate accounts for the base excise plus active HUTF fees, Bridge and Tunnel Impact fees, Environmental Response Surcharge (ERS), PFAS fees, and state Road Usage Fees established under SB 21-260.",
             "officialSourceUrl": "https://tax.colorado.gov/fuel-tax-and-fee-rates",
             "officialSourceLabel": "Colorado Department of Revenue — Fuel Tax"
         },
@@ -164,12 +164,12 @@
                 "combinedRate": 0.5140
             },
             "diesel": {
-                "exciseRateCents": 49.90,
-                "exciseRate": 0.4990,
-                "combinedRateCents": 49.90,
-                "combinedRate": 0.4990
+                "exciseRateCents": 48.90,
+                "exciseRate": 0.4890,
+                "combinedRateCents": 48.90,
+                "combinedRate": 0.4890
             },
-            "note": "Gasoline relies on a flat 25.0 c/gal excise plus a variable 8.1% petroleum products gross earnings tax assessed at wholesale (averaging a 51.4 c/gal combined impact). Diesel is statutorily exempt from the gross earnings tax, using a single indexed excise rate adjusted annually by the DRS.",
+            "note": "Gasoline uses a flat 25.0 c/gal motor vehicle fuel excise plus a variable 8.1% petroleum products gross earnings tax assessed on wholesale distribution (~51.4 c/gal combined state impact). Diesel is statutorily exempt from the petroleum products gross earnings tax and is taxed under a single indexed motor vehicle fuel excise rate, adjusted annually by the DRS under Conn. Gen. Stat. § 12-458h.",
             "officialSourceUrl": "https://portal.ct.gov/-/media/drs/publications/pubsan/2026/an-2026-2.pdf",
             "officialSourceLabel": "Connecticut Department of Revenue Services — Announcement 2026(2)"
         },
@@ -218,20 +218,20 @@
             "name": "Florida",
             "abbreviation": "FL",
             "gasoline": {
-                "exciseRateCents": 38.03,
-                "exciseRate": 0.3803,
-                "combinedRateCents": 41.10,
-                "combinedRate": 0.4110
+                "exciseRateCents": 22.00,
+                "exciseRate": 0.2200,
+                "combinedRateCents": 40.10,
+                "combinedRate": 0.4010
             },
             "diesel": {
-                "exciseRateCents": 38.90,
-                "exciseRate": 0.3890,
-                "combinedRateCents": 40.97,
-                "combinedRate": 0.4097
+                "exciseRateCents": 22.00,
+                "exciseRate": 0.2200,
+                "combinedRateCents": 38.90,
+                "combinedRate": 0.3890
             },
-            "note": "Rates adjust annually based on the CPI. Gasoline includes a 4.0 c/gal fuel tax, 18.0 c/gal sales tax, 9.9 c/gal SCETS tax, 6.0 c/gal minimum local option, and a 0.125 c/gal inspection fee. Diesel is set at a uniform 38.9 c/gal statewide state-plus-county minimum baseline. Combined rates include IFTA-reported fuel tax trackings.",
-            "officialSourceUrl": "https://floridarevenue.com",
-            "officialSourceLabel": "Florida Department of Revenue — Fuel Tax Rates"
+            "note": "Rates adjust annually based on the CPI. State tax on both motor fuel and diesel is 22.0 c/gal. Combined/total baseline rates include state taxes, SCETS tax, minimum local option taxes, and inspection/pollutants fees as published by the Florida Department of Revenue. Total rates vary by county due to local option tax choices.",
+            "officialSourceUrl": "https://floridarevenue.com/taxes/tips/Documents/TIP_25B05-05.pdf",
+            "officialSourceLabel": "Florida Department of Revenue — Fuel Tax Rates (TIP #25B05-05)"
         },
         {
             "slug": "georgia",
@@ -269,7 +269,7 @@
                 "combinedRateCents": 18.50,
                 "combinedRate": 0.1850
             },
-            "note": "State base excise is 16.0 c/gal for highway fuels. Combined rate of 18.5 c/gal factors the state environmental response tax overlay ($1.05 per barrel). Local island county option taxes (ranging from 16.5 to 24.0 c/gal) and the 4.0% General Excise Tax apply additionally.",
+            "note": "State base excise is 16.0 c/gal for highway fuels. Combined statewide rate of 18.5 c/gal factors in the state Environmental Response, Energy, and Food Security Tax overlay ($1.05 per barrel, equivalent to ~2.5 c/gal). Mandatory local island county option taxes (ranging from 16.5 to 24.0 c/gal) and the statewide 4.0% General Excise Tax apply additionally at retail, raising combined state + local taxes to between 32.5 and 40.0 c/gal.",
             "officialSourceUrl": "https://tax.hawaii.gov/forms/a1_b3_5fuel/",
             "officialSourceLabel": "Hawaii Department of Taxation — Fuel Tax Forms and Instructions"
         },
@@ -280,18 +280,18 @@
             "gasoline": {
                 "exciseRateCents": 32.00,
                 "exciseRate": 0.3200,
-                "combinedRateCents": 32.00,
-                "combinedRate": 0.3200
+                "combinedRateCents": 33.00,
+                "combinedRate": 0.3300
             },
             "diesel": {
                 "exciseRateCents": 32.00,
                 "exciseRate": 0.3200,
-                "combinedRateCents": 32.00,
-                "combinedRate": 0.3200
+                "combinedRateCents": 33.00,
+                "combinedRate": 0.3300
             },
-            "note": "State excise tax is a flat 32.0 c/gal for both gasoline and diesel. The state's 1-cent per gallon underground storage tank (UST) transfer fee triggers off or on dynamically depending on the state insurance fund's balance and is currently un-levied.",
-            "officialSourceUrl": "https://tax.idaho.gov/taxes/product-excise-taxes/fuels-taxes-and-fees/distributor-fuels/tax-rate/",
-            "officialSourceLabel": "Idaho State Tax Commission — Fuel Distributors Tax Rate Table"
+            "note": "Base state motor fuel excise tax is 32.0 c/gal for both gasoline and diesel. The active Petroleum Clean Water Trust Fund transfer fee adds 1.0 c/gal, resulting in a total combined state tax rate of 33.0 c/gal.",
+            "officialSourceUrl": "https://tax.idaho.gov/taxes/product-excise-taxes/fuels-taxes-and-fees/",
+            "officialSourceLabel": "Idaho State Tax Commission — Fuels Taxes and Fees"
         },
         {
             "slug": "illinois",
@@ -309,7 +309,7 @@
                 "combinedRateCents": 73.80,
                 "combinedRate": 0.7380
             },
-            "note": "Excise tax rates reflect the state Motor Fuel Tax (MFT) baseline. Combined rates track the comprehensive statewide multi-layered framework, combining base excise with the state's 6.25% fuel sales tax component and average regional transit surcharges.",
+            "note": "Excise tax rates reflect the state Motor Fuel Tax (MFT) baseline (48.3 c/gal for gasoline, 55.8 c/gal for diesel). Combined rates (65.3 c/gal for gasoline, 73.8 c/gal for diesel) track the Motor Fuel Use Tax structure combining the Part A rate (state excise) with the Part B rate (17.0 c/gal gasoline, 18.0 c/gal diesel) set by the IDOR based on the 6.25% state sales tax. Retail sales taxes (6.25% state + local option) and environmental fees apply additionally at retail.",
             "officialSourceUrl": "https://tax.illinois.gov/research/taxrates/motorfuel.html",
             "officialSourceLabel": "Illinois Department of Revenue — Motor Fuel Tax Rates and Fees Table"
         },
@@ -318,20 +318,20 @@
             "name": "Indiana",
             "abbreviation": "IN",
             "gasoline": {
-                "exciseRateCents": 36.00,
-                "exciseRate": 0.3600,
+                "exciseRateCents": 37.00,
+                "exciseRate": 0.3700,
                 "combinedRateCents": 63.50,
                 "combinedRate": 0.6350
             },
             "diesel": {
-                "exciseRateCents": 61.00,
-                "exciseRate": 0.6100,
-                "combinedRateCents": 62.00,
-                "combinedRate": 0.6200
+                "exciseRateCents": 63.00,
+                "exciseRate": 0.6300,
+                "combinedRateCents": 64.00,
+                "combinedRate": 0.6400
             },
-            "note": "State baseline excise tax is 36.0 c/gal for gasoline and 61.0 c/gal for special fuel. Combined rates integrate the state's variable 7% monthly Gasoline Use Tax (GUT) indexing plus a flat 1-cent petroleum inspection fee.",
-            "officialSourceUrl": "https://www.in.gov/dor/resources/tax-rates-and-reports/rates-fees-and-penalties/miscellaneous-tax-rates/",
-            "officialSourceLabel": "Indiana Department of Revenue — Miscellaneous Tax Rates Table"
+            "note": "State baseline Gasoline Tax is 37.0 c/gal and Special Fuel Tax (diesel) / Motor Carrier Fuel Tax (MCFT) rate is 63.0 c/gal. Combined gasoline rates incorporate the state's variable 7% monthly Gasoline Use Tax (GUT) indexing plus the 1-cent petroleum inspection fee.",
+            "officialSourceUrl": "https://www.in.gov/dor/business-tax/tax-rates-fees-and-penalties/miscellaneous-tax-rates/",
+            "officialSourceLabel": "Indiana Department of Revenue — Miscellaneous Tax Rates"
         },
         {
             "slug": "iowa",
@@ -349,9 +349,9 @@
                 "combinedRateCents": 32.50,
                 "combinedRate": 0.3250
             },
-            "note": "Iowa fuel tax excise and combined rates are equal; inspection fees are already included in the statutory excise rate.",
-            "officialSourceUrl": "https://revenue.iowa.gov/press-release/2026-01-27/iowa-fuel-tax-rate-change-effective-july-1-2026",
-            "officialSourceLabel": "Iowa Department of Revenue — Iowa Fuel Tax Rate Table Schedule"
+            "note": "Standard gasoline base excise tax is 30.0 c/gal and unblended diesel base excise tax is 32.5 c/gal (biodiesel B-11+ is taxed at 32.5 c/gal effective July 1, 2026). E-15 or higher ethanol blends are taxed at 28.0 c/gal (increased from 26.5 c/gal on July 1, 2026).",
+            "officialSourceUrl": "https://revenue.iowa.gov/taxes/tax-guidance/sales-use-excise-tax/iowa-fuel-tax-information",
+            "officialSourceLabel": "Iowa Department of Revenue — Iowa Fuel Tax Information"
         },
         {
             "slug": "kansas",
@@ -369,7 +369,7 @@
                 "combinedRateCents": 27.03,
                 "combinedRate": 0.2703
             },
-            "note": "State baseline excise is 24.0 c/gal for gasoline and 26.0 c/gal for diesel. Combined rates include a 1.03 c/gal environmental assurance fee applied to both fuels, managed under the Kansas Petroleum Storage Tank Release Trust Fund.",
+            "note": "State baseline excise is 24.0 c/gal for gasoline and 26.0 c/gal for diesel. Combined rates include a 1.0 c/gal Environmental Assurance Fee (Kansas Petroleum Storage Tank Release Trust Fund) plus a 0.03 c/gal inspection fee applied to both fuels.",
             "officialSourceUrl": "https://www.ksrevenue.gov/mffueltaxrates.html",
             "officialSourceLabel": "Kansas Department of Revenue — Motor Fuel Tax Rates"
         },
@@ -378,20 +378,20 @@
             "name": "Kentucky",
             "abbreviation": "KY",
             "gasoline": {
-                "exciseRateCents": 15.00,
-                "exciseRate": 0.1500,
-                "combinedRateCents": 16.40,
-                "combinedRate": 0.1640
+                "exciseRateCents": 25.00,
+                "exciseRate": 0.2500,
+                "combinedRateCents": 26.40,
+                "combinedRate": 0.2640
             },
             "diesel": {
-                "exciseRateCents": 12.00,
-                "exciseRate": 0.1200,
-                "combinedRateCents": 13.40,
-                "combinedRate": 0.1340
+                "exciseRateCents": 22.00,
+                "exciseRate": 0.2200,
+                "combinedRateCents": 23.40,
+                "combinedRate": 0.2340
             },
-            "note": "Rates reflect Governor Beshear's emergency executive order reducing gasoline excise to 15.0 c/gal and special fuels (diesel) to 12.0 c/gal. Combined rates add the 1.4 c/gal Petroleum Environmental Assurance Fee layer.",
-            "officialSourceUrl": "https://revenue.ky.gov/Business/Motor-Fuels-Tax",
-            "officialSourceLabel": "Kentucky Department of Revenue — Motor Fuels Tax Rates"
+            "note": "Base statutory motor fuel tax rate for gasoline is 25.0 c/gal and special fuel (diesel) is 22.0 c/gal. Combined rates add the 1.4 c/gal Petroleum Environmental Assurance Fee layer (resulting in total state rates of 26.4 c/gal for gasoline and 23.4 c/gal for diesel). Governor Beshear's Executive Order froze the variable rate formula to maintain the total gasoline rate at 26.4 c/gal.",
+            "officialSourceUrl": "https://revenue.ky.gov/Business/Motor-Fuels-Tax/",
+            "officialSourceLabel": "Kentucky Department of Revenue — Motor Fuels Tax"
         },
         {
             "slug": "louisiana",
@@ -409,9 +409,9 @@
                 "combinedRateCents": 20.125,
                 "combinedRate": 0.20125
             },
-            "note": "State baseline excise tax is a flat 20.0 c/gal for both gasoline and diesel. The combined rate includes the mandatory 4/32 of a cent (0.125 c/gal) motor fuel inspection fee.",
-            "officialSourceUrl": "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/excise-taxes/motor-fuel-taxes/how-much-is-the-inspection-fee-per-gallon/",
-            "officialSourceLabel": "Louisiana Department of Revenue — Motor Fuel Inspection Fee Table"
+            "note": "State baseline excise tax is a flat 20.0 c/gal for both gasoline and diesel (statutory rate under LA R.S. 47:818.11). Combined state rate includes the mandatory $0.00125 per gallon (4/32 of a cent) motor fuel inspection fee. Petroleum underground storage tank fee layers may add up to 0.8 c/gal depending on delivery volumes.",
+            "officialSourceUrl": "https://revenue.louisiana.gov/businesses/excise/motor-fuel-taxes/",
+            "officialSourceLabel": "Louisiana Department of Revenue — Motor Fuel Taxes"
         },
         {
             "slug": "maine",
@@ -420,18 +420,18 @@
             "gasoline": {
                 "exciseRateCents": 30.00,
                 "exciseRate": 0.3000,
-                "combinedRateCents": 31.40,
-                "combinedRate": 0.3140
+                "combinedRateCents": 31.45,
+                "combinedRate": 0.3145
             },
             "diesel": {
                 "exciseRateCents": 31.20,
                 "exciseRate": 0.3120,
-                "combinedRateCents": 31.87,
-                "combinedRate": 0.3187
+                "combinedRateCents": 31.96,
+                "combinedRate": 0.3196
             },
-            "note": "Excise rate is the flat motor fuel tax. Combined rate includes an oil discharge and cleanup fund fee (1.4 c/gal gasoline, 0.66 c/gal diesel).",
-            "officialSourceUrl": "https://www.maine.gov/revenue/taxes/fuel-tax/rates",
-            "officialSourceLabel": "Maine Revenue Services — Fuel Tax Rates"
+            "note": "Base excise rates are a flat 30.0 c/gal for gasoline and 31.2 c/gal for distillate/special fuel (diesel). Combined rates include the state's Maine Ground and Surface Waters Clean-up Fund fee layers (~1.45 c/gal for gasoline and ~0.76 c/gal for diesel).",
+            "officialSourceUrl": "https://www.maine.gov/revenue/taxes/fuel-tax",
+            "officialSourceLabel": "Maine Revenue Services — Fuel Tax"
         },
         {
             "slug": "maryland",
@@ -469,9 +469,9 @@
                 "combinedRateCents": 27.47,
                 "combinedRate": 0.2747
             },
-            "note": "State excise is a flat 24.0 c/gal for both gasoline and special fuels (diesel). Combined rates capture the additional 3.47 c/gal underground storage tank (UST) fund delivery fee layer assessed on wholesale shipments.",
-            "officialSourceUrl": "https://www.mass.gov/doc/massachusetts-fuels-excise-rate-table-2nd-quarter-2026/download",
-            "officialSourceLabel": "Massachusetts Department of Revenue — Fuels Excise Rate Table"
+            "note": "State excise tax is a flat 24.0 c/gal for both gasoline and special fuels (diesel). Combined rates capture the additional $253.95 per delivery load (~3.47 c/gal equivalent) Underground Storage Tank (UST) petroleum cleanup fee layer assessed on wholesale deliveries.",
+            "officialSourceUrl": "https://www.mass.gov/info-details/massachusetts-fuels-excise-rates",
+            "officialSourceLabel": "Massachusetts Department of Revenue — Fuels Excise Rates"
         },
         {
             "slug": "michigan",

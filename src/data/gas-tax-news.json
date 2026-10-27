@@ -1,0 +1,16 @@
+[
+  {
+    "state": "Georgia",
+    "slug": "georgia",
+    "note": "Temporary Tax Suspension: On September 29, 2026, Governor Brian Kemp issued Executive Order 09.28.26.01 (extended by EO 10.06.26.01), temporarily suspending the collection of the state motor fuel excise tax due to market volatility. Prepaid local sales taxes remain in effect during the suspension. Standard baseline state rates (33.3¢ gasoline / 37.3¢ diesel) remain statutory and resume when the suspension period ends.",
+    "sourceUrl": "https://gov.georgia.gov/",
+    "until": "2026-11-06"
+  },
+  {
+    "state": "North Carolina",
+    "slug": "north-carolina",
+    "note": "Temporary Tax Suspension: On October 9, 2026, Governor Josh Stein signed Session Law 2026-62, temporarily suspending North Carolina's motor fuel excise tax on gasoline, diesel, and alternative fuels from October 10 through November 30, 2026. The excise tax rate is 0¢ per gallon during the suspension. The suspension does not affect applicable sales and use taxes or the motor fuel inspection tax.",
+    "sourceUrl": "https://www.ncdor.gov/taxes-forms/motor-fuels-tax/important-notices-and-frequently-asked-questions-about-motor-fuels-tax/important-notice-temporary-suspension-motor-fuel-excise-tax-and-dyed-diesel-enforcement",
+    "until": "2026-11-30"
+  }
+]
