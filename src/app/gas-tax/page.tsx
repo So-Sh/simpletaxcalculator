@@ -8,6 +8,8 @@ import FaqAccordion from '@/components/tax/FaqAccordion'
 import RelatedTools from '@/components/tax/RelatedTools'
 import { getAllGasTaxStates, getGasTaxMeta, getStatesSortedByCombinedRate } from '@/lib/gas-tax'
 import { webApplicationSchema, faqSchema } from '@/lib/schema'
+import gasTaxNews from '@/data/gas-tax-news.json'
+import TemporaryTaxChanges from '@/components/tax/TemporaryTaxChanges'
 
 export const metadata: Metadata = {
     title: 'Gas Tax Calculator 2026 — Federal + All 50 States',
@@ -59,6 +61,8 @@ export default function GasTaxPillarPage() {
                         Rates sourced from the U.S. Energy Information Administration, August 2026.
                     </p>
                 </div>
+
+                <TemporaryTaxChanges changes={gasTaxNews} />
 
                 {/* Calculator — no state pre-selected on pillar page */}
                 <GasTaxCalculator
