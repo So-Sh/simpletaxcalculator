@@ -107,6 +107,13 @@ export default function RootLayout({
           gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID!}
         />
 
+        <Script
+          src="https://cloud.umami.is/script.js"
+          data-website-id="b8a64194-946c-4bfe-8390-32d8e09c1a58"
+          strategy="afterInteractive"
+        />
+
+
         {/* Google AdSense Script 
         <Script
           id="adsense-init"
