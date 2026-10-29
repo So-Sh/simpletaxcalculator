@@ -1,0 +1,2725 @@
+[
+  {
+    "fips": "06037",
+    "sizeRank": 0,
+    "slug": "los-angeles-county",
+    "name": "Los Angeles County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48201",
+    "sizeRank": 2,
+    "slug": "harris-county",
+    "name": "Harris County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06073",
+    "sizeRank": 4,
+    "slug": "san-diego-county",
+    "name": "San Diego County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06059",
+    "sizeRank": 5,
+    "slug": "orange-county",
+    "name": "Orange County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "12086",
+    "sizeRank": 7,
+    "slug": "miami-dade-county",
+    "name": "Miami-Dade County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48113",
+    "sizeRank": 8,
+    "slug": "dallas-county",
+    "name": "Dallas County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06065",
+    "sizeRank": 9,
+    "slug": "riverside-county",
+    "name": "Riverside County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06071",
+    "sizeRank": 13,
+    "slug": "san-bernardino-county",
+    "name": "San Bernardino County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48439",
+    "sizeRank": 14,
+    "slug": "tarrant-county",
+    "name": "Tarrant County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48029",
+    "sizeRank": 15,
+    "slug": "bexar-county",
+    "name": "Bexar County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06085",
+    "sizeRank": 16,
+    "slug": "santa-clara-county",
+    "name": "Santa Clara County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "12011",
+    "sizeRank": 17,
+    "slug": "broward-county",
+    "name": "Broward County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "06001",
+    "sizeRank": 19,
+    "slug": "alameda-county",
+    "name": "Alameda County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06067",
+    "sizeRank": 23,
+    "slug": "sacramento-county",
+    "name": "Sacramento County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "12099",
+    "sizeRank": 25,
+    "slug": "palm-beach-county",
+    "name": "Palm Beach County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12057",
+    "sizeRank": 27,
+    "slug": "hillsborough-county",
+    "name": "Hillsborough County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12095",
+    "sizeRank": 28,
+    "slug": "orange-county",
+    "name": "Orange County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48453",
+    "sizeRank": 33,
+    "slug": "travis-county",
+    "name": "Travis County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06013",
+    "sizeRank": 37,
+    "slug": "contra-costa-county",
+    "name": "Contra Costa County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48085",
+    "sizeRank": 43,
+    "slug": "collin-county",
+    "name": "Collin County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06019",
+    "sizeRank": 46,
+    "slug": "fresno-county",
+    "name": "Fresno County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "12031",
+    "sizeRank": 49,
+    "slug": "duval-county",
+    "name": "Duval County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12103",
+    "sizeRank": 51,
+    "slug": "pinellas-county",
+    "name": "Pinellas County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "34003",
+    "sizeRank": 54,
+    "slug": "bergen-county",
+    "name": "Bergen County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06029",
+    "sizeRank": 61,
+    "slug": "kern-county",
+    "name": "Kern County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48121",
+    "sizeRank": 63,
+    "slug": "denton-county",
+    "name": "Denton County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06075",
+    "sizeRank": 65,
+    "slug": "san-francisco-county",
+    "name": "San Francisco County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48215",
+    "sizeRank": 66,
+    "slug": "hidalgo-county",
+    "name": "Hidalgo County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48141",
+    "sizeRank": 68,
+    "slug": "el-paso-county",
+    "name": "El Paso County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "34023",
+    "sizeRank": 69,
+    "slug": "middlesex-county",
+    "name": "Middlesex County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "34013",
+    "sizeRank": 71,
+    "slug": "essex-county",
+    "name": "Essex County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06111",
+    "sizeRank": 74,
+    "slug": "ventura-county",
+    "name": "Ventura County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48157",
+    "sizeRank": 78,
+    "slug": "fort-bend-county",
+    "name": "Fort Bend County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06077",
+    "sizeRank": 83,
+    "slug": "san-joaquin-county",
+    "name": "San Joaquin County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06081",
+    "sizeRank": 85,
+    "slug": "san-mateo-county",
+    "name": "San Mateo County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "12071",
+    "sizeRank": 88,
+    "slug": "lee-county",
+    "name": "Lee County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12105",
+    "sizeRank": 93,
+    "slug": "polk-county",
+    "name": "Polk County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "34017",
+    "sizeRank": 94,
+    "slug": "hudson-county",
+    "name": "Hudson County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "34025",
+    "sizeRank": 107,
+    "slug": "monmouth-county",
+    "name": "Monmouth County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "34029",
+    "sizeRank": 108,
+    "slug": "ocean-county",
+    "name": "Ocean County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "48339",
+    "sizeRank": 109,
+    "slug": "montgomery-county",
+    "name": "Montgomery County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12009",
+    "sizeRank": 111,
+    "slug": "brevard-county",
+    "name": "Brevard County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48491",
+    "sizeRank": 114,
+    "slug": "williamson-county",
+    "name": "Williamson County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "34039",
+    "sizeRank": 120,
+    "slug": "union-county",
+    "name": "Union County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "12101",
+    "sizeRank": 123,
+    "slug": "pasco-county",
+    "name": "Pasco County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "06099",
+    "sizeRank": 124,
+    "slug": "stanislaus-county",
+    "name": "Stanislaus County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "12127",
+    "sizeRank": 127,
+    "slug": "volusia-county",
+    "name": "Volusia County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "34007",
+    "sizeRank": 134,
+    "slug": "camden-county",
+    "name": "Camden County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "34031",
+    "sizeRank": 135,
+    "slug": "passaic-county",
+    "name": "Passaic County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "34027",
+    "sizeRank": 140,
+    "slug": "morris-county",
+    "name": "Morris County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06097",
+    "sizeRank": 144,
+    "slug": "sonoma-county",
+    "name": "Sonoma County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06107",
+    "sizeRank": 151,
+    "slug": "tulare-county",
+    "name": "Tulare County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "12117",
+    "sizeRank": 152,
+    "slug": "seminole-county",
+    "name": "Seminole County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "34005",
+    "sizeRank": 154,
+    "slug": "burlington-county",
+    "name": "Burlington County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06095",
+    "sizeRank": 158,
+    "slug": "solano-county",
+    "name": "Solano County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06083",
+    "sizeRank": 159,
+    "slug": "santa-barbara-county",
+    "name": "Santa Barbara County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06053",
+    "sizeRank": 161,
+    "slug": "monterey-county",
+    "name": "Monterey County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "12115",
+    "sizeRank": 164,
+    "slug": "sarasota-county",
+    "name": "Sarasota County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48061",
+    "sizeRank": 168,
+    "slug": "cameron-county",
+    "name": "Cameron County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06061",
+    "sizeRank": 177,
+    "slug": "placer-county",
+    "name": "Placer County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "12081",
+    "sizeRank": 180,
+    "slug": "manatee-county",
+    "name": "Manatee County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "34021",
+    "sizeRank": 182,
+    "slug": "mercer-county",
+    "name": "Mercer County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "12097",
+    "sizeRank": 188,
+    "slug": "osceola-county",
+    "name": "Osceola County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12069",
+    "sizeRank": 189,
+    "slug": "lake-county",
+    "name": "Lake County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12021",
+    "sizeRank": 191,
+    "slug": "collier-county",
+    "name": "Collier County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12083",
+    "sizeRank": 194,
+    "slug": "marion-county",
+    "name": "Marion County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48039",
+    "sizeRank": 195,
+    "slug": "brazoria-county",
+    "name": "Brazoria County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48027",
+    "sizeRank": 196,
+    "slug": "bell-county",
+    "name": "Bell County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48355",
+    "sizeRank": 203,
+    "slug": "nueces-county",
+    "name": "Nueces County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48167",
+    "sizeRank": 205,
+    "slug": "galveston-county",
+    "name": "Galveston County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "34035",
+    "sizeRank": 209,
+    "slug": "somerset-county",
+    "name": "Somerset County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "12111",
+    "sizeRank": 217,
+    "slug": "saint-lucie-county",
+    "name": "Saint Lucie County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12033",
+    "sizeRank": 224,
+    "slug": "escambia-county",
+    "name": "Escambia County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48303",
+    "sizeRank": 230,
+    "slug": "lubbock-county",
+    "name": "Lubbock County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "34015",
+    "sizeRank": 233,
+    "slug": "gloucester-county",
+    "name": "Gloucester County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "12073",
+    "sizeRank": 242,
+    "slug": "leon-county",
+    "name": "Leon County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "06079",
+    "sizeRank": 247,
+    "slug": "san-luis-obispo-county",
+    "name": "San Luis Obispo County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06047",
+    "sizeRank": 249,
+    "slug": "merced-county",
+    "name": "Merced County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "12001",
+    "sizeRank": 251,
+    "slug": "alachua-county",
+    "name": "Alachua County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "34001",
+    "sizeRank": 252,
+    "slug": "atlantic-county",
+    "name": "Atlantic County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06087",
+    "sizeRank": 254,
+    "slug": "santa-cruz-county",
+    "name": "Santa Cruz County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48479",
+    "sizeRank": 261,
+    "slug": "webb-county",
+    "name": "Webb County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12109",
+    "sizeRank": 263,
+    "slug": "saint-johns-county",
+    "name": "Saint Johns County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "06041",
+    "sizeRank": 266,
+    "slug": "marin-county",
+    "name": "Marin County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48309",
+    "sizeRank": 272,
+    "slug": "mclennan-county",
+    "name": "McLennan County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48245",
+    "sizeRank": 274,
+    "slug": "jefferson-county",
+    "name": "Jefferson County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48209",
+    "sizeRank": 289,
+    "slug": "hays-county",
+    "name": "Hays County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48423",
+    "sizeRank": 294,
+    "slug": "smith-county",
+    "name": "Smith County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48041",
+    "sizeRank": 295,
+    "slug": "brazos-county",
+    "name": "Brazos County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06007",
+    "sizeRank": 314,
+    "slug": "butte-county",
+    "name": "Butte County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06113",
+    "sizeRank": 315,
+    "slug": "yolo-county",
+    "name": "Yolo County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "12019",
+    "sizeRank": 316,
+    "slug": "clay-county",
+    "name": "Clay County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12091",
+    "sizeRank": 325,
+    "slug": "okaloosa-county",
+    "name": "Okaloosa County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12053",
+    "sizeRank": 349,
+    "slug": "hernando-county",
+    "name": "Hernando County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "06017",
+    "sizeRank": 350,
+    "slug": "el-dorado-county",
+    "name": "El Dorado County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48139",
+    "sizeRank": 354,
+    "slug": "ellis-county",
+    "name": "Ellis County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12015",
+    "sizeRank": 359,
+    "slug": "charlotte-county",
+    "name": "Charlotte County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12113",
+    "sizeRank": 360,
+    "slug": "santa-rosa-county",
+    "name": "Santa Rosa County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "06089",
+    "sizeRank": 368,
+    "slug": "shasta-county",
+    "name": "Shasta County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "12005",
+    "sizeRank": 371,
+    "slug": "bay-county",
+    "name": "Bay County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "06025",
+    "sizeRank": 373,
+    "slug": "imperial-county",
+    "name": "Imperial County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48251",
+    "sizeRank": 377,
+    "slug": "johnson-county",
+    "name": "Johnson County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48187",
+    "sizeRank": 388,
+    "slug": "guadalupe-county",
+    "name": "Guadalupe County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48329",
+    "sizeRank": 402,
+    "slug": "midland-county",
+    "name": "Midland County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48135",
+    "sizeRank": 411,
+    "slug": "ector-county",
+    "name": "Ector County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12061",
+    "sizeRank": 423,
+    "slug": "indian-river-county",
+    "name": "Indian River County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12085",
+    "sizeRank": 424,
+    "slug": "martin-county",
+    "name": "Martin County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "06039",
+    "sizeRank": 430,
+    "slug": "madera-county",
+    "name": "Madera County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48091",
+    "sizeRank": 431,
+    "slug": "comal-county",
+    "name": "Comal County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "34011",
+    "sizeRank": 435,
+    "slug": "cumberland-county",
+    "name": "Cumberland County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "12017",
+    "sizeRank": 445,
+    "slug": "citrus-county",
+    "name": "Citrus County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "06031",
+    "sizeRank": 446,
+    "slug": "kings-county",
+    "name": "Kings County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "34037",
+    "sizeRank": 454,
+    "slug": "sussex-county",
+    "name": "Sussex County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "48367",
+    "sizeRank": 457,
+    "slug": "parker-county",
+    "name": "Parker County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48441",
+    "sizeRank": 465,
+    "slug": "taylor-county",
+    "name": "Taylor County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48257",
+    "sizeRank": 468,
+    "slug": "kaufman-county",
+    "name": "Kaufman County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48381",
+    "sizeRank": 471,
+    "slug": "randall-county",
+    "name": "Randall County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06055",
+    "sizeRank": 472,
+    "slug": "napa-county",
+    "name": "Napa County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "06023",
+    "sizeRank": 476,
+    "slug": "humboldt-county",
+    "name": "Humboldt County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48181",
+    "sizeRank": 482,
+    "slug": "grayson-county",
+    "name": "Grayson County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48485",
+    "sizeRank": 500,
+    "slug": "wichita-county",
+    "name": "Wichita County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "34019",
+    "sizeRank": 503,
+    "slug": "hunterdon-county",
+    "name": "Hunterdon County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "12119",
+    "sizeRank": 510,
+    "slug": "sumter-county",
+    "name": "Sumter County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48183",
+    "sizeRank": 515,
+    "slug": "gregg-county",
+    "name": "Gregg County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48451",
+    "sizeRank": 529,
+    "slug": "tom-green-county",
+    "name": "Tom Green County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48375",
+    "sizeRank": 530,
+    "slug": "potter-county",
+    "name": "Potter County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12035",
+    "sizeRank": 547,
+    "slug": "flagler-county",
+    "name": "Flagler County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "34041",
+    "sizeRank": 562,
+    "slug": "warren-county",
+    "name": "Warren County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "48397",
+    "sizeRank": 583,
+    "slug": "rockwall-county",
+    "name": "Rockwall County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06057",
+    "sizeRank": 600,
+    "slug": "nevada-county",
+    "name": "Nevada County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "12055",
+    "sizeRank": 603,
+    "slug": "highlands-county",
+    "name": "Highlands County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "06101",
+    "sizeRank": 610,
+    "slug": "sutter-county",
+    "name": "Sutter County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48231",
+    "sizeRank": 613,
+    "slug": "hunt-county",
+    "name": "Hunt County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "34009",
+    "sizeRank": 631,
+    "slug": "cape-may-county",
+    "name": "Cape May County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "48021",
+    "sizeRank": 635,
+    "slug": "bastrop-county",
+    "name": "Bastrop County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48037",
+    "sizeRank": 648,
+    "slug": "bowie-county",
+    "name": "Bowie County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06045",
+    "sizeRank": 654,
+    "slug": "mendocino-county",
+    "name": "Mendocino County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48469",
+    "sizeRank": 656,
+    "slug": "victoria-county",
+    "name": "Victoria County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48291",
+    "sizeRank": 662,
+    "slug": "liberty-county",
+    "name": "Liberty County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12089",
+    "sizeRank": 667,
+    "slug": "nassau-county",
+    "name": "Nassau County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48005",
+    "sizeRank": 675,
+    "slug": "angelina-county",
+    "name": "Angelina County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48361",
+    "sizeRank": 684,
+    "slug": "orange-county",
+    "name": "Orange County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12087",
+    "sizeRank": 698,
+    "slug": "monroe-county",
+    "name": "Monroe County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48213",
+    "sizeRank": 702,
+    "slug": "henderson-county",
+    "name": "Henderson County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48099",
+    "sizeRank": 705,
+    "slug": "coryell-county",
+    "name": "Coryell County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06115",
+    "sizeRank": 713,
+    "slug": "yuba-county",
+    "name": "Yuba County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48471",
+    "sizeRank": 739,
+    "slug": "walker-county",
+    "name": "Walker County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12131",
+    "sizeRank": 757,
+    "slug": "walton-county",
+    "name": "Walton County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12107",
+    "sizeRank": 759,
+    "slug": "putnam-county",
+    "name": "Putnam County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12023",
+    "sizeRank": 784,
+    "slug": "columbia-county",
+    "name": "Columbia County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48203",
+    "sizeRank": 787,
+    "slug": "harrison-county",
+    "name": "Harrison County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48409",
+    "sizeRank": 789,
+    "slug": "san-patricio-county",
+    "name": "San Patricio County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48497",
+    "sizeRank": 794,
+    "slug": "wise-county",
+    "name": "Wise County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06033",
+    "sizeRank": 797,
+    "slug": "lake-county",
+    "name": "Lake County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48427",
+    "sizeRank": 828,
+    "slug": "starr-county",
+    "name": "Starr County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06103",
+    "sizeRank": 831,
+    "slug": "tehama-county",
+    "name": "Tehama County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48347",
+    "sizeRank": 839,
+    "slug": "nacogdoches-county",
+    "name": "Nacogdoches County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "34033",
+    "sizeRank": 841,
+    "slug": "salem-county",
+    "name": "Salem County",
+    "stateSlug": "new-jersey"
+  },
+  {
+    "fips": "06069",
+    "sizeRank": 852,
+    "slug": "san-benito-county",
+    "name": "San Benito County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48221",
+    "sizeRank": 881,
+    "slug": "hood-county",
+    "name": "Hood County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48467",
+    "sizeRank": 895,
+    "slug": "van-zandt-county",
+    "name": "Van Zandt County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48001",
+    "sizeRank": 907,
+    "slug": "anderson-county",
+    "name": "Anderson County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48323",
+    "sizeRank": 912,
+    "slug": "maverick-county",
+    "name": "Maverick County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48199",
+    "sizeRank": 925,
+    "slug": "hardin-county",
+    "name": "Hardin County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48473",
+    "sizeRank": 935,
+    "slug": "waller-county",
+    "name": "Waller County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06109",
+    "sizeRank": 938,
+    "slug": "tuolumne-county",
+    "name": "Tuolumne County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48401",
+    "sizeRank": 965,
+    "slug": "rusk-county",
+    "name": "Rusk County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48265",
+    "sizeRank": 966,
+    "slug": "kerr-county",
+    "name": "Kerr County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48349",
+    "sizeRank": 978,
+    "slug": "navarro-county",
+    "name": "Navarro County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48073",
+    "sizeRank": 993,
+    "slug": "cherokee-county",
+    "name": "Cherokee County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48325",
+    "sizeRank": 995,
+    "slug": "medina-county",
+    "name": "Medina County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48277",
+    "sizeRank": 1001,
+    "slug": "lamar-county",
+    "name": "Lamar County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48493",
+    "sizeRank": 1015,
+    "slug": "wilson-county",
+    "name": "Wilson County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48373",
+    "sizeRank": 1016,
+    "slug": "polk-county",
+    "name": "Polk County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48013",
+    "sizeRank": 1025,
+    "slug": "atascosa-county",
+    "name": "Atascosa County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48053",
+    "sizeRank": 1028,
+    "slug": "burnet-county",
+    "name": "Burnet County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12063",
+    "sizeRank": 1034,
+    "slug": "jackson-county",
+    "name": "Jackson County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48465",
+    "sizeRank": 1038,
+    "slug": "val-verde-county",
+    "name": "Val Verde County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06009",
+    "sizeRank": 1082,
+    "slug": "calaveras-county",
+    "name": "Calaveras County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48055",
+    "sizeRank": 1083,
+    "slug": "caldwell-county",
+    "name": "Caldwell County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48071",
+    "sizeRank": 1084,
+    "slug": "chambers-county",
+    "name": "Chambers County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48499",
+    "sizeRank": 1098,
+    "slug": "wood-county",
+    "name": "Wood County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12039",
+    "sizeRank": 1105,
+    "slug": "gadsden-county",
+    "name": "Gadsden County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "06093",
+    "sizeRank": 1108,
+    "slug": "siskiyou-county",
+    "name": "Siskiyou County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48259",
+    "sizeRank": 1115,
+    "slug": "kendall-county",
+    "name": "Kendall County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12121",
+    "sizeRank": 1121,
+    "slug": "suwannee-county",
+    "name": "Suwannee County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12075",
+    "sizeRank": 1150,
+    "slug": "levy-county",
+    "name": "Levy County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48143",
+    "sizeRank": 1154,
+    "slug": "erath-county",
+    "name": "Erath County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48481",
+    "sizeRank": 1166,
+    "slug": "wharton-county",
+    "name": "Wharton County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48097",
+    "sizeRank": 1171,
+    "slug": "cooke-county",
+    "name": "Cooke County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48459",
+    "sizeRank": 1184,
+    "slug": "upshur-county",
+    "name": "Upshur County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06005",
+    "sizeRank": 1200,
+    "slug": "amador-county",
+    "name": "Amador County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "12093",
+    "sizeRank": 1208,
+    "slug": "okeechobee-county",
+    "name": "Okeechobee County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12051",
+    "sizeRank": 1214,
+    "slug": "hendry-county",
+    "name": "Hendry County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48249",
+    "sizeRank": 1221,
+    "slug": "jim-wells-county",
+    "name": "Jim Wells County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48049",
+    "sizeRank": 1247,
+    "slug": "brown-county",
+    "name": "Brown County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48223",
+    "sizeRank": 1291,
+    "slug": "hopkins-county",
+    "name": "Hopkins County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48321",
+    "sizeRank": 1304,
+    "slug": "matagorda-county",
+    "name": "Matagorda County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48217",
+    "sizeRank": 1318,
+    "slug": "hill-county",
+    "name": "Hill County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48477",
+    "sizeRank": 1321,
+    "slug": "washington-county",
+    "name": "Washington County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48147",
+    "sizeRank": 1325,
+    "slug": "fannin-county",
+    "name": "Fannin County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48227",
+    "sizeRank": 1344,
+    "slug": "howard-county",
+    "name": "Howard County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12027",
+    "sizeRank": 1363,
+    "slug": "de-soto-county",
+    "name": "De Soto County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48241",
+    "sizeRank": 1378,
+    "slug": "jasper-county",
+    "name": "Jasper County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12129",
+    "sizeRank": 1388,
+    "slug": "wakulla-county",
+    "name": "Wakulla County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "06035",
+    "sizeRank": 1396,
+    "slug": "lassen-county",
+    "name": "Lassen County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48189",
+    "sizeRank": 1400,
+    "slug": "hale-county",
+    "name": "Hale County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48449",
+    "sizeRank": 1427,
+    "slug": "titus-county",
+    "name": "Titus County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48025",
+    "sizeRank": 1434,
+    "slug": "bee-county",
+    "name": "Bee County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48273",
+    "sizeRank": 1444,
+    "slug": "kleberg-county",
+    "name": "Kleberg County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48015",
+    "sizeRank": 1466,
+    "slug": "austin-county",
+    "name": "Austin County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48185",
+    "sizeRank": 1501,
+    "slug": "grimes-county",
+    "name": "Grimes County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48067",
+    "sizeRank": 1505,
+    "slug": "cass-county",
+    "name": "Cass County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06021",
+    "sizeRank": 1507,
+    "slug": "glenn-county",
+    "name": "Glenn County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48363",
+    "sizeRank": 1525,
+    "slug": "palo-pinto-county",
+    "name": "Palo Pinto County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12003",
+    "sizeRank": 1544,
+    "slug": "baker-county",
+    "name": "Baker County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12007",
+    "sizeRank": 1545,
+    "slug": "bradford-county",
+    "name": "Bradford County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "06015",
+    "sizeRank": 1552,
+    "slug": "del-norte-county",
+    "name": "Del Norte County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48407",
+    "sizeRank": 1558,
+    "slug": "san-jacinto-county",
+    "name": "San Jacinto County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48171",
+    "sizeRank": 1579,
+    "slug": "gillespie-county",
+    "name": "Gillespie County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12049",
+    "sizeRank": 1624,
+    "slug": "hardee-county",
+    "name": "Hardee County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48463",
+    "sizeRank": 1651,
+    "slug": "uvalde-county",
+    "name": "Uvalde County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12133",
+    "sizeRank": 1653,
+    "slug": "washington-county",
+    "name": "Washington County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48331",
+    "sizeRank": 1656,
+    "slug": "milam-county",
+    "name": "Milam County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48149",
+    "sizeRank": 1676,
+    "slug": "fayette-county",
+    "name": "Fayette County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48419",
+    "sizeRank": 1683,
+    "slug": "shelby-county",
+    "name": "Shelby County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48007",
+    "sizeRank": 1687,
+    "slug": "aransas-county",
+    "name": "Aransas County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48365",
+    "sizeRank": 1745,
+    "slug": "panola-county",
+    "name": "Panola County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48225",
+    "sizeRank": 1760,
+    "slug": "houston-county",
+    "name": "Houston County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48293",
+    "sizeRank": 1762,
+    "slug": "limestone-county",
+    "name": "Limestone County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06011",
+    "sizeRank": 1783,
+    "slug": "colusa-county",
+    "name": "Colusa County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "12123",
+    "sizeRank": 1785,
+    "slug": "taylor-county",
+    "name": "Taylor County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48219",
+    "sizeRank": 1789,
+    "slug": "hockley-county",
+    "name": "Hockley County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48341",
+    "sizeRank": 1798,
+    "slug": "moore-county",
+    "name": "Moore County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48281",
+    "sizeRank": 1802,
+    "slug": "lampasas-county",
+    "name": "Lampasas County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48179",
+    "sizeRank": 1804,
+    "slug": "gray-county",
+    "name": "Gray County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48299",
+    "sizeRank": 1812,
+    "slug": "llano-county",
+    "name": "Llano County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48165",
+    "sizeRank": 1816,
+    "slug": "gaines-county",
+    "name": "Gaines County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48019",
+    "sizeRank": 1825,
+    "slug": "bandera-county",
+    "name": "Bandera County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48233",
+    "sizeRank": 1828,
+    "slug": "hutchinson-county",
+    "name": "Hutchinson County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48089",
+    "sizeRank": 1846,
+    "slug": "colorado-county",
+    "name": "Colorado County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48489",
+    "sizeRank": 1856,
+    "slug": "willacy-county",
+    "name": "Willacy County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48057",
+    "sizeRank": 1859,
+    "slug": "calhoun-county",
+    "name": "Calhoun County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48285",
+    "sizeRank": 1864,
+    "slug": "lavaca-county",
+    "name": "Lavaca County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48457",
+    "sizeRank": 1876,
+    "slug": "tyler-county",
+    "name": "Tyler County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48337",
+    "sizeRank": 1882,
+    "slug": "montague-county",
+    "name": "Montague County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48123",
+    "sizeRank": 1884,
+    "slug": "de-witt-county",
+    "name": "De Witt County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48253",
+    "sizeRank": 1890,
+    "slug": "jones-county",
+    "name": "Jones County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48177",
+    "sizeRank": 1891,
+    "slug": "gonzales-county",
+    "name": "Gonzales County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06063",
+    "sizeRank": 1897,
+    "slug": "plumas-county",
+    "name": "Plumas County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "12059",
+    "sizeRank": 1898,
+    "slug": "holmes-county",
+    "name": "Holmes County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48161",
+    "sizeRank": 1906,
+    "slug": "freestone-county",
+    "name": "Freestone County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06027",
+    "sizeRank": 1942,
+    "slug": "inyo-county",
+    "name": "Inyo County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48117",
+    "sizeRank": 1947,
+    "slug": "deaf-smith-county",
+    "name": "Deaf Smith County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48163",
+    "sizeRank": 1959,
+    "slug": "frio-county",
+    "name": "Frio County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48035",
+    "sizeRank": 1965,
+    "slug": "bosque-county",
+    "name": "Bosque County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48003",
+    "sizeRank": 1969,
+    "slug": "andrews-county",
+    "name": "Andrews County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12079",
+    "sizeRank": 1976,
+    "slug": "madison-county",
+    "name": "Madison County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48503",
+    "sizeRank": 1989,
+    "slug": "young-county",
+    "name": "Young County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48133",
+    "sizeRank": 1995,
+    "slug": "eastland-county",
+    "name": "Eastland County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12041",
+    "sizeRank": 1996,
+    "slug": "gilchrist-county",
+    "name": "Gilchrist County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48051",
+    "sizeRank": 1999,
+    "slug": "burleson-county",
+    "name": "Burleson County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48287",
+    "sizeRank": 2010,
+    "slug": "lee-county",
+    "name": "Lee County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06043",
+    "sizeRank": 2019,
+    "slug": "mariposa-county",
+    "name": "Mariposa County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48145",
+    "sizeRank": 2029,
+    "slug": "falls-county",
+    "name": "Falls County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48415",
+    "sizeRank": 2036,
+    "slug": "scurry-county",
+    "name": "Scurry County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48395",
+    "sizeRank": 2046,
+    "slug": "robertson-county",
+    "name": "Robertson County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12029",
+    "sizeRank": 2056,
+    "slug": "dixie-county",
+    "name": "Dixie County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12125",
+    "sizeRank": 2092,
+    "slug": "union-county",
+    "name": "Union County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48289",
+    "sizeRank": 2103,
+    "slug": "leon-county",
+    "name": "Leon County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06105",
+    "sizeRank": 2109,
+    "slug": "trinity-county",
+    "name": "Trinity County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "12045",
+    "sizeRank": 2145,
+    "slug": "gulf-county",
+    "name": "Gulf County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48371",
+    "sizeRank": 2146,
+    "slug": "pecos-county",
+    "name": "Pecos County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48239",
+    "sizeRank": 2156,
+    "slug": "jackson-county",
+    "name": "Jackson County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48255",
+    "sizeRank": 2163,
+    "slug": "karnes-county",
+    "name": "Karnes County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48353",
+    "sizeRank": 2175,
+    "slug": "nolan-county",
+    "name": "Nolan County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48389",
+    "sizeRank": 2187,
+    "slug": "reeves-county",
+    "name": "Reeves County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12065",
+    "sizeRank": 2196,
+    "slug": "jefferson-county",
+    "name": "Jefferson County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12047",
+    "sizeRank": 2226,
+    "slug": "hamilton-county",
+    "name": "Hamilton County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48505",
+    "sizeRank": 2230,
+    "slug": "zapata-county",
+    "name": "Zapata County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12013",
+    "sizeRank": 2236,
+    "slug": "calhoun-county",
+    "name": "Calhoun County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48059",
+    "sizeRank": 2243,
+    "slug": "callahan-county",
+    "name": "Callahan County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48455",
+    "sizeRank": 2248,
+    "slug": "trinity-county",
+    "name": "Trinity County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48313",
+    "sizeRank": 2253,
+    "slug": "madison-county",
+    "name": "Madison County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48093",
+    "sizeRank": 2255,
+    "slug": "comanche-county",
+    "name": "Comanche County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06051",
+    "sizeRank": 2268,
+    "slug": "mono-county",
+    "name": "Mono County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48279",
+    "sizeRank": 2279,
+    "slug": "lamb-county",
+    "name": "Lamb County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48487",
+    "sizeRank": 2294,
+    "slug": "wilbarger-county",
+    "name": "Wilbarger County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48351",
+    "sizeRank": 2309,
+    "slug": "newton-county",
+    "name": "Newton County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48063",
+    "sizeRank": 2312,
+    "slug": "camp-county",
+    "name": "Camp County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48115",
+    "sizeRank": 2321,
+    "slug": "dawson-county",
+    "name": "Dawson County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12037",
+    "sizeRank": 2331,
+    "slug": "franklin-county",
+    "name": "Franklin County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "12043",
+    "sizeRank": 2337,
+    "slug": "glades-county",
+    "name": "Glades County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48379",
+    "sizeRank": 2349,
+    "slug": "rains-county",
+    "name": "Rains County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48343",
+    "sizeRank": 2350,
+    "slug": "morris-county",
+    "name": "Morris County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48445",
+    "sizeRank": 2361,
+    "slug": "terry-county",
+    "name": "Terry County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48387",
+    "sizeRank": 2372,
+    "slug": "red-river-county",
+    "name": "Red River County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48297",
+    "sizeRank": 2399,
+    "slug": "live-oak-county",
+    "name": "Live Oak County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48475",
+    "sizeRank": 2400,
+    "slug": "ward-county",
+    "name": "Ward County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48031",
+    "sizeRank": 2404,
+    "slug": "blanco-county",
+    "name": "Blanco County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48159",
+    "sizeRank": 2458,
+    "slug": "franklin-county",
+    "name": "Franklin County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48077",
+    "sizeRank": 2469,
+    "slug": "clay-county",
+    "name": "Clay County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48357",
+    "sizeRank": 2478,
+    "slug": "ochiltree-county",
+    "name": "Ochiltree County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48131",
+    "sizeRank": 2485,
+    "slug": "duval-county",
+    "name": "Duval County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48403",
+    "sizeRank": 2488,
+    "slug": "sabine-county",
+    "name": "Sabine County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48507",
+    "sizeRank": 2497,
+    "slug": "zavala-county",
+    "name": "Zavala County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48399",
+    "sizeRank": 2498,
+    "slug": "runnels-county",
+    "name": "Runnels County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48369",
+    "sizeRank": 2500,
+    "slug": "parmer-county",
+    "name": "Parmer County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48315",
+    "sizeRank": 2507,
+    "slug": "marion-county",
+    "name": "Marion County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48043",
+    "sizeRank": 2530,
+    "slug": "brewster-county",
+    "name": "Brewster County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48425",
+    "sizeRank": 2551,
+    "slug": "somervell-county",
+    "name": "Somervell County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48429",
+    "sizeRank": 2553,
+    "slug": "stephens-county",
+    "name": "Stephens County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48335",
+    "sizeRank": 2571,
+    "slug": "mitchell-county",
+    "name": "Mitchell County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48127",
+    "sizeRank": 2578,
+    "slug": "dimmit-county",
+    "name": "Dimmit County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06049",
+    "sizeRank": 2585,
+    "slug": "modoc-county",
+    "name": "Modoc County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48009",
+    "sizeRank": 2602,
+    "slug": "archer-county",
+    "name": "Archer County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48237",
+    "sizeRank": 2612,
+    "slug": "jack-county",
+    "name": "Jack County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12067",
+    "sizeRank": 2630,
+    "slug": "lafayette-county",
+    "name": "Lafayette County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48193",
+    "sizeRank": 2644,
+    "slug": "hamilton-county",
+    "name": "Hamilton County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "12077",
+    "sizeRank": 2656,
+    "slug": "liberty-county",
+    "name": "Liberty County",
+    "stateSlug": "florida"
+  },
+  {
+    "fips": "48405",
+    "sizeRank": 2657,
+    "slug": "san-augustine-county",
+    "name": "San Augustine County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48083",
+    "sizeRank": 2667,
+    "slug": "coleman-county",
+    "name": "Coleman County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48501",
+    "sizeRank": 2675,
+    "slug": "yoakum-county",
+    "name": "Yoakum County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48307",
+    "sizeRank": 2680,
+    "slug": "mcculloch-county",
+    "name": "McCulloch County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48495",
+    "sizeRank": 2683,
+    "slug": "winkler-county",
+    "name": "Winkler County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48069",
+    "sizeRank": 2700,
+    "slug": "castro-county",
+    "name": "Castro County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48111",
+    "sizeRank": 2724,
+    "slug": "dallam-county",
+    "name": "Dallam County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48047",
+    "sizeRank": 2727,
+    "slug": "brooks-county",
+    "name": "Brooks County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48175",
+    "sizeRank": 2730,
+    "slug": "goliad-county",
+    "name": "Goliad County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48437",
+    "sizeRank": 2733,
+    "slug": "swisher-county",
+    "name": "Swisher County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48017",
+    "sizeRank": 2740,
+    "slug": "bailey-county",
+    "name": "Bailey County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48283",
+    "sizeRank": 2742,
+    "slug": "la-salle-county",
+    "name": "La Salle County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48391",
+    "sizeRank": 2750,
+    "slug": "refugio-county",
+    "name": "Refugio County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48075",
+    "sizeRank": 2755,
+    "slug": "childress-county",
+    "name": "Childress County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48377",
+    "sizeRank": 2791,
+    "slug": "presidio-county",
+    "name": "Presidio County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48065",
+    "sizeRank": 2826,
+    "slug": "carson-county",
+    "name": "Carson County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48411",
+    "sizeRank": 2830,
+    "slug": "san-saba-county",
+    "name": "San Saba County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48169",
+    "sizeRank": 2833,
+    "slug": "garza-county",
+    "name": "Garza County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48305",
+    "sizeRank": 2848,
+    "slug": "lynn-county",
+    "name": "Lynn County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48153",
+    "sizeRank": 2858,
+    "slug": "floyd-county",
+    "name": "Floyd County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48205",
+    "sizeRank": 2859,
+    "slug": "hartley-county",
+    "name": "Hartley County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48207",
+    "sizeRank": 2865,
+    "slug": "haskell-county",
+    "name": "Haskell County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48195",
+    "sizeRank": 2874,
+    "slug": "hansford-county",
+    "name": "Hansford County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48107",
+    "sizeRank": 2881,
+    "slug": "crosby-county",
+    "name": "Crosby County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48119",
+    "sizeRank": 2883,
+    "slug": "delta-county",
+    "name": "Delta County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48317",
+    "sizeRank": 2888,
+    "slug": "martin-county",
+    "name": "Martin County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48483",
+    "sizeRank": 2895,
+    "slug": "wheeler-county",
+    "name": "Wheeler County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48247",
+    "sizeRank": 2908,
+    "slug": "jim-hogg-county",
+    "name": "Jim Hogg County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48103",
+    "sizeRank": 2922,
+    "slug": "crane-county",
+    "name": "Crane County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48333",
+    "sizeRank": 2932,
+    "slug": "mills-county",
+    "name": "Mills County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48267",
+    "sizeRank": 2941,
+    "slug": "kimble-county",
+    "name": "Kimble County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48319",
+    "sizeRank": 2972,
+    "slug": "mason-county",
+    "name": "Mason County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48151",
+    "sizeRank": 2983,
+    "slug": "fisher-county",
+    "name": "Fisher County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48197",
+    "sizeRank": 2995,
+    "slug": "hardeman-county",
+    "name": "Hardeman County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48023",
+    "sizeRank": 3001,
+    "slug": "baylor-county",
+    "name": "Baylor County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48211",
+    "sizeRank": 3003,
+    "slug": "hemphill-county",
+    "name": "Hemphill County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48435",
+    "sizeRank": 3007,
+    "slug": "sutton-county",
+    "name": "Sutton County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48275",
+    "sizeRank": 3013,
+    "slug": "knox-county",
+    "name": "Knox County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48383",
+    "sizeRank": 3014,
+    "slug": "reagan-county",
+    "name": "Reagan County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48461",
+    "sizeRank": 3017,
+    "slug": "upton-county",
+    "name": "Upton County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48081",
+    "sizeRank": 3021,
+    "slug": "coke-county",
+    "name": "Coke County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48129",
+    "sizeRank": 3022,
+    "slug": "donley-county",
+    "name": "Donley County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48271",
+    "sizeRank": 3024,
+    "slug": "kinney-county",
+    "name": "Kinney County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48095",
+    "sizeRank": 3025,
+    "slug": "concho-county",
+    "name": "Concho County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48417",
+    "sizeRank": 3027,
+    "slug": "shackelford-county",
+    "name": "Shackelford County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48295",
+    "sizeRank": 3028,
+    "slug": "lipscomb-county",
+    "name": "Lipscomb County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06091",
+    "sizeRank": 3029,
+    "slug": "sierra-county",
+    "name": "Sierra County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48087",
+    "sizeRank": 3038,
+    "slug": "collingsworth-county",
+    "name": "Collingsworth County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48105",
+    "sizeRank": 3039,
+    "slug": "crockett-county",
+    "name": "Crockett County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48191",
+    "sizeRank": 3047,
+    "slug": "hall-county",
+    "name": "Hall County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48385",
+    "sizeRank": 3050,
+    "slug": "real-county",
+    "name": "Real County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48079",
+    "sizeRank": 3069,
+    "slug": "cochran-county",
+    "name": "Cochran County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48421",
+    "sizeRank": 3088,
+    "slug": "sherman-county",
+    "name": "Sherman County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48109",
+    "sizeRank": 3102,
+    "slug": "culberson-county",
+    "name": "Culberson County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48243",
+    "sizeRank": 3116,
+    "slug": "jeff-davis-county",
+    "name": "Jeff Davis County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48327",
+    "sizeRank": 3120,
+    "slug": "menard-county",
+    "name": "Menard County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48011",
+    "sizeRank": 3121,
+    "slug": "armstrong-county",
+    "name": "Armstrong County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48125",
+    "sizeRank": 3149,
+    "slug": "dickens-county",
+    "name": "Dickens County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48101",
+    "sizeRank": 3150,
+    "slug": "cottle-county",
+    "name": "Cottle County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48235",
+    "sizeRank": 3151,
+    "slug": "irion-county",
+    "name": "Irion County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48447",
+    "sizeRank": 3156,
+    "slug": "throckmorton-county",
+    "name": "Throckmorton County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48431",
+    "sizeRank": 3158,
+    "slug": "sterling-county",
+    "name": "Sterling County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48433",
+    "sizeRank": 3162,
+    "slug": "stonewall-county",
+    "name": "Stonewall County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "06003",
+    "sizeRank": 3164,
+    "slug": "alpine-county",
+    "name": "Alpine County",
+    "stateSlug": "california"
+  },
+  {
+    "fips": "48345",
+    "sizeRank": 3170,
+    "slug": "motley-county",
+    "name": "Motley County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48045",
+    "sizeRank": 3171,
+    "slug": "briscoe-county",
+    "name": "Briscoe County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48173",
+    "sizeRank": 3174,
+    "slug": "glasscock-county",
+    "name": "Glasscock County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48155",
+    "sizeRank": 3177,
+    "slug": "foard-county",
+    "name": "Foard County",
+    "stateSlug": "texas"
+  },
+  {
+    "fips": "48443",
+    "sizeRank": 3183,
+    "slug": "terrell-county",
+    "name": "Terrell County",
+    "stateSlug": "texas"
+  }
+]

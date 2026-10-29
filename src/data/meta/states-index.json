@@ -41,7 +41,8 @@
       "sales-tax",
       "capital-gains",
       "gas-tax",
-      "property-tax"
+      "property-tax",
+      "home-affordability"
     ]
   },
   {
@@ -52,7 +53,8 @@
       "sales-tax",
       "capital-gains",
       "gas-tax",
-      "property-tax"
+      "property-tax",
+      "home-affordability"
     ]
   },
   {
