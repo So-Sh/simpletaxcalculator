@@ -1,13 +1,17 @@
+import Link from 'next/link'
+
 interface DisclaimerBannerProps {
     lastUpdated: string
     officialSourceUrl?: string
     officialSourceLabel?: string
+    authorSlug?: string
 }
 
 export default function DisclaimerBanner({
     lastUpdated,
     officialSourceUrl,
     officialSourceLabel,
+    authorSlug,
 }: DisclaimerBannerProps) {
     return (
         <div className="rounded-lg border border-border bg-bg px-4 py-3 flex gap-3 items-start">
@@ -21,6 +25,7 @@ export default function DisclaimerBanner({
                 <circle cx="8" cy="8" r="7" stroke="currentColor" strokeWidth="1.25" />
                 <path d="M8 5v4M8 11v.5" stroke="currentColor" strokeWidth="1.25" strokeLinecap="round" />
             </svg>
+
             <div className="flex flex-col gap-1">
                 <p className="text-xs text-muted leading-relaxed">
                     This calculator is for informational purposes only and does not constitute tax advice.
@@ -28,6 +33,21 @@ export default function DisclaimerBanner({
                     Rates last verified{' '}
                     <strong className="text-body font-medium">{lastUpdated}</strong>.
                 </p>
+
+                {authorSlug && (
+                    <p className="text-xs text-muted">
+                        Reviewed by{' '}
+                        <Link
+                            href={`/authors/${authorSlug}`}
+                            className="text-accent hover:underline underline-offset-2"
+                        >
+                            {authorSlug === 'talha' && 'Talha Mansoor, FCCA'}
+                            {authorSlug === 'ray' && 'Ray Alamian'}
+                            {authorSlug === 'saeed' && 'Saeed Davari'}
+                        </Link>
+                    </p>
+                )}
+
                 {officialSourceUrl && officialSourceLabel && (
                     <a
                         href={officialSourceUrl}

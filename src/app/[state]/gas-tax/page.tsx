@@ -190,6 +190,7 @@ export default async function StateGasTaxPage({ params }: Props) {
           lastUpdated={meta.lastUpdated}
           officialSourceUrl={stateData.officialSourceUrl}
           officialSourceLabel={stateData.officialSourceLabel}
+          authorSlug='ray'
         />
 
         {/* Per fill-up breakdown table */}

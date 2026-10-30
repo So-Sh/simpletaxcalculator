@@ -18,7 +18,7 @@ import { DataTable } from '@/components/blog/DataTable'
 import { KeyFindings } from '@/components/blog/KeyFindings'
 import { HeroStat } from '@/components/blog/HeroStat'
 import { FaqAccordion } from '@/components/blog/FaqAccordion'
-
+import Link from 'next/link'
 import { getAuthor } from '@/lib/authors'
 
 const CONTENT_DIR = path.join(process.cwd(), 'content/blog')
@@ -128,8 +128,13 @@ export default async function BlogPostPage({ params }: PageProps) {
 
           <div className="flex items-center gap-3 text-[0.8rem] text-muted">
             {author && (
-              <span className="font-medium text-body">{author.name}</span>
-            )}
+              <Link
+                prefetch={false}
+                href={`/authors/${author.slug}`}
+                className="font-medium text-body hover:text-accent transition-colors"
+              >
+                {author.name}
+              </Link>)}
             {author && fm.publishedAt && (
               <span className="text-border">·</span>
             )}
