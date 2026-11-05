@@ -2,9 +2,9 @@
   {
     "state": "Georgia",
     "slug": "georgia",
-    "note": "Temporary Tax Suspension: Governor Brian Kemp issued executive orders temporarily suspending collection of the state motor fuel excise tax due to supply disruptions and market volatility. Prepaid local sales taxes remain in effect during the suspension. Standard baseline state rates (33.3¢ gasoline / 37.3¢ diesel) remain statutory and resume after the suspension ends.",
+    "note": "Temporary Tax Suspension: Suspended collection of the state motor fuel excise tax pursuant to executive emergency declarations, extended through late November 2026.",
     "sourceUrl": "https://dor.georgia.gov/2026-suspension-georgia-motor-fuel-taxes-faqs",
-    "until": "2026-11-05"
+    "until": "2026-11-30"
   },
   {
     "state": "North Carolina",
@@ -16,9 +16,9 @@
   {
     "state": "Indiana",
     "slug": "indiana",
-    "note": "Temporary Tax Suspension: Suspended collection of the state Gasoline Excise Tax and Gasoline Use Tax pursuant to energy emergency executive declarations, extended through early November 2026.",
+    "note": "Temporary Tax Suspension: Suspended collection of the state Gasoline Excise Tax and Gasoline Use Tax pursuant to energy emergency executive declarations, extended through early December 2026.",
     "sourceUrl": "https://www.in.gov/dor/i-am-a/business-corp/gasoline-use-tax/",
-    "until": "2026-11-04"
+    "until": "2026-12-04"
   },
   {
     "state": "Ohio",
@@ -28,17 +28,17 @@
     "until": "2027-01-02"
   },
   {
-    "state": "Utah",
-    "slug": "utah",
-    "note": "Temporary Rate Cut: Under House Bill 575, Utah temporarily reduced its state gasoline tax rate from 37.9¢ to 31.9¢ per gallon (a 6¢ per gallon reduction) for the period of July 1, 2026, through December 31, 2026.",
-    "sourceUrl": "https://tax.utah.gov/tax-bulletins/",
-    "until": "2026-12-31"
+    "state": "Ohio",
+    "slug": "ohio",
+    "note": "Temporary Tax Reduction: Following emergency legislation signed by Governor Mike DeWine, Ohio has enacted a temporary motor fuel tax holiday reducing the state motor fuel tax rate on gasoline and diesel from 38.5¢ and 47¢ down to one-hundredth of one cent ($0.0001) per gallon from October 4, 2026, through January 2, 2027.",
+    "sourceUrl": "https://tax.ohio.gov/business/motor-fuel-tax/motor-fuel-tax-holiday",
+    "until": "2027-01-02"
   },
   {
     "state": "Illinois",
     "slug": "illinois",
-    "note": "Rate Increase Pause: Public Act 104-0468 paused the scheduled automatic CPI inflation adjustment increase on motor fuel tax rates from July 1, 2026, through December 31, 2026.",
-    "sourceUrl": "https://tax.illinois.gov/",
+    "note": "Rate Increase Pause: Public Act 104-0468, signed on June 16, 2026, suspended the scheduled July 1, 2026, Consumer Price Index inflation adjustment on motor fuel tax rates for six months, holding rates steady through December 31, 2026.",
+    "sourceUrl": "https://tax.illinois.gov/research/publications/bulletins/fy-2026-23.html",
     "until": "2026-12-31"
   }
 ]
